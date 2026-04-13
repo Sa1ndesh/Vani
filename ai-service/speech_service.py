@@ -112,7 +112,6 @@ class SpeechService:
                 "text": "",
                 "detected_language": language or "en",
                 "confidence": 0.0,
-                "error": "Speech recognition not available",
             }
 
         try:
@@ -152,7 +151,7 @@ class SpeechService:
                 "text": "",
                 "detected_language": language or "en",
                 "confidence": 0.0,
-                "error": str(e),
+            }
             }
 
     # ------------------------------------------------------------------

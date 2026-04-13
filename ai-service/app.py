@@ -234,7 +234,7 @@ def legal_query(data: dict):
             )
         except Exception as e:
             logger.error("Response generation failed: %s", e)
-            result["response_text"] = f"Error generating response: {str(e)}"
+            result["response_text"] = "Error generating response. Please try again."
 
     # --- 6. TTS ---
     audio_response_b64 = ""

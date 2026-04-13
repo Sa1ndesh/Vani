@@ -301,28 +301,10 @@ export class LegalQueryHandler {
   // Citations
   // ---------------------------------------------------------------------------
 
+  /** Public API — returns outerHTML string with live citations (via _buildCitationNodes). */
   formatCitations(citations) {
     if (!citations || citations.length === 0) return '';
-
-    const wrapper = document.createElement('div');
-    wrapper.className = 'citations-list';
-
-    const label = document.createElement('span');
-    label.className = 'citations-label';
-    label.textContent = 'Citations: ';
-    wrapper.appendChild(label);
-
-    citations.forEach((c) => {
-      const ref = c.reference || '';
-      const ctx = c.context || '';
-      const btn = document.createElement('button');
-      btn.className = 'citation-tag';
-      btn.textContent = `📖 ${ref}`;
-      btn.addEventListener('click', () => this._openCitationModal(ref, ctx));
-      wrapper.appendChild(btn);
-    });
-
-    return wrapper.outerHTML;
+    return this._buildCitationNodes(citations).outerHTML;
   }
 
   _openCitationModal(reference, context) {
