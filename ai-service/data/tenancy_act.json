@@ -1,0 +1,298 @@
+{
+  "title": "Indian Tenancy Laws — Model Tenancy Act 2021 and State Variations",
+  "last_updated": "2024-07-01",
+  "central_act": {
+    "name": "Model Tenancy Act 2021",
+    "enacted": "2021-06-02",
+    "type": "Model legislation (states may adopt with modifications)",
+    "objective": "To establish a fast-track adjudicating mechanism, balance rights of landlords and tenants, and bring rental housing into the formal economy.",
+    "key_provisions": [
+      {
+        "provision": "Written Agreement Mandatory",
+        "detail": "Every tenancy must be created through a written tenancy agreement between landlord and tenant. The agreement must be submitted to the Rent Authority within 2 months of execution."
+      },
+      {
+        "provision": "Security Deposit Cap — Residential",
+        "detail": "Security deposit shall not exceed two months' rent for residential premises."
+      },
+      {
+        "provision": "Security Deposit Cap — Non-Residential",
+        "detail": "Security deposit shall not exceed six months' rent for non-residential premises."
+      },
+      {
+        "provision": "Security Deposit Refund",
+        "detail": "Landlord must refund security deposit within one month of vacation/handover of possession, after deducting any dues."
+      },
+      {
+        "provision": "Rent Revision",
+        "detail": "Rent can only be revised as per the terms of the tenancy agreement. In absence of such provision, rent can be revised with three months' prior notice."
+      },
+      {
+        "provision": "Repair and Maintenance",
+        "detail": "Structural repairs and major maintenance are the landlord's responsibility. Day-to-day minor repairs (fixtures, appliances) are the tenant's responsibility unless agreed otherwise."
+      },
+      {
+        "provision": "Sub-letting",
+        "detail": "Tenant cannot sub-let without written consent of the landlord."
+      },
+      {
+        "provision": "Essential Services",
+        "detail": "Landlord cannot withhold essential services (water, electricity, sanitation) even if there is a rent dispute."
+      },
+      {
+        "provision": "Eviction — Dispute Resolution",
+        "detail": "Eviction disputes are adjudicated by the Rent Authority (District Collector-level officer). Appeals lie to the Rent Court (Civil Court of District Judge level), and further to the Rent Tribunal (High Court level)."
+      },
+      {
+        "provision": "Recovery of Possession",
+        "detail": "On expiry of the tenancy agreement, if the tenant refuses to vacate, the landlord can approach the Rent Authority for eviction order within 3 months."
+      }
+    ],
+    "notice_periods": {
+      "landlord_to_tenant": "Minimum 15 days for non-payment of rent; 30 days for other grounds",
+      "tenant_to_landlord": "Minimum 1 month notice before vacating"
+    },
+    "eviction_grounds": [
+      "Non-payment of rent for two consecutive months",
+      "Misuse or sub-letting without consent",
+      "Nuisance or antisocial behaviour",
+      "Premises required for landlord's own use or bona fide use by family member",
+      "Structural repairs requiring vacation",
+      "Expiry of tenancy period",
+      "Demolition or reconstruction",
+      "Tenancy obtained by fraud or misrepresentation"
+    ],
+    "tenant_rights": [
+      "Right to obtain receipt for rent paid",
+      "Right to essential services uninterrupted",
+      "Right to peaceful enjoyment of premises",
+      "Right to have structural repairs done by landlord",
+      "Right to refund of security deposit within one month of vacation",
+      "Right to challenge arbitrary eviction before Rent Authority",
+      "Right to receive at least 24 hours' notice before landlord entry",
+      "Right to sub-let with written consent of landlord"
+    ],
+    "landlord_rights": [
+      "Right to receive rent on agreed date",
+      "Right to inspect premises with prior notice",
+      "Right to evict on legal grounds through proper process",
+      "Right to withhold security deposit against dues",
+      "Right to revise rent with agreed notice period",
+      "Right to recover possession on expiry of tenancy"
+    ]
+  },
+  "state_variations": {
+    "Maharashtra": {
+      "act_name": "Maharashtra Rent Control Act 1999",
+      "applicability": "Applies to premises in areas declared by state government; excludes premises with monthly rent above ₹15,000 (in some areas) — check latest notification",
+      "administering_authority": "Court of Small Causes (Mumbai); Civil Court (other areas)",
+      "key_provisions": [
+        {
+          "provision": "Statutory Tenancy Protection",
+          "detail": "Tenants protected even after expiry of fixed-term agreement; cannot be evicted without court order on specific grounds."
+        },
+        {
+          "provision": "Standard Rent",
+          "detail": "Concept of 'standard rent' — fair rent fixed by court. Landlord cannot charge more than standard rent."
+        },
+        {
+          "provision": "Pagdi System",
+          "detail": "Recognises the historic 'pagdi' (premium/pugree) system under which tenants pay a lump-sum premium and lower monthly rent. Tenant has right to sell pagdi rights with landlord's consent."
+        },
+        {
+          "provision": "Inheritance of Tenancy",
+          "detail": "Tenancy rights pass to family members residing with tenant on death of tenant."
+        }
+      ],
+      "notice_periods": {
+        "non_payment_of_rent": "30 days notice before eviction suit",
+        "landlord_own_use": "6 months notice",
+        "general_termination": "1 month notice (month-to-month tenancy)"
+      },
+      "security_deposit": {
+        "residential": "Typically 2 months' rent (no statutory cap under old Act; Model Tenancy Act 2021 cap applies in notified areas)",
+        "commercial": "Typically 3-6 months' rent"
+      },
+      "eviction_grounds": [
+        "Non-payment of rent",
+        "Sub-letting without written consent",
+        "Landlord's bona fide need (own use or family)",
+        "Material alteration or damage to premises",
+        "Nuisance",
+        "Using residential premises for commercial purpose",
+        "Tenancy obtained by fraud",
+        "Permanent vacation of premises by tenant"
+      ],
+      "rent_increase_limit": "Permitted increase as per agreement or court-fixed standard rent; increases not generally allowed more than once in 3 years without court order in protected tenancies",
+      "courts": ["Court of Small Causes, Mumbai", "Civil Court (District level) for other cities", "Bombay High Court (Appeal)"]
+    },
+    "Karnataka": {
+      "act_name": "Karnataka Rent Act 1999",
+      "applicability": "Applies to residential and non-residential premises in areas notified by the state government; does not apply to premises constructed after 2001 in some categories.",
+      "administering_authority": "Rent Controller (Civil Judge); District Court (Appeal); High Court (Second Appeal)",
+      "key_provisions": [
+        {
+          "provision": "Written Agreement",
+          "detail": "Tenancy agreement should be in writing and registered if more than 11 months."
+        },
+        {
+          "provision": "Advance / Deposit",
+          "detail": "No statutory cap under Karnataka Rent Act 1999; in practice 10 months' deposit common in Bengaluru. Karnataka has adopted Model Tenancy Act 2021 principles."
+        },
+        {
+          "provision": "Rent Receipt",
+          "detail": "Landlord must issue rent receipt within 3 days of receiving rent."
+        }
+      ],
+      "notice_periods": {
+        "non_payment_of_rent": "15 days before filing eviction suit",
+        "landlord_own_use": "6 months notice",
+        "general_termination": "30 days for month-to-month tenancy"
+      },
+      "security_deposit": {
+        "residential": "Up to 10 months' rent (common practice in Bengaluru); Model Tenancy Act 2021 adopts 2 months cap",
+        "commercial": "3-6 months' rent typically"
+      },
+      "eviction_grounds": [
+        "Non-payment of rent for 2 months",
+        "Sub-letting without consent",
+        "Nuisance",
+        "Landlord's bona fide own use",
+        "Tenant permanently residing elsewhere",
+        "Demolition or reconstruction"
+      ],
+      "rent_increase_limit": "5% per annum after first 5 years of tenancy; requires notice",
+      "courts": ["Rent Controller (Civil Judge)", "District Court", "Karnataka High Court"]
+    },
+    "Delhi": {
+      "act_name": "Delhi Rent Control Act 1958 (for older tenancies); Model Tenancy Act 2021 (adopted 2023)",
+      "applicability": "Delhi Rent Control Act 1958 applies to premises with monthly rent up to ₹3,500 (as notified). Premises above this threshold governed by Transfer of Property Act and Delhi's adoption of Model Tenancy Act.",
+      "administering_authority": "Rent Controller (Additional District Judge); Rent Control Tribunal (District Judge); High Court",
+      "key_provisions": [
+        {
+          "provision": "Standard Rent Protection",
+          "detail": "For premises under ₹3,500/month, tenant has statutory protection; eviction only on specific grounds."
+        },
+        {
+          "provision": "Premises Above ₹3,500",
+          "detail": "Governed by Transfer of Property Act 1882 and Model Tenancy Act 2021 (as adopted). Standard contract terms apply."
+        },
+        {
+          "provision": "Leave and Licence vs Lease",
+          "detail": "Most Delhi residential arrangements structured as 'Leave and Licence' to avoid Rent Control Act protections. 11-month agreements common to avoid registration."
+        }
+      ],
+      "notice_periods": {
+        "non_payment_of_rent": "15 days notice",
+        "landlord_own_use": "2 months notice",
+        "general_termination": "1 month notice for month-to-month"
+      },
+      "security_deposit": {
+        "residential": "2 months' rent (Model Tenancy Act cap); in practice 2-3 months",
+        "commercial": "Up to 6 months (Model Tenancy Act cap)"
+      },
+      "eviction_grounds": [
+        "Non-payment of rent",
+        "Sub-letting without consent",
+        "Nuisance or immoral use",
+        "Landlord's bona fide need",
+        "Structural repairs necessitating vacation",
+        "Tenant having another suitable accommodation in Delhi",
+        "Building being demolished"
+      ],
+      "rent_increase_limit": "10% per annum increase permissible with proper notice under the old act; as per agreement under new framework",
+      "courts": ["Rent Controller", "Rent Control Tribunal", "Delhi High Court"]
+    },
+    "Tamil Nadu": {
+      "act_name": "Tamil Nadu Regulation of Rights and Responsibilities of Landlords and Tenants Act 2017",
+      "applicability": "Applies to all residential and non-residential premises in Tamil Nadu except those exempted.",
+      "administering_authority": "Rent Authority (Revenue Divisional Officer); Rent Court (Subordinate Court); Rent Tribunal (District Court)",
+      "key_provisions": [
+        {
+          "provision": "Mandatory Registration",
+          "detail": "Tenancy agreement must be submitted to Rent Authority within 90 days of execution. Failure makes tenancy unenforceable."
+        },
+        {
+          "provision": "Security Deposit",
+          "detail": "Residential: maximum 2 months' advance rent. Non-residential: maximum 3 months' advance rent."
+        },
+        {
+          "provision": "Subletting",
+          "detail": "Subletting prohibited without written consent of landlord."
+        }
+      ],
+      "notice_periods": {
+        "non_payment_of_rent": "30 days before eviction application",
+        "landlord_own_use": "6 months notice",
+        "general_termination": "30 days for month-to-month"
+      },
+      "security_deposit": {
+        "residential": "Maximum 2 months' rent",
+        "commercial": "Maximum 3 months' rent"
+      },
+      "eviction_grounds": [
+        "Non-payment of rent for 2 months",
+        "Subletting without consent",
+        "Nuisance",
+        "Landlord's own occupation",
+        "Structural repairs",
+        "Expiry of tenancy term"
+      ],
+      "rent_increase_limit": "5% per annum after first 3 years",
+      "courts": ["Rent Authority", "Rent Court", "Rent Tribunal", "Madras High Court"]
+    },
+    "Telangana": {
+      "act_name": "Telangana Rent Control Act 1960 (for older premises); Model Tenancy Act 2021 adopted",
+      "applicability": "Applies in Hyderabad and notified areas for premises below certain rent thresholds.",
+      "administering_authority": "Rent Controller; City Civil Court; Telangana High Court",
+      "key_provisions": [
+        {
+          "provision": "Advance Rent / Deposit",
+          "detail": "Advance rent (deposit) limited to 10 months rent for residential premises under the old Act; 2 months under Model Tenancy Act."
+        },
+        {
+          "provision": "Fair Rent",
+          "detail": "Concept of 'fair rent' — tenant can apply to Rent Controller to fix fair rent if charging exceeds fair rent."
+        }
+      ],
+      "notice_periods": {
+        "non_payment_of_rent": "30 days",
+        "general_termination": "30 days for month-to-month"
+      },
+      "security_deposit": {
+        "residential": "2-10 months (common practice); legally 2 months under Model Tenancy Act",
+        "commercial": "Up to 6 months"
+      },
+      "eviction_grounds": [
+        "Non-payment of rent",
+        "Subletting without consent",
+        "Nuisance",
+        "Landlord's bona fide need",
+        "Demolition for reconstruction"
+      ],
+      "rent_increase_limit": "No increase within first year; thereafter as per agreement or court order",
+      "courts": ["Rent Controller", "City Civil Court", "Telangana High Court"]
+    }
+  },
+  "general_legal_principles": {
+    "leave_and_licence": {
+      "description": "A Leave and Licence agreement grants the licensee the right to use the premises for a specified period. Unlike a lease, it does not create an interest in property and can be revoked. 11-month agreements are typically Leave and Licence to avoid compulsory registration and rent control protection.",
+      "key_difference_from_lease": "Lease creates an interest in immovable property (Transfer of Property Act); Leave and Licence does not. Lease tenants get stronger eviction protection under Rent Control Acts."
+    },
+    "registration": {
+      "mandatory": "Leases exceeding 11 months must be registered under the Registration Act 1908.",
+      "stamp_duty": "Lease/Leave and Licence agreements attract stamp duty (state-specific; typically 0.25-2% of total rent for the period).",
+      "unregistered_lease": "An unregistered lease for more than one year is inadmissible as evidence under Section 49 Registration Act 1908."
+    },
+    "transfer_of_property_act_1882": {
+      "relevant_sections": [
+        "Section 105 — Lease defined",
+        "Section 106 — Duration of certain leases in absence of written contract (month-to-month / year-to-year)",
+        "Section 107 — Leases how made (registration requirement)",
+        "Section 108 — Rights and liabilities of lessor and lessee",
+        "Section 111 — Determination of lease (how terminated)",
+        "Section 114 — Relief against forfeiture for non-payment of rent"
+      ]
+    }
+  }
+}

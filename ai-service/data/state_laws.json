@@ -1,0 +1,445 @@
+{
+  "title": "State-Specific Laws and Legal Information — India",
+  "last_updated": "2024-07-01",
+  "states": {
+    "Maharashtra": {
+      "capital": "Mumbai",
+      "high_court": "Bombay High Court",
+      "high_court_established": "1862",
+      "high_court_location": "Mumbai (Principal Bench); Nagpur, Aurangabad, Panaji (Benches)",
+      "official_language": "Marathi",
+      "specific_laws": [
+        {
+          "name": "Maharashtra Control of Organised Crime Act (MCOCA) 1999",
+          "description": "Targets organised crime syndicates. Provides for harsher punishments, special courts, interception of communications, and prolonged pre-trial detention. Admissibility of confessions to police officers (unlike IPC).",
+          "key_offences": ["Organised crime", "extortion by syndicate", "contract killing"]
+        },
+        {
+          "name": "Maharashtra Rent Control Act 1999",
+          "description": "Regulates tenancy in Maharashtra. Protects tenants from arbitrary eviction; recognises pagdi system; standard rent concept.",
+          "key_provisions": ["Standard rent", "pagdi tenancy", "eviction grounds", "bona fide need"]
+        },
+        {
+          "name": "Maharashtra Slum Areas (Improvement, Clearance and Redevelopment) Act 1971",
+          "description": "Governs slum redevelopment, especially in Mumbai. SRA (Slum Rehabilitation Authority) oversees rehabilitation projects.",
+          "key_provisions": ["Slum rehabilitation", "SRA projects", "tenant rights in slums"]
+        },
+        {
+          "name": "Maharashtra Land Revenue Code 1966",
+          "description": "Governs land records, mutation, surveys, and land administration in Maharashtra. Administered by Revenue Department.",
+          "key_provisions": ["7/12 extract", "8A extract", "mutation", "non-agricultural conversion (NA)"]
+        },
+        {
+          "name": "Maharashtra Prevention of Dangerous Activities Act (MPDA) 1981",
+          "description": "Preventive detention law targeting dangerous individuals involved in organised crime, bootlegging, anti-social activities.",
+          "key_provisions": ["Preventive detention without trial", "detention for up to 12 months"]
+        },
+        {
+          "name": "Mumbai Municipal Corporation Act 1888",
+          "description": "Governs municipal administration in Mumbai, including building regulations, property tax, and civic amenities.",
+          "key_provisions": ["Building permissions", "BMC approval", "property tax assessment"]
+        }
+      ],
+      "local_courts": [
+        {"name": "City Civil Court Mumbai", "jurisdiction": "Civil cases, commercial disputes"},
+        {"name": "Court of Small Causes Mumbai", "jurisdiction": "Tenancy disputes, rent control matters"},
+        {"name": "Family Court Mumbai", "jurisdiction": "Matrimonial disputes, maintenance, custody"},
+        {"name": "Consumer Forum / DCDRC", "jurisdiction": "Consumer disputes"},
+        {"name": "Bombay High Court", "jurisdiction": "Higher civil, criminal, writ petitions"},
+        {"name": "Debt Recovery Tribunal (DRT)", "jurisdiction": "Bank NPA matters above ₹20 lakh"}
+      ],
+      "legal_aid": {
+        "authority": "Maharashtra State Legal Services Authority (MASLSA)",
+        "district_body": "District Legal Services Authority (DLSA) in each district",
+        "contact": "Toll-free: 15100",
+        "eligibility": "Annual income below ₹3 lakh; SC/ST/women/children/persons with disability/victims of trafficking",
+        "services": ["Free legal representation", "Lok Adalat", "Mediation centres", "Legal advice camps"]
+      },
+      "important_contact": {
+        "police_emergency": "100",
+        "women_helpline": "1091",
+        "cyber_crime": "1930"
+      }
+    },
+    "Karnataka": {
+      "capital": "Bengaluru",
+      "high_court": "Karnataka High Court",
+      "high_court_established": "1884",
+      "high_court_location": "Bengaluru",
+      "official_language": "Kannada",
+      "specific_laws": [
+        {
+          "name": "Karnataka Land Reforms Act 1961",
+          "description": "Regulates ceiling on agricultural land holding; vests surplus land in state for distribution to landless agriculturists. Tenancy of agricultural lands regulated.",
+          "key_provisions": ["Land ceiling", "occupancy rights of tenants", "surplus land vesting"]
+        },
+        {
+          "name": "Karnataka Apartment Ownership Act 1972",
+          "description": "Governs ownership of apartments in Karnataka; registration of apartment associations; rights and duties of apartment owners.",
+          "key_provisions": ["Apartment deed", "undivided share", "apartment owners association"]
+        },
+        {
+          "name": "Karnataka Prevention of Slaughter and Preservation of Animals Act 1964",
+          "description": "Regulates slaughter of cattle in Karnataka.",
+          "key_provisions": ["Prohibition of cow slaughter", "permit for slaughter", "penalties"]
+        },
+        {
+          "name": "Karnataka Shops and Commercial Establishments Act 1961",
+          "description": "Regulates working conditions in shops and establishments — working hours, leave, holidays, employment terms.",
+          "key_provisions": ["Working hours", "weekly holiday", "overtime", "employment records"]
+        },
+        {
+          "name": "Bruhat Bengaluru Mahanagara Palike (BBMP) Act 2020",
+          "description": "Governs Bengaluru's metropolitan municipality. Revised to give greater autonomy to ward committees.",
+          "key_provisions": ["Ward committees", "property tax", "building permissions", "Khata certificate"]
+        },
+        {
+          "name": "Karnataka Prohibition of Slums Act 1973",
+          "description": "Prohibition and clearance of slums in Karnataka.",
+          "key_provisions": ["Slum notification", "occupant rights", "rehabilitation"]
+        }
+      ],
+      "local_courts": [
+        {"name": "City Civil Court Bengaluru", "jurisdiction": "Civil disputes"},
+        {"name": "Principal City Civil Court", "jurisdiction": "Commercial cases"},
+        {"name": "Family Court Bengaluru", "jurisdiction": "Matrimonial, maintenance, custody"},
+        {"name": "Consumer Disputes Redressal Commission", "jurisdiction": "Consumer disputes"},
+        {"name": "Karnataka High Court", "jurisdiction": "Writ, appeals, constitutional matters"},
+        {"name": "NCLT Bengaluru Bench", "jurisdiction": "Company law, insolvency matters"}
+      ],
+      "legal_aid": {
+        "authority": "Karnataka State Legal Services Authority (KSLSA)",
+        "district_body": "DLSA in each district",
+        "contact": "Toll-free: 15100",
+        "eligibility": "Annual income below ₹3 lakh; SC/ST/women/children/persons with disability",
+        "services": ["Free legal representation", "Lok Adalat", "Mobile Lok Adalat", "Mediation"]
+      },
+      "important_contact": {
+        "police_emergency": "100",
+        "women_helpline": "1091",
+        "cyber_crime": "1930",
+        "bengaluru_traffic": "080-22868444"
+      }
+    },
+    "Delhi": {
+      "capital": "New Delhi (Union Territory)",
+      "high_court": "Delhi High Court",
+      "high_court_established": "1966",
+      "high_court_location": "New Delhi",
+      "official_language": "Hindi",
+      "specific_laws": [
+        {
+          "name": "Delhi Rent Control Act 1958",
+          "description": "Governs rent of premises where monthly rent does not exceed ₹3,500. Tenants have strong eviction protection; landlord can evict only on specified grounds.",
+          "key_provisions": ["Standard rent", "eviction grounds", "Rent Controller jurisdiction"]
+        },
+        {
+          "name": "Delhi Development Act 1957",
+          "description": "Governs planned development of Delhi. Delhi Development Authority (DDA) constituted under this Act.",
+          "key_provisions": ["DDA housing schemes", "land pooling policy", "Master Plan compliance"]
+        },
+        {
+          "name": "Delhi Land Reforms Act 1954",
+          "description": "Governs agricultural tenancy and land reforms in Delhi's rural belt.",
+          "key_provisions": ["Bhumidhar rights", "asami rights", "land records"]
+        },
+        {
+          "name": "Delhi Prevention of Defacement of Property Act 1976",
+          "description": "Prohibits and penalises defacement of public and private property through writing, poster pasting, graffiti.",
+          "key_provisions": ["Penalty for writing on walls", "removal of defacement"]
+        },
+        {
+          "name": "Delhi Preservation of Trees Act 1994",
+          "description": "Regulates felling of trees in Delhi; permission required from Tree Officer for felling any tree.",
+          "key_provisions": ["Permission for felling", "compensatory plantation", "penalties"]
+        }
+      ],
+      "local_courts": [
+        {"name": "Saket District Courts", "jurisdiction": "Civil, criminal (South Delhi)"},
+        {"name": "Tis Hazari Courts", "jurisdiction": "Civil, criminal (North/Central Delhi)"},
+        {"name": "Rohini District Courts", "jurisdiction": "Civil, criminal (North Delhi)"},
+        {"name": "Karkardooma Courts", "jurisdiction": "Civil, criminal (East Delhi)"},
+        {"name": "Dwarka Courts", "jurisdiction": "Civil, criminal (West Delhi)"},
+        {"name": "Delhi High Court", "jurisdiction": "Writ, appeals, constitutional matters"},
+        {"name": "NCLT Principal Bench", "jurisdiction": "Company law, insolvency matters"}
+      ],
+      "legal_aid": {
+        "authority": "Delhi State Legal Services Authority (DSLSA)",
+        "district_body": "DLSA in each district",
+        "contact": "Toll-free: 15100; 011-23383754",
+        "eligibility": "Annual income below ₹3 lakh; SC/ST/women/children/persons with disability; victims of trafficking",
+        "services": ["Free legal aid", "Lok Adalat", "Mediation Centre at Tis Hazari"]
+      },
+      "important_contact": {
+        "police_emergency": "100",
+        "women_helpline": "1091",
+        "cyber_crime": "1930",
+        "anti_corruption": "1064"
+      }
+    },
+    "Tamil Nadu": {
+      "capital": "Chennai",
+      "high_court": "Madras High Court",
+      "high_court_established": "1862",
+      "high_court_location": "Chennai (Principal Bench); Madurai Bench",
+      "official_language": "Tamil",
+      "specific_laws": [
+        {
+          "name": "Tamil Nadu Regulation of Rights and Responsibilities of Landlords and Tenants Act 2017",
+          "description": "Modern tenancy law replacing old Rent Control Act for new tenancies. Mandatory registration of tenancy agreements.",
+          "key_provisions": ["Mandatory agreement registration", "2 months security deposit", "Rent Authority"]
+        },
+        {
+          "name": "Tamil Nadu Land Reforms (Fixation of Ceiling on Land) Act 1961",
+          "description": "Fixes ceiling on agricultural land holdings and vests surplus land in state.",
+          "key_provisions": ["Land ceiling limits", "surplus land", "assignment to landless poor"]
+        },
+        {
+          "name": "Tamil Nadu Prohibition Act 1948",
+          "description": "Governs prohibition and regulation of alcohol in Tamil Nadu. Tasmac holds monopoly on liquor sales.",
+          "key_provisions": ["Prohibition zones", "Tasmac monopoly", "penalties for bootlegging"]
+        },
+        {
+          "name": "Tamil Nadu Panchayats Act 1994",
+          "description": "Governs rural local self-governance in Tamil Nadu.",
+          "key_provisions": ["Gram Panchayat powers", "property tax", "local development"]
+        },
+        {
+          "name": "Tamil Nadu Protection of Interests of Depositors (in Financial Establishments) Act 1997",
+          "description": "Protects depositors in chit funds and financial companies; attachment of property.",
+          "key_provisions": ["Attachment of chit fund promoter property", "speedy trial"]
+        }
+      ],
+      "local_courts": [
+        {"name": "City Civil Court Chennai", "jurisdiction": "Civil disputes"},
+        {"name": "Additional District Courts", "jurisdiction": "Civil, criminal"},
+        {"name": "Family Court Chennai", "jurisdiction": "Matrimonial, maintenance, custody"},
+        {"name": "Consumer Disputes Redressal Commission", "jurisdiction": "Consumer disputes"},
+        {"name": "Madras High Court", "jurisdiction": "Writ, appeals, constitutional matters"},
+        {"name": "Special Courts under TNPID Act", "jurisdiction": "Chit fund fraud cases"}
+      ],
+      "legal_aid": {
+        "authority": "Tamil Nadu State Legal Services Authority (TNSLSA)",
+        "district_body": "DLSA in each district",
+        "contact": "Toll-free: 15100",
+        "eligibility": "Annual income below ₹3 lakh; SC/ST/women/children",
+        "services": ["Free legal representation", "Lok Adalat", "Mediation", "Para-legal volunteers"]
+      },
+      "important_contact": {
+        "police_emergency": "100",
+        "women_helpline": "1091",
+        "cyber_crime": "1930"
+      }
+    },
+    "Telangana": {
+      "capital": "Hyderabad",
+      "high_court": "Telangana High Court",
+      "high_court_established": "2019 (bifurcated from Andhra Pradesh)",
+      "high_court_location": "Hyderabad",
+      "official_language": "Telugu",
+      "specific_laws": [
+        {
+          "name": "Telangana Prevention of Dangerous Activities Act 1986",
+          "description": "Preventive detention law for persons indulging in dangerous activities including bootlegging, goonda activity.",
+          "key_provisions": ["Preventive detention", "detention up to 12 months"]
+        },
+        {
+          "name": "Telangana Land Revenue Act 1317 Fasli (as adapted)",
+          "description": "Governs land records, passbook system, mutation in Telangana.",
+          "key_provisions": ["Passbook (patta)", "mutation", "Dharani portal for land records"]
+        },
+        {
+          "name": "Telangana Apartments (Promotion of Construction and Ownership) Act 1987",
+          "description": "Governs apartment ownership and association in Telangana.",
+          "key_provisions": ["Apartment deed", "undivided share", "flat owners association"]
+        },
+        {
+          "name": "Telangana Scheduled Castes and Scheduled Tribes (Prevention of Atrocities) Act (State rules)",
+          "description": "State rules implementing the central SC/ST Prevention of Atrocities Act with district vigilance committees.",
+          "key_provisions": ["Special courts", "district-level committees", "victim relief"]
+        }
+      ],
+      "local_courts": [
+        {"name": "City Civil Court Hyderabad", "jurisdiction": "Civil disputes"},
+        {"name": "Ranga Reddy District Courts", "jurisdiction": "Civil, criminal"},
+        {"name": "Family Court Hyderabad", "jurisdiction": "Matrimonial matters"},
+        {"name": "Telangana High Court", "jurisdiction": "Writ, appeals, constitutional matters"},
+        {"name": "NCLT Hyderabad Bench", "jurisdiction": "Company law, insolvency matters"}
+      ],
+      "legal_aid": {
+        "authority": "Telangana State Legal Services Authority (TSLSA)",
+        "district_body": "DLSA in each district",
+        "contact": "Toll-free: 15100",
+        "eligibility": "Annual income below ₹3 lakh; SC/ST/women/children/persons with disability",
+        "services": ["Free legal aid", "Lok Adalat", "Mediation", "Legal awareness"]
+      },
+      "important_contact": {
+        "police_emergency": "100",
+        "women_helpline": "1091",
+        "cyber_crime": "1930",
+        "anti_corruption": "1064"
+      }
+    },
+    "Andhra Pradesh": {
+      "capital": "Amaravati (Administrative); Vishakhapatnam (Executive); Kurnool (Judicial)",
+      "high_court": "Andhra Pradesh High Court",
+      "high_court_established": "2019 (bifurcated from Andhra Pradesh / Telangana HC)",
+      "high_court_location": "Amaravati",
+      "official_language": "Telugu",
+      "specific_laws": [
+        {
+          "name": "Andhra Pradesh Land Reforms (Ceiling on Agricultural Holdings) Act 1973",
+          "description": "Fixes ceiling on agricultural land; surplus land redistributed to landless poor.",
+          "key_provisions": ["Land ceiling", "surplus land", "assignment to SC/ST"]
+        },
+        {
+          "name": "Andhra Pradesh Assigned Lands (Prohibition on Transfers) Act 1977",
+          "description": "Prohibits transfer of government-assigned lands to non-eligible persons.",
+          "key_provisions": ["Prohibition on sale", "cancellation of irregular transfers"]
+        },
+        {
+          "name": "AP Capital Region Development Authority Act 2014",
+          "description": "Created CRDA for development of new capital region; land pooling scheme.",
+          "key_provisions": ["Land pooling", "farmer entitlements", "development charges"]
+        }
+      ],
+      "local_courts": [
+        {"name": "District Courts (all districts)", "jurisdiction": "Civil, criminal matters"},
+        {"name": "Family Courts", "jurisdiction": "Matrimonial matters"},
+        {"name": "Andhra Pradesh High Court", "jurisdiction": "Writ, appeals, constitutional matters"}
+      ],
+      "legal_aid": {
+        "authority": "Andhra Pradesh State Legal Services Authority (APSLSA)",
+        "district_body": "DLSA in each district",
+        "contact": "Toll-free: 15100",
+        "eligibility": "Annual income below ₹3 lakh; SC/ST/women/children/persons with disability",
+        "services": ["Free legal aid", "Lok Adalat", "Legal awareness camps"]
+      },
+      "important_contact": {
+        "police_emergency": "100",
+        "women_helpline": "1091",
+        "cyber_crime": "1930"
+      }
+    },
+    "Gujarat": {
+      "capital": "Gandhinagar",
+      "high_court": "Gujarat High Court",
+      "high_court_established": "1960",
+      "high_court_location": "Ahmedabad",
+      "official_language": "Gujarati",
+      "specific_laws": [
+        {
+          "name": "Gujarat Prohibition Act 1949",
+          "description": "Gujarat is a prohibition state. Manufacture, sale, and consumption of alcohol prohibited; permits required for medicinal use.",
+          "key_provisions": ["Total prohibition", "permit system", "penalties for bootlegging", "health permit for foreigners"]
+        },
+        {
+          "name": "Gujarat Land Revenue Code 1879",
+          "description": "Governs land administration, revenue records (Form 6 — Hak Patrak / 7/12), mutation.",
+          "key_provisions": ["7/12 Utara", "mutation", "NA permission", "revenue survey"]
+        },
+        {
+          "name": "Gujarat Tenancy and Agricultural Lands Act 1948",
+          "description": "Governs agricultural tenancy; purchase rights of tenants.",
+          "key_provisions": ["Occupancy rights", "protected tenant", "ceiling on agricultural holding"]
+        },
+        {
+          "name": "Gujarat Local Authorities Laws (Amendment) Act 2009",
+          "description": "Amendments to municipal laws for better urban governance.",
+          "key_provisions": ["Property tax", "building permission", "municipal services"]
+        }
+      ],
+      "local_courts": [
+        {"name": "City Civil Court Ahmedabad", "jurisdiction": "Civil disputes"},
+        {"name": "District Courts (all districts)", "jurisdiction": "Civil, criminal"},
+        {"name": "Family Court Ahmedabad", "jurisdiction": "Matrimonial matters"},
+        {"name": "Gujarat High Court", "jurisdiction": "Writ, appeals, constitutional matters"},
+        {"name": "NCLT Ahmedabad Bench", "jurisdiction": "Company law, insolvency"}
+      ],
+      "legal_aid": {
+        "authority": "Gujarat State Legal Services Authority (GSLSA)",
+        "district_body": "DLSA in each district",
+        "contact": "Toll-free: 15100",
+        "eligibility": "Annual income below ₹3 lakh; SC/ST/women/children/persons with disability",
+        "services": ["Free legal aid", "Lok Adalat", "Mediation centre Ahmedabad"]
+      },
+      "important_contact": {
+        "police_emergency": "100",
+        "women_helpline": "1091",
+        "cyber_crime": "1930"
+      }
+    },
+    "Rajasthan": {
+      "capital": "Jaipur",
+      "high_court": "Rajasthan High Court",
+      "high_court_established": "1949",
+      "high_court_location": "Jodhpur (Principal Bench); Jaipur Bench",
+      "official_language": "Hindi",
+      "specific_laws": [
+        {
+          "name": "Rajasthan Tenancy Act 1955",
+          "description": "Governs agricultural tenancy, rights of Khatedar tenants, and sub-tenancy in Rajasthan.",
+          "key_provisions": ["Khatedar rights", "non-khatedar tenant", "tenancy records", "ejectment"]
+        },
+        {
+          "name": "Rajasthan Land Revenue Act 1956",
+          "description": "Governs land revenue administration, land records (Jamabandi / Khasra), mutation, revenue courts.",
+          "key_provisions": ["Jamabandi", "Khasra records", "mutation", "revenue courts hierarchy"]
+        },
+        {
+          "name": "Rajasthan Public Safety Act 2011",
+          "description": "Preventive detention of persons indulging in anti-social activities.",
+          "key_provisions": ["Preventive detention", "review mechanism"]
+        },
+        {
+          "name": "Rajasthan Control of Organised Crime Act 2016",
+          "description": "Targets organised crime in Rajasthan. Special courts and harsher punishments.",
+          "key_provisions": ["Organised crime", "special court", "interception of communications"]
+        }
+      ],
+      "local_courts": [
+        {"name": "District Courts (all 50 districts)", "jurisdiction": "Civil, criminal"},
+        {"name": "Family Courts", "jurisdiction": "Matrimonial matters"},
+        {"name": "Rajasthan High Court", "jurisdiction": "Writ, appeals, constitutional matters"},
+        {"name": "Board of Revenue Rajasthan", "jurisdiction": "Revenue matters, land disputes"}
+      ],
+      "legal_aid": {
+        "authority": "Rajasthan State Legal Services Authority (RSLSA)",
+        "district_body": "DLSA in each district",
+        "contact": "Toll-free: 15100",
+        "eligibility": "Annual income below ₹3 lakh; SC/ST/women/children/persons with disability",
+        "services": ["Free legal aid", "Lok Adalat", "Legal literacy camps", "Mobile legal aid vans"]
+      },
+      "important_contact": {
+        "police_emergency": "100",
+        "women_helpline": "1091",
+        "cyber_crime": "1930",
+        "chief_minister_helpline": "181"
+      }
+    }
+  },
+  "national_legal_aid": {
+    "authority": "National Legal Services Authority (NALSA)",
+    "established": "1995 (Legal Services Authorities Act 1987)",
+    "patron_in_chief": "Chief Justice of India",
+    "helpline": "15100",
+    "services": [
+      "Free legal aid to eligible persons",
+      "Lok Adalats — Alternative Dispute Resolution",
+      "Mediation",
+      "Para Legal Volunteers training",
+      "Legal awareness camps",
+      "Tele-law services for rural areas"
+    ],
+    "eligibility_criteria": [
+      "Annual income below ₹3 lakh (varies by state, some go up to ₹5 lakh)",
+      "Members of Scheduled Castes/Scheduled Tribes",
+      "Women and children",
+      "Persons with disability",
+      "Victims of trafficking or mass disaster",
+      "Industrial workmen",
+      "Persons in custody (under-trial prisoners)",
+      "Persons in psychiatric institutions"
+    ]
+  }
+}

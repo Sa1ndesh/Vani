@@ -1,0 +1,645 @@
+{
+  "title": "Indian Language Dialect Mapping for Legal AI",
+  "purpose": "Dialect-aware NLP for legal assistance across Indian languages",
+  "last_updated": "2024-07-01",
+  "languages": {
+    "kannada": {
+      "code": "kn",
+      "iso_639_1": "kn",
+      "iso_639_3": "kan",
+      "script": "Kannada",
+      "native_name": "ಕನ್ನಡ",
+      "official_in": ["Karnataka"],
+      "total_speakers_approx": "56 million",
+      "dialects": {
+        "bangalore": {
+          "name": "Bangalore Kannada",
+          "native_name": "ಬೆಂಗಳೂರು ಕನ್ನಡ",
+          "regions": ["Bengaluru Urban", "Bengaluru Rural"],
+          "features": [
+            "Heavy influence of English loanwords",
+            "Mixed with Hindi and Tamil words (cosmopolitan influence)",
+            "Faster speech pace",
+            "Simplified verb conjugations",
+            "Code-switching with English very common"
+          ],
+          "sample_words": {
+            "police station": "ಪೊಲೀಸ್ ಸ್ಟೇಷನ್ (Police Station)",
+            "complaint": "ಕಂಪ್ಲೇಂಟ್ (Complaint) / ದೂರು (Dooru)",
+            "court": "ಕೋರ್ಟ್ (Court) / ನ್ಯಾಯಾಲಯ (Nyayalaya)",
+            "advocate": "ಅಡ್ವೊಕೇಟ್ (Advocate) / ವಕೀಲ (Vakeel)"
+          }
+        },
+        "hubli": {
+          "name": "Hubli-Dharwad Kannada",
+          "native_name": "ಹುಬ್ಬಳ್ಳಿ-ಧಾರವಾಡ ಕನ್ನಡ",
+          "regions": ["Hubli", "Dharwad", "Gadag", "Haveri"],
+          "features": [
+            "North Karnataka dialect with Urdu and Marathi loanwords",
+            "Distinct intonation pattern (singsong quality)",
+            "Use of 'haange' (ಹಾಂಗೆ) for 'like that/that way'",
+            "Retroflexion is more prominent",
+            "Closer to literary Kannada in some respects"
+          ],
+          "sample_words": {
+            "yes": "ಹೌದು (Houdu) / ಹೂಂ (Hoom)",
+            "come here": "ಇಲ್ಲಿ ಬಾ (Illi baa)",
+            "case": "ಕೇಸ್ (Kes) / ಮೊಕದ್ದಮೆ (Mokaddame)",
+            "FIR": "ಎಫ್ಐಆರ್ / ದೂರು (Dooru)"
+          }
+        },
+        "north_karnataka": {
+          "name": "North Karnataka Kannada",
+          "native_name": "ಉತ್ತರ ಕರ್ನಾಟಕ ಕನ್ನಡ",
+          "regions": ["Bidar", "Kalaburagi (Gulbarga)", "Raichur", "Koppal", "Yadgir"],
+          "features": [
+            "Strong Urdu and Telugu influence",
+            "Hyderabadi Kannada features (due to former Hyderabad Nizam's dominion)",
+            "Different pronoun usage — 'naavu' less common, 'naan' more prevalent",
+            "Distinct vowel sounds",
+            "Mixing of Telangana Telugu words"
+          ],
+          "sample_words": {
+            "police": "ಪೊಲೀಸ್ (Polees)",
+            "court": "ಕಚೇರಿ (Kacheri) for office; ಕೋರ್ಟ್ for court",
+            "problem": "ಪ್ರಾಬ್ಲಮ್ (Problem) / ಸಮಸ್ಯೆ (Samasye)",
+            "money": "ದುಡ್ಡು (Duddu) / ಪೈಸಾ (Paisa)"
+          }
+        },
+        "coastal": {
+          "name": "Coastal Karnataka Kannada (Tulu Nadu Kannada)",
+          "native_name": "ಕರಾವಳಿ ಕನ್ನಡ",
+          "regions": ["Mangaluru (Mangalore)", "Udupi", "Dakshina Kannada", "Uttara Kannada"],
+          "features": [
+            "Heavy Tulu and Konkani influence",
+            "Distinct musical intonation",
+            "Different word endings compared to standard Kannada",
+            "Some Tamil loanwords in southernmost parts",
+            "Unique expressions not found in other dialects"
+          ],
+          "sample_words": {
+            "what happened": "ಏನಾತು (Yenaatu)",
+            "police station": "ಪೊಲೀಸ್ ಠಾಣೆ (Polees Thane)",
+            "help": "ಸಹಾಯ (Sahaaya)",
+            "problem": "ತೊಂದರೆ (Thondare)"
+          }
+        },
+        "mysore": {
+          "name": "Mysore-Mandya Kannada",
+          "native_name": "ಮೈಸೂರು-ಮಂಡ್ಯ ಕನ್ನಡ",
+          "regions": ["Mysuru", "Mandya", "Hassan", "Chamarajanagar"],
+          "features": [
+            "Considered closest to classical/literary Kannada",
+            "Clear pronunciation, slower pace",
+            "Basis for Kannada taught in schools",
+            "Less English mixing compared to Bengaluru dialect"
+          ],
+          "sample_words": {
+            "court": "ನ್ಯಾಯಾಲಯ (Nyayalaya)",
+            "lawyer": "ವಕೀಲರು (Vakeelaru)",
+            "judge": "ನ್ಯಾಯಾಧೀಶರು (Nyayadheeasharu)"
+          }
+        }
+      },
+      "legal_terms": {
+        "court": "ನ್ಯಾಯಾಲಯ (Nyayalaya)",
+        "lawyer": "ವಕೀಲ (Vakeel) / ಅಭಿಭಾಷಕ (Abhibhashaka)",
+        "judge": "ನ್ಯಾಯಾಧೀಶ (Nyyayadheesha)",
+        "police": "ಪೊಲೀಸ್ (Polees)",
+        "FIR": "ಪ್ರಥಮ ಮಾಹಿತಿ ವರದಿ (Prathama Maahiti Varadi)",
+        "bail": "ಜಾಮೀನು (Jameenu)",
+        "complaint": "ದೂರು (Dooru) / ಫಿರ್ಯಾದು (Firyaadu)",
+        "arrest": "ಬಂಧನ (Bandhana) / ಅರೆಸ್ಟ್ (Arrest)",
+        "theft": "ಕಳ್ಳತನ (Kallathana)",
+        "murder": "ಕೊಲೆ (Kole)",
+        "witness": "ಸಾಕ್ಷಿ (Saakshi)",
+        "evidence": "ಪುರಾವೆ (Puraave) / ಸಾಕ್ಷ್ಯ (Saakshya)",
+        "summons": "ಸಮನ್ಸ್ (Samans) / ಸಮನ್‌ (Suman)",
+        "warrant": "ವಾರಂಟ್ (Vaarant)",
+        "property": "ಆಸ್ತಿ (Aasti)",
+        "contract": "ಒಪ್ಪಂದ (Oppanda)",
+        "divorce": "ವಿಚ್ಛೇದನ (Vichchhedana)",
+        "maintenance": "ಜೀವನಾಂಶ (Jeevanaamsha)",
+        "custody": "ಸಂರಕ್ಷಣೆ (Samrakshane)",
+        "justice": "ನ್ಯಾಯ (Nyaaya)",
+        "law": "ಕಾನೂನು (Kaanoonu)",
+        "crime": "ಅಪರಾಧ (Aparaadha)",
+        "punishment": "ಶಿಕ್ಷೆ (Shikkshe)",
+        "prison": "ಜೈಲು (Jailu) / ಕಾರಾಗೃಹ (Kaaragriha)"
+      }
+    },
+    "marathi": {
+      "code": "mr",
+      "iso_639_1": "mr",
+      "iso_639_3": "mar",
+      "script": "Devanagari",
+      "native_name": "मराठी",
+      "official_in": ["Maharashtra", "Goa (co-official)"],
+      "total_speakers_approx": "83 million",
+      "dialects": {
+        "mumbai": {
+          "name": "Mumbai Marathi (Bambaiya Marathi)",
+          "native_name": "मुंबईची मराठी",
+          "regions": ["Mumbai", "Thane", "Navi Mumbai"],
+          "features": [
+            "Heavy English, Hindi, and Gujarati loanwords",
+            "Simplified grammar in informal speech",
+            "Fast-paced speech",
+            "Code-switching with Hindi and English very common",
+            "Distinct working-class 'Bambaiya' variant"
+          ],
+          "sample_words": {
+            "police station": "पोलीस स्टेशन (Police Station)",
+            "complaint": "तक्रार (Takvrar) / कंप्लेंट (Complaint)",
+            "FIR": "एफआयआर (FIR) / फिर्याद (Firyaad)"
+          }
+        },
+        "pune": {
+          "name": "Pune Marathi",
+          "native_name": "पुण्याची मराठी",
+          "regions": ["Pune", "Pimpri-Chinchwad", "Sangli", "Satara"],
+          "features": [
+            "Considered standard educated Marathi",
+            "Basis for Marathi taught in schools",
+            "Strong Brahmin-dialect influence historically",
+            "Clear pronunciation, moderate pace"
+          ],
+          "sample_words": {
+            "court": "न्यायालय (Nyayalay)",
+            "lawyer": "वकील (Vakeel)",
+            "judge": "न्यायाधीश (Nyayadhish)"
+          }
+        },
+        "vidarbha": {
+          "name": "Vidarbha Marathi",
+          "native_name": "विदर्भातील मराठी",
+          "regions": ["Nagpur", "Amravati", "Wardha", "Yavatmal", "Akola", "Washim"],
+          "features": [
+            "Hindi belt influence (close to Central India)",
+            "Different verb endings (-तो/-ते vs -तो/-ती)",
+            "Some words replaced by Hindi equivalents",
+            "Nagpuri flavour with 'kay re' usage"
+          ],
+          "sample_words": {
+            "yes": "हां (Haan) / व्हय (Vhay)",
+            "problem": "प्रश्न (Prashna) / अडचण (Adachan)",
+            "police": "पोलीस (Police) / दरोगा (Daroga)"
+          }
+        },
+        "marathwada": {
+          "name": "Marathwada Marathi",
+          "native_name": "मराठवाड्यातील मराठी",
+          "regions": ["Aurangabad (Chhatrapati Sambhajinagar)", "Latur", "Osmanabad", "Nanded", "Beed"],
+          "features": [
+            "Urdu and Hyderabadi influence (former Nizam's dominion)",
+            "Distinct accent with Urdu vowel inflection",
+            "Different vocabulary in daily use",
+            "Some words borrowed from Hyderabadi Urdu"
+          ],
+          "sample_words": {
+            "police station": "पोलीस ठाणे (Police Thane)",
+            "complaint": "तक्रार (Tkvrar) / फर्याद (Faryad)",
+            "court": "कोर्ट (Court) / अदालत (Adalat)"
+          }
+        }
+      },
+      "legal_terms": {
+        "court": "न्यायालय (Nyayalay)",
+        "lawyer": "वकील (Vakeel) / अधिवक्ता (Adhivakta)",
+        "judge": "न्यायाधीश (Nyayadhish)",
+        "police": "पोलीस (Police)",
+        "FIR": "प्रथम खबर अहवाल (Pratham Khabar Ahaval) / FIR",
+        "bail": "जामीन (Jamin)",
+        "complaint": "तक्रार (Tkvrar) / फिर्याद (Firyaad)",
+        "arrest": "अटक (Atak)",
+        "theft": "चोरी (Chori)",
+        "murder": "खून (Khun) / हत्या (Hatya)",
+        "witness": "साक्षीदार (Sakshidaar) / साक्षी (Sakshi)",
+        "evidence": "पुरावा (Puraava) / साक्ष्य (Sakshya)",
+        "summons": "समन्स (Summons) / बजावणी (Bajavaani)",
+        "warrant": "वॉरंट (Warrant) / अटक वारंट (Atak Warant)",
+        "property": "मालमत्ता (Malmatta) / संपत्ती (Sampatti)",
+        "contract": "करार (Karaar)",
+        "divorce": "घटस्फोट (Ghatasfot)",
+        "maintenance": "पोटगी (Potagi) / निर्वाहभत्ता (Nirvahabha tta)",
+        "custody": "ताबा (Taaba) / हक्क (Hakka)",
+        "justice": "न्याय (Nyaay)",
+        "law": "कायदा (Kaaydaa)",
+        "crime": "गुन्हा (Gunha) / अपराध (Aparadh)",
+        "punishment": "शिक्षा (Shiksha)",
+        "prison": "तुरुंग (Turung) / कारागृह (Kaaragriha)"
+      }
+    },
+    "hindi": {
+      "code": "hi",
+      "iso_639_1": "hi",
+      "iso_639_3": "hin",
+      "script": "Devanagari",
+      "native_name": "हिन्दी",
+      "official_in": ["India (Official/National language)", "Uttar Pradesh", "Madhya Pradesh", "Rajasthan", "Bihar", "Jharkhand", "Chhattisgarh", "Haryana", "Himachal Pradesh", "Uttarakhand"],
+      "total_speakers_approx": "600 million (including second-language speakers)",
+      "dialects": {
+        "standard": {
+          "name": "Khari Boli / Standard Hindi",
+          "native_name": "मानक हिन्दी / खड़ी बोली",
+          "regions": ["Delhi", "Western Uttar Pradesh", "Haryana"],
+          "features": [
+            "Basis for standardised Hindi",
+            "Used in government, media, education",
+            "Based on Khari Boli dialect of Delhi-Meerut region",
+            "Heavy Sanskrit vocabulary in formal usage",
+            "Urdu vocabulary in informal usage (Hindustani)"
+          ],
+          "sample_words": {
+            "FIR": "प्रथम सूचना रिपोर्ट (Pratham Suchna Report)",
+            "court": "न्यायालय (Nyayaalay) / अदालत (Adalat)",
+            "police": "पुलिस (Police) / थाना (Thana)"
+          }
+        },
+        "rajasthani": {
+          "name": "Rajasthani Hindi",
+          "native_name": "राजस्थानी हिन्दी",
+          "regions": ["Rajasthan", "parts of Gujarat"],
+          "features": [
+            "Mixture of Rajasthani and standard Hindi",
+            "Marwari, Mewari, Shekhawati sub-dialects",
+            "Retroflex sounds more prominent",
+            "Different verb forms ('करूँलो' instead of 'करूँगा')"
+          ],
+          "sample_words": {
+            "yes": "हाँ (Haan) / हाँजी (Hanji)",
+            "police station": "थाना (Thana) / पुलिस चौकी (Police Chowki)",
+            "problem": "परेशानी (Pareshani) / बखेड़ा (Bakheda)"
+          }
+        },
+        "bihari": {
+          "name": "Bihari Hindi (Bhojpuri-influenced)",
+          "native_name": "बिहारी हिन्दी",
+          "regions": ["Bihar", "Eastern Uttar Pradesh", "Jharkhand"],
+          "features": [
+            "Bhojpuri, Maithili, Magahi influence",
+            "Different verb endings",
+            "Distinct pronunciation of retroflexes",
+            "Some words unique to the region"
+          ],
+          "sample_words": {
+            "FIR": "FIR (as is) / एफआईआर",
+            "court": "कोर्ट (Court) / कचहरी (Kachahri)",
+            "complaint": "फरियाद (Fariyaad) / शिकायत (Shikayat)"
+          }
+        },
+        "awadhi": {
+          "name": "Awadhi / Eastern Hindi",
+          "native_name": "अवधी",
+          "regions": ["Lucknow", "Ayodhya", "Faizabad", "Eastern UP"],
+          "features": [
+            "Literary language (Ramcharitmanas written in Awadhi)",
+            "More archaic forms preserved",
+            "Distinct from standard Hindi",
+            "Strongly influenced by Persian/Urdu in Lucknow area"
+          ],
+          "sample_words": {
+            "court": "अदालत (Adalat)",
+            "judge": "हाकिम (Haakim) / जज (Judge)",
+            "police": "पुलिस (Police) / कोतवाल (Kotwal)"
+          }
+        }
+      },
+      "legal_terms": {
+        "court": "न्यायालय (Nyayaalay) / अदालत (Adalat)",
+        "lawyer": "वकील (Vakeel) / अधिवक्ता (Adhivakta)",
+        "judge": "न्यायाधीश (Nyaayadhish) / जज (Judge)",
+        "police": "पुलिस (Police)",
+        "FIR": "प्रथम सूचना रिपोर्ट (Pratham Suchna Report)",
+        "bail": "जमानत (Zamanat) / ज़मानत",
+        "complaint": "शिकायत (Shikayat) / फरियाद (Fariyaad)",
+        "arrest": "गिरफ्तारी (Giraftaari)",
+        "theft": "चोरी (Chori)",
+        "murder": "हत्या (Hatya) / खून (Khun)",
+        "witness": "गवाह (Gavaah) / साक्षी (Saakshi)",
+        "evidence": "सबूत (Sabut) / साक्ष्य (Saakshya)",
+        "summons": "सम्मन (Samman) / तलब (Talab)",
+        "warrant": "वारंट (Warrant)",
+        "property": "संपत्ति (Sampatti)",
+        "contract": "अनुबंध (Anubandh) / करार (Karaar)",
+        "divorce": "तलाक (Talaak) / विवाह-विच्छेद (Vivaah-Vichchhed)",
+        "maintenance": "गुजारा भत्ता (Guzaara Bhatta)",
+        "custody": "हिरासत (Hirasat) / अभिरक्षा (Abhiraksha)",
+        "justice": "न्याय (Nyaay) / इंसाफ (Insaaf)",
+        "law": "कानून (Kaanun) / विधि (Vidhi)",
+        "crime": "अपराध (Aparaadh) / जुर्म (Jurm)",
+        "punishment": "सजा (Sazaa) / दण्ड (Dand)",
+        "prison": "जेल (Jail) / कारागार (Kaaragaar)"
+      }
+    },
+    "tamil": {
+      "code": "ta",
+      "iso_639_1": "ta",
+      "iso_639_3": "tam",
+      "script": "Tamil",
+      "native_name": "தமிழ்",
+      "official_in": ["Tamil Nadu", "Puducherry", "Sri Lanka (co-official)", "Singapore (co-official)"],
+      "total_speakers_approx": "80 million",
+      "dialects": {
+        "standard": {
+          "name": "Standard Tamil (Chennai Tamil)",
+          "native_name": "நிலையான தமிழ்",
+          "regions": ["Chennai", "Kanchipuram", "Vellore"],
+          "features": [
+            "Used in media, education and official communication",
+            "Basis for written Tamil (Centamil)",
+            "Colloquial Tamil (Kotuntamil) significantly different from written",
+            "English loanwords increasingly common"
+          ],
+          "sample_words": {
+            "FIR": "முதல் தகவல் அறிக்கை (Mudhal Thagaval Arikkhai)",
+            "court": "நீதிமன்றம் (Needhimanram)",
+            "lawyer": "வழக்கறிஞர் (Vazhakkarinyar)"
+          }
+        },
+        "madurai": {
+          "name": "Madurai Tamil",
+          "native_name": "மதுரை தமிழ்",
+          "regions": ["Madurai", "Dindigul", "Theni", "Sivaganga"],
+          "features": [
+            "Considered pure/classical Tamil speakers by some",
+            "Distinct intonation with strong accent",
+            "Different verb endings",
+            "Retroflexion more pronounced"
+          ],
+          "sample_words": {
+            "yes": "ஆமா (Aama)",
+            "police": "போலீஸ் (Police) / சான்றோர் (Saandror - formal)",
+            "complaint": "புகார் (Pugaar)"
+          }
+        },
+        "chennai": {
+          "name": "Chennai Tamil (Madras Bashai)",
+          "native_name": "சென்னை தமிழ்",
+          "regions": ["Chennai city"],
+          "features": [
+            "Heavy English, Urdu, and Telugu loanwords",
+            "Distinct slang not found elsewhere",
+            "Fast-paced speech",
+            "Humorous/irreverent register known as 'Madras Tamil'"
+          ],
+          "sample_words": {
+            "police station": "போலீஸ் ஸ்டேஷன் (Police Station)",
+            "problem": "பிரச்சனை (Pirachcnahye) / ஐட்டம் (Aidham - slang)"
+          }
+        },
+        "coimbatore": {
+          "name": "Coimbatore Tamil",
+          "native_name": "கோயம்புத்தூர் தமிழ்",
+          "regions": ["Coimbatore", "Tiruppur", "Erode", "Salem"],
+          "features": [
+            "Western Tamil Nadu dialect",
+            "Kannada influence (border region)",
+            "Different pronoun usage",
+            "Industrial/business vocabulary influenced by textile industry"
+          ],
+          "sample_words": {
+            "court": "கோர்ட்டு (Court-u)",
+            "advocate": "வக்கீல் (Vakkeel)"
+          }
+        }
+      },
+      "legal_terms": {
+        "court": "நீதிமன்றம் (Needhimanram)",
+        "lawyer": "வழக்கறிஞர் (Vazhakkarinyar) / வக்கீல் (Vakkeel)",
+        "judge": "நீதிபதி (Needhipathi)",
+        "police": "போலீஸ் (Police) / காவல்துறை (Kaavalturai)",
+        "FIR": "முதல் தகவல் அறிக்கை (Mudhal Thagaval Arikkhai)",
+        "bail": "ஜாமீன் (Jaameen) / பிணை (Pinai)",
+        "complaint": "புகார் (Pugaar) / தகவல் (Thagaval)",
+        "arrest": "கைது (Kaidhu)",
+        "theft": "திருட்டு (Thiruttu)",
+        "murder": "கொலை (Kolai)",
+        "witness": "சாட்சி (Saatchi) / சாட்சியம் (Saatchiyam)",
+        "evidence": "சாட்சியம் (Saatchiyam) / ஆதாரம் (Aadhaaram)",
+        "summons": "சம்மன்ஸ் (Summons) / நோட்டீஸ் (Notice)",
+        "warrant": "வாரண்ட் (Warrant)",
+        "property": "சொத்து (Sothu)",
+        "contract": "ஒப்பந்தம் (Oppandham)",
+        "divorce": "விவாகரத்து (Vivaagarathu)",
+        "maintenance": "ஜீவனாம்சம் (Jeevanaamcham)",
+        "custody": "காவல் (Kaaval) / பிள்ளை பராமரிப்பு (Pillai Paraamarippu)",
+        "justice": "நீதி (Neethi)",
+        "law": "சட்டம் (Chattam)",
+        "crime": "குற்றம் (Kutram)",
+        "punishment": "தண்டனை (Thandanai)",
+        "prison": "சிறை (Sirai) / கோட்டை (Kottai - old)"
+      }
+    },
+    "telugu": {
+      "code": "te",
+      "iso_639_1": "te",
+      "iso_639_3": "tel",
+      "script": "Telugu",
+      "native_name": "తెలుగు",
+      "official_in": ["Andhra Pradesh", "Telangana"],
+      "total_speakers_approx": "83 million",
+      "dialects": {
+        "standard": {
+          "name": "Standard Telugu",
+          "native_name": "ప్రామాణిక తెలుగు",
+          "regions": ["Hyderabad", "Vijayawada"],
+          "features": [
+            "Used in media, government and education",
+            "Based on coastal Andhra dialect",
+            "Less retroflex than regional dialects",
+            "Code-switching with English common in urban areas"
+          ],
+          "sample_words": {
+            "FIR": "మొదటి సమాచార నివేదిక (Modati Samaachara Nivedika)",
+            "court": "న్యాయస్థానం (Nyaayasthaanam)",
+            "lawyer": "న్యాయవాది (Nyaayavaadi)"
+          }
+        },
+        "hyderabad": {
+          "name": "Hyderabadi Telugu",
+          "native_name": "హైదరాబాదీ తెలుగు",
+          "regions": ["Hyderabad", "Secunderabad", "Ranga Reddy"],
+          "features": [
+            "Heavy Urdu (Dakhani) influence",
+            "Mixed Urdu-Telugu vocabulary",
+            "Distinct accent and intonation",
+            "Hyderabadi slang unique to the city",
+            "Urdu sentence structures mixed with Telugu"
+          ],
+          "sample_words": {
+            "yes": "అవునండి (Avunandi) / హాన్ (Haan - Urdu influence)",
+            "police": "పోలీసు (Police) / దరోగా (Daroga)",
+            "court": "కోర్టు (Court) / అదాలత్ (Adalat)"
+          }
+        },
+        "coastal_andhra": {
+          "name": "Coastal Andhra Telugu",
+          "native_name": "కోస్తా ఆంధ్ర తెలుగు",
+          "regions": ["Visakhapatnam", "Rajahmundry", "Kakinada", "Vijayawada", "Guntur"],
+          "features": [
+            "Considered basis for standard Telugu",
+            "Clear pronunciation",
+            "Less Urdu influence",
+            "Distinct sub-dialects in Visakha vs Krishna-Godavari delta",
+            "Telugu film industry (Tollywood) language based on this dialect"
+          ],
+          "sample_words": {
+            "court": "న్యాయస్థానం (Nyaayasthaanam)",
+            "lawyer": "వకీలు (Vakeelu)",
+            "complaint": "ఫిర్యాదు (Firyaadu)"
+          }
+        },
+        "rayalaseema": {
+          "name": "Rayalaseema Telugu",
+          "native_name": "రాయలసీమ తెలుగు",
+          "regions": ["Kurnool", "Kadapa", "Anantapur", "Chittoor"],
+          "features": [
+            "Distinct from coastal Andhra; more archaic forms",
+            "Tamil and Kannada influence (border region)",
+            "Different word stress patterns",
+            "Specific vocabulary not found elsewhere"
+          ],
+          "sample_words": {
+            "yes": "ఔను (Ownu)",
+            "police": "పోలీసు (Police)",
+            "problem": "సమస్య (Samasya) / తంటా (Tanta)"
+          }
+        }
+      },
+      "legal_terms": {
+        "court": "న్యాయస్థానం (Nyaayasthaanam) / కోర్టు (Kortu)",
+        "lawyer": "న్యాయవాది (Nyaayavaadi) / వకీలు (Vakeelu)",
+        "judge": "న్యాయమూర్తి (Nyaayamoorti)",
+        "police": "పోలీసు (Police) / పోలీసులు (Poleesula - plural)",
+        "FIR": "మొదటి సమాచార నివేదిక (Modati Samaachara Nivedika) / ఎఫ్ఐఆర్ (FIR)",
+        "bail": "బెయిల్ (Bail) / జామీను (Jaameenu)",
+        "complaint": "ఫిర్యాదు (Firyaadu) / ఫిర్యాదు పత్రం (Firyaadu Patram)",
+        "arrest": "అరెస్టు (Arestu) / నిర్బంధం (Nirbandham)",
+        "theft": "దొంగతనం (Dongatanam)",
+        "murder": "హత్య (Hatya) / చంపడం (Champadam)",
+        "witness": "సాక్షి (Saakshi)",
+        "evidence": "సాక్ష్యం (Saakshyam) / ఆధారం (Aadhaaram)",
+        "summons": "సమన్లు (Samanlu) / నోటీసు (Notice)",
+        "warrant": "వారెంటు (Warentu)",
+        "property": "ఆస్తి (Aasti) / సంపద (Sampada)",
+        "contract": "ఒప్పందం (Oppandam)",
+        "divorce": "విడాకులు (Vidaakulu)",
+        "maintenance": "జీవనభృతి (Jeevanabhriti) / భరణం (Bharanam)",
+        "custody": "సంరక్షణ (Samrakshana) / అభిరక్షణ (Abhirakshana)",
+        "justice": "న్యాయం (Nyaayam)",
+        "law": "చట్టం (Chattam) / న్యాయం (Nyaayam)",
+        "crime": "నేరం (Neram) / అపరాధం (Aparaadham)",
+        "punishment": "శిక్ష (Shiksha)",
+        "prison": "జైలు (Jailu) / కారాగారం (Kaaraagaaram)"
+      }
+    },
+    "malayalam": {
+      "code": "ml",
+      "iso_639_1": "ml",
+      "iso_639_3": "mal",
+      "script": "Malayalam",
+      "native_name": "മലയാളം",
+      "official_in": ["Kerala", "Lakshadweep (co-official)"],
+      "total_speakers_approx": "38 million",
+      "dialects": {
+        "standard": {
+          "name": "Standard Malayalam",
+          "native_name": "പ്രമാണ മലയാളം",
+          "regions": ["Thiruvananthapuram", "Ernakulam", "Thrissur"],
+          "features": [
+            "Used in media, education, government",
+            "Based on central Kerala dialect",
+            "Sanskrit influence prominent in formal usage"
+          ],
+          "sample_words": {
+            "court": "കോടതി (Kodathi)",
+            "lawyer": "അഭിഭാഷകൻ (Abhibhashakan)",
+            "FIR": "ഒന്നാം വിവര റിപ്പോർട്ട് (Onnaam Vivara Report)"
+          }
+        },
+        "malabar": {
+          "name": "Malabar Malayalam",
+          "native_name": "മലബാർ മലയാളം",
+          "regions": ["Kozhikode (Calicut)", "Malappuram", "Kannur", "Kasaragod"],
+          "features": [
+            "Arabic and Urdu loanwords (Muslim community influence)",
+            "Different intonation pattern",
+            "Tulu influence in Kasaragod"
+          ],
+          "sample_words": {
+            "yes": "ഉവ്വ് (Uvvu) / ഹാ (Haa)",
+            "police": "പോലീസ് (Police)"
+          }
+        }
+      },
+      "legal_terms": {
+        "court": "കോടതി (Kodathi)",
+        "lawyer": "അഭിഭാഷകൻ (Abhibhashakan) / വക്കീൽ (Vakkeel)",
+        "judge": "ന്യായാധിപൻ (Nyaayadhipan)",
+        "police": "പോലീസ് (Police)",
+        "FIR": "ഒന്നാം വിവര റിപ്പോർട്ട് (Onnaam Vivara Report)",
+        "bail": "ജാമ്യം (Jaamyam)",
+        "complaint": "പരാതി (Paraati)",
+        "arrest": "അറസ്റ്റ് (Arestu) / തടങ്കൽ (Thadankal)",
+        "theft": "മോഷണം (Moshanam)",
+        "murder": "കൊലപാതകം (Kolpatakam)",
+        "witness": "സാക്ഷി (Saakshi)",
+        "evidence": "തെളിവ് (Theliv) / സാക്ഷ്യം (Saakshyam)",
+        "justice": "നീതി (Needhi)",
+        "law": "നിയമം (Niyamam)",
+        "crime": "കുറ്റകൃത്യം (Kuttakrityam)",
+        "property": "സ്വത്ത് (Svatthu)"
+      }
+    }
+  },
+  "dialect_detection_features": {
+    "description": "Features used to detect regional dialect from input text for appropriate language model selection",
+    "methods": [
+      "N-gram language models for dialect identification",
+      "Script/encoding detection",
+      "Region-specific vocabulary lookup",
+      "Code-switching pattern recognition",
+      "Phonological features from ASR output"
+    ],
+    "confidence_threshold": 0.75,
+    "fallback_to_standard": true
+  },
+  "legal_query_patterns": {
+    "description": "Common legal query patterns in Indian languages for intent detection",
+    "patterns": [
+      {
+        "intent": "file_fir",
+        "hindi": ["FIR कैसे करें", "थाने में शिकायत", "पुलिस में रिपोर्ट"],
+        "kannada": ["FIR ಹೇಗೆ ಮಾಡಬೇಕು", "ಪೊಲೀಸ್ ದೂರು ನೀಡಬೇಕು"],
+        "tamil": ["FIR எப்படி போடுவது", "புகார் கொடுக்கணும்"],
+        "telugu": ["FIR ఎలా ఇవ్వాలి", "పోలీసు ఫిర్యాదు ఎలా చేయాలి"],
+        "marathi": ["FIR कसे करायचे", "पोलीस तक्रार कशी द्यायची"]
+      },
+      {
+        "intent": "bail_process",
+        "hindi": ["जमानत कैसे मिलती है", "बेल के लिए क्या करें"],
+        "kannada": ["ಜಾಮೀನು ಹೇಗೆ ಪಡೆಯಬೇಕು"],
+        "tamil": ["ஜாமீன் எப்படி வாங்குவது"],
+        "telugu": ["బెయిల్ ఎలా పొందాలి"],
+        "marathi": ["जामीन कसा मिळतो"]
+      },
+      {
+        "intent": "divorce",
+        "hindi": ["तलाक कैसे लें", "विवाह-विच्छेद की प्रक्रिया"],
+        "kannada": ["ವಿಚ್ಛೇದನ ಹೇಗೆ ಪಡೆಯಬೇಕು"],
+        "tamil": ["விவாகரத்து எப்படி"],
+        "telugu": ["విడాకులు ఎలా తీసుకోవాలి"],
+        "marathi": ["घटस्फोट कसा घ्यायचा"]
+      },
+      {
+        "intent": "property_dispute",
+        "hindi": ["जमीन विवाद", "संपत्ति का झगड़ा"],
+        "kannada": ["ಆಸ್ತಿ ವಿವಾದ", "ಜಮೀನು ತಗಾದೆ"],
+        "tamil": ["சொத்து சண்டை", "நிலம் பிரச்சனை"],
+        "telugu": ["ఆస్తి వివాదం", "భూమి తగాదా"],
+        "marathi": ["मालमत्ता वाद", "जमीन वाद"]
+      }
+    ]
+  }
+}
