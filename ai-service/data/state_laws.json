@@ -1,0 +1,241 @@
+{
+  "states": {
+    "Karnataka": {
+      "language": "Kannada",
+      "high_court": "Karnataka High Court, Bengaluru",
+      "tenancy_act": "Karnataka Rent Act 1999",
+      "stamp_duty_percent": 5,
+      "registration_charges_percent": 1,
+      "key_local_laws": [
+        "Karnataka Rent Act 1999",
+        "Karnataka Land Reforms Act 1961",
+        "Karnataka Scheduled Castes and Scheduled Tribes (Prohibition of Transfer of Certain Lands) Act 1978",
+        "Karnataka Land Revenue Act 1964",
+        "Bruhat Bengaluru Mahanagara Palike Act"
+      ],
+      "district_courts": [
+        "City Civil and Sessions Court Bengaluru",
+        "District Court Mysuru",
+        "District Court Hubli-Dharwad",
+        "District Court Mangaluru",
+        "District Court Belagavi"
+      ],
+      "legal_aid": "Karnataka State Legal Services Authority (KSLSA)",
+      "police_emergency": "100",
+      "women_helpline": "181"
+    },
+    "Maharashtra": {
+      "language": "Marathi",
+      "high_court": "Bombay High Court, Mumbai",
+      "tenancy_act": "Maharashtra Rent Control Act 1999",
+      "stamp_duty_percent": 5,
+      "registration_charges_percent": 1,
+      "key_local_laws": [
+        "Maharashtra Rent Control Act 1999",
+        "Maharashtra Apartment Ownership Act 1970",
+        "Maharashtra Co-operative Societies Act 1960",
+        "Maharashtra Regional and Town Planning Act 1966",
+        "Mumbai Municipal Corporation Act 1888"
+      ],
+      "district_courts": [
+        "City Civil and Sessions Court Mumbai",
+        "District Court Pune",
+        "District Court Nagpur",
+        "District Court Nashik",
+        "District Court Aurangabad"
+      ],
+      "legal_aid": "Maharashtra State Legal Services Authority (MSLSA)",
+      "police_emergency": "100",
+      "women_helpline": "181"
+    },
+    "Tamil Nadu": {
+      "language": "Tamil",
+      "high_court": "Madras High Court, Chennai",
+      "tenancy_act": "Tamil Nadu Regulation of Rights and Responsibilities of Landlords and Tenants Act 2017",
+      "stamp_duty_percent": 7,
+      "registration_charges_percent": 1,
+      "key_local_laws": [
+        "Tamil Nadu Regulation of Rights and Responsibilities of Landlords and Tenants Act 2017",
+        "Tamil Nadu Land Reforms (Fixation of Ceiling on Land) Act 1961",
+        "Tamil Nadu City Tenants Protection Act 1921",
+        "Chennai Metropolitan Area Groundwater (Regulation) Act 1987"
+      ],
+      "district_courts": [
+        "City Civil Court Chennai",
+        "District Court Coimbatore",
+        "District Court Madurai",
+        "District Court Tiruchirapalli",
+        "District Court Salem"
+      ],
+      "legal_aid": "Tamil Nadu State Legal Services Authority (TNSLSA)",
+      "police_emergency": "100",
+      "women_helpline": "181"
+    },
+    "Andhra Pradesh": {
+      "language": "Telugu",
+      "high_court": "High Court of Andhra Pradesh, Amaravati",
+      "tenancy_act": "Andhra Pradesh Buildings (Lease, Rent and Eviction) Control Act 1960",
+      "stamp_duty_percent": 5,
+      "registration_charges_percent": 0.5,
+      "key_local_laws": [
+        "Andhra Pradesh Buildings (Lease, Rent and Eviction) Control Act 1960",
+        "Andhra Pradesh Land Reforms (Ceiling on Agricultural Holdings) Act 1973",
+        "Andhra Pradesh Assigned Lands (Prohibition on Transfer) Act 1977"
+      ],
+      "district_courts": [
+        "District Court Vijayawada",
+        "District Court Visakhapatnam",
+        "District Court Tirupati",
+        "District Court Guntur",
+        "District Court Kurnool"
+      ],
+      "legal_aid": "Andhra Pradesh State Legal Services Authority (APSLSA)",
+      "police_emergency": "100",
+      "women_helpline": "181"
+    },
+    "Telangana": {
+      "language": "Telugu",
+      "high_court": "Telangana High Court, Hyderabad",
+      "tenancy_act": "Telangana Premises (Regulation of Lease and Eviction) (Amendment) Act 2023",
+      "stamp_duty_percent": 4,
+      "registration_charges_percent": 0.5,
+      "key_local_laws": [
+        "Telangana Premises (Regulation of Lease and Eviction) Act",
+        "Telangana Agricultural Land (Conversion for Non-Agricultural Purposes) Act 2006",
+        "Telangana Cooperative Societies Act 1964",
+        "GHMC Act 1955"
+      ],
+      "district_courts": [
+        "City Civil Court Hyderabad",
+        "District Court Warangal",
+        "District Court Nizamabad",
+        "District Court Karimnagar",
+        "District Court Khammam"
+      ],
+      "legal_aid": "Telangana State Legal Services Authority (TSLSA)",
+      "police_emergency": "100",
+      "women_helpline": "181"
+    },
+    "Gujarat": {
+      "language": "Gujarati",
+      "high_court": "Gujarat High Court, Ahmedabad",
+      "tenancy_act": "Gujarat Tenancy and Agricultural Lands Act 1948",
+      "stamp_duty_percent": 4,
+      "registration_charges_percent": 1,
+      "key_local_laws": [
+        "Gujarat Tenancy and Agricultural Lands Act 1948",
+        "Gujarat Ownership Flats (Regulation of the Promotion of Construction, Sale, Management and Transfer) Act 1973",
+        "Gujarat Land Ceiling Act 1960",
+        "Ahmedabad Municipal Corporation Act 1949"
+      ],
+      "district_courts": [
+        "City Civil and Sessions Court Ahmedabad",
+        "District Court Surat",
+        "District Court Vadodara",
+        "District Court Rajkot",
+        "District Court Bhavnagar"
+      ],
+      "legal_aid": "Gujarat State Legal Services Authority (GSLSA)",
+      "police_emergency": "100",
+      "women_helpline": "181"
+    },
+    "Rajasthan": {
+      "language": "Hindi",
+      "high_court": "Rajasthan High Court, Jodhpur (Bench at Jaipur)",
+      "tenancy_act": "Rajasthan Rent Control Act 2001",
+      "stamp_duty_percent": 5,
+      "registration_charges_percent": 1,
+      "key_local_laws": [
+        "Rajasthan Rent Control Act 2001",
+        "Rajasthan Tenancy Act 1955",
+        "Rajasthan Land Revenue Act 1956",
+        "Rajasthan Municipal Act 2009",
+        "Rajasthan Colonisation Act 1954"
+      ],
+      "district_courts": [
+        "District Court Jaipur",
+        "District Court Jodhpur",
+        "District Court Udaipur",
+        "District Court Kota",
+        "District Court Ajmer"
+      ],
+      "legal_aid": "Rajasthan State Legal Services Authority (RSLSA)",
+      "police_emergency": "100",
+      "women_helpline": "181"
+    },
+    "Uttar Pradesh": {
+      "language": "Hindi",
+      "high_court": "Allahabad High Court, Prayagraj (Bench at Lucknow)",
+      "tenancy_act": "Uttar Pradesh Urban Buildings (Regulation of Letting, Rent and Eviction) Act 1972",
+      "stamp_duty_percent": 7,
+      "registration_charges_percent": 1,
+      "key_local_laws": [
+        "Uttar Pradesh Urban Buildings (Regulation of Letting, Rent and Eviction) Act 1972",
+        "Uttar Pradesh Zamindari Abolition and Land Reforms Act 1950",
+        "Uttar Pradesh Revenue Code 2006",
+        "Uttar Pradesh Municipal Corporation Act 1959"
+      ],
+      "district_courts": [
+        "District Court Lucknow",
+        "District Court Kanpur Nagar",
+        "District Court Agra",
+        "District Court Varanasi",
+        "District Court Allahabad",
+        "District Court Meerut",
+        "District Court Ghaziabad",
+        "District Court Noida (Gautam Buddha Nagar)"
+      ],
+      "legal_aid": "Uttar Pradesh State Legal Services Authority (UPSLSA)",
+      "police_emergency": "100",
+      "women_helpline": "1090"
+    },
+    "West Bengal": {
+      "language": "Bengali",
+      "high_court": "Calcutta High Court, Kolkata",
+      "tenancy_act": "West Bengal Premises Tenancy Act 1997",
+      "stamp_duty_percent": 6,
+      "registration_charges_percent": 1,
+      "key_local_laws": [
+        "West Bengal Premises Tenancy Act 1997",
+        "West Bengal Land Reforms Act 1955",
+        "West Bengal Thika Tenancy (Acquisition and Regulation) Act 2001",
+        "Kolkata Municipal Corporation Act 1980"
+      ],
+      "district_courts": [
+        "City Sessions Court Kolkata",
+        "District Court Howrah",
+        "District Court North 24 Parganas",
+        "District Court South 24 Parganas",
+        "District Court Burdwan"
+      ],
+      "legal_aid": "West Bengal State Legal Services Authority (WBSLSA)",
+      "police_emergency": "100",
+      "women_helpline": "181"
+    },
+    "Delhi": {
+      "language": "Hindi",
+      "high_court": "Delhi High Court, New Delhi",
+      "tenancy_act": "Delhi Rent Control Act 1958",
+      "stamp_duty_percent": 6,
+      "registration_charges_percent": 1,
+      "key_local_laws": [
+        "Delhi Rent Control Act 1958",
+        "Delhi Land Reforms Act 1954",
+        "Delhi Development Act 1957",
+        "Delhi Municipal Corporation Act 1957",
+        "Delhi Prevention of Defacement of Property Act 1976"
+      ],
+      "district_courts": [
+        "Tis Hazari Courts (North District)",
+        "Karkardooma Courts (East District)",
+        "Saket District Court (South District)",
+        "Dwarka Courts (South-West District)",
+        "Patiala House Courts (New Delhi District)",
+        "Rohini Courts (North-West District)"
+      ],
+      "legal_aid": "Delhi State Legal Services Authority (DSLSA)",
+      "police_emergency": "100",
+      "women_helpline": "181"
+    }
+  }
+}

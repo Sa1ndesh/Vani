@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vani-Kanoon – Voice Legal Assistant</title>
+  <link rel="stylesheet" href="css/legal-assistant.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="header-inner">
+      <div class="brand">
+        <span class="brand-icon">⚖️</span>
+        <span class="brand-name">Vani-Kanoon</span>
+      </div>
+      <p class="brand-tagline">Your Voice, Your Rights – बोलो, जानो, जियो</p>
+    </div>
+  </header>
+
+  <main class="main">
+    <!-- Settings bar -->
+    <div class="settings-bar card">
+      <div class="setting-group">
+        <label for="language-select">Language</label>
+        <select id="language-select">
+          <option value="auto">Auto Detect</option>
+          <option value="hindi">हिंदी (Hindi)</option>
+          <option value="kannada">ಕನ್ನಡ (Kannada)</option>
+          <option value="marathi">मराठी (Marathi)</option>
+          <option value="tamil">தமிழ் (Tamil)</option>
+          <option value="telugu">తెలుగు (Telugu)</option>
+          <option value="english">English</option>
+          <option value="gujarati">ગુજરાતી (Gujarati)</option>
+          <option value="bengali">বাংলা (Bengali)</option>
+        </select>
+      </div>
+      <div class="setting-group">
+        <label for="state-select">State</label>
+        <select id="state-select">
+          <option value="">Auto</option>
+          <option value="Karnataka">Karnataka</option>
+          <option value="Maharashtra">Maharashtra</option>
+          <option value="Tamil Nadu">Tamil Nadu</option>
+          <option value="Andhra Pradesh">Andhra Pradesh</option>
+          <option value="Telangana">Telangana</option>
+          <option value="Gujarat">Gujarat</option>
+          <option value="Rajasthan">Rajasthan</option>
+          <option value="Uttar Pradesh">Uttar Pradesh</option>
+          <option value="West Bengal">West Bengal</option>
+          <option value="Delhi">Delhi</option>
+        </select>
+      </div>
+      <div class="setting-group">
+        <label for="level-select">Explanation Level</label>
+        <select id="level-select">
+          <option value="layperson">Simple (Layperson)</option>
+          <option value="child">Child-friendly</option>
+          <option value="educated">Educated</option>
+          <option value="professional">Professional</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- Visualizer + mic button -->
+    <div class="voice-section card">
+      <canvas id="audio-visualizer" width="600" height="80"></canvas>
+      <div class="mic-row">
+        <button id="mic-btn" class="mic-btn" title="Press and hold to record">
+          <span class="mic-icon">🎙️</span>
+          <span class="mic-label">Hold to Speak</span>
+        </button>
+        <span id="recording-status" class="recording-status hidden">Recording…</span>
+      </div>
+    </div>
+
+    <!-- Text input fallback -->
+    <div class="text-input-section card">
+      <div class="input-row">
+        <input
+          type="text"
+          id="text-query"
+          placeholder="Type your legal question here… e.g. 'What is IPC 302?' or 'tenant eviction rights'"
+          autocomplete="off"
+        />
+        <button id="send-btn" class="send-btn">Ask ➤</button>
+      </div>
+    </div>
+
+    <!-- Chat / response area -->
+    <div class="chat-section card" id="chat-container">
+      <div class="chat-empty" id="chat-empty">
+        <p>🇮🇳 Ask any question about Indian law</p>
+        <p class="hint">IPC sections · BNS 2023 · Tenancy · Family Law · Property Rights</p>
+      </div>
+      <div id="chat-messages"></div>
+    </div>
+
+    <!-- Quick action chips -->
+    <div class="quick-chips">
+      <button class="chip" data-query="What is FIR and how do I file one?">📄 File FIR</button>
+      <button class="chip" data-query="What are tenant rights for eviction notice?">🏠 Tenant Rights</button>
+      <button class="chip" data-query="IPC Section 498A domestic violence">👩 Domestic Violence</button>
+      <button class="chip" data-query="How to get bail?">⚖️ Bail Process</button>
+      <button class="chip" data-query="Property registration stamp duty">🏗️ Property Reg.</button>
+      <button class="chip" data-query="Divorce procedure Hindu Marriage Act">💍 Divorce</button>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>Vani-Kanoon provides legal information, not legal advice. Always consult a qualified lawyer for your case.</p>
+  </footer>
+
+  <script src="js/audio-visualizer.js"></script>
+  <script src="js/voice-handler.js"></script>
+  <script src="js/legal-query.js"></script>
+</body>
+</html>

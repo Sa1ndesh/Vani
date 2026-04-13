@@ -1,3 +1,17 @@
 fastapi
 uvicorn
 google-generativeai
+python-dotenv
+# Legal RAG pipeline
+langchain
+langchain-community
+faiss-cpu
+numpy
+# Speech services
+gtts
+openai-whisper
+# Language detection
+langdetect
+# HTTP utilities
+httpx
+python-multipart

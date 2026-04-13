@@ -1,0 +1,280 @@
+{
+  "languages": {
+    "hindi": {
+      "code": "hi",
+      "whisper_code": "hi",
+      "name": "Hindi",
+      "dialects": {
+        "standard": {"name": "Standard Hindi", "regions": ["Delhi", "Uttar Pradesh", "Madhya Pradesh"]},
+        "bhojpuri": {"name": "Bhojpuri", "regions": ["Eastern UP", "Bihar", "Jharkhand"]},
+        "awadhi": {"name": "Awadhi", "regions": ["Lucknow", "Ayodhya", "Prayagraj"]},
+        "braj": {"name": "Braj", "regions": ["Mathura", "Agra", "Aligarh"]},
+        "haryanvi": {"name": "Haryanvi", "regions": ["Haryana", "Western UP"]}
+      },
+      "tts_voice": "hi-IN-Standard-A",
+      "legal_terms": {
+        "FIR": "प्राथमिकी",
+        "bail": "जमानत",
+        "court": "अदालत",
+        "judge": "न्यायाधीश",
+        "lawyer": "वकील",
+        "witness": "गवाह",
+        "evidence": "सबूत",
+        "arrest": "गिरफ्तारी",
+        "complaint": "शिकायत",
+        "petition": "याचिका",
+        "verdict": "फैसला",
+        "appeal": "अपील",
+        "summons": "समन",
+        "warrant": "वारंट",
+        "acquittal": "बरी",
+        "conviction": "दोषसिद्धि",
+        "sentence": "सजा",
+        "fine": "जुर्माना",
+        "property": "संपत्ति",
+        "rent": "किराया",
+        "tenant": "किरायेदार",
+        "landlord": "मकान मालिक"
+      }
+    },
+    "kannada": {
+      "code": "kn",
+      "whisper_code": "kn",
+      "name": "Kannada",
+      "dialects": {
+        "standard": {"name": "Standard Kannada", "regions": ["Bengaluru", "Mysuru"]},
+        "dharwad": {"name": "Dharwad Kannada", "regions": ["Hubli-Dharwad", "Belagavi"]},
+        "coastal": {"name": "Coastal Kannada (Tulu region)", "regions": ["Mangaluru", "Udupi"]}
+      },
+      "tts_voice": "kn-IN-Standard-A",
+      "legal_terms": {
+        "FIR": "ಪ್ರಾಥಮಿಕ ಮಾಹಿತಿ ವರದಿ",
+        "bail": "ಜಾಮೀನು",
+        "court": "ನ್ಯಾಯಾಲಯ",
+        "judge": "ನ್ಯಾಯಾಧೀಶ",
+        "lawyer": "ವಕೀಲ",
+        "witness": "ಸಾಕ್ಷಿ",
+        "evidence": "ಸಾಕ್ಷ್ಯ",
+        "arrest": "ಬಂಧನ",
+        "complaint": "ದೂರು",
+        "petition": "ಅರ್ಜಿ",
+        "verdict": "ತೀರ್ಪು",
+        "appeal": "ಮೇಲ್ಮನವಿ",
+        "summons": "ಸಮನ್ಸ್",
+        "warrant": "ವಾರಂಟ್",
+        "property": "ಆಸ್ತಿ",
+        "rent": "ಬಾಡಿಗೆ",
+        "tenant": "ಬಾಡಿಗೆದಾರ",
+        "landlord": "ಮನೆ ಮಾಲೀಕ"
+      }
+    },
+    "marathi": {
+      "code": "mr",
+      "whisper_code": "mr",
+      "name": "Marathi",
+      "dialects": {
+        "standard": {"name": "Standard Marathi", "regions": ["Pune", "Mumbai"]},
+        "mumbai": {"name": "Mumbai Marathi", "regions": ["Mumbai", "Thane"]},
+        "nagpuri": {"name": "Nagpuri Marathi", "regions": ["Nagpur", "Vidarbha"]},
+        "konakni": {"name": "Konkan Marathi", "regions": ["Konkan coast", "Ratnagiri"]}
+      },
+      "tts_voice": "mr-IN-Standard-A",
+      "legal_terms": {
+        "FIR": "प्रथम माहिती अहवाल",
+        "bail": "जामीन",
+        "court": "न्यायालय",
+        "judge": "न्यायाधीश",
+        "lawyer": "वकील",
+        "witness": "साक्षीदार",
+        "evidence": "पुरावा",
+        "arrest": "अटक",
+        "complaint": "तक्रार",
+        "petition": "अर्ज",
+        "verdict": "निकाल",
+        "appeal": "अपील",
+        "property": "मालमत्ता",
+        "rent": "भाडे",
+        "tenant": "भाडेकरू",
+        "landlord": "मालक"
+      }
+    },
+    "tamil": {
+      "code": "ta",
+      "whisper_code": "ta",
+      "name": "Tamil",
+      "dialects": {
+        "standard": {"name": "Standard Tamil", "regions": ["Chennai", "Tamil Nadu"]},
+        "madurai": {"name": "Madurai Tamil", "regions": ["Madurai", "Southern Tamil Nadu"]},
+        "coimbatore": {"name": "Coimbatore Tamil", "regions": ["Coimbatore", "Western Tamil Nadu"]}
+      },
+      "tts_voice": "ta-IN-Standard-A",
+      "legal_terms": {
+        "FIR": "முதல் தகவல் அறிக்கை",
+        "bail": "ஜாமீன்",
+        "court": "நீதிமன்றம்",
+        "judge": "நீதிபதி",
+        "lawyer": "வழக்கறிஞர்",
+        "witness": "சாட்சி",
+        "evidence": "சான்று",
+        "arrest": "கைது",
+        "complaint": "புகார்",
+        "petition": "மனு",
+        "verdict": "தீர்ப்பு",
+        "appeal": "மேல்முறையீடு",
+        "property": "சொத்து",
+        "rent": "வாடகை",
+        "tenant": "குத்தகைதாரர்",
+        "landlord": "வீட்டு உரிமையாளர்"
+      }
+    },
+    "telugu": {
+      "code": "te",
+      "whisper_code": "te",
+      "name": "Telugu",
+      "dialects": {
+        "standard": {"name": "Standard Telugu", "regions": ["Hyderabad", "Vijayawada"]},
+        "coastal": {"name": "Coastal Telugu", "regions": ["Visakhapatnam", "Coastal AP"]},
+        "rayalaseema": {"name": "Rayalaseema Telugu", "regions": ["Kurnool", "Kadapa"]}
+      },
+      "tts_voice": "te-IN-Standard-A",
+      "legal_terms": {
+        "FIR": "ప్రథమ సమాచార నివేదిక",
+        "bail": "బెయిల్",
+        "court": "న్యాయస్థానం",
+        "judge": "న్యాయమూర్తి",
+        "lawyer": "న్యాయవాది",
+        "witness": "సాక్షి",
+        "evidence": "సాక్ష్యం",
+        "arrest": "అరెస్టు",
+        "complaint": "ఫిర్యాదు",
+        "petition": "పిటిషన్",
+        "verdict": "తీర్పు",
+        "appeal": "అప్పీలు",
+        "property": "ఆస్తి",
+        "rent": "అద్దె",
+        "tenant": "అద్దెదారుడు",
+        "landlord": "ఇంటి యజమాని"
+      }
+    },
+    "english": {
+      "code": "en",
+      "whisper_code": "en",
+      "name": "English",
+      "dialects": {
+        "standard": {"name": "Indian English", "regions": ["All India"]}
+      },
+      "tts_voice": "en-IN-Standard-A",
+      "legal_terms": {
+        "FIR": "First Information Report",
+        "bail": "bail",
+        "court": "court",
+        "judge": "judge",
+        "lawyer": "lawyer/advocate",
+        "witness": "witness",
+        "evidence": "evidence",
+        "arrest": "arrest",
+        "complaint": "complaint",
+        "petition": "petition",
+        "verdict": "verdict/judgment",
+        "appeal": "appeal",
+        "property": "property",
+        "rent": "rent",
+        "tenant": "tenant",
+        "landlord": "landlord"
+      }
+    },
+    "gujarati": {
+      "code": "gu",
+      "whisper_code": "gu",
+      "name": "Gujarati",
+      "dialects": {
+        "standard": {"name": "Standard Gujarati", "regions": ["Ahmedabad", "Gandhinagar"]},
+        "saurashtra": {"name": "Saurashtra Gujarati", "regions": ["Rajkot", "Jamnagar", "Bhavnagar"]},
+        "kutchi": {"name": "Kutchi Gujarati", "regions": ["Kutch"]}
+      },
+      "tts_voice": "gu-IN-Standard-A",
+      "legal_terms": {
+        "FIR": "પ્રથમ માહિતી અહેવાલ",
+        "bail": "જામીન",
+        "court": "અદાલત",
+        "judge": "ન્યાયાધીશ",
+        "lawyer": "વકીલ",
+        "arrest": "ધરપકડ",
+        "complaint": "ફરિયાદ",
+        "property": "મિલકત",
+        "rent": "ભાડું",
+        "tenant": "ભાડૂત",
+        "landlord": "મકાનમાલિક"
+      }
+    },
+    "bengali": {
+      "code": "bn",
+      "whisper_code": "bn",
+      "name": "Bengali",
+      "dialects": {
+        "standard": {"name": "Standard Bengali (West Bengal)", "regions": ["Kolkata", "West Bengal"]},
+        "dhaka": {"name": "Dhaka Bengali", "regions": ["Bangladesh origin speakers in India"]}
+      },
+      "tts_voice": "bn-IN-Standard-A",
+      "legal_terms": {
+        "FIR": "প্রথম তথ্য প্রতিবেদন",
+        "bail": "জামিন",
+        "court": "আদালত",
+        "judge": "বিচারক",
+        "lawyer": "আইনজীবী",
+        "arrest": "গ্রেপ্তার",
+        "complaint": "অভিযোগ",
+        "property": "সম্পত্তি",
+        "rent": "ভাড়া",
+        "tenant": "ভাড়াটে",
+        "landlord": "বাড়িওয়ালা"
+      }
+    },
+    "punjabi": {
+      "code": "pa",
+      "whisper_code": "pa",
+      "name": "Punjabi",
+      "dialects": {
+        "standard": {"name": "Standard Punjabi", "regions": ["Punjab", "Chandigarh"]},
+        "malwi": {"name": "Malwi", "regions": ["Ludhiana", "Patiala"]},
+        "doabi": {"name": "Doabi", "regions": ["Jalandhar", "Hoshiarpur"]}
+      },
+      "tts_voice": "pa-IN-Standard-A",
+      "legal_terms": {
+        "FIR": "ਪਹਿਲੀ ਜਾਣਕਾਰੀ ਰਿਪੋਰਟ",
+        "bail": "ਜ਼ਮਾਨਤ",
+        "court": "ਅਦਾਲਤ",
+        "judge": "ਜੱਜ",
+        "lawyer": "ਵਕੀਲ",
+        "arrest": "ਗ੍ਰਿਫਤਾਰੀ",
+        "complaint": "ਸ਼ਿਕਾਇਤ",
+        "property": "ਜਾਇਦਾਦ",
+        "rent": "ਕਿਰਾਇਆ",
+        "tenant": "ਕਿਰਾਏਦਾਰ",
+        "landlord": "ਮਕਾਨ ਮਾਲਕ"
+      }
+    },
+    "malayalam": {
+      "code": "ml",
+      "whisper_code": "ml",
+      "name": "Malayalam",
+      "dialects": {
+        "standard": {"name": "Standard Malayalam", "regions": ["Thiruvananthapuram", "Kochi", "Kerala"]}
+      },
+      "tts_voice": "ml-IN-Standard-A",
+      "legal_terms": {
+        "FIR": "ആദ്യ വിവര റിപ്പോർട്ട്",
+        "bail": "ജാമ്യം",
+        "court": "കോടതി",
+        "judge": "ന്യായാധിപൻ",
+        "lawyer": "അഭിഭാഷകൻ",
+        "arrest": "അറസ്റ്റ്",
+        "complaint": "പരാതി",
+        "property": "സ്വത്ത്",
+        "rent": "വാടക",
+        "tenant": "വാടകക്കാരൻ",
+        "landlord": "വീടുടമ"
+      }
+    }
+  }
+}
