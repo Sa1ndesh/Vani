@@ -1,0 +1,11 @@
+.git
+.azure
+**/.env
+**/.venv
+**/venv
+**/__pycache__
+**/*.pyc
+**/*.pyo
+**/*.log
+**/node_modules
+**/.DS_Store
