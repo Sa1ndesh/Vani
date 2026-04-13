@@ -1,56 +1,1094 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hi" data-theme="light">
+<!--
+  Vani-Kanoon – Voice-based Multilingual Legal Assistant
+  A comprehensive, accessible, self-contained interface.
+-->
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Legal Assistant</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="description" content="Vani-Kanoon: Voice-based multilingual legal assistant for Indian laws">
+    <meta name="theme-color" content="#4f46e5">
+    <title>Vani-Kanoon ⚖️ – Legal Assistant</title>
+
+    <!-- Preconnect for fonts (gracefully degrades offline) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet" media="print" onload="this.media='all'">
+
+    <!-- App CSS -->
+    <link rel="stylesheet" href="css/legal-assistant.css">
+
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            padding: 20px;
-            background-color: #f4f4f4;
-        }
-        #assistant {
-            border: 1px solid #ccc;
-            padding: 10px;
-            background: #fff;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        button {
-            padding: 10px 15px;
-            margin-top: 10px;
-            cursor: pointer;
-        }
+      /* Inline critical styles so the page renders correctly even before CSS loads */
+      html { box-sizing: border-box; }
+      *, *::before, *::after { box-sizing: inherit; }
+      body { margin: 0; font-family: Inter, system-ui, sans-serif; }
+
+      /* Message-bubble error variant */
+      .message-bubble--error {
+        background: var(--color-error-light, #fee2e2) !important;
+        color: var(--color-error, #ef4444) !important;
+        border-color: var(--color-error, #ef4444) !important;
+      }
+
+      /* Citation card keyboard focus */
+      .citation-card:focus {
+        outline: 2px solid var(--color-primary, #4f46e5);
+        outline-offset: 2px;
+      }
+
+      /* Highlighted search terms */
+      mark.highlight {
+        background: rgba(6,182,212,.25);
+        color: inherit;
+        border-radius: 2px;
+        padding: 0 1px;
+      }
+
+      /* Aside citations panel (desktop) */
+      .citations-aside {
+        display: none;
+        flex-direction: column;
+        gap: 10px;
+        padding: 16px;
+        overflow-y: auto;
+        border-left: 1px solid var(--border-color, rgba(79,70,229,.14));
+        background: var(--bg-surface-2, #f8faff);
+      }
+      @media (min-width: 1024px) {
+        .citations-aside { display: flex; }
+      }
+
+      /* Volume bars (dynamic heights set by JS) */
+      .volume-bar { height: 3px; }
     </style>
 </head>
-<body>
-    <h1>Voice-based Legal Assistant</h1>
-    <div id="assistant">
-        <p id="response">Ask me anything about legal matters!</p>
-        <button onclick="startVoiceInput()">Speak</button>
-    </div>
-    <script>
-        function startVoiceInput() {
-            const recognition = new (window.SpeechRecognition || window.webkitSpeechRecognition)();
-            recognition.onresult = function(event) {
-                const userInput = event.results[0][0].transcript;
-                respondToQuery(userInput);
-            };
-            recognition.start();
-        }
 
-        function respondToQuery(query) {
-            const response = document.getElementById('response');
-            // Here you can define simple predefined responses for demonstration
-            if (query.includes('contract')) {
-                response.innerText = 'I can help you with contract law! What do you need?';
-            } else if (query.includes('divorce')) {
-                response.innerText = 'Divorce proceedings can be complicated. What information are you looking for?';
-            } else {
-                response.innerText = 'Sorry, I am still learning. Please ask something else!';
-            }
+<body>
+<div class="legal-app" id="legal-app" role="application" aria-label="Vani-Kanoon Legal Assistant">
+
+  <!-- ══════════════════════════════════════════════════════════
+       HEADER
+       ══════════════════════════════════════════════════════════ -->
+  <header class="header" role="banner">
+    <a class="header__brand" href="#chat-messages" aria-label="Vani-Kanoon home">
+      <span class="header__logo" aria-hidden="true">⚖️</span>
+      <div>
+        <div class="header__title">Vani-Kanoon</div>
+        <div class="header__subtitle">Voice Legal Assistant</div>
+      </div>
+    </a>
+
+    <div class="header__actions" role="toolbar" aria-label="Header controls">
+      <!-- Connection status -->
+      <div class="connection-badge" id="connection-badge" aria-live="polite" aria-atomic="true">
+        <div class="connection-badge__dot" aria-hidden="true"></div>
+        <span id="connection-label">Online</span>
+      </div>
+
+      <!-- Theme toggle -->
+      <button class="icon-btn"
+              id="theme-toggle"
+              aria-label="Toggle dark/light theme"
+              aria-pressed="false"
+              title="Toggle dark mode">
+        🌙
+      </button>
+
+      <!-- Export -->
+      <button class="icon-btn"
+              id="export-btn"
+              aria-label="Export conversation"
+              title="Export conversation">
+        📥
+      </button>
+
+      <!-- Clear chat -->
+      <button class="icon-btn"
+              id="clear-btn"
+              aria-label="Clear conversation"
+              title="Clear chat">
+        🗑️
+      </button>
+
+      <!-- Settings -->
+      <button class="icon-btn"
+              id="settings-toggle"
+              aria-label="Open settings"
+              aria-expanded="false"
+              aria-controls="settings-panel"
+              title="Settings">
+        ⚙️
+      </button>
+    </div>
+  </header>
+
+  <!-- ══════════════════════════════════════════════════════════
+       MAIN LAYOUT
+       ══════════════════════════════════════════════════════════ -->
+  <div class="main-layout" id="main-layout" role="main">
+
+    <!-- ── Language & State Panel ─────────────────────────────── -->
+    <section class="language-panel"
+             aria-label="Language and location settings"
+             role="region">
+      <div class="language-panel__group" role="group" aria-label="Select language">
+        <label class="language-panel__label" for="language-select">🌐 Language</label>
+        <nav class="lang-pills" role="list" aria-label="Available languages" id="lang-pills"></nav>
+      </div>
+
+      <div class="language-panel__group" role="group" aria-label="Select state">
+        <label class="language-panel__label" for="state-select">📍 State</label>
+        <select class="select-input"
+                id="state-select"
+                aria-label="Select Indian state for local laws">
+          <option value="">All India</option>
+          <!-- States injected by JS -->
+        </select>
+      </div>
+    </section>
+
+    <!-- ── Chat Container ─────────────────────────────────────── -->
+    <section class="chat-container"
+             id="chat-messages"
+             role="log"
+             aria-label="Conversation history"
+             aria-live="polite"
+             aria-relevant="additions">
+      <!-- Empty state rendered by JS on first load -->
+    </section>
+
+    <!-- ── Citations Aside (desktop) ─────────────────────────── -->
+    <aside class="citations-aside"
+           id="citations-panel"
+           role="complementary"
+           aria-label="Legal citations">
+      <div class="citations-title" id="citations-aside-title">
+        <span aria-hidden="true">📚</span> References
+      </div>
+      <p style="font-size:.8rem;color:var(--text-muted);margin-top:8px;">
+        Legal references from your conversation will appear here.
+      </p>
+    </aside>
+
+    <!-- ── Voice Panel ────────────────────────────────────────── -->
+    <section class="voice-panel"
+             role="region"
+             aria-label="Voice recording controls">
+      <div class="voice-panel__top">
+        <!-- Record button -->
+        <button class="record-btn"
+                id="record-btn"
+                aria-label="Start voice recording"
+                aria-pressed="false"
+                title="Hold to record">
+          <span id="record-icon" aria-hidden="true">🎤</span>
+        </button>
+
+        <!-- Waveform canvas -->
+        <div class="audio-visualizer idle"
+             id="visualizer-wrapper"
+             aria-hidden="true">
+          <canvas id="audio-canvas"></canvas>
+          <div class="audio-visualizer__label">Tap 🎤 to speak</div>
+        </div>
+      </div>
+
+      <div class="voice-panel__controls">
+        <!-- Status label -->
+        <div class="voice-status" id="voice-status" role="status" aria-live="polite" aria-atomic="true">
+          <span class="voice-status__icon" aria-hidden="true">💬</span>
+          <span id="voice-status-text">Ready – speak or type your question</span>
+        </div>
+
+        <!-- Volume meter -->
+        <div class="volume-meter" id="volume-meter" aria-hidden="true">
+          <div class="volume-bar" id="vol-1"></div>
+          <div class="volume-bar" id="vol-2"></div>
+          <div class="volume-bar" id="vol-3"></div>
+          <div class="volume-bar" id="vol-4"></div>
+          <div class="volume-bar" id="vol-5"></div>
+        </div>
+
+        <!-- TTS toggle -->
+        <button class="icon-btn"
+                id="tts-toggle"
+                aria-label="Toggle text-to-speech responses"
+                aria-pressed="true"
+                title="Text-to-speech">
+          🔊
+        </button>
+      </div>
+    </section>
+
+    <!-- ── Text Input Bar ─────────────────────────────────────── -->
+    <div class="input-bar" role="form" aria-label="Message input">
+      <label class="sr-only" for="text-input">Type your legal question</label>
+      <textarea class="input-bar__textarea"
+                id="text-input"
+                rows="1"
+                placeholder="Type your legal question in any language…"
+                aria-label="Legal question input"
+                aria-multiline="true"
+                autocomplete="off"
+                spellcheck="false"
+                maxlength="2000"></textarea>
+      <button class="send-btn"
+              id="send-btn"
+              aria-label="Send message"
+              title="Send (Enter)"
+              disabled>
+        <span aria-hidden="true">➤</span>
+      </button>
+    </div>
+
+  </div><!-- /.main-layout -->
+
+  <!-- ══════════════════════════════════════════════════════════
+       SETTINGS PANEL (sidebar)
+       ══════════════════════════════════════════════════════════ -->
+  <aside class="settings-panel"
+         id="settings-panel"
+         role="complementary"
+         aria-label="Settings"
+         aria-hidden="true">
+
+    <div class="settings-panel__header">
+      <h2 class="settings-panel__title">⚙️ Settings</h2>
+      <button class="icon-btn"
+              id="settings-close"
+              aria-label="Close settings">✕</button>
+    </div>
+
+    <div class="settings-panel__body">
+
+      <!-- Appearance -->
+      <section aria-labelledby="settings-appearance">
+        <div class="settings-section__title" id="settings-appearance">Appearance</div>
+
+        <div class="settings-row">
+          <div>
+            <div class="settings-row__label">Dark Mode</div>
+            <div class="settings-row__sub">Switch between light and dark theme</div>
+          </div>
+          <button class="toggle"
+                  id="dark-mode-toggle"
+                  role="switch"
+                  aria-checked="false"
+                  aria-label="Toggle dark mode"></button>
+        </div>
+
+        <div class="settings-row">
+          <div>
+            <div class="settings-row__label">Font Size</div>
+            <div class="settings-row__sub">Adjust chat text size</div>
+          </div>
+          <select class="select-input" id="font-size-select" aria-label="Font size" style="width:90px">
+            <option value="small">Small</option>
+            <option value="medium" selected>Medium</option>
+            <option value="large">Large</option>
+          </select>
+        </div>
+      </section>
+
+      <!-- Voice / Audio -->
+      <section aria-labelledby="settings-voice">
+        <div class="settings-section__title" id="settings-voice">Voice & Audio</div>
+
+        <div class="settings-row">
+          <div>
+            <div class="settings-row__label">Auto-play TTS</div>
+            <div class="settings-row__sub">Read responses aloud automatically</div>
+          </div>
+          <button class="toggle"
+                  id="autoplay-toggle"
+                  role="switch"
+                  aria-checked="true"
+                  aria-label="Auto-play text-to-speech"></button>
+        </div>
+
+        <div class="settings-row">
+          <div>
+            <div class="settings-row__label">TTS Speed</div>
+            <div class="settings-row__sub" id="tts-speed-label">1.0×</div>
+          </div>
+          <input class="range-input"
+                 type="range"
+                 id="tts-speed"
+                 min="0.5"
+                 max="2.0"
+                 step="0.1"
+                 value="1.0"
+                 aria-label="TTS speed"
+                 aria-valuemin="0.5"
+                 aria-valuemax="2.0"
+                 aria-valuenow="1.0"
+                 style="width:100px">
+        </div>
+
+        <div class="settings-row">
+          <div>
+            <div class="settings-row__label">STT Fallback</div>
+            <div class="settings-row__sub">Use browser speech recognition when backend is unavailable</div>
+          </div>
+          <button class="toggle"
+                  id="stt-fallback-toggle"
+                  role="switch"
+                  aria-checked="true"
+                  aria-label="Browser STT fallback"></button>
+        </div>
+      </section>
+
+      <!-- Language -->
+      <section aria-labelledby="settings-lang">
+        <div class="settings-section__title" id="settings-lang">Language</div>
+
+        <div class="settings-row">
+          <div>
+            <div class="settings-row__label">Interface Language</div>
+          </div>
+          <select class="select-input"
+                  id="settings-lang-select"
+                  aria-label="Interface language"
+                  style="width:120px"></select>
+        </div>
+      </section>
+
+      <!-- Backend -->
+      <section aria-labelledby="settings-backend">
+        <div class="settings-section__title" id="settings-backend">Backend</div>
+
+        <div class="settings-row">
+          <div>
+            <div class="settings-row__label">API URL</div>
+            <div class="settings-row__sub">Server endpoint</div>
+          </div>
+        </div>
+        <input type="url"
+               class="input-bar__textarea"
+               id="api-url-input"
+               value="http://localhost:8000"
+               aria-label="API base URL"
+               style="width:100%;margin-top:4px;resize:none;min-height:36px;font-size:.82rem;">
+
+        <div class="settings-row" style="margin-top:12px">
+          <button class="icon-btn"
+                  id="test-connection-btn"
+                  aria-label="Test server connection"
+                  style="width:auto;padding:6px 14px;font-size:.8rem;gap:4px;border:1.5px solid var(--border-color);border-radius:var(--radius-md)">
+            🔌 Test Connection
+          </button>
+        </div>
+      </section>
+
+      <!-- About -->
+      <section aria-labelledby="settings-about" style="margin-top:auto">
+        <div class="settings-section__title" id="settings-about">About</div>
+        <p style="font-size:.78rem;color:var(--text-muted);line-height:1.7">
+          <strong>Vani-Kanoon v1.0</strong><br>
+          Voice-based multilingual legal assistant for Indian laws.<br><br>
+          Supports: Hindi, Kannada, Marathi, Tamil, Telugu, English.<br><br>
+          Built for accessibility and offline-first use.
+        </p>
+      </section>
+
+    </div>
+  </aside>
+
+  <!-- ══════════════════════════════════════════════════════════
+       FOOTER DISCLAIMER
+       ══════════════════════════════════════════════════════════ -->
+  <footer class="disclaimer-bar" role="contentinfo" aria-label="Legal disclaimer">
+    ⚠️ <strong>Disclaimer:</strong> Vani-Kanoon provides general legal information only and is
+    <strong>not a substitute for professional legal advice</strong>.
+    For legal emergencies contact <a href="tel:112">112</a> or a qualified advocate.
+  </footer>
+
+  <!-- ══════════════════════════════════════════════════════════
+       LOADING OVERLAY
+       ══════════════════════════════════════════════════════════ -->
+  <div class="loading-overlay" id="loading-overlay" aria-hidden="true" role="status">
+    <div class="loading-overlay__card">
+      <div class="loading-overlay__spinner" aria-hidden="true"></div>
+      <div class="loading-overlay__text" id="loading-text">Processing…</div>
+    </div>
+  </div>
+
+  <!-- Toast container (populated by ErrorHandler) -->
+  <div id="toast-container"
+       class="toast-container"
+       role="region"
+       aria-label="Notifications"
+       aria-live="polite"></div>
+
+</div><!-- /#legal-app -->
+
+<!-- ═══════════════════════════════════════════════════════════════
+     SCRIPTS – load in dependency order
+     ═══════════════════════════════════════════════════════════════ -->
+<script src="js/utils.js"></script>
+<script src="js/audio-visualizer.js"></script>
+<script src="js/voice-handler.js"></script>
+<script src="js/legal-query.js"></script>
+
+<script>
+/* ================================================================
+   APPLICATION BOOTSTRAP – Vani-Kanoon Legal Assistant
+   ================================================================ */
+(function () {
+  'use strict';
+
+  /* ── Constants ──────────────────────────────────────────────── */
+  const QUICK_ACTIONS = [
+    { icon: '📋', label: 'Know Your Rights',    query: 'What are my fundamental rights as an Indian citizen?' },
+    { icon: '🚔', label: 'FIR Process',         query: 'How do I file an FIR? What is the process?' },
+    { icon: '🏛️', label: 'Find Legal Aid',      query: 'How can I get free legal aid in India?' },
+    { icon: '⚖️', label: 'Common IPC Sections', query: 'What are the most commonly used IPC sections I should know about?' },
+    { icon: '👶', label: 'Child Rights',         query: 'What are the rights of a child under Indian law?' },
+    { icon: '👩', label: 'Women\'s Rights',      query: 'What are the key laws protecting women in India?' },
+    { icon: '🏠', label: 'Tenant Rights',        query: 'What are the rights of a tenant in India?' },
+    { icon: '💼', label: 'Labour Laws',          query: 'What are the basic labour rights of an employee in India?' },
+  ];
+
+  /* ── App State ──────────────────────────────────────────────── */
+  const state = {
+    theme:         Storage.get(STORAGE_KEYS.THEME, 'light'),
+    language:      Storage.get(STORAGE_KEYS.LANGUAGE, 'hi'),
+    state:         Storage.get(STORAGE_KEYS.STATE, ''),
+    settings:      Storage.get(STORAGE_KEYS.SETTINGS, {
+      autoplayTTS:   true,
+      ttsSpeed:      1.0,
+      sttFallback:   true,
+      fontSize:      'medium',
+    }),
+    ttsEnabled:    true,
+  };
+
+  /* ── Module instances ───────────────────────────────────────── */
+  let visualizer   = null;
+  let voiceHandler = null;
+  let queryManager = null;
+
+  /* ── DOM refs ───────────────────────────────────────────────── */
+  const $ = id => document.getElementById(id);
+
+  const els = {
+    app:              $('legal-app'),
+    themeToggle:      $('theme-toggle'),
+    darkModeToggle:   $('dark-mode-toggle'),
+    exportBtn:        $('export-btn'),
+    clearBtn:         $('clear-btn'),
+    settingsToggle:   $('settings-toggle'),
+    settingsPanel:    $('settings-panel'),
+    settingsClose:    $('settings-close'),
+    langPills:        $('lang-pills'),
+    stateSelect:      $('state-select'),
+    chatMessages:     $('chat-messages'),
+    citationsPanel:   $('citations-panel'),
+    recordBtn:        $('record-btn'),
+    recordIcon:       $('record-icon'),
+    visualizerWrapper:$('visualizer-wrapper'),
+    audioCanvas:      $('audio-canvas'),
+    voiceStatus:      $('voice-status'),
+    voiceStatusText:  $('voice-status-text'),
+    textInput:        $('text-input'),
+    sendBtn:          $('send-btn'),
+    ttsToggle:        $('tts-toggle'),
+    connectionBadge:  $('connection-badge'),
+    connectionLabel:  $('connection-label'),
+    loadingOverlay:   $('loading-overlay'),
+    loadingText:      $('loading-text'),
+    autoplayToggle:   $('autoplay-toggle'),
+    ttsSpeed:         $('tts-speed'),
+    ttsSpeedLabel:    $('tts-speed-label'),
+    sttFallback:      $('stt-fallback-toggle'),
+    apiUrlInput:      $('api-url-input'),
+    testConnBtn:      $('test-connection-btn'),
+    fontSizeSelect:   $('font-size-select'),
+    settingsLangSel:  $('settings-lang-select'),
+  };
+
+  /* ── Initialise ─────────────────────────────────────────────── */
+  function init() {
+    applyTheme(state.theme);
+    populateLanguagePills();
+    populateStateSelect();
+    populateSettingsLang();
+    initModules();
+    bindEvents();
+    restoreSettings();
+    renderInitialState();
+    checkConnection();
+    setInterval(checkConnection, 30000);
+  }
+
+  /* ── Theme ──────────────────────────────────────────────────── */
+  function applyTheme(theme) {
+    document.documentElement.setAttribute('data-theme', theme);
+    state.theme = theme;
+    Storage.set(STORAGE_KEYS.THEME, theme);
+
+    const isDark = theme === 'dark';
+    if (els.themeToggle) {
+      els.themeToggle.textContent = isDark ? '☀️' : '🌙';
+      els.themeToggle.setAttribute('aria-pressed', isDark ? 'true' : 'false');
+      els.themeToggle.title = isDark ? 'Switch to light mode' : 'Switch to dark mode';
+    }
+    if (els.darkModeToggle) {
+      els.darkModeToggle.setAttribute('aria-checked', isDark ? 'true' : 'false');
+    }
+    if (visualizer) visualizer.setTheme(theme);
+  }
+
+  function toggleTheme() {
+    applyTheme(state.theme === 'dark' ? 'light' : 'dark');
+  }
+
+  /* ── Language pills ─────────────────────────────────────────── */
+  function populateLanguagePills() {
+    if (!els.langPills) return;
+    els.langPills.innerHTML = '';
+
+    Object.entries(SUPPORTED_LANGUAGES).forEach(([code, info]) => {
+      const btn = document.createElement('button');
+      btn.className = `lang-pill${code === state.language ? ' active' : ''}`;
+      btn.dataset.lang = code;
+      btn.textContent = info.native || info.name;
+      btn.setAttribute('role', 'listitem');
+      btn.setAttribute('aria-label', `${info.name} (${info.native || info.name})`);
+      btn.setAttribute('aria-pressed', code === state.language ? 'true' : 'false');
+      btn.addEventListener('click', () => selectLanguage(code));
+      els.langPills.appendChild(btn);
+    });
+  }
+
+  function selectLanguage(code) {
+    state.language = code;
+    Storage.set(STORAGE_KEYS.LANGUAGE, code);
+
+    document.documentElement.setAttribute('lang', getBCP47(code).split('-')[0]);
+
+    // Update pills
+    qsAll('.lang-pill').forEach(p => {
+      const active = p.dataset.lang === code;
+      p.classList.toggle('active', active);
+      p.setAttribute('aria-pressed', active ? 'true' : 'false');
+    });
+
+    // Sync settings dropdown
+    if (els.settingsLangSel) els.settingsLangSel.value = code;
+
+    // Update managers
+    if (voiceHandler)  voiceHandler.setLanguage(code);
+    if (queryManager)  queryManager.setLanguage(code);
+
+    ErrorHandler.display(`Language set to ${SUPPORTED_LANGUAGES[code]?.name || code}`, 'success', 2000);
+  }
+
+  /* ── State select ───────────────────────────────────────────── */
+  function populateStateSelect() {
+    if (!els.stateSelect) return;
+    INDIAN_STATES.forEach(s => {
+      const opt = document.createElement('option');
+      opt.value = s;
+      opt.textContent = s;
+      if (s === state.state) opt.selected = true;
+      els.stateSelect.appendChild(opt);
+    });
+  }
+
+  /* ── Settings language dropdown ─────────────────────────────── */
+  function populateSettingsLang() {
+    if (!els.settingsLangSel) return;
+    Object.entries(SUPPORTED_LANGUAGES).forEach(([code, info]) => {
+      const opt = document.createElement('option');
+      opt.value = code;
+      opt.textContent = `${info.name} (${info.native || info.name})`;
+      if (code === state.language) opt.selected = true;
+      els.settingsLangSel.appendChild(opt);
+    });
+  }
+
+  /* ── Initialise JS modules ──────────────────────────────────── */
+  function initModules() {
+    // Visualizer
+    if (typeof AudioVisualizer !== 'undefined' && els.audioCanvas) {
+      visualizer = new AudioVisualizer('audio-canvas', {
+        mode:        'idle',
+        barColor:    '#4f46e5',
+        barColorAlt: '#06b6d4',
+        barCount:    48,
+      });
+      visualizer.setTheme(state.theme);
+      visualizer.start();
+    }
+
+    // Voice handler
+    if (typeof VoiceHandler !== 'undefined') {
+      voiceHandler = new VoiceHandler(visualizer);
+      voiceHandler.setLanguage(state.language);
+
+      voiceHandler.on('start', () => {
+        setVoiceStatus('recording', '🔴 Recording… tap again to stop');
+        if (els.recordBtn) {
+          els.recordBtn.classList.add('recording');
+          els.recordBtn.setAttribute('aria-pressed', 'true');
+          els.recordBtn.setAttribute('aria-label', 'Stop recording');
+          els.recordIcon.textContent = '⏹️';
         }
-    </script>
+        if (els.visualizerWrapper) els.visualizerWrapper.classList.remove('idle');
+      });
+
+      voiceHandler.on('stop', () => {
+        setVoiceStatus('processing', '⏳ Processing speech…');
+        if (els.recordBtn) {
+          els.recordBtn.classList.remove('recording');
+          els.recordBtn.classList.add('processing');
+          els.recordBtn.setAttribute('aria-label', 'Processing…');
+          els.recordIcon.textContent = '⏳';
+        }
+      });
+
+      voiceHandler.on('error', data => {
+        resetVoiceUI();
+        ErrorHandler.display(data.message || 'Voice error', 'error');
+      });
+
+      voiceHandler.on('playstart', () => setVoiceStatus('speaking', '🔊 Speaking…'));
+      voiceHandler.on('playend',   () => resetVoiceUI());
+
+      voiceHandler.on('audiolevel', ({ level }) => updateVolumeMeter(level));
+    }
+
+    // Query manager
+    if (typeof LegalQueryManager !== 'undefined') {
+      queryManager = new LegalQueryManager({
+        chatContainerId:      'chat-messages',
+        citationsContainerId: 'citations-panel',
+      });
+      queryManager.setLanguage(state.language);
+      if (state.state) queryManager.setState(state.state);
+
+      // Restore persisted messages to DOM
+      if (queryManager.conversationHistory.length > 0) {
+        queryManager.conversationHistory.forEach(msg => {
+          queryManager.displayMessage(msg.content, msg.role, msg.citations || [], msg.language);
+        });
+        // Remove the duplicated history entries (displayMessage adds them again)
+        queryManager.conversationHistory = queryManager.conversationHistory.slice(
+          0, queryManager.conversationHistory.length / 2
+        );
+      } else {
+        renderInitialState();
+      }
+    }
+  }
+
+  /* ── Bind events ────────────────────────────────────────────── */
+  function bindEvents() {
+    // Theme
+    if (els.themeToggle)    els.themeToggle.addEventListener('click', toggleTheme);
+    if (els.darkModeToggle) els.darkModeToggle.addEventListener('click', () => {
+      toggleTheme();
+      const isDark = state.theme === 'dark';
+      els.darkModeToggle.setAttribute('aria-checked', isDark ? 'true' : 'false');
+    });
+
+    // Settings panel
+    if (els.settingsToggle) {
+      els.settingsToggle.addEventListener('click', () => toggleSettings(true));
+    }
+    if (els.settingsClose) {
+      els.settingsClose.addEventListener('click', () => toggleSettings(false));
+    }
+
+    // Export / Clear
+    if (els.exportBtn) els.exportBtn.addEventListener('click', () => queryManager?.exportHistory());
+    if (els.clearBtn)  els.clearBtn.addEventListener('click', confirmClear);
+
+    // State select
+    if (els.stateSelect) {
+      els.stateSelect.addEventListener('change', e => {
+        state.state = e.target.value;
+        Storage.set(STORAGE_KEYS.STATE, state.state);
+        if (queryManager) queryManager.setState(state.state);
+      });
+    }
+
+    // Text input
+    if (els.textInput) {
+      els.textInput.addEventListener('input', onTextInputChange);
+      els.textInput.addEventListener('keydown', e => {
+        if (e.key === 'Enter' && !e.shiftKey) {
+          e.preventDefault();
+          sendTextQuery();
+        }
+      });
+    }
+
+    // Send button
+    if (els.sendBtn) els.sendBtn.addEventListener('click', sendTextQuery);
+
+    // Record button
+    if (els.recordBtn) els.recordBtn.addEventListener('click', toggleRecording);
+
+    // TTS toggle
+    if (els.ttsToggle) {
+      els.ttsToggle.addEventListener('click', () => {
+        state.ttsEnabled = !state.ttsEnabled;
+        els.ttsToggle.setAttribute('aria-pressed', state.ttsEnabled ? 'true' : 'false');
+        els.ttsToggle.textContent = state.ttsEnabled ? '🔊' : '🔇';
+        ErrorHandler.display(`Text-to-speech ${state.ttsEnabled ? 'enabled' : 'disabled'}`, 'info', 2000);
+      });
+    }
+
+    // Settings controls
+    if (els.autoplayToggle) {
+      els.autoplayToggle.addEventListener('click', () => {
+        const current = els.autoplayToggle.getAttribute('aria-checked') === 'true';
+        els.autoplayToggle.setAttribute('aria-checked', (!current).toString());
+        state.settings.autoplayTTS = !current;
+        saveSettings();
+      });
+    }
+
+    if (els.ttsSpeed) {
+      els.ttsSpeed.addEventListener('input', e => {
+        const val = parseFloat(e.target.value);
+        if (els.ttsSpeedLabel) els.ttsSpeedLabel.textContent = `${val.toFixed(1)}×`;
+        state.settings.ttsSpeed = val;
+        saveSettings();
+      });
+    }
+
+    if (els.sttFallback) {
+      els.sttFallback.addEventListener('click', () => {
+        const current = els.sttFallback.getAttribute('aria-checked') === 'true';
+        els.sttFallback.setAttribute('aria-checked', (!current).toString());
+        state.settings.sttFallback = !current;
+        saveSettings();
+      });
+    }
+
+    if (els.apiUrlInput) {
+      els.apiUrlInput.addEventListener('change', e => {
+        if (typeof API !== 'undefined') API.BASE_URL = e.target.value.trim();
+      });
+    }
+
+    if (els.testConnBtn) els.testConnBtn.addEventListener('click', checkConnection);
+
+    if (els.fontSizeSelect) {
+      els.fontSizeSelect.addEventListener('change', e => {
+        applyFontSize(e.target.value);
+        state.settings.fontSize = e.target.value;
+        saveSettings();
+      });
+    }
+
+    if (els.settingsLangSel) {
+      els.settingsLangSel.addEventListener('change', e => selectLanguage(e.target.value));
+    }
+
+    // Citation card clicks (delegated)
+    if (els.chatMessages) {
+      delegate(els.chatMessages, 'click', '.citation-card', (e, card) => {
+        const url = card.dataset.url;
+        if (url) window.open(url, '_blank', 'noopener,noreferrer');
+        else {
+          const act = card.dataset.act;
+          const sec = card.dataset.section;
+          if (act && sec) queryManager?.getSimplifiedExplanation(sec, act);
+        }
+      });
+      // Keyboard activation of citation cards
+      delegate(els.chatMessages, 'keydown', '.citation-card', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') e.target.click();
+      });
+    }
+
+    // Quick action buttons (delegated – rendered inside empty state)
+    delegate(document.body, 'click', '.quick-action-btn', (e, btn) => {
+      const query = btn.dataset.query;
+      if (query) {
+        if (els.textInput) els.textInput.value = query;
+        sendTextQuery();
+      }
+    });
+
+    // Keyboard shortcut: Ctrl/Cmd+K to focus input
+    document.addEventListener('keydown', e => {
+      if ((e.ctrlKey || e.metaKey) && e.key === 'k') {
+        e.preventDefault();
+        els.textInput?.focus();
+      }
+    });
+
+    // Close settings on Escape
+    document.addEventListener('keydown', e => {
+      if (e.key === 'Escape' && els.settingsPanel?.classList.contains('open')) {
+        toggleSettings(false);
+        els.settingsToggle?.focus();
+      }
+    });
+  }
+
+  /* ── Restore saved settings to UI ───────────────────────────── */
+  function restoreSettings() {
+    const s = state.settings;
+    if (els.autoplayToggle) els.autoplayToggle.setAttribute('aria-checked', s.autoplayTTS ? 'true' : 'false');
+    if (els.ttsSpeed) {
+      els.ttsSpeed.value = s.ttsSpeed;
+      if (els.ttsSpeedLabel) els.ttsSpeedLabel.textContent = `${parseFloat(s.ttsSpeed).toFixed(1)}×`;
+    }
+    if (els.sttFallback) els.sttFallback.setAttribute('aria-checked', s.sttFallback ? 'true' : 'false');
+    if (els.fontSizeSelect) {
+      els.fontSizeSelect.value = s.fontSize || 'medium';
+      applyFontSize(s.fontSize || 'medium');
+    }
+    if (els.apiUrlInput && typeof API !== 'undefined') {
+      els.apiUrlInput.value = API.BASE_URL;
+    }
+  }
+
+  function saveSettings() {
+    Storage.set(STORAGE_KEYS.SETTINGS, state.settings);
+  }
+
+  /* ── Font size ──────────────────────────────────────────────── */
+  function applyFontSize(size) {
+    const map = { small: '14px', medium: '16px', large: '18px' };
+    document.documentElement.style.fontSize = map[size] || '16px';
+  }
+
+  /* ── Initial / empty state ──────────────────────────────────── */
+  function renderInitialState() {
+    const container = els.chatMessages;
+    if (!container || container.children.length > 0) return;
+
+    container.innerHTML = `
+      <div class="chat-empty fade-in" role="status" aria-label="No messages yet">
+        <div class="chat-empty__icon" aria-hidden="true">⚖️</div>
+        <div class="chat-empty__title">Vani-Kanoon Legal Assistant</div>
+        <div class="chat-empty__desc">
+          Ask any legal question in your language — type it below or tap 🎤 to speak.<br>
+          <small style="opacity:.7">Supports Hindi, Kannada, Marathi, Tamil, Telugu &amp; English</small>
+        </div>
+        <div class="quick-actions" role="list" aria-label="Suggested questions">
+          ${QUICK_ACTIONS.map(a => `
+            <button class="quick-action-btn"
+                    role="listitem"
+                    data-query="${escapeHtml(a.query)}"
+                    aria-label="${escapeHtml(a.label)}">
+              <span class="quick-action-btn__icon" aria-hidden="true">${a.icon}</span>
+              <span class="quick-action-btn__text">${escapeHtml(a.label)}</span>
+            </button>
+          `).join('')}
+        </div>
+      </div>
+    `;
+  }
+
+  /* ── Text query ─────────────────────────────────────────────── */
+  function onTextInputChange() {
+    if (!els.textInput || !els.sendBtn) return;
+    const hasText = els.textInput.value.trim().length > 0;
+    els.sendBtn.disabled = !hasText;
+    // Auto-resize textarea
+    els.textInput.style.height = 'auto';
+    els.textInput.style.height = Math.min(els.textInput.scrollHeight, 140) + 'px';
+  }
+
+  async function sendTextQuery() {
+    if (!queryManager) return;
+    const text = els.textInput?.value?.trim();
+    if (!text) return;
+
+    // Clear input
+    if (els.textInput) {
+      els.textInput.value = '';
+      els.textInput.style.height = 'auto';
+    }
+    if (els.sendBtn) els.sendBtn.disabled = true;
+
+    const response = await queryManager.submitQuery(text);
+
+    // TTS if enabled
+    if (response && state.ttsEnabled && state.settings.autoplayTTS && voiceHandler) {
+      const formatted = queryManager.formatLegalResponse(response);
+      if (formatted.answer) {
+        try {
+          const ttsData = await voiceHandler.synthesizeSpeech(formatted.answer, state.language);
+          await voiceHandler.playAudio(ttsData);
+        } catch {
+          // TTS failure is non-critical
+        }
+      }
+    }
+  }
+
+  /* ── Voice recording ────────────────────────────────────────── */
+  async function toggleRecording() {
+    if (!voiceHandler) {
+      // Fallback to browser STT
+      startBrowserSTTFallback();
+      return;
+    }
+
+    if (voiceHandler.isRecording) {
+      // Stop recording
+      try {
+        const blob = await voiceHandler.stopRecording();
+        resetVoiceUI();
+        if (blob && blob.size > 0) {
+          await queryManager?.submitVoiceQuery(blob, voiceHandler);
+        }
+      } catch (err) {
+        resetVoiceUI();
+        ErrorHandler.handle(err, 'stopRecording');
+      }
+    } else {
+      // Start recording
+      try {
+        await voiceHandler.startRecording();
+      } catch (err) {
+        resetVoiceUI();
+        if (err.name === 'NotAllowedError' || err.message.includes('Permission')) {
+          ErrorHandler.display(
+            'Microphone access denied. Please allow microphone in your browser settings.',
+            'error', 8000
+          );
+          // Try browser STT as fallback
+          if (state.settings.sttFallback) startBrowserSTTFallback();
+        } else {
+          ErrorHandler.handle(err, 'startRecording');
+        }
+      }
+    }
+  }
+
+  function startBrowserSTTFallback() {
+    if (!voiceHandler) return;
+    const bcp47 = getBCP47(state.language);
+    setVoiceStatus('recording', '🎤 Listening (browser mode)…');
+    if (els.recordBtn) {
+      els.recordBtn.classList.add('recording');
+      els.recordBtn.setAttribute('aria-pressed', 'true');
+      els.recordIcon.textContent = '⏹️';
+    }
+
+    voiceHandler.startBrowserSTT(
+      bcp47,
+      ({ transcript, isFinal }) => {
+        if (els.textInput) els.textInput.value = transcript;
+        onTextInputChange();
+        if (isFinal) {
+          resetVoiceUI();
+          sendTextQuery();
+        }
+      },
+      (err) => {
+        resetVoiceUI();
+        ErrorHandler.display(err.message, 'warning');
+      }
+    );
+  }
+
+  /* ── Voice UI helpers ───────────────────────────────────────── */
+  function setVoiceStatus(type, text) {
+    if (!els.voiceStatus || !els.voiceStatusText) return;
+    els.voiceStatus.className = `voice-status ${type}`;
+    els.voiceStatusText.textContent = text;
+  }
+
+  function resetVoiceUI() {
+    setVoiceStatus('', 'Ready – speak or type your question');
+    if (els.recordBtn) {
+      els.recordBtn.classList.remove('recording', 'processing');
+      els.recordBtn.setAttribute('aria-pressed', 'false');
+      els.recordBtn.setAttribute('aria-label', 'Start voice recording');
+      els.recordIcon.textContent = '🎤';
+    }
+    if (els.visualizerWrapper) els.visualizerWrapper.classList.add('idle');
+    if (visualizer) { visualizer.setIdle(); visualizer.start(); }
+    updateVolumeMeter(0);
+  }
+
+  function updateVolumeMeter(level) {
+    const bars = ['vol-1','vol-2','vol-3','vol-4','vol-5'];
+    const maxH = 18;
+    bars.forEach((id, i) => {
+      const el = $(id);
+      if (!el) return;
+      const threshold = (i + 1) / bars.length;
+      const h = level > threshold ? maxH * Math.min(1, level * 2) : 3;
+      el.style.height = `${Math.round(h)}px`;
+      el.style.opacity = level > threshold ? '1' : '0.3';
+    });
+  }
+
+  /* ── Settings panel ─────────────────────────────────────────── */
+  function toggleSettings(open) {
+    if (!els.settingsPanel) return;
+    const isOpen = open !== undefined ? open : !els.settingsPanel.classList.contains('open');
+    els.settingsPanel.classList.toggle('open', isOpen);
+    els.settingsPanel.setAttribute('aria-hidden', (!isOpen).toString());
+    if (els.settingsToggle) {
+      els.settingsToggle.setAttribute('aria-expanded', isOpen.toString());
+    }
+    // Trap focus inside panel when open
+    if (isOpen) {
+      els.settingsClose?.focus();
+    }
+  }
+
+  /* ── Clear conversation ─────────────────────────────────────── */
+  function confirmClear() {
+    if (queryManager && queryManager.conversationHistory.length === 0) {
+      ErrorHandler.display('Nothing to clear.', 'info', 2000);
+      return;
+    }
+    // Use window.confirm as a simple confirmation (accessible)
+    if (window.confirm('Clear the entire conversation? This cannot be undone.')) {
+      queryManager?.clearHistory();
+      renderInitialState();
+    }
+  }
+
+  /* ── Connection check ───────────────────────────────────────── */
+  async function checkConnection() {
+    const baseUrl = typeof API !== 'undefined' ? API.BASE_URL : 'http://localhost:8000';
+    let ok = false;
+    try {
+      const controller = new AbortController();
+      const timeout = setTimeout(() => controller.abort(), 4000);
+      const res = await fetch(`${baseUrl}/health`, {
+        method: 'GET',
+        signal: controller.signal,
+      });
+      clearTimeout(timeout);
+      ok = res.ok;
+    } catch { ok = false; }
+
+    if (els.connectionBadge && els.connectionLabel) {
+      els.connectionBadge.className = `connection-badge${ok ? '' : ' offline'}`;
+      els.connectionLabel.textContent = ok ? 'Online' : 'Offline';
+      els.connectionBadge.title = ok
+        ? 'Backend server connected'
+        : 'Backend server unreachable';
+    }
+  }
+
+  /* ── Start ──────────────────────────────────────────────────── */
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
+
+}());
+</script>
 </body>
 </html>
