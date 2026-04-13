@@ -43,7 +43,14 @@ export class VoiceHandler {
     try {
       this._stream = await navigator.mediaDevices.getUserMedia({ audio: true });
       this._audioChunks = [];
-      this._mediaRecorder = new MediaRecorder(this._stream, { mimeType: 'audio/webm' });
+
+      // Prefer webm; fall back to browser default if not supported
+      let mimeType = 'audio/webm';
+      if (!MediaRecorder.isTypeSupported(mimeType)) {
+        mimeType = MediaRecorder.isTypeSupported('audio/ogg') ? 'audio/ogg' : '';
+      }
+      const options = mimeType ? { mimeType } : {};
+      this._mediaRecorder = new MediaRecorder(this._stream, options);
 
       this._mediaRecorder.addEventListener('dataavailable', (e) => {
         if (e.data.size > 0) this._audioChunks.push(e.data);

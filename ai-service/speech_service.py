@@ -121,7 +121,7 @@ class SpeechService:
 
             # Whisper requires a file path or numpy array; use a temp file
             suffix = ".wav"
-            with tempfile.NamedTemporaryFile(suffix=suffix, delete=False, dir=".") as tmp:
+            with tempfile.NamedTemporaryFile(suffix=suffix, delete=False) as tmp:
                 tmp.write(preprocessed)
                 tmp_path = tmp.name
 
@@ -230,7 +230,7 @@ class SpeechService:
         try:
             preprocessed = self._preprocess_audio(audio_data)
             suffix = ".wav"
-            with tempfile.NamedTemporaryFile(suffix=suffix, delete=False, dir=".") as tmp:
+            with tempfile.NamedTemporaryFile(suffix=suffix, delete=False) as tmp:
                 tmp.write(preprocessed)
                 tmp_path = tmp.name
             try:

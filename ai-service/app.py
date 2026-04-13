@@ -295,7 +295,8 @@ Respond in {language}. Structure your response with clear headings."""
             "full_analysis": text,
         }
     except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
+        logger.error("Document analysis failed: %s", e)
+        raise HTTPException(status_code=500, detail="Document analysis failed. Please try again.")
 
 
 @app.post("/legal/chat")
@@ -325,7 +326,8 @@ def legal_chat(data: dict):
         response = session.send_message(full_message)
         return {"reply": response.text, "session_id": session_id}
     except Exception as e:
-        return {"reply": f"Sorry, I encountered an error: {str(e)}", "session_id": session_id}
+        logger.error("Legal chat error: %s", e)
+        return {"reply": "Sorry, I encountered an error. Please try again.", "session_id": session_id}
 
 
 @app.get("/legal/state/{state}")
@@ -337,7 +339,8 @@ def get_state_laws(state: str):
             courts = location_service.get_local_courts(state)
             return {"state": state, "laws": laws, "courts": courts}
         except Exception as e:
-            raise HTTPException(status_code=500, detail=str(e))
+            logger.error("State laws retrieval failed for %s: %s", state, e)
+            raise HTTPException(status_code=500, detail="Failed to retrieve state laws.")
     raise HTTPException(status_code=503, detail="Location service unavailable.")
 
 

@@ -188,7 +188,6 @@ class LegalRAGService:
 
     def _semantic_search(self, query: str, top_k: int) -> list[dict]:
         try:
-            import numpy as np
             vec = self.embeddings_model.encode([query])
             distances, indices = self.index.search(vec.astype("float32"), top_k)
             results = []

@@ -131,7 +131,7 @@ class LocationService:
                 "zoom": 5,
                 "addressdetails": 1,
             }
-            headers = {"User-Agent": "VaniKanoon/1.0"}
+            headers = {"User-Agent": "VaniKanoon/1.0 (https://github.com/Vani/Vani)"}
             resp = requests.get(url, params=params, headers=headers, timeout=5)
             resp.raise_for_status()
             data = resp.json()

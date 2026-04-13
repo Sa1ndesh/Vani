@@ -117,7 +117,13 @@ export class LegalQueryHandler {
   }
 
   _generateSessionId() {
-    return 'sess_' + Math.random().toString(36).slice(2, 11) + Date.now();
+    if (typeof crypto !== 'undefined' && crypto.randomUUID) {
+      return 'sess_' + crypto.randomUUID();
+    }
+    // Fallback using crypto.getRandomValues for environments without randomUUID
+    const arr = new Uint8Array(12);
+    crypto.getRandomValues(arr);
+    return 'sess_' + Array.from(arr, (b) => b.toString(16).padStart(2, '0')).join('');
   }
 
   getSelectedLanguage() { return this._selectedLanguage; }
@@ -203,31 +209,80 @@ export class LegalQueryHandler {
   _appendAssistantBubble(text, citations = [], simplified = '', queryType = '', audioBase64 = '') {
     const bubble = document.createElement('div');
     bubble.className = 'chat-bubble assistant-bubble';
-    bubble.innerHTML = `
-      <div class="bubble-avatar">⚖️</div>
-      <div class="bubble-content">
-        ${queryType ? `<span class="query-type-badge">${this._queryTypeLabel(queryType)}</span>` : ''}
-        <div class="bubble-text">${this._markdownToHtml(text)}</div>
-        ${citations.length ? `<div class="citations-area">${this.formatCitations(citations)}</div>` : ''}
-        ${simplified ? `
-          <details class="simplified-details">
-            <summary>💡 Simplified Explanation</summary>
-            <p class="simplified-text">${this._escapeHtml(simplified)}</p>
-          </details>` : ''}
-        ${audioBase64 ? `
-          <button class="play-audio-btn" data-audio="${audioBase64}" title="Play audio response">
-            🔊 Play Response
-          </button>` : ''}
-      </div>`;
 
-    // Play audio button handler
-    bubble.querySelector('.play-audio-btn')?.addEventListener('click', (e) => {
-      const b64 = e.currentTarget.dataset.audio;
-      if (b64 && this._voiceHandler) this._voiceHandler.playAudio(b64);
-    });
+    const avatar = document.createElement('div');
+    avatar.className = 'bubble-avatar';
+    avatar.textContent = '⚖️';
 
+    const content = document.createElement('div');
+    content.className = 'bubble-content';
+
+    if (queryType) {
+      const badge = document.createElement('span');
+      badge.className = 'query-type-badge';
+      badge.textContent = this._queryTypeLabel(queryType);
+      content.appendChild(badge);
+    }
+
+    const textDiv = document.createElement('div');
+    textDiv.className = 'bubble-text';
+    textDiv.innerHTML = this._markdownToHtml(text);
+    content.appendChild(textDiv);
+
+    if (citations.length) {
+      const citArea = document.createElement('div');
+      citArea.className = 'citations-area';
+      citArea.appendChild(this._buildCitationNodes(citations));
+      content.appendChild(citArea);
+    }
+
+    if (simplified) {
+      const details = document.createElement('details');
+      details.className = 'simplified-details';
+      const summary = document.createElement('summary');
+      summary.textContent = '💡 Simplified Explanation';
+      const p = document.createElement('p');
+      p.className = 'simplified-text';
+      p.textContent = simplified;
+      details.appendChild(summary);
+      details.appendChild(p);
+      content.appendChild(details);
+    }
+
+    if (audioBase64) {
+      const playBtn = document.createElement('button');
+      playBtn.className = 'play-audio-btn';
+      playBtn.textContent = '🔊 Play Response';
+      playBtn.addEventListener('click', () => {
+        if (this._voiceHandler) this._voiceHandler.playAudio(audioBase64);
+      });
+      content.appendChild(playBtn);
+    }
+
+    bubble.appendChild(avatar);
+    bubble.appendChild(content);
     this._chatMessages?.appendChild(bubble);
     this._scrollToBottom();
+  }
+
+  /** Build citation buttons as a live DOM element (no data-attribute XSS risk). */
+  _buildCitationNodes(citations) {
+    const wrapper = document.createElement('div');
+    wrapper.className = 'citations-list';
+    const label = document.createElement('span');
+    label.className = 'citations-label';
+    label.textContent = 'Citations: ';
+    wrapper.appendChild(label);
+    citations.forEach((c) => {
+      const ref = c.reference || '';
+      const ctx = c.context || '';
+      const btn = document.createElement('button');
+      btn.className = 'citation-tag';
+      btn.textContent = `📖 ${ref}`;
+      btn.addEventListener('click', () => this._openCitationModal(ref, ctx));
+      wrapper.appendChild(btn);
+    });
+    return wrapper;
   }
 
   _appendUserBubble(text) {
@@ -248,27 +303,24 @@ export class LegalQueryHandler {
 
   formatCitations(citations) {
     if (!citations || citations.length === 0) return '';
-    const items = citations.map((c) => {
-      const ref = this._escapeHtml(c.reference || '');
-      const ctx = this._escapeHtml(c.context || '');
-      return `
-        <button class="citation-tag" data-ref="${ref}" data-ctx="${ctx}">
-          📖 ${ref}
-        </button>`;
-    }).join('');
+
     const wrapper = document.createElement('div');
     wrapper.className = 'citations-list';
-    wrapper.innerHTML = `<span class="citations-label">Citations:</span> ${items}`;
 
-    // We return a string; attach listeners after insertion
-    setTimeout(() => {
-      document.querySelectorAll('.citation-tag').forEach((btn) => {
-        if (!btn.dataset.listenerAdded) {
-          btn.dataset.listenerAdded = 'true';
-          btn.addEventListener('click', () => this._openCitationModal(btn.dataset.ref, btn.dataset.ctx));
-        }
-      });
-    }, 50);
+    const label = document.createElement('span');
+    label.className = 'citations-label';
+    label.textContent = 'Citations: ';
+    wrapper.appendChild(label);
+
+    citations.forEach((c) => {
+      const ref = c.reference || '';
+      const ctx = c.context || '';
+      const btn = document.createElement('button');
+      btn.className = 'citation-tag';
+      btn.textContent = `📖 ${ref}`;
+      btn.addEventListener('click', () => this._openCitationModal(ref, ctx));
+      wrapper.appendChild(btn);
+    });
 
     return wrapper.outerHTML;
   }
@@ -383,7 +435,12 @@ export class LegalQueryHandler {
   }
 
   _escapeHtml(text) {
-    return (text || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+    return (text || '')
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#39;');
   }
 
   _blobToBase64(blob) {
