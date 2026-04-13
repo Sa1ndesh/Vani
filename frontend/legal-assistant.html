@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legal Assistant</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        #assistant {
+            border: 1px solid #ccc;
+            padding: 10px;
+            background: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        button {
+            padding: 10px 15px;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Voice-based Legal Assistant</h1>
+    <div id="assistant">
+        <p id="response">Ask me anything about legal matters!</p>
+        <button onclick="startVoiceInput()">Speak</button>
+    </div>
+    <script>
+        function startVoiceInput() {
+            const recognition = new (window.SpeechRecognition || window.webkitSpeechRecognition)();
+            recognition.onresult = function(event) {
+                const userInput = event.results[0][0].transcript;
+                respondToQuery(userInput);
+            };
+            recognition.start();
+        }
+
+        function respondToQuery(query) {
+            const response = document.getElementById('response');
+            // Here you can define simple predefined responses for demonstration
+            if (query.includes('contract')) {
+                response.innerText = 'I can help you with contract law! What do you need?';
+            } else if (query.includes('divorce')) {
+                response.innerText = 'Divorce proceedings can be complicated. What information are you looking for?';
+            } else {
+                response.innerText = 'Sorry, I am still learning. Please ask something else!';
+            }
+        }
+    </script>
+</body>
+</html>
