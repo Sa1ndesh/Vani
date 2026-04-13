@@ -1,3 +1,14 @@
 fastapi
 uvicorn
 google-generativeai
+langchain
+langchain-community
+faiss-cpu
+sentence-transformers
+openai-whisper
+gtts
+pydub
+langdetect
+python-dotenv
+requests
+numpy

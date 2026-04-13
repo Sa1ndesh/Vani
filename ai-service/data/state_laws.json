@@ -1,0 +1,221 @@
+{
+  "states": {
+    "Karnataka": {
+      "tenancy": {
+        "act": "Karnataka Rent Control Act 2001",
+        "security_deposit": "Up to 10 months in Bengaluru; 3 months elsewhere",
+        "notice_period": "3 months for eviction in Bengaluru",
+        "dispute_forum": "Rent Controller (Senior Civil Judge)",
+        "rent_increase_limit": "10% per year",
+        "special_provisions": "BBMP building plan approval required; BDA layout properties have specific rules"
+      },
+      "courts": [
+        {"name": "Karnataka High Court", "location": "Bengaluru", "jurisdiction": "Highest court for Karnataka"},
+        {"name": "City Civil Court", "location": "Bengaluru", "jurisdiction": "Civil disputes in Bengaluru city"},
+        {"name": "Principal District Court", "location": "Each district headquarters", "jurisdiction": "District level civil and criminal cases"},
+        {"name": "Fast Track Court", "location": "Major cities", "jurisdiction": "Sexual offence cases, pending sessions cases"},
+        {"name": "Family Court", "location": "Bengaluru, Mysuru, Hubli, Mangaluru", "jurisdiction": "Matrimonial and family disputes"},
+        {"name": "Consumer Forum", "location": "District level", "jurisdiction": "Consumer disputes under Rs. 50 lakh"},
+        {"name": "Labour Court", "location": "Bengaluru, Hubli, Mysuru", "jurisdiction": "Labour and employment disputes"},
+        {"name": "Lokayukta", "location": "Bengaluru", "jurisdiction": "Anti-corruption complaints against state officials"}
+      ],
+      "key_acts": [
+        "Karnataka Land Revenue Act 1964",
+        "Karnataka Rent Control Act 2001",
+        "Karnataka Apartment Ownership Act 1972",
+        "Karnataka Municipal Corporations Act 1976",
+        "Karnataka Shops and Commercial Establishments Act 1961",
+        "Karnataka Industrial Employment Standing Orders Act 1946",
+        "Karnataka Preservation of Trees Act 1976"
+      ],
+      "stamp_duty": {
+        "sale_deed": "5% of market value + 1% registration fee",
+        "gift_deed": "2% of market value",
+        "mortgage": "0.5% of loan amount"
+      }
+    },
+    "Maharashtra": {
+      "tenancy": {
+        "act": "Maharashtra Rent Control Act 1999",
+        "security_deposit": "Maximum 3 months rent",
+        "notice_period": "1 month residential; 3 months commercial",
+        "dispute_forum": "Small Causes Court (Mumbai); Rent Controller elsewhere",
+        "rent_increase_limit": "CPI-linked annual increase",
+        "special_provisions": "Leave and License system common; MHADA housing has separate rules"
+      },
+      "courts": [
+        {"name": "Bombay High Court", "location": "Mumbai", "jurisdiction": "Highest court for Maharashtra, Goa, Dadra & Nagar Haveli"},
+        {"name": "Small Causes Court", "location": "Mumbai, Pune", "jurisdiction": "Civil suits up to Rs. 10 lakh"},
+        {"name": "City Civil Court", "location": "Mumbai, Pune, Nagpur", "jurisdiction": "Civil disputes"},
+        {"name": "Metropolitan Magistrate Court", "location": "Mumbai", "jurisdiction": "Criminal cases in metro areas"},
+        {"name": "Family Court", "location": "Mumbai, Pune, Nagpur, Aurangabad", "jurisdiction": "Family matters"},
+        {"name": "Consumer Forum", "location": "District level", "jurisdiction": "Consumer disputes"},
+        {"name": "Industrial Court", "location": "Mumbai, Pune", "jurisdiction": "Labour disputes"},
+        {"name": "Revenue Tribunal", "location": "Pune", "jurisdiction": "Land revenue matters"}
+      ],
+      "key_acts": [
+        "Maharashtra Land Revenue Code 1966",
+        "Maharashtra Rent Control Act 1999",
+        "Maharashtra Apartment Ownership Act 1970",
+        "Mumbai Municipal Corporation Act 1888",
+        "Maharashtra Shops and Establishments Act 1948",
+        "Maharashtra Co-operative Societies Act 1960"
+      ],
+      "stamp_duty": {
+        "sale_deed": "5% of market value + 1% registration + 1% Local Body Tax",
+        "gift_deed": "3% of market value",
+        "mortgage": "0.3% of loan amount"
+      }
+    },
+    "Tamil Nadu": {
+      "tenancy": {
+        "act": "Tamil Nadu Regulation of Rights and Responsibilities of Landlords and Tenants Act 2017",
+        "security_deposit": "Maximum 3 months advance",
+        "notice_period": "2 months for residential premises",
+        "dispute_forum": "Rent Authority (Deputy Collector)",
+        "rent_increase_limit": "Annual revision as per agreement",
+        "special_provisions": "Online registration mandatory; Rent Authority system functional"
+      },
+      "courts": [
+        {"name": "Madras High Court", "location": "Chennai", "jurisdiction": "Highest court for Tamil Nadu and Puducherry"},
+        {"name": "City Civil Court", "location": "Chennai", "jurisdiction": "Civil disputes in Chennai"},
+        {"name": "Principal District Court", "location": "Each district", "jurisdiction": "District civil and criminal cases"},
+        {"name": "Metropolitan Magistrate", "location": "Chennai", "jurisdiction": "Metro criminal cases"},
+        {"name": "Family Court", "location": "Chennai, Coimbatore, Madurai, Salem", "jurisdiction": "Family disputes"},
+        {"name": "Labour Court", "location": "Chennai, Coimbatore, Madurai", "jurisdiction": "Employment disputes"},
+        {"name": "Consumer Forum", "location": "District level", "jurisdiction": "Consumer complaints"}
+      ],
+      "key_acts": [
+        "Tamil Nadu Land Revenue Act",
+        "Tamil Nadu Tenancy Act 2017",
+        "Tamil Nadu Apartment Ownership Act",
+        "Chennai City Municipal Corporation Act 1919",
+        "Tamil Nadu Shops and Establishments Act 1947"
+      ],
+      "stamp_duty": {
+        "sale_deed": "7% of market value + 4% registration fee",
+        "gift_deed": "7% for non-family; 1% for family",
+        "mortgage": "1% of loan amount"
+      }
+    },
+    "Delhi": {
+      "tenancy": {
+        "act": "Delhi Rent Act 1958 / Model Tenancy Act (being adopted)",
+        "security_deposit": "Typically 2-3 months rent",
+        "notice_period": "30 days generally",
+        "dispute_forum": "Rent Controller (Additional District Judge)",
+        "rent_increase_limit": "10% per year after notice",
+        "special_provisions": "DDA properties have separate rules; Old Delhi properties under older rent control"
+      },
+      "courts": [
+        {"name": "Delhi High Court", "location": "New Delhi", "jurisdiction": "Highest court for Delhi NCT"},
+        {"name": "District Courts", "location": "Saket, Tis Hazari, Rohini, Dwarka, Karkardooma, Patiala House", "jurisdiction": "Civil and criminal cases"},
+        {"name": "Metropolitan Magistrate", "location": "Various locations", "jurisdiction": "Criminal cases up to 7 years"},
+        {"name": "Family Court", "location": "Saket, Rohini, Dwarka", "jurisdiction": "Family disputes"},
+        {"name": "Labour Court", "location": "New Delhi", "jurisdiction": "Employment disputes"},
+        {"name": "Consumer Forum", "location": "District level and state level", "jurisdiction": "Consumer complaints"}
+      ],
+      "key_acts": [
+        "Delhi Land Revenue Act 1954",
+        "Delhi Rent Act 1958",
+        "Delhi Municipal Corporation Act 1957",
+        "Delhi Development Act 1957",
+        "Delhi Shops and Establishments Act 1954"
+      ],
+      "stamp_duty": {
+        "sale_deed": "4% for women; 6% for men; 5% for joint ownership",
+        "gift_deed": "0.5% for family; 4% for others",
+        "mortgage": "0.5% of loan amount"
+      }
+    },
+    "Telangana": {
+      "tenancy": {
+        "act": "Telangana Rent Control Act / Model Tenancy Act",
+        "security_deposit": "Typically 2-10 months rent",
+        "notice_period": "2 months notice period",
+        "dispute_forum": "Civil Courts / RERA Tribunal",
+        "rent_increase_limit": "10% annually as per agreement",
+        "special_provisions": "TSRERA governs real estate projects; HMDA rules apply in Hyderabad Metro"
+      },
+      "courts": [
+        {"name": "Telangana High Court", "location": "Hyderabad", "jurisdiction": "Highest court for Telangana"},
+        {"name": "City Civil Court", "location": "Hyderabad", "jurisdiction": "Civil disputes in Hyderabad"},
+        {"name": "Principal District Court", "location": "Each district", "jurisdiction": "District cases"},
+        {"name": "Family Court", "location": "Hyderabad, Warangal, Karimnagar", "jurisdiction": "Family disputes"},
+        {"name": "Labour Court", "location": "Hyderabad", "jurisdiction": "Employment disputes"},
+        {"name": "Consumer Forum", "location": "District level", "jurisdiction": "Consumer complaints"},
+        {"name": "TSRERA Tribunal", "location": "Hyderabad", "jurisdiction": "Real estate disputes"}
+      ],
+      "key_acts": [
+        "Telangana Land Revenue Act",
+        "Hyderabad Houses (Rent and Eviction) Control Act",
+        "Telangana Apartments Act",
+        "GHMC Act 1955",
+        "TS Shops and Establishments Act"
+      ],
+      "stamp_duty": {
+        "sale_deed": "4% of market value + 0.5% transfer duty + 1.5% registration",
+        "gift_deed": "2% of market value",
+        "mortgage": "0.5% of loan amount"
+      }
+    },
+    "Rajasthan": {
+      "tenancy": {
+        "act": "Rajasthan Premises (Control of Rent and Eviction) Act 1950",
+        "security_deposit": "Typically 2-3 months rent",
+        "notice_period": "1-3 months depending on tenancy type",
+        "dispute_forum": "Rent Tribunal",
+        "rent_increase_limit": "As per agreement and Rent Controller orders",
+        "special_provisions": "Jaipur, Jodhpur, Kota have distinct rent control provisions"
+      },
+      "courts": [
+        {"name": "Rajasthan High Court", "location": "Jodhpur (Principal Bench), Jaipur (Bench)", "jurisdiction": "Highest court for Rajasthan"},
+        {"name": "District Court", "location": "Each district", "jurisdiction": "District level cases"},
+        {"name": "Family Court", "location": "Jaipur, Jodhpur, Udaipur, Kota", "jurisdiction": "Family disputes"},
+        {"name": "Consumer Forum", "location": "District level", "jurisdiction": "Consumer complaints"},
+        {"name": "Labour Court", "location": "Jaipur, Jodhpur", "jurisdiction": "Employment disputes"}
+      ],
+      "key_acts": [
+        "Rajasthan Land Revenue Act 1956",
+        "Rajasthan Rent Control Act",
+        "Jaipur Municipal Corporation Act",
+        "Rajasthan Shops and Commercial Establishments Act 1958"
+      ],
+      "stamp_duty": {
+        "sale_deed": "5% for women; 6% for men + 2% surcharge in some areas",
+        "gift_deed": "2.5% for family members",
+        "mortgage": "0.3% of loan amount"
+      }
+    },
+    "Gujarat": {
+      "tenancy": {
+        "act": "Gujarat Rent Control Act 1947",
+        "security_deposit": "Typically 3-6 months rent",
+        "notice_period": "1-3 months notice period",
+        "dispute_forum": "Rent Controller (City Civil Court)",
+        "rent_increase_limit": "As per agreement; standard rent concept",
+        "special_provisions": "Ahmedabad has separate provisions; industrial areas have different rules"
+      },
+      "courts": [
+        {"name": "Gujarat High Court", "location": "Ahmedabad", "jurisdiction": "Highest court for Gujarat"},
+        {"name": "City Civil Court", "location": "Ahmedabad", "jurisdiction": "Civil disputes in Ahmedabad"},
+        {"name": "District Court", "location": "Each district", "jurisdiction": "District level cases"},
+        {"name": "Family Court", "location": "Ahmedabad, Surat, Vadodara, Rajkot", "jurisdiction": "Family disputes"},
+        {"name": "Labour Court", "location": "Ahmedabad, Surat, Vadodara", "jurisdiction": "Employment disputes"},
+        {"name": "Consumer Forum", "location": "District level", "jurisdiction": "Consumer complaints"}
+      ],
+      "key_acts": [
+        "Gujarat Land Revenue Code",
+        "Gujarat Rent Control Act",
+        "Bombay Municipal Corporation Act (as applicable)",
+        "Gujarat Shops and Establishments Act 1948",
+        "Gujarat Cooperative Societies Act 1961"
+      ],
+      "stamp_duty": {
+        "sale_deed": "4.9% of market value + 1% registration",
+        "gift_deed": "3.5% for non-family; 0% for family members",
+        "mortgage": "0.3% of loan amount"
+      }
+    }
+  }
+}

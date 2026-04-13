@@ -1,0 +1,234 @@
+{
+  "languages": {
+    "Kannada": {
+      "script": "Kannada",
+      "iso_code": "kn",
+      "unicode_range": ["0C80", "0CFF"],
+      "dialects": [
+        {
+          "name": "North Karnataka / Hubli-Dharwad",
+          "region": "North Karnataka",
+          "districts": ["Dharwad", "Haveri", "Gadag", "Belagavi", "Bagalkot"],
+          "keywords": ["ಅದ್ರ", "ಏನ್ ಮಾಡ್ತಿ", "ಗೊತ್ತಿಲ್ಲ ಅಂತ", "ಬರ್ತಿ", "ಹೋಗ್ತಿ"],
+          "tone": "formal_slightly_rough",
+          "sample_phrases": ["ನಿಮ್ಮ ಸಮಸ್ಯ ಏನ್ ಅದ", "ಕೇಳ್ ಬೇಕ್ ಅಂದ್ರ ಕೇಳ್ರಿ"],
+          "greeting": "ಏನ್ ಸಮಾಚಾರ"
+        },
+        {
+          "name": "Bangalore Urban",
+          "region": "South Karnataka / Bengaluru",
+          "districts": ["Bengaluru Urban", "Bengaluru Rural", "Ramanagara", "Tumkur"],
+          "keywords": ["ಅಲ್ವ", "ಏನಂದ್ರಿ", "ನೋಡ್ಕೊಳ್ಳಿ", "ಆಗ್ತದ", "ಮಾಡ್ಕೊಳ್ಳಿ"],
+          "tone": "urban_mixed_english",
+          "sample_phrases": ["ನಿಮ್ಗೆ ಸಹಾಯ ಮಾಡ್ತೀನಿ", "ಒಂದ್ ನಿಮಿಷ ತಡ್ಕೊಳ್ಳಿ"],
+          "greeting": "ಹ್ಯಾಗಿದ್ದೀರಿ"
+        },
+        {
+          "name": "Coastal Karnataka / Tulu Region",
+          "region": "Coastal Karnataka",
+          "districts": ["Dakshina Kannada", "Udupi"],
+          "keywords": ["ಆತ", "ಎಂಚ", "ಉಂಟ", "ಮಾತ್ರ", "ಇಜ್ಜಿ"],
+          "tone": "formal_coastal",
+          "sample_phrases": ["ನಿಮ್ಮ ವಿಷಯ ಏನು", "ನಮ್ಮ ಕಡೆ ಹೇಳಿ"],
+          "greeting": "ನಮಸ್ಕಾರ"
+        },
+        {
+          "name": "Mysore-Mandya",
+          "region": "Southern Karnataka",
+          "districts": ["Mysuru", "Mandya", "Hassan", "Chamarajanagar"],
+          "keywords": ["ಅಂತೀರಾ", "ಹೌದಾ", "ಹೇಳ್ರಿ", "ನೋಡ್ರಿ", "ಬನ್ನಿ"],
+          "tone": "formal_traditional",
+          "sample_phrases": ["ನಿಮ್ಮ ವಿಷಯ ಏನೆಂದು ಹೇಳ್ರಿ", "ಸಹಾಯ ಮಾಡ್ತೀವಿ"],
+          "greeting": "ನಮಸ್ಕಾರಂದ"
+        }
+      ]
+    },
+    "Hindi": {
+      "script": "Devanagari",
+      "iso_code": "hi",
+      "unicode_range": ["0900", "097F"],
+      "dialects": [
+        {
+          "name": "Bhojpuri-influenced Hindi",
+          "region": "Eastern UP, Bihar, Jharkhand",
+          "districts": ["Varanasi", "Patna", "Muzaffarpur", "Bhagalpur"],
+          "keywords": ["का", "हऊ", "बाटे", "बा", "रहल बा"],
+          "tone": "informal_rural",
+          "sample_phrases": ["का हो जनाब", "बताव का बात बा"],
+          "greeting": "राम राम"
+        },
+        {
+          "name": "Rajasthani-influenced Hindi",
+          "region": "Rajasthan",
+          "districts": ["Jaipur", "Jodhpur", "Udaipur", "Ajmer", "Bikaner"],
+          "keywords": ["के", "म्हारो", "थारो", "अठे", "उठे"],
+          "tone": "informal_rustic",
+          "sample_phrases": ["के बात करो", "म्हारी मदद करो"],
+          "greeting": "खम्मा घणी"
+        },
+        {
+          "name": "Delhi Hindi / Khari Boli",
+          "region": "Delhi, Haryana, Western UP",
+          "districts": ["Delhi", "Gurugram", "Noida", "Faridabad", "Meerut"],
+          "keywords": ["यार", "भाई", "देखो", "सुनो", "क्या बात"],
+          "tone": "urban_direct",
+          "sample_phrases": ["क्या जानकारी चाहिए", "बताइए कैसे मदद करूं"],
+          "greeting": "नमस्ते"
+        },
+        {
+          "name": "Awadhi-influenced Hindi",
+          "region": "Central UP, Lucknow region",
+          "districts": ["Lucknow", "Kanpur", "Faizabad", "Sultanpur"],
+          "keywords": ["अइसन", "कइसे", "होइगा", "रहे", "बाटा"],
+          "tone": "courtly_formal",
+          "sample_phrases": ["आपका क्या मसला है", "जनाब क्या खिदमत करूं"],
+          "greeting": "आदाब"
+        }
+      ]
+    },
+    "Marathi": {
+      "script": "Devanagari",
+      "iso_code": "mr",
+      "unicode_range": ["0900", "097F"],
+      "dialects": [
+        {
+          "name": "Mumbai / Bombay Marathi",
+          "region": "Mumbai, Thane, Navi Mumbai",
+          "districts": ["Mumbai City", "Mumbai Suburban", "Thane", "Raigad"],
+          "keywords": ["काय", "कुठे", "काय झालं", "बघतो", "सांगतो"],
+          "tone": "urban_fast_paced",
+          "sample_phrases": ["काय प्रॉब्लेम आहे", "मी मदत करतो"],
+          "greeting": "नमस्कार"
+        },
+        {
+          "name": "Pune / Deccan Marathi",
+          "region": "Pune, Satara, Sangli",
+          "districts": ["Pune", "Satara", "Sangli", "Kolhapur"],
+          "keywords": ["आहे", "होय", "नाही", "सांगा", "बघा"],
+          "tone": "educated_formal",
+          "sample_phrases": ["आपली समस्या काय आहे", "मी सहाय्य करतो"],
+          "greeting": "नमस्कार"
+        },
+        {
+          "name": "Vidarbha Marathi",
+          "region": "Nagpur, Vidarbha region",
+          "districts": ["Nagpur", "Amravati", "Yavatmal", "Chandrapur", "Wardha"],
+          "keywords": ["का", "हाय", "नाय", "काय केलं", "सांग"],
+          "tone": "rural_direct",
+          "sample_phrases": ["काय तकरार हाय", "सांग मला"],
+          "greeting": "जय जय विदर्भ"
+        },
+        {
+          "name": "Konkan Marathi",
+          "region": "Konkan coast",
+          "districts": ["Ratnagiri", "Sindhudurg", "Raigad"],
+          "keywords": ["गा", "बघ", "सांग", "हाय", "काय"],
+          "tone": "coastal_warm",
+          "sample_phrases": ["काय सांगायचं आहे", "मदत लागेल का"],
+          "greeting": "देव बरं करो"
+        }
+      ]
+    },
+    "Tamil": {
+      "script": "Tamil",
+      "iso_code": "ta",
+      "unicode_range": ["0B80", "0BFF"],
+      "dialects": [
+        {
+          "name": "Chennai Standard Tamil",
+          "region": "Chennai, North Tamil Nadu",
+          "districts": ["Chennai", "Tiruvallur", "Kancheepuram", "Vellore"],
+          "keywords": ["என்ன", "எங்க", "பாருங்க", "சொல்லுங்க", "ஆமா"],
+          "tone": "formal_urban",
+          "sample_phrases": ["உங்கள் பிரச்சனை என்ன", "நான் உதவி செய்கிறேன்"],
+          "greeting": "வணக்கம்"
+        },
+        {
+          "name": "Madurai Tamil",
+          "region": "Central Tamil Nadu, Madurai",
+          "districts": ["Madurai", "Dindigul", "Virudhunagar", "Sivaganga"],
+          "keywords": ["என்னடா", "பாரு", "சொல்லு", "வாரியா", "ஆமாடா"],
+          "tone": "informal_assertive",
+          "sample_phrases": ["என்ன விஷயம் சொல்லு", "சட்டப்படி பாக்கலாம்"],
+          "greeting": "வணக்கம்"
+        },
+        {
+          "name": "Coimbatore Tamil",
+          "region": "Western Tamil Nadu",
+          "districts": ["Coimbatore", "Tiruppur", "Erode", "Salem"],
+          "keywords": ["என்ன", "பாரேன்", "சொல்லேன்", "வாரியா", "ஆமா"],
+          "tone": "business_practical",
+          "sample_phrases": ["உங்க விஷயம் என்னன்னு சொல்லுங்க", "தீர்வு காண்போம்"],
+          "greeting": "வணக்கம்"
+        }
+      ]
+    },
+    "Telugu": {
+      "script": "Telugu",
+      "iso_code": "te",
+      "unicode_range": ["0C00", "0C7F"],
+      "dialects": [
+        {
+          "name": "Hyderabad / Telangana Telugu",
+          "region": "Hyderabad, Telangana",
+          "districts": ["Hyderabad", "Rangareddy", "Medchal", "Sangareddy"],
+          "keywords": ["ఏమి", "చేస్తావ్", "అవునా", "చూడు", "చెప్పు"],
+          "tone": "urban_mixed_urdu",
+          "sample_phrases": ["మీ సమస్య ఏమిటి", "సహాయం చేస్తాను"],
+          "greeting": "నమస్కారం"
+        },
+        {
+          "name": "Coastal Andhra Telugu",
+          "region": "Vijayawada, Visakhapatnam",
+          "districts": ["Krishna", "Guntur", "Visakhapatnam", "East Godavari", "West Godavari"],
+          "keywords": ["ఏమిటి", "చెప్పండి", "చూస్తాను", "అవునా", "సరే"],
+          "tone": "formal_coastal",
+          "sample_phrases": ["మీరు చెప్పండి", "న్యాయ సహాయం అందిస్తాను"],
+          "greeting": "నమస్కారం"
+        },
+        {
+          "name": "Rayalaseema Telugu",
+          "region": "Southern Andhra Pradesh",
+          "districts": ["Kurnool", "Kadapa", "Anantapur", "Chittoor"],
+          "keywords": ["ఏమి", "చెప్పుండ్రి", "బాగా", "అయ్యా", "అమ్మా"],
+          "tone": "rural_respectful",
+          "sample_phrases": ["ఏమి చెప్పాలనుకుంటున్నారు", "చట్టపరంగా సహాయం చేస్తాను"],
+          "greeting": "నమస్కారమయ్యా"
+        }
+      ]
+    },
+    "English": {
+      "script": "Latin",
+      "iso_code": "en",
+      "unicode_range": ["0041", "007A"],
+      "dialects": [
+        {
+          "name": "Indian English",
+          "region": "Pan India",
+          "districts": [],
+          "keywords": ["please", "kindly", "do the needful", "prepone", "revert back"],
+          "tone": "formal_polite",
+          "sample_phrases": ["How may I assist you", "Please state your legal query"],
+          "greeting": "Good day"
+        }
+      ]
+    }
+  },
+  "legal_terms_multilingual": {
+    "court": {"en": "Court", "hi": "न्यायालय", "kn": "ನ್ಯಾಯಾಲಯ", "mr": "न्यायालय", "ta": "நீதிமன்றம்", "te": "న్యాయస్థానం"},
+    "judge": {"en": "Judge", "hi": "न्यायाधीश", "kn": "ನ್ಯಾಯಾಧೀಶರು", "mr": "न्यायाधीश", "ta": "நீதிபதி", "te": "న్యాయమూర్తి"},
+    "lawyer": {"en": "Lawyer", "hi": "वकील", "kn": "ವಕೀಲರು", "mr": "वकील", "ta": "வழக்கறிஞர்", "te": "న్యాయవాది"},
+    "FIR": {"en": "FIR", "hi": "प्राथमिकी", "kn": "ಎಫ್ಐಆರ್", "mr": "गुन्हा अहवाल", "ta": "முதல் தகவல் அறிக்கை", "te": "ఎఫ్ఐఆర్"},
+    "bail": {"en": "Bail", "hi": "जमानत", "kn": "ಜಾಮೀನು", "mr": "जामीन", "ta": "ஜாமீன்", "te": "బెయిల్"},
+    "police": {"en": "Police", "hi": "पुलिस", "kn": "ಪೊಲೀಸ್", "mr": "पोलीस", "ta": "காவல்துறை", "te": "పోలీసు"},
+    "arrest": {"en": "Arrest", "hi": "गिरफ्तारी", "kn": "ಬಂಧನ", "mr": "अटक", "ta": "கைது", "te": "అరెస్ట్"},
+    "complaint": {"en": "Complaint", "hi": "शिकायत", "kn": "ದೂರು", "mr": "तक्रार", "ta": "புகார்", "te": "ఫిర్యాదు"},
+    "property": {"en": "Property", "hi": "संपत्ति", "kn": "ಆಸ್ತಿ", "mr": "मालमत्ता", "ta": "சொத்து", "te": "ఆస్తి"},
+    "divorce": {"en": "Divorce", "hi": "तलाक / विवाह-विच्छेद", "kn": "ವಿಚ್ಛೇದನ", "mr": "घटस्फोट", "ta": "விவாகரத்து", "te": "విడాకులు"},
+    "murder": {"en": "Murder", "hi": "हत्या", "kn": "ಕೊಲೆ", "mr": "खून", "ta": "கொலை", "te": "హత్య"},
+    "theft": {"en": "Theft", "hi": "चोरी", "kn": "ಕಳ್ಳತನ", "mr": "चोरी", "ta": "திருட்டு", "te": "దొంగతనం"},
+    "tenant": {"en": "Tenant", "hi": "किरायेदार", "kn": "ಬಾಡಿಗೆದಾರ", "mr": "भाडेकरू", "ta": "குத்தகைதாரர்", "te": "అద్దెదారు"},
+    "landlord": {"en": "Landlord", "hi": "मकान मालिक", "kn": "ಮನೆ ಮಾಲೀಕ", "mr": "घर मालक", "ta": "வீட்டு உரிமையாளர்", "te": "ఇంటి యజమాని"},
+    "inheritance": {"en": "Inheritance", "hi": "विरासत", "kn": "ಉತ್ತರಾಧಿಕಾರ", "mr": "वारसा", "ta": "மரபுரிமை", "te": "వారసత్వం"}
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "model_tenancy_act": {
+    "name": "Model Tenancy Act 2021",
+    "enacted": "2021",
+    "sections": [
+      {
+        "section": "MTA Section 3",
+        "title": "Requirement of Written Tenancy Agreement",
+        "description": "No person shall, after the commencement of this Act, let or take on rent any premises except by an agreement in writing, which shall be informed to the Rent Authority by the landlord and the tenant jointly.",
+        "keywords": ["written agreement", "rent agreement", "tenancy contract"]
+      },
+      {
+        "section": "MTA Section 4",
+        "title": "Submission of Tenancy Agreement",
+        "description": "Every tenancy agreement shall be submitted to the Rent Authority within two months of the execution of the agreement. The Rent Authority shall within a period of sixty days from the date of receipt of such application, make an entry in the register maintained under this Act.",
+        "keywords": ["registration", "rent authority", "agreement submission"]
+      },
+      {
+        "section": "MTA Section 6",
+        "title": "Security Deposit",
+        "description": "No landlord shall claim or receive an amount exceeding two months' rent as security deposit in case of residential premises. In case of non-residential premises, security deposit shall not exceed six months' rent.",
+        "keywords": ["security deposit", "advance rent", "deposit limit", "two months"]
+      },
+      {
+        "section": "MTA Section 7",
+        "title": "Revision of Rent",
+        "description": "Rent shall be revised in accordance with the terms and conditions of the tenancy agreement. In absence of any specific clause, the landlord may increase rent after giving three months' notice.",
+        "keywords": ["rent increase", "rent revision", "notice period", "three months notice"]
+      },
+      {
+        "section": "MTA Section 11",
+        "title": "Notice Period for Vacating",
+        "description": "For residential tenancy, the notice period shall be one month. For non-residential tenancy, the notice period shall be three months. Either party shall give notice before termination of tenancy.",
+        "keywords": ["notice period", "eviction notice", "vacating", "termination"]
+      },
+      {
+        "section": "MTA Section 21",
+        "title": "Eviction of Tenant",
+        "description": "A landlord may file an application to the Rent Court for eviction of tenant on grounds including: non-payment of rent for two months or more, subletting without consent, causing damage to premises, landlord's bona fide requirement for personal use.",
+        "keywords": ["eviction", "non-payment", "subletting", "bona fide requirement"]
+      },
+      {
+        "section": "MTA Section 24",
+        "title": "Recovery of Possession by Landlord",
+        "description": "If a tenant fails to vacate the premises after the expiry of the tenancy period, the landlord may apply to the Rent Court for eviction. The Rent Court shall pass an order within 60 days.",
+        "keywords": ["possession", "eviction", "expired tenancy", "tenant overstay"]
+      },
+      {
+        "section": "MTA Section 25",
+        "title": "Tenant's Rights During Tenancy",
+        "description": "A tenant shall have the right to peaceful enjoyment of the premises. The landlord shall not interfere with essential services such as water, electricity, sanitation. Landlord must give 24-hour notice before entering premises.",
+        "keywords": ["tenant rights", "peaceful enjoyment", "essential services", "landlord entry"]
+      },
+      {
+        "section": "MTA Section 29",
+        "title": "Landlord's Obligations",
+        "description": "The landlord shall be responsible for structural repairs of the premises. The landlord shall ensure all essential services including water, electricity and sanitation are available to the tenant.",
+        "keywords": ["landlord obligations", "repairs", "maintenance", "services"]
+      },
+      {
+        "section": "MTA Section 30",
+        "title": "Tenant's Obligations",
+        "description": "The tenant shall pay rent on time, maintain the premises in good condition, not cause damage beyond normal wear and tear, not make structural changes without landlord's consent, not sublet without written permission.",
+        "keywords": ["tenant obligations", "rent payment", "maintenance", "no subletting"]
+      },
+      {
+        "section": "MTA Section 32",
+        "title": "Subletting",
+        "description": "No tenant shall sublet the whole or any part of the premises without prior written consent of the landlord. Unauthorized subletting is grounds for eviction.",
+        "keywords": ["subletting", "sublet", "unauthorized sublet", "written consent"]
+      },
+      {
+        "section": "MTA Section 40",
+        "title": "Rent Court",
+        "description": "Each district shall have a Rent Court to adjudicate disputes between landlords and tenants. The Rent Court shall have the power to grant eviction orders, direct return of security deposit, award compensation.",
+        "keywords": ["rent court", "dispute", "adjudication", "eviction order"]
+      },
+      {
+        "section": "MTA Section 41",
+        "title": "Rent Authority",
+        "description": "State Government shall designate a Rent Authority for registration of tenancy agreements and maintenance of records. All new tenancy agreements must be filed with the Rent Authority.",
+        "keywords": ["rent authority", "registration", "records", "state government"]
+      },
+      {
+        "section": "MTA Section 45",
+        "title": "Appeal",
+        "description": "Any party aggrieved by an order of the Rent Court may appeal to the Rent Tribunal within a period of 30 days from the date of the order.",
+        "keywords": ["appeal", "rent tribunal", "30 days", "aggrieved party"]
+      }
+    ]
+  },
+  "state_variations": {
+    "Karnataka": {
+      "act_name": "Karnataka Rent Control Act 2001",
+      "applicability": "Applicable to premises in urban areas of Karnataka",
+      "security_deposit": "Maximum 10 months rent in Bengaluru; 3 months in other cities",
+      "notice_period": "3 months notice required for eviction in Bengaluru",
+      "rent_increase": "Not more than 10% increase per annum allowed",
+      "registration": "Mandatory registration with BBMP/Municipal authorities for Bengaluru",
+      "key_provisions": [
+        "Standard rent concept applies",
+        "Controller (District Judge) has jurisdiction over disputes",
+        "Eviction only allowed on specified grounds",
+        "Tenant has right of first refusal on sale"
+      ],
+      "dispute_forum": "Rent Controller (Senior Civil Judge)"
+    },
+    "Maharashtra": {
+      "act_name": "Maharashtra Rent Control Act 1999",
+      "applicability": "Applicable to all residential and commercial premises in Maharashtra",
+      "security_deposit": "Maximum 3 months rent as security deposit",
+      "notice_period": "1 month notice for residential; 3 months for commercial",
+      "rent_increase": "Annual increase limited to CPI-linked rates",
+      "registration": "Leave and License agreement preferred; must be stamped and registered",
+      "key_provisions": [
+        "Leave and License is common form of tenancy in Maharashtra",
+        "Notarized agreement has limited validity",
+        "Mumbai has separate provisions under Mumbai Rent Act",
+        "Stamp duty: 0.25% of total rent plus deposit"
+      ],
+      "dispute_forum": "Small Causes Court (Mumbai); Rent Controller elsewhere"
+    },
+    "Tamil Nadu": {
+      "act_name": "Tamil Nadu Regulation of Rights and Responsibilities of Landlords and Tenants Act 2017",
+      "applicability": "All premises in Tamil Nadu",
+      "security_deposit": "Maximum 3 months advance rent as deposit",
+      "notice_period": "2 months notice period for residential premises",
+      "rent_increase": "Rent can be increased after 11 months with prior notice",
+      "registration": "All agreements must be registered with Rent Authority under 2017 Act",
+      "key_provisions": [
+        "Comprehensive rights and obligations framework",
+        "Online registration portal available",
+        "Mandatory mediation before court proceedings",
+        "Dispute resolution within 60 days"
+      ],
+      "dispute_forum": "Rent Authority (Deputy Collector level officer)"
+    },
+    "Delhi": {
+      "act_name": "Delhi Rent Act 1958 / Delhi Rent Control Act 1958",
+      "applicability": "Premises with rent below Rs. 3500/month (standard) or all premises (new)",
+      "security_deposit": "Typically 2-3 months rent",
+      "notice_period": "30 days notice period generally",
+      "rent_increase": "10% per year increase allowed after written notice",
+      "registration": "Rent agreement must be notarized and registered for 12+ months",
+      "key_provisions": [
+        "Old Act covers premises with rent below threshold",
+        "Model Tenancy Act being adopted for new tenancies",
+        "Rent Controller has jurisdiction for disputes",
+        "Strong tenant protection under old Act"
+      ],
+      "dispute_forum": "Rent Controller (Additional District Judge)"
+    },
+    "Telangana": {
+      "act_name": "Telangana State Apartments (Promotion of Construction and Ownership) Act",
+      "applicability": "Apartments and residential complexes in Telangana",
+      "security_deposit": "Typically 2-10 months rent depending on property",
+      "notice_period": "2 months notice period",
+      "rent_increase": "As per agreement, typically 5-10% annual increase",
+      "registration": "Agreements must be registered under Registration Act",
+      "key_provisions": [
+        "TSRERA governs real estate projects",
+        "Hyderabad Metro Development Authority rules apply",
+        "GHMC (HMDA) approval required for construction",
+        "Apartment associations have regulatory role"
+      ],
+      "dispute_forum": "Civil Courts / RERA Tribunal"
+    }
+  }
+}
