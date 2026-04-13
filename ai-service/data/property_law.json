@@ -1,0 +1,226 @@
+{
+  "transfer_of_property_act": {
+    "year": 1882,
+    "sections": {
+      "section_5": {
+        "title": "Transfer of property defined",
+        "text": "A transfer of property means an act by which a living person conveys property, in present or in future, to one or more other living persons, or to himself and one or more other living persons."
+      },
+      "section_53A": {
+        "title": "Part performance",
+        "text": "Where any person contracts to transfer for consideration any immoveable property by writing signed by him or on his behalf from which the terms necessary to constitute the transfer can be ascertained with reasonable certainty, and the transferee has, in part performance of the contract, taken possession of the property or any part thereof, or the transferee, being already in possession, continues in possession in part performance of the contract and has done some act in furtherance of the contract, and the transferee has performed or is willing to perform his part of the contract, then, notwithstanding that where there is an instrument of transfer, that the transfer has not been completed in the manner prescribed therefor by the law for the time being in force, the transferor or any person claiming under him shall be debarred from enforcing against the transferee and persons claiming under him any right in respect of the property."
+      },
+      "section_54": {
+        "title": "Sale defined",
+        "text": "Sale is a transfer of ownership in exchange for a price paid or promised or part-paid and part-promised. Such transfer, in the case of tangible immoveable property of the value of one hundred rupees and upwards, or in the case of a reversion or other intangible thing, can be made only by a registered instrument."
+      },
+      "section_58": {
+        "title": "Mortgage defined",
+        "text": "A mortgage is the transfer of an interest in specific immoveable property for the purpose of securing the payment of money advanced or to be advanced by way of loan, an existing or future debt, or the performance of an engagement which may give rise to a pecuniary liability. The transferor is called a mortgagor, the transferee a mortgagee."
+      },
+      "section_59": {
+        "title": "Mortgage when to be by assurance",
+        "text": "Where the principal money secured is one hundred rupees or upwards, a mortgage other than a mortgage by deposit of title-deeds can be effected only by a registered instrument signed by the mortgagor and attested by at least two witnesses."
+      },
+      "section_100": {
+        "title": "Charges",
+        "text": "Where immoveable property of one person is by act of parties or operation of law made security for the payment of money to another, and the transaction does not amount to a mortgage, the latter person is said to have a charge on the property."
+      },
+      "section_105": {
+        "title": "Lease defined",
+        "text": "A lease of immoveable property is a transfer of a right to enjoy such property, made for a certain time, express or implied, or in perpetuity, in consideration of a price paid or promised, or of money, a share of crops, service or any other thing of value, to be rendered periodically or on specified occasions to the transferor by the transferee, who accepts the transfer on such terms."
+      },
+      "section_108": {
+        "title": "Rights and liabilities of lessor and lessee",
+        "text": "Covers duties of lessor to disclose defects, deliver possession; lessee duties to pay rent, keep in good repair, etc."
+      },
+      "section_111": {
+        "title": "Determination of lease",
+        "text": "A lease of immoveable property determines by efflux of the time limited thereby; or where such time is limited conditionally on the happening of some event by the happening of such event; or where the interest of the lessor in the property terminates on, or his power to dispose of the same extends only to, the happening of any event, by the happening of such event."
+      },
+      "section_122": {
+        "title": "Gift defined",
+        "text": "Gift is the transfer of certain existing moveable or immoveable property made voluntarily and without consideration, by one person, called the donor, to another, called the donee, and accepted by or on behalf of the donee. Acceptance when to be made: Such acceptance must be made during the lifetime of the donor and while he is still capable of giving."
+      },
+      "section_123": {
+        "title": "Transfer how effected",
+        "text": "For the purpose of making a gift of immoveable property, the transfer must be effected by a registered instrument signed by or on behalf of the donor, and attested by at least two witnesses."
+      },
+      "section_130": {
+        "title": "Transfer of actionable claim",
+        "text": "The transfer of an actionable claim whether with or without consideration shall be effected only by the execution of an instrument in writing signed by the transferor or his duly authorized agent, and such instrument shall be complete when executed."
+      }
+    }
+  },
+  "registration_act": {
+    "year": 1908,
+    "compulsory_registration": [
+      "Sale deed for immoveable property worth Rs 100 or more",
+      "Gift deed of immoveable property",
+      "Lease deed for immoveable property for a period exceeding one year",
+      "Mortgage deed where principal sum is Rs 100 or more",
+      "Exchange deed of immoveable property",
+      "Partition deed of immoveable property",
+      "Decree or order of court affecting immoveable property"
+    ],
+    "optional_registration": [
+      "Will or codicil",
+      "Agreement to sell immoveable property",
+      "Power of attorney related to immoveable property",
+      "Instruments not otherwise compulsorily registrable"
+    ],
+    "time_limit_days": 4,
+    "time_limit_note": "Document must be presented for registration within 4 months of execution, with condonation possible up to an additional 4 months with fine.",
+    "sections": {
+      "section_17": {
+        "title": "Documents of which registration is compulsory"
+      },
+      "section_18": {
+        "title": "Documents of which registration is optional"
+      },
+      "section_49": {
+        "title": "Effect of non-registration of documents required to be registered",
+        "text": "A document required to be registered under Section 17 shall not affect any immoveable property comprised therein nor be received as evidence of any transaction affecting such property unless it has been registered."
+      }
+    }
+  },
+  "land_acquisition_act": {
+    "name": "Right to Fair Compensation and Transparency in Land Acquisition, Rehabilitation and Resettlement Act, 2013",
+    "year": 2013,
+    "key_provisions": [
+      "Consent requirement: 80% consent of affected families required for private companies; 70% for PPP projects",
+      "Social Impact Assessment (SIA) mandatory before acquisition",
+      "Market value compensation plus solatium: For urban land: market value x 1 + 100% solatium = 2x market value; For rural land: market value x 2 + 100% solatium = up to 4x market value in some interpretations",
+      "Rehabilitation and Resettlement (R&R) entitlements in addition to compensation",
+      "Multi-crop irrigated land acquisition restricted",
+      "Acquisition for private hospitals/schools requires consent and R&R",
+      "Five-year lapse clause: acquisition proceedings lapse if award not made within 5 years"
+    ],
+    "sections": {
+      "section_2": {
+        "title": "Definitions",
+        "text": "Defines affected family, agricultural land, displaced family, infrastructure project, land, market value, etc."
+      },
+      "section_4": {
+        "title": "Preparation of Social Impact Assessment study",
+        "text": "The appropriate Government before acquisition shall conduct a Social Impact Assessment study in consultation with Gram Sabha."
+      },
+      "section_11": {
+        "title": "Publication of preliminary notification",
+        "text": "The Collector shall publish a preliminary notification in the Official Gazette stating the intent to acquire the land."
+      },
+      "section_26": {
+        "title": "Determination of market value of land",
+        "text": "The Collector shall adopt the highest of: market value as per Indian Stamp Act for area, average sale price of similar land in vicinity over 3 years, or consented amount in cases of acquisition for PPP/private companies."
+      },
+      "section_30": {
+        "title": "Award of solatium",
+        "text": "The Collector shall award a sum equal to 100% of the market value of the land acquired as solatium in addition to the compensation determined."
+      }
+    }
+  },
+  "real_estate_act_rera": {
+    "name": "Real Estate (Regulation and Development) Act, 2016",
+    "year": 2016,
+    "key_provisions": [
+      "Mandatory registration of real estate projects with RERA before advertisement or sale",
+      "Promoter must deposit 70% of amounts realized from allottees in a designated bank account for that project",
+      "Carpet area (not super built-up area) must be disclosed and sold",
+      "Penalty for delay in possession: interest at SBI MCLR + 2% per annum for delayed period",
+      "Real Estate Regulatory Authority (RERA) in each state/UT",
+      "Real Estate Appellate Tribunal for appeals",
+      "Registration of real estate agents mandatory",
+      "Structural defects liability of promoter for 5 years after possession",
+      "Allottee can withdraw from project and get full refund with interest if delay exceeds prescribed period",
+      "Promoter cannot make any additions or alterations in sanctioned plans without two-thirds consent of allottees"
+    ],
+    "sections": {
+      "section_3": {
+        "title": "Prior registration of real estate project with Real Estate Regulatory Authority",
+        "text": "No promoter shall advertise, market, book, sell or offer for sale any apartment, plot or building in real estate project without registering the project with RERA."
+      },
+      "section_4": {
+        "title": "Application for registration of real estate projects",
+        "text": "Application for registration - promoter shall make application to RERA with all details of the project, including sanctioned plan, layout plan, land status, specifications, timeline."
+      },
+      "section_11": {
+        "title": "Functions and duties of promoter",
+        "text": "Functions and duties of promoter - disclose all details on website, not accept more than 10% of cost of apartment as advance without written agreement, enter agreement for sale on standard format."
+      },
+      "section_12": {
+        "title": "Obligation of promoter regarding veracity of the advertisement or prospectus",
+        "text": "Obligation of promoter to verify title - promoter to obtain insurance for title and construction of project."
+      },
+      "section_13": {
+        "title": "No deposit or advance to be taken relating to immovable property without first entering into a written agreement for sale",
+        "text": "No deposit or advance without agreement - promoter cannot accept more than 10% of the apartment cost without executing a registered agreement for sale."
+      },
+      "section_14": {
+        "title": "Adherence to sanctioned plans and project specifications by the promoter",
+        "text": "Adherence to sanctioned plans - promoter shall not make additions or alterations in the approved and sanctioned plans without prior written consent of at least two-thirds of the allottees."
+      },
+      "section_18": {
+        "title": "Return of amount and compensation",
+        "text": "If promoter fails to complete or hand over possession in accordance with the agreement, on account of discontinuance of business, he shall be liable to return amount received with interest and compensation."
+      },
+      "section_19": {
+        "title": "Rights and duties of allottees",
+        "text": "Allottee shall pay installments as per agreement; allottee has right to claim possession as per agreement; allottee has right to interest for delay; allottee shall participate in formation of association."
+      },
+      "section_31": {
+        "title": "Filing of complaints with the Authority",
+        "text": "Any aggrieved person may file complaint with RERA."
+      },
+      "section_40": {
+        "title": "Recovery of interest or penalty or compensation and enforcement of order, etc.",
+        "text": "Any amount recoverable under this Act from a promoter or allottee or real estate agent shall be recovered as arrears of land revenue."
+      },
+      "section_61": {
+        "title": "Penalty for non-registration",
+        "text": "Rs 10,000 per day for each day of default, up to 10% of estimated cost of project."
+      },
+      "section_63": {
+        "title": "Penalty for non-compliance of orders of Authority",
+        "text": "Imprisonment up to 3 years or fine up to 10% of estimated cost or both."
+      }
+    }
+  },
+  "stamp_act": {
+    "name": "Indian Stamp Act, 1899",
+    "key_provision": "Stamp duty is a state subject and varies by state. Typically 5-7% for property sale transactions. Stamp duty is paid before or at the time of execution of the document. Inadequately stamped documents are not admissible as evidence in court proceedings.",
+    "states": {
+      "Maharashtra": "5% (for sale above Rs 30 lakhs) + 1% Metro Cess + 1% Local Body Tax for Mumbai. Concession: Women buyers get 1% reduction. Stamp duty reduced to 3% during COVID period in 2020.",
+      "Karnataka": "5.6% (5% stamp duty + 0.5% surcharge + 0.1% cess) for properties above Rs 45 lakhs; lower slabs for lower value properties",
+      "Delhi": "6% for men, 4% for women, 5% for joint ownership (man and woman). Registration charges 1% additional.",
+      "Tamil Nadu": "7% stamp duty + 4% registration charges = 11% total",
+      "Gujarat": "4.9% stamp duty (women buyers get 1% concession making it 3.9%); registration charges 1%",
+      "Rajasthan": "6% for men, 5% for women; registration charges 1%",
+      "Andhra Pradesh": "5% stamp duty + 1% transfer duty + registration charges",
+      "Telangana": "4% stamp duty + 0.5% transfer duty + 0.5% registration charges = 5% total",
+      "West Bengal": "6% (municipal areas), 5% (outside municipal areas) + 1% additional stamp duty",
+      "Uttar Pradesh": "7% stamp duty + 1% registration charges = 8% total; women get 1% rebate"
+    }
+  },
+  "easements_act": {
+    "name": "Indian Easements Act, 1882",
+    "year": 1882,
+    "key_sections": {
+      "section_4": {
+        "title": "Easement defined",
+        "text": "An easement is a right which the owner or occupier of certain land possesses, as such, for the beneficial enjoyment of that land, to do and continue to do something, or to prevent and continue to prevent something being done, in or upon, or in respect of certain other land not his own. The land for the beneficial enjoyment of which the right exists is called the dominant heritage, and the owner or occupier thereof the dominant owner; the land on which the liability is imposed is called the servient heritage, and the owner or occupier thereof the servient owner."
+      },
+      "section_13": {
+        "title": "Easements of necessity and quasi easements",
+        "text": "Where one person transfers or bequeaths immoveable property to another, he is deemed to transfer or bequeath therewith all easements without which the property cannot be used."
+      },
+      "section_15": {
+        "title": "Easements by prescription",
+        "text": "Where the access and use of light or air to and for any building have been peaceably enjoyed therewith, as an easement, without interruption, and for twenty years, and where support from one person's land, or things affixed thereto, has been peaceably received by another person's land or things affixed thereto, as an easement, without interruption, and for twenty years, the right to such access and use of light or air, or to such support, as the case may be, shall be absolute."
+      },
+      "section_22": {
+        "title": "Licence defined",
+        "text": "Where one person grants to another, or to a definite number of other persons, a right to do, or continue to do, in or upon the immoveable property of the grantor, something which would, in the absence of such right, be unlawful, and such right does not amount to an easement or an interest in the property, the right is called a licence."
+      }
+    }
+  }
+}

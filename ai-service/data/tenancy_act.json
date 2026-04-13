@@ -1,0 +1,272 @@
+{
+  "model_tenancy_act": {
+    "year": 2021,
+    "full_name": "Model Tenancy Act, 2021",
+    "notified_by": "Ministry of Housing and Urban Affairs, Government of India",
+    "summary": "The Model Tenancy Act, 2021 aims to balance the interests of landlords and tenants by establishing a fast-track dispute resolution mechanism, creating Rent Authority, Rent Court and Rent Tribunal. It seeks to unlock vacant properties by instilling confidence in property owners and to create adequate rental housing stock for all income segments.",
+    "sections": [
+      {
+        "section": "2",
+        "title": "Definitions",
+        "description": "In this Act: 'landlord' means a person who for the time being is receiving or is entitled to receive rent in respect of any premises; 'tenant' means a person who is paying or is liable to pay rent for any premises under a tenancy agreement; 'Rent Authority' means the authority appointed under Section 4; 'premises' means any building or part of building let or to be let on rent."
+      },
+      {
+        "section": "4",
+        "title": "Rent Authority",
+        "description": "The appropriate Government shall, by notification in the Official Gazette, appoint an officer, not below the rank of Deputy Collector, to be the Rent Authority for the purpose of this Act within the local area specified in such notification. The Rent Authority shall be responsible for registration of tenancy agreements and adjudication of disputes between landlord and tenant."
+      },
+      {
+        "section": "5",
+        "title": "Submission of tenancy agreement to Rent Authority",
+        "description": "The landlord and tenant shall, within two months of executing a tenancy agreement, inform the Rent Authority by submitting a copy of the tenancy agreement in such form and manner as may be prescribed. The Rent Authority shall, on receipt of the tenancy agreement, issue a unique identification number to the landlord and tenant within seven working days."
+      },
+      {
+        "section": "6",
+        "title": "Conditions of tenancy",
+        "description": "The landlord and tenant may agree to vary the conditions of tenancy by executing a new or revised tenancy agreement and submit a copy thereof to the Rent Authority within two months of execution."
+      },
+      {
+        "section": "11",
+        "title": "Security deposit",
+        "description": "The landlord may collect a security deposit from the tenant at the time of entering into a tenancy agreement. The security deposit shall not exceed two months rent in case of residential premises and six months rent in case of non-residential premises. The security deposit shall be refunded by the landlord to the tenant within one month of vacation of premises after making any lawful deductions."
+      },
+      {
+        "section": "12",
+        "title": "Revision of rent",
+        "description": "The rent shall be revised as per the tenancy agreement. In the absence of any provision in the tenancy agreement, the landlord shall give at least three months advance notice in writing to the tenant before revising the rent."
+      },
+      {
+        "section": "17",
+        "title": "Landlord not to interfere with amenities",
+        "description": "No landlord shall, without just or sufficient cause, cut off or withhold any essential supply or service in respect of the premises held by the tenant. Essential supply means supply of water, electricity, sanitation facilities including toilets, parking space, communication infrastructure such as cable television, broadband or any other service as agreed in the tenancy agreement. Any landlord who contravenes the provisions of this section shall be liable to pay the tenant a sum equivalent to the amount of rent for each day during which the essential supplies are withheld."
+      },
+      {
+        "section": "21",
+        "title": "Vacation of premises on expiry of tenancy",
+        "description": "On the expiry of the period of tenancy, the tenant shall vacate the premises. In case of failure to vacate, the landlord may approach the Rent Court for eviction. During the period the tenant continues to occupy premises after expiry, he shall be liable to pay enhanced rent - double the monthly rent for first two months and four times the monthly rent thereafter."
+      },
+      {
+        "section": "30",
+        "title": "Rent Court",
+        "description": "The State Government shall, by notification in the Official Gazette, establish one or more Rent Courts for the purpose of this Act. The Rent Court shall be presided over by an officer not below the rank of Additional District Magistrate or equivalent. The Rent Court shall decide applications within sixty days of filing."
+      },
+      {
+        "section": "33",
+        "title": "Rent Tribunal",
+        "description": "The State Government shall, by notification in the Official Gazette, establish one or more Rent Tribunals. The Rent Tribunal shall be presided over by a person who is or has been a District Judge. Appeals from the Rent Court shall lie to the Rent Tribunal. The Rent Tribunal shall decide appeals within ninety days."
+      }
+    ],
+    "key_provisions": [
+      "Written rental agreement mandatory for all tenancies",
+      "Security deposit capped at 2 months rent for residential premises",
+      "Security deposit capped at 6 months rent for non-residential/commercial premises",
+      "Landlord cannot cut electricity, water or other essential supplies",
+      "Three months advance notice required for rent revision (if not in agreement)",
+      "Unique identification number issued by Rent Authority for each tenancy",
+      "Eviction possible through Rent Court on expiry of tenancy",
+      "Double rent payable for first 2 months of overstay; 4x rent thereafter",
+      "Rent Court to decide disputes within 60 days",
+      "Rent Tribunal as appellate body; appeals decided within 90 days",
+      "Landlord must refund security deposit within 1 month of vacation",
+      "Tenant cannot sub-let without written consent of landlord"
+    ],
+    "disputes_process": "Rent Authority → Rent Court → Rent Tribunal → High Court"
+  },
+  "state_variations": {
+    "Maharashtra": {
+      "act_name": "Maharashtra Rent Control Act, 1999",
+      "year": 1999,
+      "applicable_areas": "Entire State of Maharashtra including Mumbai Metropolitan Region, Pune, Nagpur, and other municipal areas",
+      "key_provisions": [
+        "Standard rent concept: landlord cannot charge more than standard rent",
+        "Tenant cannot be evicted except on specific grounds (non-payment of rent, subletting without permission, nuisance, etc.)",
+        "Landlord must give proper notice before filing eviction proceedings",
+        "Permitted increases in rent linked to property tax and cost of living index",
+        "Premises Act 1947 applies to certain categories of tenancy in Mumbai",
+        "Protection to tenants who have been in occupation for long periods"
+      ],
+      "rent_control": true,
+      "notice_period_months": 1,
+      "security_deposit_months": 3,
+      "court": "Small Causes Court, Mumbai (for Mumbai); Civil Court for rest of Maharashtra",
+      "standard_rent": "Determined by Rent Controller based on type and location of property",
+      "notes": "Maharashtra has one of the oldest rent control regimes in India. The 1999 Act replaced the earlier Bombay Rents, Hotel and Lodging House Rates Control Act 1947. Pagdi (premium) system prevalent in older Mumbai tenancies where tenant pays lump sum and low monthly rent. The Act does not apply to new constructions (post-1999 in most areas under the amended provisions)."
+    },
+    "Karnataka": {
+      "act_name": "Karnataka Rent Act, 1999",
+      "year": 1999,
+      "applicable_areas": "All urban areas in Karnataka; the Act applies to premises in municipal limits",
+      "key_provisions": [
+        "Landlord must register the tenancy agreement",
+        "Standard rent fixation by Rent Controller",
+        "Grounds for eviction include non-payment of rent, subletting, required for own use, demolition, etc.",
+        "Landlord cannot enhance rent by more than 10% per annum",
+        "Advance rent (deposit) regulated - maximum up to 10 months rent in some areas",
+        "Sitting tenants protected from arbitrary eviction"
+      ],
+      "rent_control": true,
+      "notice_period_months": 3,
+      "security_deposit_months": 10,
+      "court": "Court of Rent Controller (Special Courts under the Act)",
+      "standard_rent": "Rent Controller fixes standard rent; annual increase capped at 10%",
+      "notes": "Karnataka has adopted Model Tenancy Act framework partially. For new residential leases in IT corridor areas like Whitefield, Sarjapur, HSR Layout, market rents prevail. The 1999 Act primarily applies to old rent-controlled premises in Bengaluru."
+    },
+    "Delhi": {
+      "act_name": "Delhi Rent Act, 1995",
+      "year": 1995,
+      "applicable_areas": "National Capital Territory of Delhi; applies only to properties with monthly rent up to Rs 3,500 - other properties governed by Transfer of Property Act",
+      "key_provisions": [
+        "Only applies to properties with contractual rent up to Rs 3,500 per month",
+        "Properties above Rs 3,500 monthly rent governed by Transfer of Property Act 1882 and general contract law",
+        "Landlord can increase standard rent by 10% every 3 years",
+        "Eviction grounds: non-payment, subletting, nuisance, bona fide personal need, reconstruction",
+        "Tenant must deposit rent in court if landlord refuses to accept",
+        "Disputes heard by Rent Controller (Additional Rent Controller, District)"
+      ],
+      "rent_control": true,
+      "notice_period_months": 1,
+      "security_deposit_months": 2,
+      "court": "Additional Rent Controller, Delhi",
+      "standard_rent": "Rent Act only for properties under Rs 3,500/month; others by market rate",
+      "notes": "The Delhi Rent Act 1995 has a very narrow application due to the Rs 3,500 rent ceiling, making most modern properties fall outside its purview and governed by general property law. Delhi adopted the Model Tenancy Act in 2021 and is in process of implementing it."
+    },
+    "Tamil Nadu": {
+      "act_name": "Tamil Nadu Regulation of Rights and Responsibilities of Landlords and Tenants Act, 2017",
+      "year": 2017,
+      "applicable_areas": "Entire State of Tamil Nadu",
+      "key_provisions": [
+        "Mandatory written and registered tenancy agreement",
+        "Security deposit maximum 5 months rent for residential; for commercial - as agreed",
+        "Landlord must issue receipt for rent paid",
+        "90 days notice required by landlord for eviction",
+        "Tenant shall pay rent within 15 days of due date",
+        "Rent Tribunal for appeals within 30 days of Rent Court order",
+        "Tamil Nadu was first state to enact a comprehensive modern tenancy act"
+      ],
+      "rent_control": false,
+      "notice_period_months": 3,
+      "security_deposit_months": 5,
+      "court": "Rent Authority (District Collector or designate); Rent Tribunal for appeals",
+      "standard_rent": "Market rent; no rent control under the 2017 Act",
+      "notes": "Tamil Nadu was the first state to enact a comprehensive tenancy regulation act after the central government proposed reforms. It aligns largely with the Model Tenancy Act approach but predates it. Advance (deposit) culture is strong in Tamil Nadu especially in Chennai - advance up to 10-12 months was common but the 2017 Act caps it at 5 months."
+    },
+    "Gujarat": {
+      "act_name": "Gujarat Tenancy and Agricultural Lands Act, 1948 (for agricultural); Gujarat Rent Control Act, 1947 (for urban)",
+      "year": 1947,
+      "applicable_areas": "Urban areas of Gujarat for rent control; the State is also implementing Model Tenancy Act",
+      "key_provisions": [
+        "Standard rent concept for old tenancies under 1947 Act",
+        "New tenancies post-liberalisation governed more by market forces and Transfer of Property Act",
+        "Eviction proceedings before Mamlatdar court for some tenancy categories",
+        "Tenant protected if paying rent regularly and not subletting without permission",
+        "Gujarat adopted Model Tenancy Act with minor modifications in 2022",
+        "Security deposit typically 2-3 months for residential under Model Tenancy Act norms"
+      ],
+      "rent_control": true,
+      "notice_period_months": 1,
+      "security_deposit_months": 3,
+      "court": "Small Causes Court (Ahmedabad, Surat); Civil Court in other districts",
+      "standard_rent": "Varies; old properties under rent control, new properties at market rate",
+      "notes": "Gujarat has a bifurcated system - old properties under stringent rent control, new constructions governed by market forces and the recently adopted Model Tenancy Act framework. Ahmedabad and Surat have significant old rent-controlled tenancies."
+    },
+    "Rajasthan": {
+      "act_name": "Rajasthan Rent Control Act, 2001",
+      "year": 2001,
+      "applicable_areas": "Entire State of Rajasthan including Jaipur, Jodhpur, Udaipur, Kota and other urban areas",
+      "key_provisions": [
+        "Tenancy agreement to be in writing",
+        "Standard rent to be fixed by Rent Tribunal",
+        "Eviction only on grounds specified in Act: non-payment, subletting, nuisance, personal need",
+        "Landlord can seek possession for bona fide personal or family use",
+        "Appeal from Rent Tribunal to High Court",
+        "Rajasthan adopted provisions broadly aligned with Model Tenancy Act",
+        "Security deposit regulated; market-based in practice"
+      ],
+      "rent_control": true,
+      "notice_period_months": 1,
+      "security_deposit_months": 2,
+      "court": "Rent Tribunal (Presided by District Judge); appeal to High Court",
+      "standard_rent": "Market-based with standard rent fixation available before Rent Tribunal",
+      "notes": "Rajasthan's 2001 Act is relatively modernised compared to older state rent control laws. Jaipur has seen significant real estate growth with private residential leases largely governed by market dynamics."
+    },
+    "Andhra Pradesh": {
+      "act_name": "Andhra Pradesh Buildings (Lease, Rent and Eviction) Control Act, 1960",
+      "year": 1960,
+      "applicable_areas": "Urban areas of Andhra Pradesh including Vijayawada, Visakhapatnam, Tirupati and other municipalities",
+      "key_provisions": [
+        "Standard rent and permitted increases regulated by the Rent Controller",
+        "Fair rent fixation on application by either landlord or tenant",
+        "Eviction grounds: default in rent payment (2+ months), subletting, causing nuisance, landlord personal use, demolition",
+        "Compensation payable to tenant on eviction for personal use",
+        "Advance (deposit) regulated under the Act",
+        "Small Cause Courts and subordinate civil courts exercise jurisdiction"
+      ],
+      "rent_control": true,
+      "notice_period_months": 1,
+      "security_deposit_months": 2,
+      "court": "Rent Controller (Special Rent Court); appeal to District Court",
+      "standard_rent": "Fair rent fixed by Rent Controller based on building value and amenities",
+      "notes": "Andhra Pradesh retained the 1960 Act post-bifurcation from Telangana. The Act applies to buildings in urban areas. Visakhapatnam being a growing IT and port city has seen increased demand for residential and commercial leases beyond the rent-controlled framework."
+    },
+    "Telangana": {
+      "act_name": "Telangana Regulation of Residential Buildings and Tenancies Act, 2021 (and legacy Andhra Pradesh Buildings Act 1960)",
+      "year": 2021,
+      "applicable_areas": "State of Telangana including Hyderabad, Secunderabad, Cyberabad and other urban areas",
+      "key_provisions": [
+        "New Act of 2021 introduced for residential buildings aligning with Model Tenancy Act",
+        "Mandatory online registration of tenancy agreements through TRNC (Telangana Real Estate Regulatory Commission)",
+        "Security deposit regulated: maximum 2 months for residential",
+        "Three months notice required for eviction",
+        "Landlord prohibited from disconnecting utilities to coerce eviction",
+        "Legacy Andhra Pradesh Buildings Act 1960 continues for pre-existing commercial tenancies",
+        "Rent Court and Rent Authority established under the 2021 Act"
+      ],
+      "rent_control": false,
+      "notice_period_months": 3,
+      "security_deposit_months": 2,
+      "court": "Rent Court; appeal to Rent Tribunal under the 2021 Act",
+      "standard_rent": "Market-based; no rent control under 2021 Act",
+      "notes": "Telangana adopted the Model Tenancy Act framework early with the 2021 Act. Hyderabad is India's major IT hub, and rentals in Madhapur, Gachibowli, Kondapur follow market rates entirely under the new framework. Advance payment culture is transitioning from high deposits (5-10 months) to the regulated 2-month norm."
+    },
+    "West Bengal": {
+      "act_name": "West Bengal Premises Tenancy Act, 1997",
+      "year": 1997,
+      "applicable_areas": "Entire State of West Bengal including Kolkata, Howrah and other urban areas",
+      "key_provisions": [
+        "Tenancy agreements governed by 1997 Act",
+        "Standard rent concept: landlord entitled to reasonable return on property",
+        "Permitted increases in rent at prescribed intervals",
+        "Eviction on grounds: non-payment of rent, subletting without permission, nuisance, bona fide need of landlord",
+        "Twelve months notice required for eviction for personal use",
+        "Controller of Rents or designated court for disputes",
+        "Kolkata has significant stock of old rent-controlled premises from Calcutta Rent Control Act 1950 (now superseded)"
+      ],
+      "rent_control": true,
+      "notice_period_months": 12,
+      "security_deposit_months": 3,
+      "court": "Special Rent Controller; Civil Court for some matters; High Court for appeals",
+      "standard_rent": "Standard rent determined by Controller on application; includes legitimate land and construction costs",
+      "notes": "West Bengal has one of the more tenant-friendly rent control regimes. The long notice period for eviction for personal use (12 months) gives tenants significant protection. Kolkata's old buildings have many legacy rent-controlled tenancies where tenants pay very low rents. New constructions and high-end localities follow market rates."
+    },
+    "Uttar Pradesh": {
+      "act_name": "Uttar Pradesh Urban Buildings (Regulation of Letting, Rent and Eviction) Act, 1972",
+      "year": 1972,
+      "applicable_areas": "Urban areas of Uttar Pradesh including Lucknow, Agra, Kanpur, Varanasi, Allahabad (Prayagraj) and other cities",
+      "key_provisions": [
+        "Allotment system: Prescribed Authority (usually District Magistrate) allocates vacant premises",
+        "Rent Controller approves rent and tenancy terms",
+        "Standard rent cannot exceed amount sanctioned under the Act",
+        "Eviction grounds specified: non-payment, subletting, nuisance, personal use, material alteration",
+        "Tenant entitled to make repairs and deduct from rent if landlord fails to maintain",
+        "Strict restriction on release of premises from rent control",
+        "Act does not apply to premises built after a cut-off date (1985 in most areas)"
+      ],
+      "rent_control": true,
+      "notice_period_months": 1,
+      "security_deposit_months": 2,
+      "court": "Prescribed Authority (Tehsildar/SDM level); appeal to Rent Control Tribunal; further appeal to High Court",
+      "standard_rent": "Standard rent fixed by Rent Controller; no enhancement except in prescribed circumstances",
+      "notes": "The UP Act has a unique allotment system making it one of the most regulated tenancy regimes. The Act does not apply to buildings constructed after 1985 (as per the exemption provision), meaning modern properties in Lucknow, NOIDA, Ghaziabad are governed by Transfer of Property Act and market rents. The old Act remains relevant for pre-1985 constructions in city centres."
+    }
+  }
+}
