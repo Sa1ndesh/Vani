@@ -1,0 +1,292 @@
+{
+  "sections": [
+    {
+      "section": "BNS 101",
+      "title": "Culpable Homicide",
+      "description": "Whoever causes death by doing an act with the intention of causing death, or with the intention of causing such bodily injury as is likely to cause death, or with the knowledge that the act is likely to cause death, commits the offence of culpable homicide.",
+      "punishment": "Imprisonment for life, or imprisonment of either description for a term up to 10 years, and also fine.",
+      "keywords": ["homicide", "death", "culpable", "killing"],
+      "act": "BNS",
+      "ipc_equivalent": "IPC 299"
+    },
+    {
+      "section": "BNS 103",
+      "title": "Punishment for Murder",
+      "description": "Whoever commits murder shall be punished with death, or imprisonment for life, and shall also be liable to fine; and if the act by which death is caused is done with the intention of causing death or of causing such bodily injury as is likely to cause death.",
+      "punishment": "Death or imprisonment for life, and fine.",
+      "keywords": ["murder", "death sentence", "life imprisonment"],
+      "act": "BNS",
+      "ipc_equivalent": "IPC 302"
+    },
+    {
+      "section": "BNS 105",
+      "title": "Culpable homicide by causing death of person other than person whose death was intended",
+      "description": "If a person, by doing anything which he intends or knows to be likely to cause death, commits culpable homicide by causing the death of any person, whose death he neither intends nor knows himself to be likely to cause, the culpable homicide committed by the offender is of the description of which it would have been if he had caused the death of the person whose death he intended or knew himself to be likely to cause.",
+      "punishment": "Same as the original culpable homicide intended.",
+      "keywords": ["culpable homicide", "transferred intent", "death"],
+      "act": "BNS",
+      "ipc_equivalent": "IPC 301"
+    },
+    {
+      "section": "BNS 109",
+      "title": "Attempt to commit offences punishable with death or imprisonment for life",
+      "description": "Whoever attempts to commit an offence punishable with death or imprisonment for life or imprisonment, and in such attempt does any act towards the commission of the offence.",
+      "punishment": "Imprisonment of either description for a term up to 10 years, and also fine.",
+      "keywords": ["attempt", "murder", "attempt to kill"],
+      "act": "BNS",
+      "ipc_equivalent": "IPC 307"
+    },
+    {
+      "section": "BNS 115",
+      "title": "Voluntarily causing hurt",
+      "description": "Whoever voluntarily causes hurt shall be punished with imprisonment of either description for a term which may extend to one year, or with fine which may extend to ten thousand rupees, or with both.",
+      "punishment": "Imprisonment up to 1 year, or fine up to Rs. 10,000, or both.",
+      "keywords": ["hurt", "injury", "assault", "beating"],
+      "act": "BNS",
+      "ipc_equivalent": "IPC 323"
+    },
+    {
+      "section": "BNS 116",
+      "title": "Voluntarily causing grievous hurt",
+      "description": "Whoever voluntarily causes grievous hurt shall be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine.",
+      "punishment": "Imprisonment up to 7 years, and fine.",
+      "keywords": ["grievous hurt", "serious injury"],
+      "act": "BNS",
+      "ipc_equivalent": "IPC 325"
+    },
+    {
+      "section": "BNS 117",
+      "title": "Voluntarily causing hurt by dangerous weapons or means",
+      "description": "Whoever, except in the case provided for by section 131, voluntarily causes hurt by means of any instrument for shooting, stabbing or cutting, or any instrument which, used as a weapon of offence, is likely to cause death, or by means of fire or any heated substance, or by means of any poison or any corrosive substance.",
+      "punishment": "Imprisonment of either description for a term up to 3 years, or fine, or both.",
+      "keywords": ["weapon", "knife", "dangerous", "hurt", "stabbing"],
+      "act": "BNS",
+      "ipc_equivalent": "IPC 324"
+    },
+    {
+      "section": "BNS 118",
+      "title": "Voluntarily causing grievous hurt by dangerous weapons or means",
+      "description": "Whoever, except in the case provided for by section 132, voluntarily causes grievous hurt by means of any instrument for shooting, stabbing or cutting, or any instrument which, used as a weapon of offence, is likely to cause death.",
+      "punishment": "Imprisonment of either description for a term up to 10 years, and also fine.",
+      "keywords": ["grievous hurt", "weapon", "dangerous", "injury"],
+      "act": "BNS",
+      "ipc_equivalent": "IPC 326"
+    },
+    {
+      "section": "BNS 63",
+      "title": "Rape",
+      "description": "A man is said to commit rape if he penetrates his penis, to any extent, into the vagina, mouth, urethra or anus of a woman or makes her to do so with him or any other person; or inserts, to any extent, any object or a part of the body, not being the penis, into the vagina, the urethra or anus of a woman or makes her to do so with him or any other person.",
+      "punishment": "Rigorous imprisonment of not less than 10 years, up to imprisonment for life, and fine.",
+      "keywords": ["rape", "sexual assault", "consent"],
+      "act": "BNS",
+      "ipc_equivalent": "IPC 376"
+    },
+    {
+      "section": "BNS 64",
+      "title": "Punishment for rape",
+      "description": "Whoever commits rape shall be punished with rigorous imprisonment of either description for a term which shall not be less than ten years, but which may extend to imprisonment for life, and shall also be liable to fine.",
+      "punishment": "Rigorous imprisonment of not less than 10 years, up to life imprisonment, and fine.",
+      "keywords": ["rape", "punishment", "imprisonment"],
+      "act": "BNS",
+      "ipc_equivalent": "IPC 376"
+    },
+    {
+      "section": "BNS 65",
+      "title": "Punishment for rape in certain cases",
+      "description": "Whoever commits rape on a woman under sixteen years of age shall be punished with rigorous imprisonment for a term which shall not be less than twenty years, but which may extend to imprisonment for life, which shall mean imprisonment for the remainder of that person's natural life.",
+      "punishment": "Rigorous imprisonment of not less than 20 years, up to life imprisonment.",
+      "keywords": ["rape", "minor", "child", "underage", "punishment"],
+      "act": "BNS",
+      "ipc_equivalent": "IPC 376"
+    },
+    {
+      "section": "BNS 66",
+      "title": "Sexual harassment and punishment for sexual harassment",
+      "description": "A man committing physical contact and advances involving unwelcome and explicit sexual overtures; or a demand or request for sexual favours; or showing pornography against the will of a woman; or making sexually coloured remarks, shall be guilty of the offence of sexual harassment.",
+      "punishment": "Rigorous imprisonment up to 3 years or fine or both.",
+      "keywords": ["sexual harassment", "workplace", "unwelcome"],
+      "act": "BNS",
+      "ipc_equivalent": "IPC 354A"
+    },
+    {
+      "section": "BNS 85",
+      "title": "Husband or relative of husband of a woman subjecting her to cruelty",
+      "description": "Whoever, being the husband or the relative of the husband of a woman, subjects such woman to cruelty shall be punished with imprisonment of either description for a term which may extend to three years and shall also be liable to fine.",
+      "punishment": "Imprisonment up to 3 years and fine.",
+      "keywords": ["domestic violence", "cruelty", "husband", "dowry harassment"],
+      "act": "BNS",
+      "ipc_equivalent": "IPC 498A"
+    },
+    {
+      "section": "BNS 80",
+      "title": "Dowry Death",
+      "description": "Where the death of a woman is caused by any burns or bodily injury or occurs under abnormal circumstances within seven years of marriage, and it is shown that soon before her death she was subjected to cruelty or harassment by her husband or his relatives for dowry.",
+      "punishment": "Imprisonment for a term not less than 7 years, up to life imprisonment.",
+      "keywords": ["dowry", "dowry death", "harassment", "wife", "marriage"],
+      "act": "BNS",
+      "ipc_equivalent": "IPC 304B"
+    },
+    {
+      "section": "BNS 303",
+      "title": "Theft",
+      "description": "Whoever, intending to take dishonestly any moveable property out of the possession of any person without that person's consent, moves that property in order to such taking, is said to commit theft.",
+      "punishment": "Imprisonment of either description for a term up to 3 years, or fine, or both.",
+      "keywords": ["theft", "stealing", "movable property"],
+      "act": "BNS",
+      "ipc_equivalent": "IPC 378"
+    },
+    {
+      "section": "BNS 304",
+      "title": "Punishment for Theft",
+      "description": "Whoever commits theft shall be punished with imprisonment of either description for a term which may extend to three years, or with fine, or with both.",
+      "punishment": "Imprisonment up to 3 years, or fine, or both.",
+      "keywords": ["theft", "punishment"],
+      "act": "BNS",
+      "ipc_equivalent": "IPC 379"
+    },
+    {
+      "section": "BNS 305",
+      "title": "Theft in dwelling house, etc.",
+      "description": "Whoever commits theft in any building, tent or vessel, which building, tent or vessel is used as a human dwelling, or used for the custody of property, shall be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine.",
+      "punishment": "Imprisonment up to 7 years, and fine.",
+      "keywords": ["house theft", "dwelling", "burglary"],
+      "act": "BNS",
+      "ipc_equivalent": "IPC 380"
+    },
+    {
+      "section": "BNS 308",
+      "title": "Extortion",
+      "description": "Whoever intentionally puts any person in fear of any injury to that person, or to any other, and thereby dishonestly induces the person so put in fear to deliver to any person any property or valuable security, commits extortion.",
+      "punishment": "Imprisonment of either description for a term up to 3 years, or fine, or both.",
+      "keywords": ["extortion", "blackmail", "fear", "threat"],
+      "act": "BNS",
+      "ipc_equivalent": "IPC 383"
+    },
+    {
+      "section": "BNS 309",
+      "title": "Putting person in fear of death or of grievous hurt, in order to commit extortion",
+      "description": "Whoever commits extortion by putting any person in fear of death or of grievous hurt to that person or to any other.",
+      "punishment": "Imprisonment of either description for a term up to 10 years, and also fine.",
+      "keywords": ["extortion", "death threat", "grievous hurt"],
+      "act": "BNS",
+      "ipc_equivalent": "IPC 387"
+    },
+    {
+      "section": "BNS 310",
+      "title": "Robbery",
+      "description": "In all robbery there is either theft or extortion. Theft is robbery if, in order to the committing of the theft, or in committing the theft, or in carrying away or attempting to carry away property obtained by the theft, the offender, for that end, voluntarily causes or attempts to cause to any person death or hurt or wrongful restraint.",
+      "punishment": "Rigorous imprisonment up to 10 years, and fine.",
+      "keywords": ["robbery", "theft", "force", "violence"],
+      "act": "BNS",
+      "ipc_equivalent": "IPC 390"
+    },
+    {
+      "section": "BNS 311",
+      "title": "Dacoity",
+      "description": "When five or more persons conjointly commit or attempt to commit a robbery, or where the whole number of persons conjointly committing or attempting to commit a robbery, and persons present and aiding such commission or attempt, amount to five or more, every person so committing, attempting or aiding, is said to commit dacoity.",
+      "punishment": "Imprisonment for life or rigorous imprisonment up to 10 years, and fine.",
+      "keywords": ["dacoity", "gang robbery", "five persons"],
+      "act": "BNS",
+      "ipc_equivalent": "IPC 391"
+    },
+    {
+      "section": "BNS 316",
+      "title": "Criminal Breach of Trust",
+      "description": "Whoever, being in any manner entrusted with property, or with any dominion over property, dishonestly misappropriates or converts to his own use that property, or dishonestly uses or disposes of that property in violation of any direction of law.",
+      "punishment": "Imprisonment of either description for a term up to 3 years, or fine, or both.",
+      "keywords": ["breach of trust", "embezzlement", "trust property"],
+      "act": "BNS",
+      "ipc_equivalent": "IPC 405"
+    },
+    {
+      "section": "BNS 317",
+      "title": "Criminal Misappropriation",
+      "description": "Whoever dishonestly misappropriates or converts to his own use any movable property shall be punished with imprisonment of either description for a term which may extend to two years, or with fine, or with both.",
+      "punishment": "Imprisonment up to 2 years, or fine, or both.",
+      "keywords": ["misappropriation", "property", "dishonest"],
+      "act": "BNS",
+      "ipc_equivalent": "IPC 403"
+    },
+    {
+      "section": "BNS 318",
+      "title": "Cheating",
+      "description": "Whoever, by deceiving any person, fraudulently or dishonestly induces the person so deceived to deliver any property to any person, or to consent that any person shall retain any property, or intentionally induces the person so deceived to do or omit to do anything which he would not do or omit if he were not so deceived.",
+      "punishment": "Imprisonment of either description for a term up to 7 years, and also fine.",
+      "keywords": ["cheating", "fraud", "deception", "scam"],
+      "act": "BNS",
+      "ipc_equivalent": "IPC 415"
+    },
+    {
+      "section": "BNS 324",
+      "title": "Forgery",
+      "description": "Whoever makes any false document or false electronic record or part of a document or electronic record, with intent to cause damage or injury, to the public or to any person, or to support any claim or title, or to cause any person to part with property, or to enter into any express or implied contract, commits forgery.",
+      "punishment": "Imprisonment of either description for a term up to 2 years, or fine, or both.",
+      "keywords": ["forgery", "fake document", "false record"],
+      "act": "BNS",
+      "ipc_equivalent": "IPC 463"
+    },
+    {
+      "section": "BNS 329",
+      "title": "Counterfeiting currency-notes or bank-notes",
+      "description": "Whoever counterfeits, or knowingly performs any part of the process of counterfeiting, any currency-note or bank-note, shall be punished with imprisonment for life, or with imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine.",
+      "punishment": "Imprisonment for life or up to 10 years, and fine.",
+      "keywords": ["counterfeit", "fake currency", "currency", "bank notes"],
+      "act": "BNS",
+      "ipc_equivalent": "IPC 489A"
+    },
+    {
+      "section": "BNS 356",
+      "title": "Defamation",
+      "description": "Whoever, by words either spoken or intended to be read, or by signs or by visible representations, makes or publishes any imputation concerning any person intending to harm, or knowing or having reason to believe that such imputation will harm, the reputation of such person, is said to defame that person.",
+      "punishment": "Simple imprisonment for a term up to 2 years, or fine, or both.",
+      "keywords": ["defamation", "reputation", "libel", "slander"],
+      "act": "BNS",
+      "ipc_equivalent": "IPC 499"
+    },
+    {
+      "section": "BNS 357",
+      "title": "Punishment for Defamation",
+      "description": "Whoever defames another shall be punished with simple imprisonment for a term which may extend to two years, or with fine, or with both.",
+      "punishment": "Simple imprisonment up to 2 years, or fine, or both.",
+      "keywords": ["defamation", "punishment"],
+      "act": "BNS",
+      "ipc_equivalent": "IPC 500"
+    },
+    {
+      "section": "BNS 358",
+      "title": "Printing or engraving matter known to be defamatory",
+      "description": "Whoever prints or engraves any matter, knowing or having good reason to believe that such matter is defamatory of any person, shall be punished with simple imprisonment for a term which may extend to two years, or with fine, or with both.",
+      "punishment": "Simple imprisonment up to 2 years, or fine, or both.",
+      "keywords": ["defamation", "printing", "publication"],
+      "act": "BNS",
+      "ipc_equivalent": "IPC 501"
+    },
+    {
+      "section": "BNS 351",
+      "title": "Criminal Intimidation",
+      "description": "Whoever threatens another with any injury to his person, reputation or property, or to the person or reputation or property of any one in whom that person is interested, with intent to cause alarm to that person, or to cause that person to do any act which he is not legally bound to do, commits criminal intimidation.",
+      "punishment": "Imprisonment of either description for a term up to 2 years, or fine, or both.",
+      "keywords": ["threat", "intimidation", "criminal intimidation"],
+      "act": "BNS",
+      "ipc_equivalent": "IPC 503"
+    },
+    {
+      "section": "BNS 111",
+      "title": "Organised Crime",
+      "description": "Whoever being a member of an organised crime syndicate commits or attempts to commit or abets the commission of organised crime, including offences related to extortion, contract killing, land grabbing, financial scams.",
+      "punishment": "Death or imprisonment for life if the offence results in death; rigorous imprisonment of not less than 5 years if no death results, and fine.",
+      "keywords": ["organised crime", "syndicate", "gang", "mafia"],
+      "act": "BNS",
+      "ipc_equivalent": "New provision"
+    },
+    {
+      "section": "BNS 152",
+      "title": "Act endangering sovereignty, unity and integrity of India",
+      "description": "Whoever, purposely or knowingly, by words, either spoken or written, or by signs, or by visible representation, or by electronic communication or by use of financial means, or otherwise, excites or attempts to excite, secession or armed rebellion or subversive activities.",
+      "punishment": "Imprisonment for life or imprisonment of either description for a term up to 7 years, and also fine.",
+      "keywords": ["sedition", "sovereignty", "rebellion", "national security"],
+      "act": "BNS",
+      "ipc_equivalent": "IPC 124A"
+    }
+  ]
+}

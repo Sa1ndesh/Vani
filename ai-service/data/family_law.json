@@ -1,0 +1,238 @@
+{
+  "acts": [
+    {
+      "act_name": "Hindu Marriage Act 1955",
+      "year": 1955,
+      "applicability": "Hindus, Buddhists, Jains and Sikhs",
+      "sections": [
+        {
+          "section": "HMA Section 5",
+          "title": "Conditions for a Hindu Marriage",
+          "description": "A marriage may be solemnized between any two Hindus, if neither party has a spouse living at the time of marriage; neither party is of unsound mind; the bridegroom has completed 21 years and the bride 18 years; the parties are not within the degrees of prohibited relationship unless custom permits.",
+          "keywords": ["marriage conditions", "marriage age", "prohibited relationship", "Hindu marriage"]
+        },
+        {
+          "section": "HMA Section 11",
+          "title": "Void Marriages",
+          "description": "Any marriage solemnized after the commencement of this Act shall be null and void if it contravenes conditions in section 5 regarding living spouse, prohibited relationship, or sapinda relationship.",
+          "keywords": ["void marriage", "null marriage", "invalid marriage"]
+        },
+        {
+          "section": "HMA Section 12",
+          "title": "Voidable Marriages",
+          "description": "Any marriage solemnized, whether before or after the commencement of this Act, shall be voidable and may be annulled by a decree of nullity on grounds: incapacity to consummate, unsound mind, mental disorder, consent obtained by fraud or force, pregnancy by another person at time of marriage.",
+          "keywords": ["voidable marriage", "annulment", "nullity", "consent fraud"]
+        },
+        {
+          "section": "HMA Section 13",
+          "title": "Divorce",
+          "description": "Any marriage solemnized, whether before or after the commencement of this Act, may, on a petition presented by either the husband or the wife, be dissolved by a decree of divorce on grounds: adultery, cruelty, desertion for 2 years, religious conversion, unsoundness of mind, communicable disease, renunciation of world, presumed dead.",
+          "keywords": ["divorce", "grounds for divorce", "dissolution of marriage", "desertion", "cruelty", "adultery"]
+        },
+        {
+          "section": "HMA Section 13A",
+          "title": "Alternate Relief in Divorce Proceedings",
+          "description": "In any proceeding under this Act, on a petition for dissolution of marriage by a decree of divorce, except in so far as the petition is founded on the grounds mentioned in clause (ii), clause (vi), clause (vii), clause (viii) or clause (ix) of sub-section (1) of section 13, the court may, if it considers it just so to do having regard to the circumstances of the case, pass instead a decree for judicial separation.",
+          "keywords": ["alternate relief", "judicial separation", "divorce alternative"]
+        },
+        {
+          "section": "HMA Section 13B",
+          "title": "Divorce by Mutual Consent",
+          "description": "Both the parties to a marriage together, or either of the parties to the marriage with the consent of the other, may present a petition for dissolution of the marriage by a decree of divorce. The court shall, on being satisfied after hearing the parties, that the marriage has been solemnized and the averments in the petition are true, pass a decree of divorce. A second motion is required after 6 to 18 months.",
+          "keywords": ["mutual consent divorce", "divorce by consent", "6 months waiting period"]
+        },
+        {
+          "section": "HMA Section 14",
+          "title": "No Petition for Divorce to be Presented Within One Year of Marriage",
+          "description": "Notwithstanding anything contained in this Act, it shall not be competent for any court to entertain any petition for dissolution of a marriage by a decree of divorce, unless at the date of the presentation of the petition one year has elapsed since the date of the marriage.",
+          "keywords": ["one year bar", "divorce restriction", "marriage period"]
+        },
+        {
+          "section": "HMA Section 24",
+          "title": "Maintenance Pendente Lite and Expenses of Proceedings",
+          "description": "Where in any proceeding under this Act it appears to the court that either the wife or the husband, as the case may be, has no independent income sufficient for her or his support and the necessary expenses of the proceeding, it may, on the application of the wife or the husband, order the respondent to pay to the petitioner the expenses of the proceeding.",
+          "keywords": ["interim maintenance", "maintenance during proceedings", "legal expenses"]
+        },
+        {
+          "section": "HMA Section 25",
+          "title": "Permanent Alimony and Maintenance",
+          "description": "Any court exercising jurisdiction under this Act may, at the time of passing any decree or at any time subsequent thereto, on application made to it for the purpose, order that the respondent shall pay to the applicant for her or his maintenance and support such gross sum or such monthly or periodical sum.",
+          "keywords": ["alimony", "maintenance", "permanent alimony", "monthly maintenance"]
+        },
+        {
+          "section": "HMA Section 26",
+          "title": "Custody of Children",
+          "description": "In any proceeding under this Act, the court may, from time to time, pass such interim orders and make such provisions in the decree as it may deem just and proper with respect to the custody, maintenance and education of minor children.",
+          "keywords": ["child custody", "minor children", "custody order", "education"]
+        }
+      ]
+    },
+    {
+      "act_name": "Hindu Succession Act 1956",
+      "year": 1956,
+      "applicability": "Hindus, Buddhists, Jains and Sikhs",
+      "sections": [
+        {
+          "section": "HSA Section 6",
+          "title": "Devolution of Interest in Coparcenary Property",
+          "description": "On and from the commencement of the Hindu Succession (Amendment) Act, 2005, in a Joint Hindu family governed by the Mitakshara law, the daughter of a coparcener shall by birth become a coparcener in her own right in the same manner as the son.",
+          "keywords": ["daughter inheritance", "coparcenary", "ancestral property", "equal rights"]
+        },
+        {
+          "section": "HSA Section 8",
+          "title": "General Rules of Succession in the Case of Males",
+          "description": "The property of a male Hindu dying intestate shall devolve upon Class I heirs first, then Class II heirs, then agnates, and lastly cognates.",
+          "keywords": ["succession", "inheritance", "Class I heirs", "male Hindu property"]
+        },
+        {
+          "section": "HSA Section 10",
+          "title": "Distribution of Property Among Heirs in Class I of the Schedule",
+          "description": "The property of an intestate shall be divided among the heirs in Class I of the Schedule in accordance with rules: son gets one share, daughter gets one share, widow gets one share, each deceased son's branch gets one share.",
+          "keywords": ["Class I heirs", "property division", "son daughter widow equal share"]
+        },
+        {
+          "section": "HSA Section 15",
+          "title": "General Rules of Succession in the Case of Female Hindus",
+          "description": "The property of a female Hindu dying intestate shall devolve firstly upon sons and daughters (including children of any pre-deceased son or daughter) and the husband; secondly upon the heirs of the husband.",
+          "keywords": ["female Hindu succession", "widow property", "female property rights"]
+        },
+        {
+          "section": "HSA Section 23",
+          "title": "Special Provision Respecting Dwelling Houses (Repealed)",
+          "description": "This section was repealed by the 2005 Amendment which gave daughters equal rights in ancestral property.",
+          "keywords": ["dwelling house", "daughter rights", "2005 amendment"]
+        },
+        {
+          "section": "HSA Section 30",
+          "title": "Testamentary Succession",
+          "description": "Any Hindu may dispose of by will or other testamentary disposition any property, which is capable of being so disposed of by him or by her, in accordance with the provisions of the Indian Succession Act, 1925.",
+          "keywords": ["will", "testament", "testamentary succession", "dispose property"]
+        }
+      ]
+    },
+    {
+      "act_name": "Special Marriage Act 1954",
+      "year": 1954,
+      "applicability": "All Indians irrespective of religion; inter-religion marriages",
+      "sections": [
+        {
+          "section": "SMA Section 4",
+          "title": "Conditions for Marriage",
+          "description": "Notwithstanding anything contained in any other law for the time being in force relating to the solemnization of marriages, a marriage between any two persons may be solemnized under this Act, if the following conditions are fulfilled: neither party has a spouse living; neither party is of unsound mind; male 21 years, female 18 years; not within prohibited degrees of relationship.",
+          "keywords": ["special marriage", "inter-religion marriage", "marriage conditions", "civil marriage"]
+        },
+        {
+          "section": "SMA Section 5",
+          "title": "Notice of Intended Marriage",
+          "description": "When a marriage is intended to be solemnized under this Act, the parties to the marriage shall give notice thereof in writing in the form specified in the First Schedule to the Marriage Officer of the district in which at least one of the parties has resided for a period of not less than thirty days.",
+          "keywords": ["notice of marriage", "30 days notice", "marriage officer"]
+        },
+        {
+          "section": "SMA Section 27",
+          "title": "Divorce",
+          "description": "Subject to the provisions of this Act and to the rules made thereunder, a petition for divorce may be presented to the district court either by the husband or the wife on the ground that the respondent has committed adultery; or has deserted the petitioner for a continuous period of not less than two years; or is undergoing a sentence of imprisonment for seven years or more.",
+          "keywords": ["divorce", "SMA divorce", "civil marriage divorce"]
+        }
+      ]
+    },
+    {
+      "act_name": "Muslim Personal Law (Shariat) Application Act 1937",
+      "year": 1937,
+      "applicability": "Muslims in India",
+      "sections": [
+        {
+          "section": "Muslim Personal Law - Nikah",
+          "title": "Marriage (Nikah)",
+          "description": "A Muslim marriage (Nikah) is a civil contract. It requires: offer (Ijab) and acceptance (Qabul), presence of witnesses (two males or one male and two females), payment or promise of Mehr (dower) to the bride. Marriage is void if parties are within prohibited degrees.",
+          "keywords": ["nikah", "Muslim marriage", "mehr", "dower", "witnesses"]
+        },
+        {
+          "section": "Muslim Personal Law - Talaq",
+          "title": "Divorce (Talaq)",
+          "description": "Under Muslim Personal Law, divorce may be by Talaq (by husband), Khula (by wife with husband's consent), Mubarat (by mutual consent), or judicial divorce (Faskh). Triple Talaq (instant talaq) has been made illegal under Muslim Women (Protection of Rights on Marriage) Act 2019.",
+          "keywords": ["talaq", "divorce", "triple talaq", "khula", "Muslim divorce"]
+        },
+        {
+          "section": "Muslim Women Protection Act 2019",
+          "title": "Muslim Women (Protection of Rights on Marriage) Act 2019",
+          "description": "Declaring the pronouncement of triple talaq (talaq-e-biddat) void and illegal. Making the practice a cognizable and non-bailable offence with imprisonment up to 3 years. Entitles the Muslim woman to seek maintenance and custody of minor children.",
+          "keywords": ["triple talaq", "instant talaq", "illegal", "Muslim women protection"]
+        },
+        {
+          "section": "Muslim Personal Law - Mehr",
+          "title": "Dower (Mehr)",
+          "description": "Mehr is a mandatory payment, in the form of money or possessions, paid or promised to pay by the groom to the bride at the time of marriage. It is the exclusive property of the wife. Prompt Mehr is payable on demand; Deferred Mehr is payable on dissolution of marriage.",
+          "keywords": ["mehr", "dower", "bride", "Muslim marriage rights"]
+        },
+        {
+          "section": "Muslim Personal Law - Inheritance",
+          "title": "Inheritance under Muslim Law",
+          "description": "Muslim succession follows Sunni law (for Sunnis) or Shia law (for Shias). Generally, male heirs receive double the share of female heirs. A person cannot inherit who is guilty of causing the death of the deceased. Non-Muslims cannot inherit from Muslims.",
+          "keywords": ["Muslim inheritance", "succession", "Sunni law", "Shia law"]
+        }
+      ]
+    },
+    {
+      "act_name": "Christian Marriage Act 1872",
+      "year": 1872,
+      "applicability": "Christians in India",
+      "sections": [
+        {
+          "section": "CMA Section 5",
+          "title": "Persons by whom marriages may be solemnized",
+          "description": "Marriages in India between persons one or both of whom is or are a Christian or Christians shall be solemnized by a Minister of Religion licensed under this Act, or by any Marriage Registrar appointed under this Act, or by any person licensed under section 9.",
+          "keywords": ["Christian marriage", "marriage solemnization", "licensed minister"]
+        },
+        {
+          "section": "CMA Section 60",
+          "title": "Requirements of valid Christian Marriage",
+          "description": "Every marriage under this Act shall be solemnized in the presence of at least two credible witnesses and the person solemnizing the marriage. Both parties must give their personal consent. Male must be at least 21, female at least 18 years of age.",
+          "keywords": ["Christian marriage conditions", "witnesses", "age requirement"]
+        },
+        {
+          "section": "Indian Divorce Act 1869",
+          "title": "Divorce for Christians",
+          "description": "Christians seeking divorce must approach the District Court or High Court under the Indian Divorce Act 1869. Grounds include adultery, conversion, cruelty, desertion for two years, unsoundness of mind, communicable disease. Mutual consent divorce is also available.",
+          "keywords": ["Christian divorce", "Indian Divorce Act", "grounds for divorce"]
+        }
+      ]
+    },
+    {
+      "act_name": "Protection of Women from Domestic Violence Act 2005",
+      "year": 2005,
+      "applicability": "All women in India",
+      "sections": [
+        {
+          "section": "PWDVA Section 3",
+          "title": "Definition of Domestic Violence",
+          "description": "Any act, omission or commission or conduct of the respondent shall constitute domestic violence in case it harms or injures or endangers the health, safety, life, limb or well-being, whether mental or physical, of the aggrieved person including physical abuse, sexual abuse, verbal and emotional abuse, economic abuse.",
+          "keywords": ["domestic violence", "physical abuse", "emotional abuse", "economic abuse"]
+        },
+        {
+          "section": "PWDVA Section 12",
+          "title": "Application to Magistrate",
+          "description": "An aggrieved person or Protection Officer or any other person on behalf of the aggrieved person may present an application to the Magistrate seeking one or more reliefs under this Act.",
+          "keywords": ["protection order", "magistrate application", "DV case filing"]
+        },
+        {
+          "section": "PWDVA Section 17",
+          "title": "Right to Reside in Shared Household",
+          "description": "Every woman in a domestic relationship shall have the right to reside in the shared household, whether or not she has any right, title or beneficial interest in the same.",
+          "keywords": ["shared household", "residence rights", "domestic violence"]
+        },
+        {
+          "section": "PWDVA Section 18",
+          "title": "Protection Orders",
+          "description": "The Magistrate may, after giving the aggrieved person and the respondent an opportunity of being heard and on being prima facie satisfied that domestic violence has taken place or is likely to take place, pass a protection order in favour of the aggrieved person.",
+          "keywords": ["protection order", "restraining order", "domestic violence order"]
+        },
+        {
+          "section": "PWDVA Section 20",
+          "title": "Monetary Reliefs",
+          "description": "The Magistrate may direct the respondent to pay monetary relief to meet the expenses incurred and losses suffered by the aggrieved person including loss of earnings, medical expenses, loss caused due to destruction or damage of any property.",
+          "keywords": ["monetary relief", "maintenance", "compensation", "domestic violence"]
+        }
+      ]
+    }
+  ]
+}

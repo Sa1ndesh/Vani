@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vani-Kanoon | वाणी कानून</title>
+  <link rel="stylesheet" href="../css/legal-assistant.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+Devanagari:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <!-- Background particles -->
+  <div class="bg-particles" aria-hidden="true">
+    <div class="particle"></div><div class="particle"></div><div class="particle"></div>
+    <div class="particle"></div><div class="particle"></div><div class="particle"></div>
+  </div>
+
+  <!-- ===== Header ===== -->
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="brand">
+        <div class="brand-icon">⚖️</div>
+        <div class="brand-text">
+          <h1>Vani-Kanoon <span class="brand-devanagari">वाणी कानून</span></h1>
+          <p class="brand-tagline">Voice-Based Legal Assistant for India</p>
+        </div>
+      </div>
+      <div class="header-badges">
+        <span class="badge badge-free">Free Legal Information</span>
+        <span class="badge badge-multi">6 Languages</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== Main Layout ===== -->
+  <main class="main-layout">
+
+    <!-- ===== Sidebar ===== -->
+    <aside class="sidebar">
+
+      <!-- Language selector -->
+      <section class="card sidebar-card">
+        <h2 class="card-title">🌐 Language</h2>
+        <div class="language-pills" id="languagePills">
+          <button class="lang-pill active" data-lang="English">🇬🇧 English</button>
+          <button class="lang-pill" data-lang="Hindi">🇮🇳 हिंदी</button>
+          <button class="lang-pill" data-lang="Kannada">🌸 ಕನ್ನಡ</button>
+          <button class="lang-pill" data-lang="Marathi">🎭 मराठी</button>
+          <button class="lang-pill" data-lang="Tamil">🌺 தமிழ்</button>
+          <button class="lang-pill" data-lang="Telugu">🔱 తెలుగు</button>
+        </div>
+        <div class="dialect-display" id="dialectDisplay" style="display:none;">
+          <span class="dialect-label">Detected:</span>
+          <span class="dialect-value" id="dialectValue">—</span>
+        </div>
+      </section>
+
+      <!-- State selector -->
+      <section class="card sidebar-card">
+        <h2 class="card-title">📍 Your State</h2>
+        <select class="state-select" id="stateSelect">
+          <option value="">— Select State —</option>
+          <option value="Andhra Pradesh">Andhra Pradesh</option>
+          <option value="Assam">Assam</option>
+          <option value="Bihar">Bihar</option>
+          <option value="Chhattisgarh">Chhattisgarh</option>
+          <option value="Delhi">Delhi (NCT)</option>
+          <option value="Goa">Goa</option>
+          <option value="Gujarat">Gujarat</option>
+          <option value="Haryana">Haryana</option>
+          <option value="Himachal Pradesh">Himachal Pradesh</option>
+          <option value="Jharkhand">Jharkhand</option>
+          <option value="Karnataka">Karnataka</option>
+          <option value="Kerala">Kerala</option>
+          <option value="Madhya Pradesh">Madhya Pradesh</option>
+          <option value="Maharashtra">Maharashtra</option>
+          <option value="Odisha">Odisha</option>
+          <option value="Punjab">Punjab</option>
+          <option value="Rajasthan">Rajasthan</option>
+          <option value="Tamil Nadu">Tamil Nadu</option>
+          <option value="Telangana">Telangana</option>
+          <option value="Uttar Pradesh">Uttar Pradesh</option>
+          <option value="Uttarakhand">Uttarakhand</option>
+          <option value="West Bengal">West Bengal</option>
+        </select>
+      </section>
+
+      <!-- Quick queries -->
+      <section class="card sidebar-card">
+        <h2 class="card-title">⚡ Quick Queries</h2>
+        <div class="quick-queries" id="quickQueries">
+          <button class="quick-btn" data-query="What are my rights as a tenant? How much security deposit can a landlord demand?">
+            🏠 Tenant Rights
+          </button>
+          <button class="quick-btn" data-query="My neighbour is encroaching on my property. What legal action can I take?">
+            📋 Property Dispute
+          </button>
+          <button class="quick-btn" data-query="What are the grounds for divorce in India? What is the process for mutual consent divorce?">
+            👨‍👩‍👧 Family Law
+          </button>
+          <button class="quick-btn" data-query="I have been cheated online. What IPC section applies and how do I file a complaint?">
+            💻 Cyber Fraud
+          </button>
+          <button class="quick-btn" data-query="How do I file an FIR? What are my rights after arrest?">
+            🚔 Criminal Case
+          </button>
+          <button class="quick-btn" data-query="A builder has delayed possession of my flat by 2 years. What are my rights under RERA?">
+            🏗️ RERA / Builder
+          </button>
+        </div>
+      </section>
+
+      <!-- Legal tips -->
+      <section class="card sidebar-card tips-card">
+        <h2 class="card-title">💡 Legal Tips</h2>
+        <ul class="tips-list" id="tipsList">
+          <li>Always keep copies of all documents.</li>
+          <li>File a complaint in writing; verbal complaints may not be recorded.</li>
+          <li>Free legal aid is available under Legal Services Authorities Act.</li>
+          <li>You have the right to know the reason for your arrest.</li>
+          <li>A registered agreement is stronger than a notarized one.</li>
+        </ul>
+      </section>
+    </aside>
+
+    <!-- ===== Chat Area ===== -->
+    <section class="chat-area">
+
+      <!-- Chat header bar -->
+      <div class="chat-header">
+        <div class="chat-header-left">
+          <div class="ai-avatar">⚖️</div>
+          <div>
+            <div class="ai-name">VaniBot</div>
+            <div class="ai-status" id="aiStatus">Ready to help · <span id="docCount">Loading…</span></div>
+          </div>
+        </div>
+        <button class="btn-icon" id="newChatBtn" title="New conversation">🔄 New Chat</button>
+      </div>
+
+      <!-- Messages -->
+      <div class="chat-messages" id="chatMessages" role="log" aria-live="polite">
+        <!-- Welcome message -->
+        <div class="chat-bubble assistant-bubble">
+          <div class="bubble-avatar">⚖️</div>
+          <div class="bubble-content">
+            <div class="bubble-text">
+              <strong>Namaste! नमस्ते! ನಮಸ್ಕಾರ!</strong><br /><br />
+              I am <strong>VaniBot</strong>, your voice-based legal assistant for India.<br />
+              You can ask me about:<br />
+              • Criminal law (IPC/BNS sections)<br />
+              • Property &amp; tenancy disputes<br />
+              • Family law (divorce, inheritance)<br />
+              • Your constitutional rights<br />
+              • How to file FIR, approach courts<br /><br />
+              <em>Select your language and speak or type your question.</em>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Input area -->
+      <div class="input-area">
+        <!-- Transcription display -->
+        <div class="transcription-bar" id="transcriptionBar" style="display:none;">
+          <span class="transcription-icon">🎤</span>
+          <span id="transcriptionText">Listening…</span>
+        </div>
+
+        <!-- Voice + text row -->
+        <div class="input-row">
+          <button class="mic-btn" id="micBtn" title="Hold to speak" aria-label="Voice input">
+            <span class="mic-icon">🎤</span>
+            <span class="mic-ripple"></span>
+          </button>
+          <textarea
+            class="text-input"
+            id="textInput"
+            rows="1"
+            placeholder="Type your legal question here…"
+            aria-label="Legal question input"
+          ></textarea>
+          <button class="send-btn" id="sendBtn" aria-label="Send">
+            <span>➤</span>
+          </button>
+        </div>
+
+        <!-- Disclaimer -->
+        <p class="input-disclaimer">
+          ⚠️ This provides legal <strong>information</strong>, not legal advice. Consult a qualified lawyer for your specific case.
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== Response Detail Modal ===== -->
+  <div class="modal-overlay" id="citationModal" style="display:none;" role="dialog" aria-modal="true" aria-label="Citation details">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h3 id="modalTitle">Legal Citation</h3>
+        <button class="modal-close" id="modalClose" aria-label="Close">✕</button>
+      </div>
+      <div class="modal-body" id="modalBody"></div>
+    </div>
+  </div>
+
+  <!-- Loading overlay -->
+  <div class="loading-overlay" id="loadingOverlay" style="display:none;" aria-busy="true">
+    <div class="loading-spinner"></div>
+    <p>VaniBot is thinking…</p>
+  </div>
+
+  <script type="module">
+    import { LegalQueryHandler } from '../js/legal-query.js';
+    import { VoiceHandler } from '../js/voice-handler.js';
+
+    const handler = new LegalQueryHandler();
+    const voice = new VoiceHandler();
+
+    handler.init();
+    voice.init(handler);
+    handler.setVoiceHandler(voice);
+  </script>
+</body>
+</html>

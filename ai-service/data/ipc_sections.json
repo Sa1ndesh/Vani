@@ -1,0 +1,452 @@
+{
+  "sections": [
+    {
+      "section": "IPC 299",
+      "title": "Culpable Homicide",
+      "description": "Whoever causes death by doing an act with the intention of causing death, or with the intention of causing such bodily injury as is likely to cause death, or with the knowledge that the act is likely to cause death.",
+      "punishment": "Imprisonment for life, or imprisonment of either description for a term up to 10 years, and shall also be liable to fine.",
+      "keywords": ["homicide", "death", "killing", "culpable", "murder"],
+      "act": "IPC"
+    },
+    {
+      "section": "IPC 300",
+      "title": "Murder",
+      "description": "Culpable homicide is murder if the act by which the death is caused is done with the intention of causing death, or with the intention of causing such bodily injury as the offender knows to be likely to cause the death of the person to whom the harm is caused.",
+      "punishment": "Death or imprisonment for life, and shall also be liable to fine.",
+      "keywords": ["murder", "death", "intention", "killing", "premeditated"],
+      "act": "IPC"
+    },
+    {
+      "section": "IPC 302",
+      "title": "Punishment for Murder",
+      "description": "Whoever commits murder shall be punished with death, or imprisonment for life, and shall also be liable to fine.",
+      "punishment": "Death or imprisonment for life, and fine.",
+      "keywords": ["murder", "punishment", "death sentence", "life imprisonment"],
+      "act": "IPC"
+    },
+    {
+      "section": "IPC 304",
+      "title": "Punishment for Culpable Homicide not amounting to Murder",
+      "description": "Whoever commits culpable homicide not amounting to murder shall be punished with imprisonment for life, or imprisonment of either description for a term which may extend to 10 years, and shall also be liable to fine.",
+      "punishment": "Imprisonment for life or up to 10 years, and fine.",
+      "keywords": ["culpable homicide", "punishment", "not murder"],
+      "act": "IPC"
+    },
+    {
+      "section": "IPC 304A",
+      "title": "Causing death by negligence",
+      "description": "Whoever causes the death of any person by doing any rash or negligent act not amounting to culpable homicide.",
+      "punishment": "Imprisonment of either description for a term up to 2 years, or with fine, or with both.",
+      "keywords": ["negligence", "rash driving", "accidental death", "road accident"],
+      "act": "IPC"
+    },
+    {
+      "section": "IPC 304B",
+      "title": "Dowry Death",
+      "description": "Where the death of a woman is caused by any burns or bodily injury or occurs under abnormal circumstances within seven years of marriage, and it is shown that soon before her death she was subjected to cruelty or harassment by her husband or his relatives for dowry.",
+      "punishment": "Imprisonment for a term not less than 7 years but which may extend to imprisonment for life.",
+      "keywords": ["dowry", "dowry death", "harassment", "wife", "marriage"],
+      "act": "IPC"
+    },
+    {
+      "section": "IPC 307",
+      "title": "Attempt to Murder",
+      "description": "Whoever does any act with such intention or knowledge, and under such circumstances that, if he by that act caused death, he would be guilty of murder.",
+      "punishment": "Imprisonment of either description for a term up to 10 years, and shall also be liable to fine.",
+      "keywords": ["attempt", "murder", "attempt to kill", "assault"],
+      "act": "IPC"
+    },
+    {
+      "section": "IPC 309",
+      "title": "Attempt to commit suicide",
+      "description": "Whoever attempts to commit suicide and does any act towards the commission of such offence.",
+      "punishment": "Simple imprisonment for a term up to 1 year or fine or both.",
+      "keywords": ["suicide", "attempt", "self harm"],
+      "act": "IPC"
+    },
+    {
+      "section": "IPC 319",
+      "title": "Hurt",
+      "description": "Whoever causes bodily pain, disease or infirmity to any person is said to cause hurt.",
+      "punishment": "Imprisonment of either description for a term up to 1 year, or fine up to Rs. 1000, or both.",
+      "keywords": ["hurt", "injury", "pain", "bodily harm"],
+      "act": "IPC"
+    },
+    {
+      "section": "IPC 320",
+      "title": "Grievous Hurt",
+      "description": "The following kinds of hurt only are designated as grievous: emasculation, permanent privation of sight of either eye, permanent privation of hearing of either ear, privation of any member or joint, destruction or permanent impairing of powers of any member or joint, permanent disfiguration of head or face, fracture or dislocation of a bone or tooth, any hurt which endangers life or which causes the sufferer to be, during the space of twenty days, in severe bodily pain, or unable to follow his ordinary pursuits.",
+      "punishment": "Imprisonment of either description for a term up to 7 years, and also fine.",
+      "keywords": ["grievous hurt", "serious injury", "fracture", "disfigurement"],
+      "act": "IPC"
+    },
+    {
+      "section": "IPC 323",
+      "title": "Punishment for voluntarily causing hurt",
+      "description": "Whoever, except in the case provided for by section 334, voluntarily causes hurt.",
+      "punishment": "Imprisonment of either description for a term up to 1 year, or fine up to Rs. 1000, or both.",
+      "keywords": ["hurt", "voluntary", "assault", "beating"],
+      "act": "IPC"
+    },
+    {
+      "section": "IPC 324",
+      "title": "Voluntarily causing hurt by dangerous weapons or means",
+      "description": "Whoever, except in the case provided for by section 334, voluntarily causes hurt by means of any instrument for shooting, stabbing or cutting, or any instrument which, used as a weapon of offence, is likely to cause death.",
+      "punishment": "Imprisonment of either description for a term up to 3 years, or fine, or both.",
+      "keywords": ["weapon", "knife", "stabbing", "dangerous", "hurt"],
+      "act": "IPC"
+    },
+    {
+      "section": "IPC 325",
+      "title": "Punishment for voluntarily causing grievous hurt",
+      "description": "Whoever, except in the case provided for by section 335, voluntarily causes grievous hurt.",
+      "punishment": "Imprisonment of either description for a term up to 7 years, and also fine.",
+      "keywords": ["grievous hurt", "serious injury", "punishment"],
+      "act": "IPC"
+    },
+    {
+      "section": "IPC 354",
+      "title": "Assault or criminal force to woman with intent to outrage her modesty",
+      "description": "Whoever assaults or uses criminal force to any woman, intending to outrage or knowing it to be likely that he will thereby outrage her modesty.",
+      "punishment": "Imprisonment of either description for a term up to 2 years, or fine, or both.",
+      "keywords": ["molestation", "assault", "woman", "modesty", "harassment"],
+      "act": "IPC"
+    },
+    {
+      "section": "IPC 354A",
+      "title": "Sexual harassment and punishment for sexual harassment",
+      "description": "A man committing physical contact and advances involving unwelcome and explicit sexual overtures; or a demand or request for sexual favours; or showing pornography against the will of a woman; or making sexually coloured remarks.",
+      "punishment": "Rigorous imprisonment up to 3 years or fine or both.",
+      "keywords": ["sexual harassment", "workplace harassment", "unwelcome advances"],
+      "act": "IPC"
+    },
+    {
+      "section": "IPC 354B",
+      "title": "Assault or use of criminal force with intent to disrobe",
+      "description": "Any man who assaults or uses criminal force to any woman or abets such act with the intention of disrobing or compelling her to be naked.",
+      "punishment": "Imprisonment of not less than 3 years but up to 7 years, and fine.",
+      "keywords": ["disrobe", "assault", "woman", "criminal force"],
+      "act": "IPC"
+    },
+    {
+      "section": "IPC 354C",
+      "title": "Voyeurism",
+      "description": "Any man who watches, or captures the image of a woman engaging in a private act in circumstances where she would usually have the expectation of not being observed.",
+      "punishment": "Imprisonment of not less than 1 year but up to 3 years for first conviction; not less than 3 years but up to 7 years for second or subsequent conviction.",
+      "keywords": ["voyeurism", "privacy", "woman", "camera"],
+      "act": "IPC"
+    },
+    {
+      "section": "IPC 354D",
+      "title": "Stalking",
+      "description": "Any man who follows a woman and contacts, or attempts to contact such woman to foster personal interaction repeatedly despite a clear indication of disinterest by such woman; or monitors the use by a woman of the internet, email or any other form of electronic communication.",
+      "punishment": "Imprisonment up to 3 years for first conviction; up to 5 years for second or subsequent conviction, and fine.",
+      "keywords": ["stalking", "harassment", "following", "monitoring"],
+      "act": "IPC"
+    },
+    {
+      "section": "IPC 375",
+      "title": "Rape",
+      "description": "A man is said to commit 'rape' if he penetrates his penis, to any extent, into the vagina, mouth, urethra or anus of a woman or makes her to do so with him or any other person; or inserts, to any extent, any object or a part of the body, not being the penis, into the vagina, the urethra or anus of a woman or makes her to do so with him or any other person.",
+      "punishment": "Rigorous imprisonment of not less than 7 years up to life imprisonment, and fine.",
+      "keywords": ["rape", "sexual assault", "consent", "penetration"],
+      "act": "IPC"
+    },
+    {
+      "section": "IPC 376",
+      "title": "Punishment for Rape",
+      "description": "Whoever, except in the cases provided for in sub-section (2), commits rape, shall be punished with rigorous imprisonment of either description for a term which shall not be less than 7 years, but which may extend to imprisonment for life, and shall also be liable to fine.",
+      "punishment": "Rigorous imprisonment of not less than 7 years, up to life imprisonment, and fine.",
+      "keywords": ["rape", "punishment", "imprisonment"],
+      "act": "IPC"
+    },
+    {
+      "section": "IPC 378",
+      "title": "Theft",
+      "description": "Whoever, intending to take dishonestly any moveable property out of the possession of any person without that person's consent, moves that property in order to such taking.",
+      "punishment": "Imprisonment of either description for a term up to 3 years, or fine, or both.",
+      "keywords": ["theft", "stealing", "movable property", "dishonest"],
+      "act": "IPC"
+    },
+    {
+      "section": "IPC 379",
+      "title": "Punishment for Theft",
+      "description": "Whoever commits theft shall be punished with imprisonment of either description for a term which may extend to three years, or with fine, or with both.",
+      "punishment": "Imprisonment up to 3 years, or fine, or both.",
+      "keywords": ["theft", "punishment", "stealing"],
+      "act": "IPC"
+    },
+    {
+      "section": "IPC 380",
+      "title": "Theft in dwelling house",
+      "description": "Whoever commits theft in any building, tent or vessel, which building, tent or vessel is used as a human dwelling, or used for the custody of property.",
+      "punishment": "Imprisonment of either description for a term up to 7 years, and also fine.",
+      "keywords": ["theft", "house", "dwelling", "burglary"],
+      "act": "IPC"
+    },
+    {
+      "section": "IPC 381",
+      "title": "Theft by clerk or servant of property in possession of master",
+      "description": "Whoever, being a clerk or servant, or being employed in the capacity of a clerk or servant, commits theft in respect of any property in the possession of his master or employer.",
+      "punishment": "Imprisonment of either description for a term up to 7 years, and also fine.",
+      "keywords": ["theft", "employee", "servant", "employer", "property"],
+      "act": "IPC"
+    },
+    {
+      "section": "IPC 383",
+      "title": "Extortion",
+      "description": "Whoever intentionally puts any person in fear of any injury to that person, or to any other, and thereby dishonestly induces the person so put in fear to deliver to any person any property or valuable security, or anything signed or sealed which may be converted into a valuable security.",
+      "punishment": "Imprisonment of either description for a term up to 3 years, or fine, or both.",
+      "keywords": ["extortion", "blackmail", "fear", "property", "threat"],
+      "act": "IPC"
+    },
+    {
+      "section": "IPC 384",
+      "title": "Punishment for Extortion",
+      "description": "Whoever commits extortion shall be punished with imprisonment of either description for a term which may extend to three years, or with fine, or with both.",
+      "punishment": "Imprisonment up to 3 years, or fine, or both.",
+      "keywords": ["extortion", "punishment"],
+      "act": "IPC"
+    },
+    {
+      "section": "IPC 387",
+      "title": "Putting person in fear of death or of grievous hurt in order to commit extortion",
+      "description": "Whoever commits extortion by putting any person in fear of death or of grievous hurt to that person or to any other.",
+      "punishment": "Imprisonment of either description for a term up to 10 years, and also fine.",
+      "keywords": ["extortion", "death threat", "grievous hurt"],
+      "act": "IPC"
+    },
+    {
+      "section": "IPC 390",
+      "title": "Robbery",
+      "description": "In all robbery there is either theft or extortion. Theft is robbery if, in order to the committing of the theft, or in committing the theft, or in carrying away or attempting to carry away property obtained by the theft, the offender, for that end, voluntarily causes or attempts to cause to any person death or hurt or wrongful restraint.",
+      "punishment": "Rigorous imprisonment for a term up to 10 years, and also fine.",
+      "keywords": ["robbery", "theft", "force", "violence"],
+      "act": "IPC"
+    },
+    {
+      "section": "IPC 392",
+      "title": "Punishment for Robbery",
+      "description": "Whoever commits robbery shall be punished with rigorous imprisonment for a term which may extend to ten years, and shall also be liable to fine.",
+      "punishment": "Rigorous imprisonment up to 10 years, and fine.",
+      "keywords": ["robbery", "punishment"],
+      "act": "IPC"
+    },
+    {
+      "section": "IPC 395",
+      "title": "Punishment for Dacoity",
+      "description": "Whoever commits dacoity shall be punished with imprisonment for life, or with rigorous imprisonment for a term which may extend to ten years, and shall also be liable to fine.",
+      "punishment": "Imprisonment for life or rigorous imprisonment up to 10 years, and fine.",
+      "keywords": ["dacoity", "gang robbery", "organized crime"],
+      "act": "IPC"
+    },
+    {
+      "section": "IPC 403",
+      "title": "Dishonest misappropriation of property",
+      "description": "Whoever dishonestly misappropriates or converts to his own use any movable property.",
+      "punishment": "Imprisonment of either description for a term up to 2 years, or fine, or both.",
+      "keywords": ["misappropriation", "property", "dishonest", "embezzlement"],
+      "act": "IPC"
+    },
+    {
+      "section": "IPC 406",
+      "title": "Punishment for criminal breach of trust",
+      "description": "Whoever commits criminal breach of trust shall be punished with imprisonment of either description for a term which may extend to three years, or with fine, or with both.",
+      "punishment": "Imprisonment up to 3 years, or fine, or both.",
+      "keywords": ["breach of trust", "embezzlement", "trust", "property"],
+      "act": "IPC"
+    },
+    {
+      "section": "IPC 415",
+      "title": "Cheating",
+      "description": "Whoever, by deceiving any person, fraudulently or dishonestly induces the person so deceived to deliver any property to any person, or to consent that any person shall retain any property, or intentionally induces the person so deceived to do or omit to do anything which he would not do or omit if he were not so deceived.",
+      "punishment": "Imprisonment of either description for a term up to 1 year, or fine, or both.",
+      "keywords": ["cheating", "fraud", "deception", "misrepresentation"],
+      "act": "IPC"
+    },
+    {
+      "section": "IPC 420",
+      "title": "Cheating and dishonestly inducing delivery of property",
+      "description": "Whoever cheats and thereby dishonestly induces the person deceived to deliver any property to any person, or to make, alter or destroy the whole or any part of a valuable security.",
+      "punishment": "Imprisonment of either description for a term up to 7 years, and also fine.",
+      "keywords": ["fraud", "cheating", "property", "deception", "420"],
+      "act": "IPC"
+    },
+    {
+      "section": "IPC 425",
+      "title": "Mischief",
+      "description": "Whoever with intent to cause, or knowing that he is likely to cause, wrongful loss or damage to the public or to any person, causes the destruction of any property, or any such change in any property or in the situation thereof as destroys or diminishes its value or utility.",
+      "punishment": "Imprisonment of either description for a term up to 3 months, or fine, or both.",
+      "keywords": ["mischief", "damage", "property damage", "destruction"],
+      "act": "IPC"
+    },
+    {
+      "section": "IPC 441",
+      "title": "Criminal Trespass",
+      "description": "Whoever enters into or upon property in the possession of another with intent to commit an offence or to intimidate, insult or annoy any person in possession of such property.",
+      "punishment": "Imprisonment of either description for a term up to 3 months, or fine up to Rs. 500, or both.",
+      "keywords": ["trespass", "illegal entry", "property", "criminal trespass"],
+      "act": "IPC"
+    },
+    {
+      "section": "IPC 447",
+      "title": "Punishment for Criminal Trespass",
+      "description": "Whoever commits criminal trespass shall be punished with imprisonment of either description for a term which may extend to three months, or with fine which may extend to five hundred rupees, or with both.",
+      "punishment": "Imprisonment up to 3 months, or fine up to Rs. 500, or both.",
+      "keywords": ["trespass", "punishment", "property"],
+      "act": "IPC"
+    },
+    {
+      "section": "IPC 448",
+      "title": "Punishment for House-trespass",
+      "description": "Whoever commits house-trespass shall be punished with imprisonment of either description for a term which may extend to one year, or with fine which may extend to one thousand rupees, or with both.",
+      "punishment": "Imprisonment up to 1 year, or fine up to Rs. 1000, or both.",
+      "keywords": ["house trespass", "home invasion", "trespass"],
+      "act": "IPC"
+    },
+    {
+      "section": "IPC 463",
+      "title": "Forgery",
+      "description": "Whoever makes any false document or false electronic record or part of a document or electronic record, with intent to cause damage or injury, to the public or to any person, or to support any claim or title, or to cause any person to part with property, or to enter into any express or implied contract, or with intent to commit fraud.",
+      "punishment": "Imprisonment of either description for a term up to 2 years, or fine, or both.",
+      "keywords": ["forgery", "fake document", "false record", "fraud"],
+      "act": "IPC"
+    },
+    {
+      "section": "IPC 465",
+      "title": "Punishment for Forgery",
+      "description": "Whoever commits forgery shall be punished with imprisonment of either description for a term which may extend to two years, or with fine, or with both.",
+      "punishment": "Imprisonment up to 2 years, or fine, or both.",
+      "keywords": ["forgery", "punishment", "fake documents"],
+      "act": "IPC"
+    },
+    {
+      "section": "IPC 468",
+      "title": "Forgery for purpose of cheating",
+      "description": "Whoever commits forgery, intending that the document or electronic record forged shall be used for the purpose of cheating.",
+      "punishment": "Imprisonment of either description for a term up to 7 years, and also fine.",
+      "keywords": ["forgery", "cheating", "fraud", "documents"],
+      "act": "IPC"
+    },
+    {
+      "section": "IPC 471",
+      "title": "Using as genuine a forged document or electronic record",
+      "description": "Whoever fraudulently or dishonestly uses as genuine any document or electronic record which he knows or has reason to believe to be a forged document or electronic record.",
+      "punishment": "Imprisonment of either description for a term up to 2 years, or fine, or both.",
+      "keywords": ["forged document", "fraud", "using forged"],
+      "act": "IPC"
+    },
+    {
+      "section": "IPC 493",
+      "title": "Cohabitation caused by a man deceitfully inducing a belief of lawful marriage",
+      "description": "Every man who by deceit causes any woman who is not lawfully married to him to believe that she is lawfully married to him and to cohabit or have sexual intercourse with him in that belief.",
+      "punishment": "Imprisonment of either description for a term up to 10 years, and also fine.",
+      "keywords": ["fake marriage", "deception", "cohabitation", "marriage fraud"],
+      "act": "IPC"
+    },
+    {
+      "section": "IPC 494",
+      "title": "Marrying again during lifetime of husband or wife",
+      "description": "Whoever, having a husband or wife living, marries in any case in which such marriage is void by reason of its taking place during the life of such husband or wife.",
+      "punishment": "Imprisonment of either description for a term up to 7 years, and also fine.",
+      "keywords": ["bigamy", "double marriage", "polygamy"],
+      "act": "IPC"
+    },
+    {
+      "section": "IPC 498A",
+      "title": "Husband or relative of husband of a woman subjecting her to cruelty",
+      "description": "Whoever, being the husband or the relative of the husband of a woman, subjects such woman to cruelty shall be punished.",
+      "punishment": "Imprisonment for a term up to 3 years and fine.",
+      "keywords": ["domestic violence", "cruelty", "husband", "dowry harassment", "498A"],
+      "act": "IPC"
+    },
+    {
+      "section": "IPC 499",
+      "title": "Defamation",
+      "description": "Whoever, by words either spoken or intended to be read, or by signs or by visible representations, makes or publishes any imputation concerning any person intending to harm, or knowing or having reason to believe that such imputation will harm, the reputation of such person.",
+      "punishment": "Simple imprisonment for a term up to 2 years, or fine, or both.",
+      "keywords": ["defamation", "reputation", "libel", "slander"],
+      "act": "IPC"
+    },
+    {
+      "section": "IPC 500",
+      "title": "Punishment for Defamation",
+      "description": "Whoever defames another shall be punished with simple imprisonment for a term which may extend to two years, or with fine, or with both.",
+      "punishment": "Simple imprisonment up to 2 years, or fine, or both.",
+      "keywords": ["defamation", "punishment", "libel"],
+      "act": "IPC"
+    },
+    {
+      "section": "IPC 503",
+      "title": "Criminal Intimidation",
+      "description": "Whoever threatens another with any injury to his person, reputation or property, or to the person or reputation or property of any one in whom that person is interested, with intent to cause alarm to that person.",
+      "punishment": "Imprisonment of either description for a term up to 2 years, or fine, or both.",
+      "keywords": ["threat", "intimidation", "criminal intimidation"],
+      "act": "IPC"
+    },
+    {
+      "section": "IPC 504",
+      "title": "Intentional insult with intent to provoke breach of peace",
+      "description": "Whoever intentionally insults, and thereby gives provocation to any person, intending or knowing it to be likely that such provocation will cause him to break the public peace, or to commit any other offence.",
+      "punishment": "Imprisonment of either description for a term up to 2 years, or fine, or both.",
+      "keywords": ["insult", "provocation", "breach of peace"],
+      "act": "IPC"
+    },
+    {
+      "section": "IPC 506",
+      "title": "Punishment for Criminal Intimidation",
+      "description": "Whoever commits the offence of criminal intimidation shall be punished with imprisonment of either description for a term which may extend to two years, or with fine, or with both.",
+      "punishment": "Imprisonment up to 2 years, or fine, or both.",
+      "keywords": ["criminal intimidation", "threat", "punishment"],
+      "act": "IPC"
+    },
+    {
+      "section": "IPC 509",
+      "title": "Word, gesture or act intended to insult the modesty of a woman",
+      "description": "Whoever, intending to insult the modesty of any woman, utters any word, makes any sound or gesture, or exhibits any object, intending that such word or sound shall be heard, or that such gesture or object shall be seen, by such woman.",
+      "punishment": "Simple imprisonment for a term up to 3 years, and fine.",
+      "keywords": ["insult", "woman", "modesty", "eve teasing", "harassment"],
+      "act": "IPC"
+    },
+    {
+      "section": "IPC 420",
+      "title": "Cheating and dishonestly inducing delivery of property",
+      "description": "Whoever cheats and thereby dishonestly induces the person deceived to deliver any property to any person, or to make, alter or destroy the whole or any part of a valuable security.",
+      "punishment": "Imprisonment of either description for a term up to 7 years, and also fine.",
+      "keywords": ["fraud", "cheating", "online fraud", "scam"],
+      "act": "IPC"
+    },
+    {
+      "section": "IPC 107",
+      "title": "Abetment of a thing",
+      "description": "A person abets the doing of a thing, who firstly instigates any person to do that thing; or secondly, engages with one or more other persons in any conspiracy for the doing of that thing; or thirdly, intentionally aids, by any act or illegal omission, the doing of that thing.",
+      "punishment": "Same punishment as provided for the offence abetted.",
+      "keywords": ["abetment", "instigation", "conspiracy", "aiding"],
+      "act": "IPC"
+    },
+    {
+      "section": "IPC 120B",
+      "title": "Punishment of Criminal Conspiracy",
+      "description": "Whoever is a party to a criminal conspiracy to commit an offence punishable with death, imprisonment for life or rigorous imprisonment for a term of two years or upwards.",
+      "punishment": "Same punishment as for the offence conspired.",
+      "keywords": ["conspiracy", "criminal conspiracy", "gang"],
+      "act": "IPC"
+    },
+    {
+      "section": "IPC 143",
+      "title": "Punishment for unlawful assembly",
+      "description": "Whoever is a member of an unlawful assembly, shall be punished with imprisonment of either description for a term which may extend to six months, or with fine, or with both.",
+      "punishment": "Imprisonment up to 6 months, or fine, or both.",
+      "keywords": ["unlawful assembly", "mob", "riot", "gathering"],
+      "act": "IPC"
+    },
+    {
+      "section": "IPC 147",
+      "title": "Punishment for Rioting",
+      "description": "Whoever is guilty of rioting, shall be punished with imprisonment of either description for a term which may extend to two years, or with fine, or with both.",
+      "punishment": "Imprisonment up to 2 years, or fine, or both.",
+      "keywords": ["riot", "rioting", "mob violence"],
+      "act": "IPC"
+    }
+  ]
+}

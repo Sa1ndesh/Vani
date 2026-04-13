@@ -1,0 +1,195 @@
+{
+  "acts": [
+    {
+      "act_name": "Transfer of Property Act 1882",
+      "year": 1882,
+      "applicability": "All states of India (with some state amendments)",
+      "sections": [
+        {
+          "section": "TPA Section 5",
+          "title": "Transfer of Property defined",
+          "description": "In the following sections 'transfer of property' means an act by which a living person conveys property, in present or in future, to one or more other living persons, or to himself, or to himself and one or more other living persons. 'Living person' includes a company or association or body of individuals.",
+          "keywords": ["transfer of property", "conveyance", "property transfer"]
+        },
+        {
+          "section": "TPA Section 54",
+          "title": "Sale defined",
+          "description": "Sale is a transfer of ownership in exchange for a price paid or promised or part-paid and part-promised. Such transfer, in the case of tangible immoveable property of the value of one hundred rupees and upwards, can be made only by a registered instrument.",
+          "keywords": ["sale", "property sale", "registered instrument", "sale deed"]
+        },
+        {
+          "section": "TPA Section 55",
+          "title": "Rights and Liabilities of Buyer and Seller",
+          "description": "In the absence of a contract to the contrary, the buyer and seller of immoveable property are subject to liabilities and have rights as detailed. Seller must disclose defects, buyer must pay price.",
+          "keywords": ["buyer rights", "seller rights", "property purchase obligations", "sale rights"]
+        },
+        {
+          "section": "TPA Section 58",
+          "title": "Mortgage and Mortgagee defined",
+          "description": "A mortgage is the transfer of an interest in specific immoveable property for the purpose of securing the payment of money advanced or to be advanced by way of loan, an existing or future debt.",
+          "keywords": ["mortgage", "loan", "immovable property", "security"]
+        },
+        {
+          "section": "TPA Section 59",
+          "title": "Mortgage when to be by assurance",
+          "description": "Where the principal money secured is one hundred rupees or upwards, a mortgage can be effected only by a registered instrument signed by the mortgagor and attested by at least two witnesses.",
+          "keywords": ["mortgage registration", "mortgage deed", "registered mortgage"]
+        },
+        {
+          "section": "TPA Section 69",
+          "title": "Power of Sale",
+          "description": "A mortgagee, or any person acting on his behalf, shall, subject to the provisions of this section, have power to sell or concur in selling the mortgaged property in default of payment of the mortgage-money.",
+          "keywords": ["mortgage default", "power of sale", "bank auction", "property auction"]
+        },
+        {
+          "section": "TPA Section 105",
+          "title": "Lease Defined",
+          "description": "A lease of immoveable property is a transfer of a right to enjoy such property, made for a certain time, express or implied, or in perpetuity, in consideration of a price paid or promised, or of money, a share of crops, service or any other thing of value.",
+          "keywords": ["lease", "tenancy", "rent", "leasehold property"]
+        },
+        {
+          "section": "TPA Section 106",
+          "title": "Duration of Certain Leases",
+          "description": "In the absence of a contract or local law or usage to the contrary, a lease of immoveable property for agricultural or manufacturing purposes shall be deemed to be a lease from year to year, terminable on the part of either lessor or lessee, by six months' notice; a lease of immoveable property for any other purpose shall be deemed to be a lease from month to month.",
+          "keywords": ["lease duration", "month to month", "agricultural lease", "notice period"]
+        },
+        {
+          "section": "TPA Section 108",
+          "title": "Rights and Liabilities of Lessor and Lessee",
+          "description": "In the absence of a contract to the contrary, the lessor and lessee of immoveable property have rights and are subject to liabilities: lessor must give possession and disclose defects; lessee must pay rent, not use for other purposes, keep premises in good repair.",
+          "keywords": ["lessor lessee rights", "landlord tenant rights", "lease obligations"]
+        },
+        {
+          "section": "TPA Section 122",
+          "title": "Gift defined",
+          "description": "Gift is the transfer of certain existing moveable or immoveable property made voluntarily and without consideration, by one person, called the donor, to another, called the donee, and accepted by or on behalf of the donee.",
+          "keywords": ["gift", "donation", "property gift", "gift deed", "no consideration"]
+        },
+        {
+          "section": "TPA Section 123",
+          "title": "Transfer how effected (Gift)",
+          "description": "For the purpose of making a gift of immoveable property, the transfer must be effected by a registered instrument signed by or on behalf of the donor, and attested by at least two witnesses.",
+          "keywords": ["gift deed", "registered gift", "immovable property gift"]
+        }
+      ]
+    },
+    {
+      "act_name": "Registration Act 1908",
+      "year": 1908,
+      "applicability": "All of India",
+      "sections": [
+        {
+          "section": "RA Section 17",
+          "title": "Documents of which registration is compulsory",
+          "description": "The following documents shall be registered: instruments of gift of immoveable property; other non-testamentary instruments which purport or operate to create, declare, assign, limit or extinguish any right, title or interest to or in immoveable property, where the value is Rs. 100 and upwards; leases of immoveable property from year to year, or for any term exceeding one year.",
+          "keywords": ["compulsory registration", "sale deed registration", "gift deed registration"]
+        },
+        {
+          "section": "RA Section 18",
+          "title": "Documents of which registration is optional",
+          "description": "Any of the following documents may be registered under this Act, namely: instruments (other than instruments of gift and wills) which purport or operate to create, declare, assign, limit or extinguish any right, title or interest to or in immoveable property where the value is less than one hundred rupees.",
+          "keywords": ["optional registration", "voluntary registration"]
+        },
+        {
+          "section": "RA Section 49",
+          "title": "Effect of non-registration of documents required to be registered",
+          "description": "No document required by section 17 shall affect any immoveable property or be received as evidence of any transaction affecting such property, unless it has been registered.",
+          "keywords": ["unregistered document", "effect of non-registration", "void"]
+        }
+      ]
+    },
+    {
+      "act_name": "Real Estate (Regulation and Development) Act 2016 (RERA)",
+      "year": 2016,
+      "applicability": "All states and Union Territories of India",
+      "sections": [
+        {
+          "section": "RERA Section 3",
+          "title": "Prior Registration of Real Estate Project with Real Estate Regulatory Authority",
+          "description": "No promoter shall advertise, market, book, sell or offer for sale, or invite persons to purchase in any manner any plot, apartment or building, in any real estate project or part of it, in any planning area, without registering the real estate project with the Real Estate Regulatory Authority.",
+          "keywords": ["RERA registration", "promoter registration", "real estate project", "before sale"]
+        },
+        {
+          "section": "RERA Section 11",
+          "title": "Functions and Duties of Promoter",
+          "description": "The promoter shall make available to the allottees at the time of booking and issue of allotment letter all information including sanctioned plans, layout plans, stage wise time schedule of completion, specifications, amenities, facilities, details of encumbrances.",
+          "keywords": ["promoter duties", "builder obligations", "disclosure", "RERA"]
+        },
+        {
+          "section": "RERA Section 13",
+          "title": "No deposit or advance to be taken without first entering into agreement for sale",
+          "description": "A promoter shall not accept a sum more than ten per cent of the cost of the apartment, plot, or building as an advance payment or an application fee, from a person without first entering into a written agreement for sale with such person.",
+          "keywords": ["advance payment", "10 percent", "agreement for sale", "booking amount"]
+        },
+        {
+          "section": "RERA Section 18",
+          "title": "Return of Amount and Compensation",
+          "description": "If the promoter fails to complete or is unable to give possession of an apartment in accordance with the terms of the agreement for sale, the promoter shall be liable to return all amounts received with interest and compensation.",
+          "keywords": ["delay in possession", "refund", "compensation", "project delay"]
+        },
+        {
+          "section": "RERA Section 19",
+          "title": "Rights and Duties of Allottees",
+          "description": "Every allottee shall be entitled to obtain information relating to sanctioned plans, layout plans along with the specifications; claim possession of apartment; claim refund of amount paid along with interest if promoter defaults; have the right to claim compensation.",
+          "keywords": ["buyer rights", "allottee rights", "RERA buyer protection"]
+        },
+        {
+          "section": "RERA Section 31",
+          "title": "Filing of Complaints with Real Estate Regulatory Authority",
+          "description": "Any aggrieved person may file a complaint with the Authority or the adjudicating officer for any violation or contravention of the provisions of this Act.",
+          "keywords": ["RERA complaint", "filing complaint", "aggrieved buyer"]
+        },
+        {
+          "section": "RERA Section 40",
+          "title": "Recovery of Interest, Penalty, Compensation etc.",
+          "description": "Any amount payable under this Act, including interest, penalty, and compensation, shall be recoverable as arrears of land revenue.",
+          "keywords": ["RERA recovery", "penalty recovery", "land revenue"]
+        }
+      ]
+    },
+    {
+      "act_name": "Indian Stamp Act 1899",
+      "year": 1899,
+      "applicability": "All of India (state amendments apply for stamp duty rates)",
+      "sections": [
+        {
+          "section": "Stamp Act Section 3",
+          "title": "Instruments chargeable with duty",
+          "description": "Subject to the provisions of this Act and the exemptions contained in Schedule I, the following instruments shall be chargeable with duty of the amount indicated in that Schedule: every instrument mentioned in that Schedule which, not having been previously executed by any person, is executed in India.",
+          "keywords": ["stamp duty", "chargeable instruments", "property documents"]
+        },
+        {
+          "section": "Stamp Duty - Sale Deed",
+          "title": "Stamp Duty on Sale Deed",
+          "description": "Stamp duty on sale deed varies by state: Karnataka: 5% + 1% registration fee; Maharashtra: 5% + 1% Local Body Tax; Tamil Nadu: 7% + 4% registration; Delhi: 4% for women, 6% for men; Telangana: 4% + 0.5% transfer duty.",
+          "keywords": ["stamp duty rates", "sale deed stamp", "state stamp duty"]
+        }
+      ]
+    },
+    {
+      "act_name": "Land Acquisition Act 2013 (RFCTLARR Act)",
+      "year": 2013,
+      "applicability": "All of India",
+      "sections": [
+        {
+          "section": "RFCTLARR Section 3",
+          "title": "Definitions",
+          "description": "In this Act, 'affected family' means any family whose land or other immoveable property has been acquired; 'appropriate Government' means, in relation to acquisition of land situated within the territory of a State, the State Government.",
+          "keywords": ["land acquisition", "affected family", "government acquisition"]
+        },
+        {
+          "section": "RFCTLARR Section 26",
+          "title": "Determination of Market Value of Land by Collector",
+          "description": "The Collector shall adopt the higher of the following criteria for determining the value of land: the market value fixed by the appropriate Government; or the average of the sale price for similar type of land situated in the vicinity, ascertained from the highest fifty per centum of sale deeds.",
+          "keywords": ["market value", "land compensation", "collector", "acquisition price"]
+        },
+        {
+          "section": "RFCTLARR Section 64",
+          "title": "Social Impact Assessment",
+          "description": "Whenever a State Government intends to acquire land for a public purpose, it shall carry out a Social Impact Assessment study in consultation with the concerned Panchayat, Municipality or Municipal Corporation.",
+          "keywords": ["social impact assessment", "SIA", "land acquisition process"]
+        }
+      ]
+    }
+  ]
+}
