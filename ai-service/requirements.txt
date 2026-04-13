@@ -1,3 +1,30 @@
+# Core web framework
 fastapi
-uvicorn
+uvicorn[standard]
+python-dotenv
+
+# Google Generative AI
 google-generativeai
+
+# Legal RAG pipeline (optional – falls back to TF-IDF/numpy if unavailable)
+# sentence-transformers
+# faiss-cpu
+
+# STT / TTS
+gTTS
+# openai-whisper  # Heavy dependency – install separately if needed
+# TTS             # Coqui TTS – install separately if needed
+
+# Language detection
+langdetect
+
+# NLP / Text processing
+scikit-learn
+numpy
+
+# Audio processing (optional)
+# pydub
+# librosa
+
+# HTTP client
+httpx

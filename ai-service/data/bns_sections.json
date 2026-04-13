@@ -1,0 +1,399 @@
+{
+  "title": "Bharatiya Nyaya Sanhita 2023",
+  "short_title": "BNS",
+  "act_number": "45 of 2023",
+  "enacted": "2023-12-25",
+  "effective_date": "2024-07-01",
+  "replaces": "Indian Penal Code 1860",
+  "total_sections": 358,
+  "note": "BNS 2023 replaced the IPC 1860 with effect from 1 July 2024. Old IPC cases continue under IPC. New offences from 1 July 2024 are tried under BNS.",
+  "sections": [
+    {
+      "section": "2",
+      "title": "Definitions",
+      "old_ipc_section": "Various IPC definitions",
+      "description": "Defines key terms used throughout the BNS including 'act', 'animal', 'child', 'counterfeit', 'document', 'electronic record', 'grievous hurt', 'harbour', 'injury', 'Judge', 'life', 'local area', 'money', 'movable property', 'offence', 'person', 'public', 'public servant', 'valuable security', 'vessel', 'writing'.",
+      "punishment": "N/A (Definitional section)",
+      "key_changes": "Incorporates electronic records and digital terminology not present in the original IPC; adds definition for 'child' (person below 18 years); updates definition of 'public servant' to include wider categories.",
+      "keywords": ["definitions", "interpretation", "electronic record", "child", "public servant"]
+    },
+    {
+      "section": "4",
+      "title": "Punishment of offences committed within India",
+      "old_ipc_section": "IPC Section 2",
+      "description": "Every person shall be liable to punishment under this Sanhita and not otherwise for every act or omission contrary to the provisions thereof, of which he shall be guilty within India.",
+      "punishment": "N/A (Jurisdiction section)",
+      "key_changes": "Explicitly extends to electronic offences committed through digital means within India.",
+      "keywords": ["jurisdiction", "India", "territorial extent"]
+    },
+    {
+      "section": "11",
+      "title": "Acts done by several persons in furtherance of common intention",
+      "old_ipc_section": "IPC Section 34",
+      "description": "When a criminal act is done by several persons in furtherance of the common intention of all, each of such persons is liable for that act in the same manner as if it were done by him alone.",
+      "punishment": "Same as the principal offence",
+      "key_changes": "No substantive change from IPC Section 34.",
+      "keywords": ["common intention", "joint liability", "constructive liability"]
+    },
+    {
+      "section": "48",
+      "title": "Abetment of a thing",
+      "old_ipc_section": "IPC Section 107",
+      "description": "A person abets the doing of a thing who instigates any person to do that thing; or engages with one or more persons in any conspiracy for the doing of that thing; or intentionally aids, by any act or illegal omission, the doing of that thing.",
+      "punishment": "Same as principal offence unless otherwise specified",
+      "key_changes": "No substantive change from IPC Section 107. Renumbered.",
+      "keywords": ["abetment", "instigation", "conspiracy", "aid"]
+    },
+    {
+      "section": "61",
+      "title": "Punishment of criminal conspiracy",
+      "old_ipc_section": "IPC Section 120B",
+      "description": "Whoever is a party to a criminal conspiracy to commit an offence punishable with death, imprisonment for life or rigorous imprisonment for a term of two years or upwards shall be punished in the same manner as if he had abetted such offence. Party to criminal conspiracy to commit any other offence shall be punished with imprisonment up to six months or fine or both.",
+      "punishment": "Same as abetment for serious offences; up to 6 months/fine for others",
+      "key_changes": "Renumbered from IPC 120B; no substantive change.",
+      "keywords": ["criminal conspiracy", "agreement to commit offence"]
+    },
+    {
+      "section": "63",
+      "title": "Rape",
+      "old_ipc_section": "IPC Section 375",
+      "description": "A man is said to commit 'rape' if he penetrates his penis, to any extent, into the vagina, mouth, urethra or anus of a woman or makes her do so with him or any other person; or inserts, to any extent, any object or a part of the body, not being the penis, into the vagina, the urethra or anus of a woman or makes her do so with him or any other person; or manipulates any part of the body of a woman so as to cause penetration into the vagina, urethra, anus or any part of body of such woman or makes her do so with him or any other person; or applies his mouth to the vagina, anus or urethra of a woman or makes her do so with him or any other person, under six specified circumstances including against her will, without her consent, with consent obtained by fear or fraud.",
+      "punishment": "Minimum 10 years rigorous imprisonment to life imprisonment + fine",
+      "key_changes": "Definition aligned with IPC 375 as amended in 2013; renumbered to Section 63.",
+      "keywords": ["rape", "sexual assault", "non-consensual", "penetration"]
+    },
+    {
+      "section": "64",
+      "title": "Punishment for rape",
+      "old_ipc_section": "IPC Section 376",
+      "description": "Whoever commits rape shall be punished with rigorous imprisonment of not less than ten years, extendable to imprisonment for life, and also liable to fine. Aggravated rape (police officer, public servant, armed forces, gang rape, repeat offender) attracts minimum 10 years to life or death penalty for rape of child under 12.",
+      "punishment": "Minimum 10 years to life; death in aggravated/child rape cases",
+      "key_changes": "Renumbered; death penalty provision for rape of child under 12 years of age made explicit.",
+      "keywords": ["rape punishment", "sexual offence", "rigorous imprisonment"]
+    },
+    {
+      "section": "65",
+      "title": "Punishment for rape in certain cases",
+      "old_ipc_section": "IPC Section 376AB, 376DA, 376DB",
+      "description": "Whoever commits rape on a woman under sixteen years of age shall be punished with rigorous imprisonment not less than twenty years extendable to life. Whoever commits rape on a woman under twelve years shall be punished with rigorous imprisonment not less than twenty years extendable to remainder of natural life or death, with fine.",
+      "punishment": "Minimum 20 years for rape of child under 16; death or life (natural) for child under 12",
+      "key_changes": "Consolidates IPC 376AB, 376DA, 376DB into a single section with clearer penalties.",
+      "keywords": ["child rape", "underage victim", "enhanced punishment"]
+    },
+    {
+      "section": "66",
+      "title": "Sexual intercourse by husband upon his wife during separation",
+      "old_ipc_section": "IPC Section 376B",
+      "description": "Whoever has sexual intercourse with his own wife, who is living separately, whether under a decree of separation or otherwise, without her consent, shall be punished with imprisonment of either description for a term which shall not be less than two years but which may extend to seven years, and shall also be liable to fine.",
+      "punishment": "2 to 7 years imprisonment + fine",
+      "key_changes": "Renumbered; no substantive change from IPC 376B.",
+      "keywords": ["marital rape", "separated wife", "non-consensual intercourse"]
+    },
+    {
+      "section": "67",
+      "title": "Sexual intercourse by a person in authority",
+      "old_ipc_section": "IPC Section 376C",
+      "description": "Whoever, being in a position of authority or in a fiduciary relationship, or a public servant, superintendent or manager of a jail, remand home or other place of custody, or a hospital, abuses such position or fiduciary relationship to induce or seduce any woman in his custody or charge to have sexual intercourse with him, such sexual intercourse not amounting to the offence of rape, shall be punished.",
+      "punishment": "5 to 10 years rigorous imprisonment + fine",
+      "key_changes": "Renumbered from IPC 376C; now covers digital/electronic exploitation by persons in authority.",
+      "keywords": ["sexual intercourse by authority", "custodial abuse", "fiduciary relationship"]
+    },
+    {
+      "section": "70",
+      "title": "Gang rape",
+      "old_ipc_section": "IPC Section 376D",
+      "description": "Where a woman is raped by one or more persons constituting a group or acting in furtherance of a common intention, each of those persons shall be deemed to have committed the offence of rape and shall be punished with rigorous imprisonment for a term which shall not be less than twenty years, but which may extend to imprisonment for life which shall mean imprisonment for the remainder of that person's natural life, and with fine.",
+      "punishment": "Minimum 20 years to life (natural life) + fine",
+      "key_changes": "Renumbered from IPC 376D; minimum sentence increased; fine payable to victim.",
+      "keywords": ["gang rape", "group rape", "common intention", "sexual offence"]
+    },
+    {
+      "section": "74",
+      "title": "Assault or use of criminal force to woman with intent to disrobe",
+      "old_ipc_section": "IPC Section 354B",
+      "description": "Any man who assaults or uses criminal force to any woman or abets such act with the intention of disrobing or compelling her to be naked shall be punished with imprisonment of not less than three years but which may extend to seven years, and shall also be liable to fine.",
+      "punishment": "3 to 7 years imprisonment + fine",
+      "key_changes": "Renumbered; no substantive change.",
+      "keywords": ["assault on woman", "disrobing", "criminal force on woman"]
+    },
+    {
+      "section": "77",
+      "title": "Stalking",
+      "old_ipc_section": "IPC Section 354D",
+      "description": "Any man who follows a woman and contacts, or attempts to contact such woman to foster personal interaction repeatedly despite a clear indication of disinterest by such woman; or monitors the use by a woman of the internet, email or any other form of electronic communication, commits the offence of stalking. First conviction: up to 3 years + fine. Second conviction: up to 5 years + fine.",
+      "punishment": "First offence: up to 3 years + fine; subsequent: up to 5 years + fine",
+      "key_changes": "Cyber-stalking now explicitly covered; renumbered from IPC 354D.",
+      "keywords": ["stalking", "cyber stalking", "harassment", "following woman"]
+    },
+    {
+      "section": "85",
+      "title": "Husband or relative of husband of a woman subjecting her to cruelty",
+      "old_ipc_section": "IPC Section 498A",
+      "description": "Whoever, being the husband or the relative of the husband of a woman, subjects such woman to cruelty shall be punished with imprisonment for a term which may extend to three years and shall also be liable to fine. Cruelty includes wilful conduct likely to drive her to suicide or cause grave injury, and harassment to coerce her or her relatives to meet any unlawful demand for any property or valuable security.",
+      "punishment": "Up to 3 years imprisonment + fine",
+      "key_changes": "Renumbered from IPC 498A; no substantive change.",
+      "keywords": ["cruelty by husband", "dowry harassment", "domestic cruelty", "marital cruelty"]
+    },
+    {
+      "section": "86",
+      "title": "Dowry death",
+      "old_ipc_section": "IPC Section 304B",
+      "description": "Where the death of a woman is caused by any burns or bodily injury or occurs under abnormal circumstances within seven years of marriage, and it is shown that soon before her death she was subjected to cruelty or harassment by her husband or any relative of her husband for, or in connection with, any demand for dowry, such death shall be called 'dowry death'.",
+      "punishment": "Minimum 7 years up to life imprisonment",
+      "key_changes": "Renumbered from IPC 304B; no substantive change.",
+      "keywords": ["dowry death", "bride burning", "dowry harassment", "7 years of marriage"]
+    },
+    {
+      "section": "100",
+      "title": "Culpable homicide",
+      "old_ipc_section": "IPC Section 299",
+      "description": "Whoever causes death by doing an act with the intention of causing death, or with the intention of causing such bodily injury as is likely to cause death, or with the knowledge that he is likely by such act to cause death, commits the offence of culpable homicide.",
+      "punishment": "If it amounts to murder: Section 101 applies. If not amounting to murder: up to 10 years imprisonment + fine, or life imprisonment in some cases.",
+      "key_changes": "Renumbered from IPC 299; no substantive change.",
+      "keywords": ["culpable homicide", "causing death", "intention to kill"]
+    },
+    {
+      "section": "101",
+      "title": "Culpable homicide amounting to murder",
+      "old_ipc_section": "IPC Section 300",
+      "description": "Culpable homicide is murder if the act by which the death is caused is done with the intention of causing death; or with the intention of causing such bodily injury as the offender knows to be likely to cause the death of the person; or with the intention of causing bodily injury to any person which is sufficient in the ordinary course of nature to cause death; or if the person committing the act knows that it is so imminently dangerous that it must, in all probability, cause death.",
+      "punishment": "Death or life imprisonment + fine (see Section 103)",
+      "key_changes": "Renumbered from IPC 300; no substantive change to the four clauses.",
+      "keywords": ["murder", "culpable homicide amounting to murder", "intention to cause death"]
+    },
+    {
+      "section": "103",
+      "title": "Punishment for murder",
+      "old_ipc_section": "IPC Section 302",
+      "description": "Whoever commits murder shall be punished with death or imprisonment for life, and shall also be liable to fine. Whoever commits murder of a member of a group on the ground of his race, caste, sex, place of birth, language or personal belief, shall be punished with death or imprisonment for life, and shall also be liable to fine.",
+      "punishment": "Death or life imprisonment + fine",
+      "key_changes": "Renumbered from IPC 302; added specific provision for hate-crime murder (based on race, caste, sex, etc.).",
+      "keywords": ["murder punishment", "death penalty", "life imprisonment", "hate crime murder"]
+    },
+    {
+      "section": "104",
+      "title": "Punishment for culpable homicide not amounting to murder",
+      "old_ipc_section": "IPC Section 304",
+      "description": "Whoever commits culpable homicide not amounting to murder shall be punished with imprisonment for life, or imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine, if the act by which the death is caused is done with the intention of causing death, or of causing such bodily injury as is likely to cause death. If done with the knowledge that it is likely to cause death but without intention: up to ten years or fine or both.",
+      "punishment": "Life imprisonment or up to 10 years + fine (with intention); up to 10 years or fine (knowledge without intention)",
+      "key_changes": "Renumbered from IPC 304; no substantive change.",
+      "keywords": ["culpable homicide not amounting to murder", "manslaughter", "death without murder intent"]
+    },
+    {
+      "section": "105",
+      "title": "Causing death by negligence",
+      "old_ipc_section": "IPC Section 304A",
+      "description": "Whoever causes the death of any person by doing any rash or negligent act not amounting to culpable homicide, shall be punished with imprisonment of either description for a term which may extend to five years, or with fine, or with both.",
+      "punishment": "Up to 5 years imprisonment or fine or both",
+      "key_changes": "Renumbered from IPC 304A; maximum punishment enhanced from 2 years to 5 years. Hit-and-run cases: 10 years imprisonment if driver flees without reporting.",
+      "keywords": ["negligent death", "rash act", "accident", "road accident", "hit and run"]
+    },
+    {
+      "section": "106",
+      "title": "Abetment of suicide of child or insane person",
+      "old_ipc_section": "IPC Section 305",
+      "description": "If any person under eighteen years of age, any insane person, any delirious person, any idiot, or any person in a state of intoxication commits suicide, whoever abets the commission of such suicide, shall be punished with death or imprisonment for life, or imprisonment for a term not exceeding ten years, and shall also be liable to fine.",
+      "punishment": "Death or life imprisonment or up to 10 years + fine",
+      "key_changes": "Renumbered from IPC 305; no substantive change.",
+      "keywords": ["abetment of suicide of child", "minor suicide", "insane person suicide"]
+    },
+    {
+      "section": "108",
+      "title": "Abetment of suicide",
+      "old_ipc_section": "IPC Section 306",
+      "description": "If any person commits suicide, whoever abets the commission of such suicide, shall be punished with imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine.",
+      "punishment": "Up to 10 years imprisonment + fine",
+      "key_changes": "Renumbered from IPC 306; no substantive change.",
+      "keywords": ["abetment of suicide", "instigation to suicide", "harassment"]
+    },
+    {
+      "section": "109",
+      "title": "Organised crime",
+      "old_ipc_section": "New provision (previously only in MCOCA/state laws)",
+      "description": "Whoever commits or causes to be committed, or facilitates or enables the commission of, any serious offence including extortion, land grabbing, contract killing, economic offence, cyber crime, trafficking of persons or drugs, or any illegal activity that is organized in the nature of a syndicate by an organized crime syndicate or on behalf of such syndicate, shall be punished. 'Organized crime syndicate' means a group of two or more persons who, acting either singly or collectively, as a syndicate or gang, indulge in a continuing unlawful activity to get pecuniary benefits or gain undue economic or other advantage.",
+      "punishment": "Death or life imprisonment + fine of not less than ₹10 lakh; if no death results: minimum 5 years up to life imprisonment + fine ≥ ₹5 lakh",
+      "key_changes": "NEW PROVISION in BNS — for the first time organised crime is codified in the central criminal law. Previously only covered by state laws like MCOCA (Maharashtra) or NDPS Act.",
+      "keywords": ["organised crime", "syndicate", "gang", "extortion", "contract killing", "trafficking"]
+    },
+    {
+      "section": "110",
+      "title": "Petty organised crime",
+      "old_ipc_section": "New provision",
+      "description": "Whoever, being a member of an organised crime syndicate, commits or causes to be committed, or facilitates the commission of theft, snatching, cheating, unauthorised selling of tickets, selling of narcotic drugs or psychotropic substances, peddling of stolen property, carrying illegal arms, hire killings, human trafficking, or similar crimes, shall be punished.",
+      "punishment": "Minimum 1 year up to 7 years imprisonment + fine",
+      "key_changes": "NEW PROVISION specifically targeting petty organized/gang crime and street crime syndicates.",
+      "keywords": ["petty organised crime", "gang", "snatching", "illegal arms", "street crime"]
+    },
+    {
+      "section": "111",
+      "title": "Terrorist act",
+      "old_ipc_section": "New provision (UAPA continues separately)",
+      "description": "Whoever does any act with intent to threaten or likely to threaten the unity, integrity, sovereignty, security or economic security of India, or with intent to strike terror or likely to strike terror in the people or any section of the people in India or in any foreign country, by using bombs, dynamite or other explosive substances or inflammable substances or firearms or other lethal weapons or poisonous or noxious gases or other chemicals or by any other substances of a hazardous nature or by any other means of whatever nature, shall be guilty of a terrorist act.",
+      "punishment": "Death or life imprisonment + fine; for preparation/conspiracy/harbouring: minimum 5 years up to life",
+      "key_changes": "NEW PROVISION — BNS now codifies terrorism offences in the general criminal law for the first time (UAPA continues as special law). 'Economic security' explicitly added as a protected interest.",
+      "keywords": ["terrorist act", "terrorism", "bomb", "explosive", "integrity of India", "economic security"]
+    },
+    {
+      "section": "112",
+      "title": "Terrorist act — ancillary offences",
+      "old_ipc_section": "New provision",
+      "description": "Provisions for punishment of persons who: conspire to commit terrorist acts; attempt to commit terrorist acts; advocate, abet, advise or incite terrorist acts; harbour or conceal persons involved in terrorist acts; hold proceeds of terrorism.",
+      "punishment": "Minimum 5 years up to life imprisonment",
+      "key_changes": "NEW PROVISION aligning BNS with UAPA provisions for ancillary terrorist offences.",
+      "keywords": ["terrorism conspiracy", "harbouring terrorist", "terrorism financing"]
+    },
+    {
+      "section": "113",
+      "title": "Organised crime — additional provisions",
+      "old_ipc_section": "New provision",
+      "description": "Any person who is or continues to be a member of an organised crime syndicate, or a person who in any manner supports, aids, abets, or facilitates an organised crime syndicate, shall be punishable. Covers financing of organised crime, providing material support, recruiting members, and managing proceeds of organised crime.",
+      "punishment": "Minimum 5 years up to life imprisonment + fine",
+      "key_changes": "NEW PROVISION extending the organised crime framework to include financiers, supporters and recruiters.",
+      "keywords": ["organised crime membership", "criminal syndicate support", "crime financing"]
+    },
+    {
+      "section": "117",
+      "title": "Voluntarily causing grievous hurt",
+      "old_ipc_section": "IPC Section 325",
+      "description": "Whoever, except in the case provided for by section 335, voluntarily causes grievous hurt, shall be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine.",
+      "punishment": "Up to 7 years imprisonment + fine",
+      "key_changes": "Renumbered from IPC 325; no substantive change.",
+      "keywords": ["grievous hurt", "serious injury", "bodily harm"]
+    },
+    {
+      "section": "118",
+      "title": "Voluntarily causing hurt or grievous hurt by dangerous weapons or means",
+      "old_ipc_section": "IPC Section 326",
+      "description": "Whoever, except in the case provided for by section 335, voluntarily causes grievous hurt by means of any instrument for shooting, stabbing or cutting, or any instrument which, used as a weapon of offence, is likely to cause death, or by means of fire or any heated substance, or by means of any poison or any corrosive substance, shall be punished with imprisonment for life, or with imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine.",
+      "punishment": "Life imprisonment or up to 10 years + fine",
+      "key_changes": "Renumbered from IPC 326; acid attacks (IPC 326A/326B) now consolidated under Section 124 BNS with enhanced provisions.",
+      "keywords": ["grievous hurt with weapon", "acid attack", "dangerous means", "knife attack"]
+    },
+    {
+      "section": "124",
+      "title": "Act endangering life or personal safety of others — acid attack",
+      "old_ipc_section": "IPC Section 326A and 326B",
+      "description": "Whoever causes permanent or partial damage or deformity to, or burns or maims or disfigures or disables, any part or parts of the body of a person or causes grievous hurt by throwing acid on or by administering acid to that person, or by using any other means with the intention of causing or with the knowledge that he is likely to cause such injury or hurt, shall be punished. Attempt to throw acid also punishable.",
+      "punishment": "Minimum 10 years up to life imprisonment + fine (for actual attack); minimum 5 years up to 7 years + fine (for attempt)",
+      "key_changes": "Consolidates IPC 326A and 326B; fine payable to victim as compensation; renumbered.",
+      "keywords": ["acid attack", "disfigurement", "throwing acid", "burns"]
+    },
+    {
+      "section": "137",
+      "title": "Kidnapping",
+      "old_ipc_section": "IPC Section 359, 360, 361, 362, 363",
+      "description": "Kidnapping from India: whoever conveys any person beyond the limits of India without the consent of that person or without lawful authority. Kidnapping from lawful guardianship: whoever takes or entices any minor under sixteen years of age (if male) or under eighteen years of age (if female), or any person of unsound mind, out of the keeping of the lawful guardian without the guardian's consent.",
+      "punishment": "Up to 7 years imprisonment + fine",
+      "key_changes": "Consolidates IPC Sections 359-363; age of female child raised from 16 to 18 years in guardianship kidnapping.",
+      "keywords": ["kidnapping", "abduction", "taking minor", "consent of guardian"]
+    },
+    {
+      "section": "143",
+      "title": "Trafficking of person",
+      "old_ipc_section": "IPC Section 370",
+      "description": "Whoever, for the purpose of exploitation, recruits, transports, harbours, transfers, or receives a person or persons, by using threats, or by using force or any other form of coercion, or by abduction, or by practising fraud, or deception, or by abuse of power, or by inducement, including the giving or receiving of payments or benefits in order to achieve the consent of any person having control over the person being trafficked, shall be punished.",
+      "punishment": "Minimum 7 years up to 10 years + fine; aggravated trafficking (children/multiple victims/repeat): minimum 10 years to life + fine",
+      "key_changes": "Renumbered from IPC 370; extends coverage to cyber trafficking and online recruitment of victims.",
+      "keywords": ["human trafficking", "trafficking", "exploitation", "bonded labour", "sexual exploitation"]
+    },
+    {
+      "section": "152",
+      "title": "Act endangering sovereignty, unity and integrity of India",
+      "old_ipc_section": "IPC Section 124A (Sedition — repealed)",
+      "description": "Whoever, purposely or knowingly, by words, either spoken or written, or by signs, or by visible representation, or by electronic communication or by use of financial mean, or otherwise, excites or attempts to excite, secession or armed rebellion or subversive activities, or encourages feelings of separatist activities or endangers sovereignty or unity and integrity of India; or indulges in or commits any such act shall be punished with imprisonment for life or with imprisonment which may extend to seven years, and shall also be liable to fine.",
+      "punishment": "Life imprisonment or up to 7 years + fine",
+      "key_changes": "REPLACES IPC Section 124A (Sedition). Sedition per se is removed; new offence targets acts that actually endanger sovereignty/unity. Mere criticism of government is not an offence. Electronic communication and financial means explicitly covered.",
+      "keywords": ["sedition replacement", "sovereignty", "integrity of India", "separatism", "armed rebellion", "anti-India activities"]
+    },
+    {
+      "section": "178",
+      "title": "Offences relating to public tranquillity — rioting",
+      "old_ipc_section": "IPC Section 147",
+      "description": "Whoever is guilty of rioting, shall be punished with imprisonment of either description for a term which may extend to two years, or with fine, or with both.",
+      "punishment": "Up to 2 years imprisonment or fine or both",
+      "key_changes": "Renumbered from IPC 147; no substantive change.",
+      "keywords": ["rioting", "mob violence", "unlawful assembly"]
+    },
+    {
+      "section": "238",
+      "title": "Counterfeiting currency-notes or bank-notes",
+      "old_ipc_section": "IPC Section 489A",
+      "description": "Whoever counterfeits, or knowingly performs any part of the process of counterfeiting, any currency-note or bank-note, shall be punished with imprisonment for life, or with imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine.",
+      "punishment": "Life imprisonment or up to 10 years + fine",
+      "key_changes": "Renumbered from IPC 489A; digital/polymer currency counterfeiting now explicitly covered.",
+      "keywords": ["fake currency", "counterfeit notes", "fake notes", "forgery of currency"]
+    },
+    {
+      "section": "303",
+      "title": "Theft",
+      "old_ipc_section": "IPC Section 378, 379",
+      "description": "Whoever intending to take dishonestly any movable property out of the possession of any person without that person's consent, moves that property in order to such taking, is said to commit theft. Whoever commits theft shall be punished with imprisonment of either description for a term which may extend to three years, or with fine, or with both.",
+      "punishment": "Up to 3 years imprisonment or fine or both",
+      "key_changes": "Renumbered; definition and punishment remain the same as IPC 378/379.",
+      "keywords": ["theft", "stealing", "dishonest taking", "movable property"]
+    },
+    {
+      "section": "309",
+      "title": "Robbery",
+      "old_ipc_section": "IPC Section 390, 392",
+      "description": "In all robbery there is either theft or extortion. Theft is robbery when, in order to commit theft, or in committing the theft, or in carrying away or attempting to carry away property obtained by theft, the offender voluntarily causes or attempts to cause to any person death or hurt or wrongful restraint, or fear of instant death, hurt, or wrongful restraint. Punishment: rigorous imprisonment up to ten years + fine.",
+      "punishment": "Up to 10 years rigorous imprisonment + fine; 14 years if on highway between sunset and sunrise",
+      "key_changes": "Renumbered from IPC 390/392; no substantive change.",
+      "keywords": ["robbery", "snatching", "theft with violence", "wrongful restraint"]
+    },
+    {
+      "section": "310",
+      "title": "Dacoity",
+      "old_ipc_section": "IPC Section 391, 395",
+      "description": "When five or more persons conjointly commit or attempt to commit a robbery, or where the whole number of persons conjointly committing or attempting to commit a robbery, and persons present and aiding such commission or attempt, amount to five or more, every person so committing, attempting or aiding is said to commit 'dacoity'. Punishment: imprisonment for life or rigorous imprisonment up to ten years + fine.",
+      "punishment": "Life imprisonment or up to 10 years rigorous imprisonment + fine",
+      "key_changes": "Renumbered from IPC 391/395; no substantive change.",
+      "keywords": ["dacoity", "gang robbery", "five or more persons"]
+    },
+    {
+      "section": "318",
+      "title": "Cheating",
+      "old_ipc_section": "IPC Section 415, 417, 420",
+      "description": "Whoever, by deceiving any person, fraudulently or dishonestly induces the person so deceived to deliver any property to any person, or to consent that any person shall retain any property, or intentionally induces the person so deceived to do or omit to do anything which he would not do or omit if he were not so deceived, and which act or omission causes or is likely to cause damage or harm to that person in body, mind, reputation or property, is said to cheat. Punishment: up to 3 years imprisonment or fine or both; if delivery of property involved: up to 7 years + fine.",
+      "punishment": "Up to 3 years or fine (simple cheating); up to 7 years + fine (delivery of property induced)",
+      "key_changes": "Consolidates IPC 415, 417 and 420 into one section; online fraud, cyber cheating now expressly included.",
+      "keywords": ["cheating", "fraud", "online fraud", "deception", "property delivery by deception"]
+    },
+    {
+      "section": "336",
+      "title": "Forgery",
+      "old_ipc_section": "IPC Section 463, 465",
+      "description": "Whoever makes any false document or false electronic record or part of a document or electronic record, with intent to cause damage or injury, to the public or to any person, or to support any claim or title, or to cause any person to part with property, or to enter into any express or implied contract, or with intent to commit fraud or that fraud may be committed, commits forgery.",
+      "punishment": "Up to 2 years imprisonment or fine or both",
+      "key_changes": "Renumbered from IPC 463/465; electronic records and digital documents explicitly included.",
+      "keywords": ["forgery", "false document", "electronic forgery", "forged record"]
+    },
+    {
+      "section": "338",
+      "title": "Forgery for purpose of cheating",
+      "old_ipc_section": "IPC Section 468",
+      "description": "Whoever commits forgery, intending that the document or electronic record forged shall be used for the purpose of cheating, shall be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine.",
+      "punishment": "Up to 7 years imprisonment + fine",
+      "key_changes": "Renumbered from IPC 468; electronic records added to the definition.",
+      "keywords": ["forgery for cheating", "forged document", "fake document for fraud"]
+    },
+    {
+      "section": "340",
+      "title": "Using as genuine a forged document or electronic record",
+      "old_ipc_section": "IPC Section 471",
+      "description": "Whoever fraudulently or dishonestly uses as genuine any document or electronic record which he knows or has reason to believe to be a forged document or electronic record, shall be punished in the same manner as if he had forged such document or electronic record.",
+      "punishment": "Same as forgery (Sections 336-338)",
+      "key_changes": "Renumbered from IPC 471; electronic records explicitly mentioned.",
+      "keywords": ["using forged document", "fake certificate", "forged electronic record"]
+    },
+    {
+      "section": "356",
+      "title": "Defamation",
+      "old_ipc_section": "IPC Section 499, 500",
+      "description": "Whoever, by words either spoken or intended to be read, or by signs or by visible representations, makes or publishes any imputation concerning any person intending to harm, or knowing or having reason to believe that such imputation will harm, the reputation of such person, is said, except in the cases hereinafter excepted, to defame that person. Punishment: up to 2 years simple imprisonment or fine or both.",
+      "punishment": "Up to 2 years simple imprisonment or fine or both",
+      "key_changes": "Renumbered from IPC 499/500; online and digital defamation now explicitly covered.",
+      "keywords": ["defamation", "reputation", "libel", "slander", "online defamation"]
+    }
+  ]
+}

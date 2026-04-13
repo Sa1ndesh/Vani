@@ -1,0 +1,324 @@
+{
+  "title": "Indian Property Laws — Comprehensive Reference",
+  "last_updated": "2024-07-01",
+  "acts": {
+    "transfer_of_property_act_1882": {
+      "full_title": "The Transfer of Property Act 1882",
+      "enacted": "1882-02-17",
+      "effective": "1882-07-01",
+      "objective": "Defines and amends certain parts of the law relating to transfer of property by act of parties in India.",
+      "key_sections": [
+        {
+          "section": "5",
+          "title": "Transfer of property defined",
+          "description": "In the following sections 'transfer of property' means an act by which a living person conveys property, in present or in future, to one or more other living persons, or to himself and one or more other living persons. A living person includes a company or association or body of individuals, whether incorporated or not."
+        },
+        {
+          "section": "6",
+          "title": "What may be transferred",
+          "description": "Property of any kind may be transferred, except as otherwise provided in this Act or any other law for the time being in force. Exceptions include: chance of an heir, right of re-entry, easement, restricted interest, right of personal service, future maintenance, mere right to sue."
+        },
+        {
+          "section": "8",
+          "title": "Operation of transfer",
+          "description": "Unless a different intention is expressed or necessarily implied, a transfer of property passes forthwith to the transferee all the interest which the transferor is then capable of passing in the property, and in the legal incidents thereof."
+        },
+        {
+          "section": "17",
+          "title": "Direction for accumulation",
+          "description": "Where the terms of a transfer of property direct that the income arising from the property shall be accumulated, such direction is void in so far as it applies to accumulation for a period exceeding (a) the life of the transferor; or (b) a period of 18 years from the date of transfer."
+        },
+        {
+          "section": "54",
+          "title": "Sale defined",
+          "description": "Sale is a transfer of ownership in exchange for a price paid or promised or part-paid and part-promised. Sale of tangible immovable property of value Rs. 100 and upwards can only be made by a registered instrument. A contract for the sale of immovable property is a contract that a sale shall take place on terms agreed between the parties. It does not itself create any interest in or charge on such property."
+        },
+        {
+          "section": "55",
+          "title": "Rights and liabilities of buyer and seller",
+          "description": "Seller's duty to disclose material defects, produce title documents, answer questions about title, execute conveyance, deliver title documents on payment. Buyer's duty to pay price, bear loss if property destroyed after sale and before delivery. Seller has lien on property for unpaid price; buyer has lien on property for advance paid."
+        },
+        {
+          "section": "58",
+          "title": "Mortgage defined and types",
+          "description": "Mortgage is the transfer of interest in specific immovable property for the purpose of securing payment of money advanced or to be advanced by way of loan. Types: (a) Simple mortgage; (b) Mortgage by conditional sale; (c) Usufructuary mortgage; (d) English mortgage; (e) Mortgage by deposit of title deeds (Equitable mortgage); (f) Anomalous mortgage."
+        },
+        {
+          "section": "60",
+          "title": "Right of mortgagor to redeem",
+          "description": "At any time after the principal money has become due, the mortgagor has a right, on payment or tender of the mortgage-money, to require the mortgagee to deliver the mortgage deed and documents, and to re-transfer the mortgaged property. This right is called the right of redemption. Clog on equity of redemption is void."
+        },
+        {
+          "section": "67",
+          "title": "Right to foreclosure or sale",
+          "description": "In case of default by mortgagor, mortgagee may sue for foreclosure (English mortgage) or for sale of property. Simple mortgage: mortgagee can obtain decree for sale; English mortgage: mortgagee can obtain foreclosure decree."
+        },
+        {
+          "section": "100",
+          "title": "Charges",
+          "description": "Where immovable property of one person is, by act of parties or by operation of law, made security for the payment of money to another, and the transaction does not amount to a mortgage, the latter person is said to have a charge on the property. A charge is not an interest in property but creates an encumbrance."
+        },
+        {
+          "section": "105",
+          "title": "Lease defined",
+          "description": "A lease of immovable property is a transfer of a right to enjoy such property, made for a certain time, express or implied, or in perpetuity, in consideration of a price paid or promised, or of money, a share of crops, service or any other thing of value, to be rendered periodically or on specified occasions to the transferor by the transferee."
+        },
+        {
+          "section": "106",
+          "title": "Duration of certain leases in absence of written contract or local usage",
+          "description": "In the absence of a contract or local law or usage to the contrary, a lease of immovable property for agricultural or manufacturing purpose shall be deemed to be a lease from year to year, terminable on the part of either lessor or lessee by six months' notice; and a lease of immovable property for any other purpose shall be deemed to be a lease from month to month, terminable on the part of either lessor or lessee by fifteen days' notice."
+        },
+        {
+          "section": "108",
+          "title": "Rights and liabilities of lessor and lessee",
+          "description": "Lessor's duties: disclose defects; provide quiet possession; pay taxes (unless agreed). Lessee's rights: right to possession; right to transfer interest; right to collect fruits; right to make improvements. Lessee's duties: disclose material facts; pay rent; keep property in good repair; not alter property without consent; use property for permitted purpose."
+        },
+        {
+          "section": "111",
+          "title": "Determination of lease",
+          "description": "A lease of immovable property determines: (a) by efflux of the time limited; (b) on happening of an event; (c) on breach of express condition (forfeiture); (d) by merger; (e) on tenancy at will — by notice by either party; (f) by destruction of property; (g) by decree of court; (h) by forfeiture."
+        },
+        {
+          "section": "122",
+          "title": "Gift defined",
+          "description": "Gift is the transfer of certain existing movable or immovable property made voluntarily and without consideration, by one person, called the donor, to another, called the donee. For immovable property: gift is effected by registered instrument signed by the donor and attested by at least two witnesses. Delivery of possession not required for immovable property gift."
+        },
+        {
+          "section": "126",
+          "title": "When gift may be suspended or revoked",
+          "description": "Donor and donee may agree that on certain specified events which do not depend on donor's will, gift shall be suspended or revoked. Gift tainted by fraud, misrepresentation or undue influence may be revoked. Otherwise gifts are irrevocable."
+        },
+        {
+          "section": "130",
+          "title": "Transfer of actionable claim",
+          "description": "Transfer of actionable claim (debt, beneficial interest in property, insurance claim) shall be effected only by the execution of an instrument in writing signed by the transferor or his agent. Transfer complete on execution and notice to debtor."
+        }
+      ]
+    },
+    "registration_act_1908": {
+      "full_title": "The Registration Act 1908",
+      "objective": "Provides for registration of documents as evidence of transactions and to prevent frauds.",
+      "key_sections": [
+        {
+          "section": "17",
+          "title": "Documents of which registration is compulsory",
+          "description": "Compulsory registration required for: (i) instruments of gift of immovable property; (ii) instruments creating/assigning/extinguishing rights in immovable property valued at ₹100 or more; (iii) non-testamentary instruments acknowledging receipt/payment of any consideration; (iv) leases of immovable property exceeding one year or reserving yearly rent; (v) instruments creating any right, title or interest in immovable property. Wills are not compulsorily registrable."
+        },
+        {
+          "section": "18",
+          "title": "Documents of which registration is optional",
+          "description": "Optional registration: instruments other than those listed in Section 17 including instruments relating to immovable property valued below ₹100, instruments creating interest in movable property, etc."
+        },
+        {
+          "section": "23",
+          "title": "Time for presentation of documents",
+          "description": "Documents must be presented for registration within 4 months of execution. Delay beyond 4 months requires condonation by Registrar with additional fee."
+        },
+        {
+          "section": "49",
+          "title": "Effect of non-registration of documents required to be registered",
+          "description": "No document required to be registered under Section 17 shall: (a) affect any immovable property; (b) be received as evidence of any transaction affecting such property; unless it has been registered. Exception: can be received as evidence of a contract in a suit for specific performance."
+        }
+      ],
+      "process": [
+        "1. Prepare sale deed / gift deed / lease deed as applicable",
+        "2. Calculate stamp duty (state-specific rates)",
+        "3. Purchase stamp paper or pay stamp duty via e-stamping",
+        "4. Both parties present before Sub-Registrar with original documents and photocopies",
+        "5. Two witnesses with identity proofs required",
+        "6. Sub-Registrar verifies identity and documents",
+        "7. Biometric verification / photograph taken",
+        "8. Document registered and returned"
+      ]
+    },
+    "stamp_duty": {
+      "overview": "Stamp duty is a state subject under the Constitution. Rates vary by state. Payable before or at time of registration.",
+      "state_rates": [
+        {
+          "state": "Maharashtra",
+          "residential_sale": "5% of market value (plus 1% local body tax = 6% total in Mumbai); women purchasers get 1% concession",
+          "gift_to_blood_relative": "Nil or nominal (₹200 in some cases)",
+          "lease_above_3_years": "5% of aggregate rent plus deposit",
+          "notes": "Ready Reckoner rates published by Maharashtra government; circle rates apply"
+        },
+        {
+          "state": "Karnataka",
+          "residential_sale": "5% (properties up to ₹35 lakh); 5.6% (₹35 lakh-₹45 lakh); 6.6% (above ₹45 lakh) plus 1% registration fee",
+          "gift_to_blood_relative": "Nil stamp duty but registration fee applicable",
+          "notes": "Guidance value (circle rate) published by Karnataka government applies"
+        },
+        {
+          "state": "Delhi",
+          "residential_sale": "4% (if purchaser is woman); 6% (if purchaser is man or jointly with man)",
+          "gift_to_blood_relative": "Nil for immediate family",
+          "notes": "Circle rates set by Delhi government for each zone"
+        },
+        {
+          "state": "Tamil Nadu",
+          "residential_sale": "7% stamp duty + 4% registration fee = 11% total",
+          "gift_to_blood_relative": "1% stamp duty + 1% registration fee (blood relatives defined)",
+          "notes": "Guideline values published by Tamil Nadu Registration Department"
+        },
+        {
+          "state": "Telangana",
+          "residential_sale": "4% stamp duty + 0.5% transfer duty + 0.5% registration fee = 5% total",
+          "gift_to_blood_relative": "Nil stamp duty; ₹1,000 registration fee",
+          "notes": "Market value as per Telangana government's registration department"
+        },
+        {
+          "state": "Gujarat",
+          "residential_sale": "4.9% stamp duty + 1% registration fee = 5.9% total; women get 1% concession",
+          "gift_to_blood_relative": "Nil or nominal",
+          "notes": "Jantri (circle rate) published by Gujarat government"
+        },
+        {
+          "state": "Rajasthan",
+          "residential_sale": "5% stamp duty + 1% registration fee; women purchasers: 4% + 1%",
+          "gift_to_blood_relative": "2.5% if property value above ₹50 lakh",
+          "notes": "District Collector circle rates apply"
+        }
+      ]
+    },
+    "land_acquisition_act_2013": {
+      "full_title": "The Right to Fair Compensation and Transparency in Land Acquisition, Rehabilitation and Resettlement Act 2013",
+      "enacted": "2013-09-27",
+      "replaces": "Land Acquisition Act 1894",
+      "key_features": [
+        {
+          "feature": "Consent Requirement",
+          "detail": "For private companies acquiring land: consent of 80% of project-affected families required. For PPP projects: consent of 70% required. For government projects: no consent required but Social Impact Assessment (SIA) mandatory."
+        },
+        {
+          "feature": "Social Impact Assessment (SIA)",
+          "detail": "Mandatory SIA for all acquisitions (except urgency cases). SIA evaluated by expert group and can recommend exemption if social costs outweigh benefits."
+        },
+        {
+          "feature": "Compensation",
+          "detail": "Rural areas: 2× market value compensation (under urgency clause); urban areas: 1× market value. Plus solatium of 100% on market value compensation."
+        },
+        {
+          "feature": "Market Value Calculation",
+          "detail": "Higher of: (a) minimum land value per Indian Stamp Act; (b) average of 50 sale deeds of similar land in the vicinity in preceding 3 years."
+        },
+        {
+          "feature": "Rehabilitation and Resettlement (R&R)",
+          "detail": "Comprehensive R&R benefits: housing, employment/employment training, monthly annuity, resettlement allowance. Scheduled Tribe / Scheduled Caste families get additional benefits."
+        },
+        {
+          "feature": "Time Limits",
+          "detail": "Award must be passed within 12 months of notification. Lapse if: award not passed in 12 months; compensation not paid/deposited within 5 years of award."
+        },
+        {
+          "feature": "Return of Land",
+          "detail": "If acquired land not utilised for 5 years, 50% of appreciated land value must be shared with original owner."
+        }
+      ]
+    },
+    "rera_2016": {
+      "full_title": "Real Estate (Regulation and Development) Act 2016",
+      "enacted": "2016-03-25",
+      "effective": "2017-05-01",
+      "regulator": "Real Estate Regulatory Authority (RERA) — state-level regulator",
+      "objective": "Protect home buyers and boost investments in the real estate sector.",
+      "key_provisions": [
+        {
+          "provision": "Mandatory Project Registration",
+          "detail": "All real estate projects where land area exceeds 500 sq. mt or more than 8 apartments are being sold must be registered with RERA before launch. Ongoing projects as of commencement of Act also required to register within 3 months."
+        },
+        {
+          "provision": "Mandatory Agent Registration",
+          "detail": "Real estate agents must register with RERA to facilitate sale/purchase of RERA-registered properties."
+        },
+        {
+          "provision": "Escrow Account",
+          "detail": "Promoter must deposit 70% of amount collected from buyers into a separate escrow account to be used only for construction of the project."
+        },
+        {
+          "provision": "Carpet Area Disclosure",
+          "detail": "Sale must be based on carpet area (not super built-up area). Mandatory disclosure of carpet area, floor plan and project specifications."
+        },
+        {
+          "provision": "Structural Defect Liability",
+          "detail": "Promoter liable for structural defects for 5 years after possession. Any defect must be rectified by promoter at no extra cost."
+        },
+        {
+          "provision": "Delay in Possession",
+          "detail": "If promoter delays possession: buyer entitled to full refund with interest at the rate specified (typically SBI PLR + 2%) or compensation. Buyer can also seek possession with interest."
+        },
+        {
+          "provision": "Alterations",
+          "detail": "Promoter cannot make major alterations to plans without written consent of 2/3rd of allottees."
+        },
+        {
+          "provision": "Appellate Tribunal",
+          "detail": "Appeals against RERA orders lie to Real Estate Appellate Tribunal. Further appeal to High Court."
+        },
+        {
+          "provision": "Penalties",
+          "detail": "Non-registration: up to 10% of project cost. Providing false information: up to 5% of project cost. Non-compliance of RERA orders: up to 10% of project cost + imprisonment up to 3 years."
+        }
+      ],
+      "state_rera_authorities": [
+        {"state": "Maharashtra", "authority": "MahaRERA", "website": "maharera.mahaonline.gov.in"},
+        {"state": "Karnataka", "authority": "K-RERA", "website": "rera.karnataka.gov.in"},
+        {"state": "Delhi", "authority": "Delhi RERA", "website": "rera.delhi.gov.in"},
+        {"state": "Tamil Nadu", "authority": "TNRERA", "website": "tnrera.in"},
+        {"state": "Telangana", "authority": "TSRERA", "website": "rera.telangana.gov.in"},
+        {"state": "Gujarat", "authority": "GUJRERA", "website": "gujrera.gujarat.gov.in"},
+        {"state": "Rajasthan", "authority": "RRERA", "website": "rera.rajasthan.gov.in"}
+      ]
+    },
+    "adverse_possession": {
+      "title": "Adverse Possession",
+      "legal_basis": "Limitation Act 1963 — Article 65 (private land: 12 years); Article 64 (government land: 30 years)",
+      "definition": "A person who has been in continuous, open, hostile, and exclusive possession of another person's immovable property for the specified limitation period can claim ownership of the property by adverse possession.",
+      "requirements": [
+        "Actual possession: physical occupation of the property",
+        "Open and notorious: possession must be visible and obvious",
+        "Hostile / adverse: possession must be against the true owner's interests, without permission",
+        "Exclusive: possessor must not share possession with true owner",
+        "Continuous: uninterrupted possession for the full limitation period",
+        "Claim of right: possessor must claim the property as his own"
+      ],
+      "limitation_period": {
+        "private_land": "12 years (Article 65 of Limitation Act 1963)",
+        "government_land": "30 years (Article 64)",
+        "note": "Supreme Court in Hemaji Waghaji Jat v. Bhikhabhai Khengarbhai Harijan (2009) deprecated adverse possession as 'archaic' but it remains valid law."
+      }
+    },
+    "easement_rights": {
+      "title": "Easement Rights",
+      "legal_basis": "Indian Easements Act 1882",
+      "definition": "An easement is a right which the owner or occupier of certain land possesses, as such, for the beneficial enjoyment of that land, to do and continue to do something, or to prevent and continue to prevent something being done, in or upon, or in respect of certain other land not his own.",
+      "types": [
+        {
+          "type": "Right of Way",
+          "description": "Right to pass over another's land. May be a footpath, cart-track, or road."
+        },
+        {
+          "type": "Right to Light and Air",
+          "description": "Right to receive light and air through an opening in a wall or window over the neighbour's land. Acquired after 20 years of continuous enjoyment (prescriptive easement)."
+        },
+        {
+          "type": "Right to Water",
+          "description": "Right to draw water from a stream or well on another's land; right to discharge water onto another's land."
+        },
+        {
+          "type": "Easement of Necessity",
+          "description": "Where immovable property is transferred and it is impossible to enjoy it without exercising an easement over other immovable property. Easement exists only so long as necessity continues."
+        },
+        {
+          "type": "Prescriptive Easement",
+          "description": "Easement acquired by 20 years of peaceable, open, and as-of-right use without interruption."
+        }
+      ],
+      "extinguishment": [
+        "By release (express or implied)",
+        "By merger of dominant and servient tenements",
+        "By expiry of period or condition",
+        "By abandonment — non-exercise for 20 years",
+        "By destruction of dominant or servient heritage"
+      ]
+    }
+  }
+}

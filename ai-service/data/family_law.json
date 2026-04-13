@@ -1,0 +1,308 @@
+{
+  "title": "Indian Family Laws — Comprehensive Reference",
+  "last_updated": "2024-07-01",
+  "acts": {
+    "hindu_marriage_act_1955": {
+      "full_title": "The Hindu Marriage Act 1955",
+      "applicability": "Applies to Hindus, Buddhists, Jains, and Sikhs. Also applies to any person who is not a Muslim, Christian, Parsi, or Jew by religion.",
+      "key_sections": [
+        {
+          "section": "5",
+          "title": "Conditions for a Hindu marriage",
+          "description": "A marriage may be solemnized between any two Hindus if: (i) neither party has a spouse living at the time of marriage; (ii) neither party is of unsound mind or mentally disordered; (iii) the bridegroom has completed 21 years of age and the bride 18 years; (iv) the parties are not within the degrees of prohibited relationship unless custom permits; (v) the parties are not sapindas of each other unless custom permits."
+        },
+        {
+          "section": "7",
+          "title": "Ceremonies for a Hindu marriage",
+          "description": "A Hindu marriage may be solemnized in accordance with the customary rites and ceremonies of either party. Where such rites and ceremonies include the Saptapadi (the taking of seven steps by the bridegroom and the bride jointly before the sacred fire), the marriage becomes complete and binding when the seventh step is taken."
+        },
+        {
+          "section": "8",
+          "title": "Registration of Hindu marriages",
+          "description": "For the purpose of facilitating proof of Hindu marriages, the State Government may make rules providing that the parties shall have their marriage registered. Registration is compulsory in many states following Supreme Court direction in Seema v. Ashwani Kumar (2006)."
+        },
+        {
+          "section": "9",
+          "title": "Restitution of conjugal rights",
+          "description": "When either the husband or the wife has, without reasonable excuse, withdrawn from the society of the other, the aggrieved party may apply by petition to the district court for restitution of conjugal rights and the court, on being satisfied of the truth of the statements made in such petition and that there is no legal ground why the application should not be granted, may decree restitution of conjugal rights accordingly."
+        },
+        {
+          "section": "10",
+          "title": "Judicial separation",
+          "description": "Either party to a marriage, whether solemnized before or after the commencement of this Act, may present a petition praying for a decree for judicial separation on any of the grounds specified in Section 13(1). After a decree for judicial separation, it is no longer obligatory for the petitioner to cohabit with the respondent."
+        },
+        {
+          "section": "11",
+          "title": "Void marriages",
+          "description": "Any marriage solemnized after the commencement of this Act shall be null and void and may, on a petition presented by either party thereto, be so declared by a decree of nullity if it contravenes any of the conditions specified in clauses (i), (iv) and (v) of Section 5 (bigamy; prohibited relationship; sapinda relationship)."
+        },
+        {
+          "section": "12",
+          "title": "Voidable marriages",
+          "description": "Any marriage solemnized, whether before or after the commencement of this Act, shall be voidable and may be annulled by a decree of nullity on any of the following grounds: (a) marriage not consummated due to impotence of respondent; (b) violation of Section 5(ii) (unsound mind); (c) consent obtained by force or fraud; (d) respondent pregnant by another person at time of marriage."
+        },
+        {
+          "section": "13",
+          "title": "Divorce — grounds",
+          "description": "Grounds for divorce: (i) adultery; (ii) cruelty; (iii) desertion for 2 years; (iv) conversion to another religion; (v) unsound mind; (vi) leprosy (now removed by 2019 amendment); (vii) venereal disease; (viii) renunciation of world; (ix) not heard of as alive for 7 years. Additional grounds for wife: husband guilty of rape/sodomy/bestiality; non-resumption of cohabitation after judicial separation for 1 year; non-payment of maintenance for 2 years."
+        },
+        {
+          "section": "13B",
+          "title": "Divorce by mutual consent",
+          "description": "A petition for dissolution of marriage by a decree of divorce may be presented to the district court by both the parties to a marriage together, whether such marriage was solemnized before or after the commencement of the Marriage Laws (Amendment) Act 1976, on the ground that they have been living separately for a period of one year or more, that they have not been able to live together and that they have mutually agreed that the marriage should be dissolved. The court shall, after hearing the parties, pass a decree of divorce after a statutory cooling-off period (originally 6 months, but waivable by court as per SC judgment in Amardeep Singh v. Harveen Kaur 2017)."
+        },
+        {
+          "section": "14",
+          "title": "No petition for divorce within one year of marriage",
+          "description": "Notwithstanding anything contained in this Act, it shall not be competent for any court to entertain any petition for dissolution of a marriage by a decree of divorce, unless at the date of the presentation of the petition one year has elapsed since the date of the marriage. Exception: cases of exceptional hardship or exceptional depravity."
+        },
+        {
+          "section": "24",
+          "title": "Maintenance pendente lite and expenses of proceedings",
+          "description": "Where in any proceeding under this Act it appears to the court that either the wife or the husband, as the case may be, has no independent income sufficient for her or his support and the necessary expenses of the proceeding, it may, on the application of the wife or the husband, order the respondent to pay to the petitioner the expenses of the proceeding, and monthly during the proceeding such sum as, having regard to the petitioner's own income and the income of the respondent, it may seem to the court to be reasonable."
+        },
+        {
+          "section": "25",
+          "title": "Permanent alimony and maintenance",
+          "description": "Any court exercising jurisdiction under this Act may, at the time of passing any decree or at any time subsequent thereto, on application made to it for the purpose by either the wife or the husband, as the case may be, order that the respondent shall pay to the applicant for her or his maintenance and support such gross sum or such monthly or periodical sum for a term not exceeding the life of the applicant as, having regard to the respondent's own income and other property, if any, the income and other property of the applicant, the conduct of the parties and other circumstances of the case, it may seem to the court to be just."
+        },
+        {
+          "section": "26",
+          "title": "Custody of children",
+          "description": "In any proceeding under this Act, the court may, from time to time, pass such interim orders and make such provisions in the decree as it may deem just and proper with respect to the custody, maintenance and education of minor children, consistently always with their wishes, wherever possible, and may, after the decree, upon application by petition for the purpose, make, revoke, suspend or vary, from time to time, all such orders and provisions with respect to the custody, maintenance and education of such children."
+        }
+      ],
+      "divorce_procedure": {
+        "mutual_consent": {
+          "steps": [
+            "1. Both parties file joint petition under Section 13B in Family Court / District Court",
+            "2. Court records statements of both parties",
+            "3. First motion passed; cooling-off period starts (6 months — may be waived by court)",
+            "4. Second motion filed within 18 months of first motion",
+            "5. Court examines whether consent is free and genuine",
+            "6. Decree of divorce passed"
+          ],
+          "documents_required": ["Marriage certificate", "Proof of separation (1 year)", "Identity proofs", "Settlement agreement", "Address proof"],
+          "time_taken": "6-18 months typically; can be faster if court waives cooling-off period"
+        },
+        "contested_divorce": {
+          "steps": [
+            "1. Petition filed in Family Court / District Court",
+            "2. Notice served to respondent",
+            "3. Respondent files written statement",
+            "4. Mediation/counselling attempted by court",
+            "5. Trial — evidence, cross-examination",
+            "6. Arguments",
+            "7. Decree of divorce"
+          ],
+          "time_taken": "3-7 years typically in contested matters"
+        }
+      }
+    },
+    "special_marriage_act_1954": {
+      "full_title": "The Special Marriage Act 1954",
+      "applicability": "Applies to all persons irrespective of religion, caste or nationality; essential for inter-religion marriages.",
+      "key_provisions": [
+        {
+          "section": "4",
+          "title": "Conditions for marriage",
+          "description": "Conditions are similar to Hindu Marriage Act: no living spouse; not of unsound mind; bridegroom must be 21 years and bride 18 years; parties not within degrees of prohibited relationship."
+        },
+        {
+          "section": "5",
+          "title": "Notice of intended marriage",
+          "description": "Parties must give notice to the Marriage Officer of the district in which at least one party has resided for at least 30 days before the notice."
+        },
+        {
+          "section": "6",
+          "title": "Publication of notice",
+          "description": "The Marriage Officer shall cause the notice to be published by affixing it to a conspicuous place in his office. 30-day notice period (proposed for reduction by court orders; some states allow private registry)."
+        },
+        {
+          "section": "15",
+          "title": "Registration of marriages",
+          "description": "Any marriage solemnized under this Act shall be registered by the Marriage Officer in the Marriage Certificate Book by entering the particulars of the marriage therein."
+        },
+        {
+          "section": "27",
+          "title": "Divorce grounds",
+          "description": "Grounds for divorce under Special Marriage Act are similar to Hindu Marriage Act Section 13 — adultery, cruelty, desertion, conversion, unsound mind, etc. Mutual consent divorce also available under Section 28."
+        }
+      ]
+    },
+    "muslim_personal_law": {
+      "title": "Muslim Personal Law (Shariat) Application Act 1937 and related laws",
+      "applicable_to": "Muslims; regulated by personal law (Shariat) and statutory modifications",
+      "marriage": {
+        "nikah": "A Muslim marriage (Nikah) is a civil contract requiring offer (Ijab) and acceptance (Qabool) in the presence of witnesses (two adult male Muslim witnesses or one male and two female witnesses).",
+        "mehr": "Mehr (dower) is an obligatory gift from husband to wife — a condition of marriage. Can be prompt (mu'ajjal) or deferred (mu'wajjal).",
+        "capacity": "Bridegroom must have attained puberty (generally 15+ years); Prohibition on Solemnisation of Child Marriages Act 2006 applies uniformly.",
+        "prohibited_degrees": "Marriage prohibited within certain blood relationships (mahram). Prohibited also due to fosterage (milk kinship).",
+        "polygamy": "Muslim men may marry up to four wives subject to condition of equal treatment; polygamy is subject to special marriage laws and Constitutional scrutiny."
+      },
+      "divorce": {
+        "talaq": {
+          "types": [
+            {
+              "name": "Talaq-ul-Sunnat (Ahsan)",
+              "description": "Most approved form. One pronouncement of talaq in tuhr (period of purity), followed by abstinence during iddat (approximately 3 menstrual cycles). Revocable during iddat."
+            },
+            {
+              "name": "Talaq-ul-Sunnat (Hasan)",
+              "description": "Three pronouncements in three successive tuhrs (purity periods). Revocable before third pronouncement."
+            },
+            {
+              "name": "Triple Talaq (Talaq-ul-Biddat)",
+              "description": "Three pronouncements at once. Declared unconstitutional and criminal by Muslim Women (Protection of Rights on Marriage) Act 2019. Instantaneous triple talaq by husband (whether oral, written, or electronic) is void, illegal and punishable with up to 3 years imprisonment."
+            }
+          ]
+        },
+        "khula": "Divorce at wife's initiative by returning mehr to husband; requires husband's consent or court order.",
+        "mubarat": "Mutual divorce by agreement of both parties.",
+        "judicial_divorce": "Dissolution of Muslim Marriages Act 1939 — wife can seek divorce from court on grounds: husband's whereabouts unknown for 4 years; failure to maintain for 2 years; imprisonment of husband for 7+ years; failure to perform marital obligations; impotency; insanity/leprosy; cruelty.",
+        "iddat": "Waiting period after divorce — 3 menstrual cycles (or 3 months if no menstruation); 4 months 10 days after husband's death.",
+        "triple_talaq_act_2019": {
+          "full_title": "Muslim Women (Protection of Rights on Marriage) Act 2019",
+          "key_provisions": [
+            "Triple talaq (talaq-e-biddat) void and illegal",
+            "Husband liable for up to 3 years imprisonment",
+            "Offence is cognizable and non-bailable",
+            "Wife entitled to subsistence allowance determined by magistrate",
+            "Wife entitled to custody of minor children as per magistrate's order"
+          ]
+        }
+      },
+      "maintenance": {
+        "during_marriage": "Husband obligated to maintain wife throughout marriage.",
+        "after_divorce": "Muslim Women (Protection of Rights on Divorce) Act 1986 — divorced Muslim woman entitled to maintenance during iddat period only from husband. After iddat, relatives (or Wakf Board if no relatives) responsible.",
+        "sec_125_crpc_application": "In Danial Latifi v. Union of India (2001), Supreme Court held husband must make reasonable provision for divorced wife's future maintenance at the time of divorce, beyond iddat period."
+      }
+    },
+    "hindu_succession_act_1956": {
+      "full_title": "The Hindu Succession Act 1956 (as amended in 2005)",
+      "applicability": "Applies to Hindus, Buddhists, Jains, and Sikhs for intestate succession.",
+      "key_amendments_2005": [
+        "Daughters now have equal coparcenary rights in Hindu Undivided Family (HUF) property as sons.",
+        "Daughters are coparceners by birth — applies even to daughters born before 2005 (SC in Vineeta Sharma v. Rakesh Sharma 2020).",
+        "Daughter's right is independent of whether the father was alive on 9 September 2005 (date of amendment)."
+      ],
+      "key_sections": [
+        {
+          "section": "6",
+          "title": "Devolution of interest in coparcenary property",
+          "description": "The interest of a male Hindu in Mitakshara coparcenary property shall devolve by survivorship upon the surviving members of the coparcenary (as before 2005). The 2005 amendment made daughter a coparcener by birth with same rights and liabilities as a son."
+        },
+        {
+          "section": "8",
+          "title": "General rules of succession in case of males",
+          "description": "The property of a male Hindu dying intestate shall devolve firstly upon the heirs specified in Class I of the Schedule (widow, sons, daughters, mother, son's widow, son's son, son's daughter, etc.) simultaneously. Failing Class I heirs, Class II heirs take in specified order."
+        },
+        {
+          "section": "10",
+          "title": "Distribution of property among heirs in Class I of Schedule",
+          "description": "Distribution rules among Class I heirs — widow takes one share; each son, daughter and mother takes one share; son's/daughter's children take per stirpes (share of deceased parent)."
+        },
+        {
+          "section": "14",
+          "title": "Property of a female Hindu to be her absolute property",
+          "description": "Any property possessed by a female Hindu, whether acquired before or after the commencement of this Act, shall be held by her as full owner thereof and not as a limited owner."
+        },
+        {
+          "section": "15",
+          "title": "General rules of succession in case of female Hindus",
+          "description": "Property of female Hindu dying intestate devolves: (a) sons, daughters and husband; (b) heirs of husband; (c) mother and father; (d) heirs of father; (e) heirs of mother. Property inherited from husband/father-in-law: goes to husband's heirs."
+        }
+      ]
+    },
+    "maintenance_laws": {
+      "crpc_section_125": {
+        "reference": "Section 125 CrPC (now Section 144 BNSS 2023)",
+        "applicability": "Applies to all persons irrespective of religion. Secular maintenance law.",
+        "description": "If any person having sufficient means neglects or refuses to maintain: (a) his wife unable to maintain herself; (b) his legitimate or illegitimate minor child; (c) his legitimate or illegitimate child (not married) with physical/mental abnormality; (d) his father or mother unable to maintain himself/herself — a Magistrate of the First Class may order such person to make a monthly allowance for maintenance.",
+        "maintenance_for_wife": "Wife includes divorced wife who has not remarried. Cannot claim under Section 125 if wife is living in adultery or refuses to live with husband without sufficient reason.",
+        "quantum": "No ceiling — court determines based on husband's income, needs of wife/children. Supreme Court in Rajnesh v. Neha (2020) gave comprehensive guidelines.",
+        "enforcement": "Non-payment of maintenance — warrant, attachment of property, imprisonment up to 1 month."
+      },
+      "bnss_section_144": {
+        "reference": "Section 144 BNSS 2023 (replaces Section 125 CrPC)",
+        "description": "Equivalent to Section 125 CrPC with effect from 1 July 2024. Time limit for disposal of application: 60 days from service of notice on respondent (compared to no specific time limit under CrPC).",
+        "key_changes": "Mandatory 60-day disposal timeline; interim maintenance orders mandatory if wife/child has no means of support."
+      }
+    },
+    "domestic_violence_act_2005": {
+      "full_title": "The Protection of Women from Domestic Violence Act 2005",
+      "enacted": "2005-09-13",
+      "objective": "Provide more effective protection of rights of women guaranteed under the Constitution who are victims of violence of any kind occurring within the family.",
+      "key_features": [
+        {
+          "feature": "Domestic Relationship",
+          "detail": "Covers women in marriage, cohabitation, shared household — includes live-in relationships."
+        },
+        {
+          "feature": "Domestic Violence — Definition",
+          "detail": "Physical abuse, sexual abuse, verbal and emotional abuse, and economic abuse. Very broad definition."
+        },
+        {
+          "feature": "Protection Order",
+          "detail": "Magistrate can pass protection order prohibiting respondent from committing domestic violence, entering workplace/school of aggrieved, attempting to contact aggrieved."
+        },
+        {
+          "feature": "Residence Order",
+          "detail": "Aggrieved person has right to reside in shared household even if she has no title/ownership. Respondent can be directed not to dispossess her."
+        },
+        {
+          "feature": "Monetary Relief",
+          "detail": "Court can award monetary relief for losses suffered — loss of earnings, medical expenses, damage to property, maintenance (including for children)."
+        },
+        {
+          "feature": "Custody Order",
+          "detail": "Temporary custody of children can be awarded to aggrieved person."
+        },
+        {
+          "feature": "Compensation Order",
+          "detail": "Court can award compensation for mental torture and emotional distress."
+        },
+        {
+          "feature": "Protection Officers",
+          "detail": "State governments appoint Protection Officers (typically social workers/government officials) in each district to assist aggrieved women in filing applications, obtaining medical aid and shelter."
+        }
+      ],
+      "procedure": [
+        "1. Aggrieved woman or Protection Officer or any person on her behalf files application to Magistrate",
+        "2. Magistrate fixes date for hearing (within 3 days)",
+        "3. Notice served to respondent",
+        "4. Magistrate may pass ex parte interim orders if prima facie case established",
+        "5. Hearing; parties present evidence",
+        "6. Final order — protection order, residence order, monetary relief, custody, compensation"
+      ],
+      "breach_of_order": "Breach of protection order is an offence punishable with imprisonment up to 1 year or fine up to ₹20,000 or both."
+    },
+    "dowry_prohibition_act_1961": {
+      "full_title": "The Dowry Prohibition Act 1961",
+      "objective": "Prohibit the giving or taking of dowry.",
+      "key_provisions": [
+        {
+          "section": "3",
+          "title": "Penalty for giving or taking dowry",
+          "description": "If any person gives, takes or abets the giving or taking of dowry, he shall be punishable with imprisonment for a term which shall not be less than five years, and with fine which shall not be less than fifteen thousand rupees or the amount of the value of such dowry, whichever is more."
+        },
+        {
+          "section": "4",
+          "title": "Penalty for demanding dowry",
+          "description": "If any person demands, directly or indirectly, from the parents or other relatives or guardian of a bride or bridegroom, any dowry, he shall be punishable with imprisonment for a term which shall not be less than six months, but which may extend to two years and with fine which may extend to ten thousand rupees."
+        },
+        {
+          "section": "6",
+          "title": "Dowry to be for benefit of wife/heirs",
+          "description": "Where any dowry is received by any person other than the woman in connection with whose marriage it is given, that person shall transfer it to the woman within three months of marriage or on attainment of majority if woman is a minor."
+        },
+        {
+          "section": "8B",
+          "title": "Dowry Prohibition Officers",
+          "description": "State governments shall appoint Dowry Prohibition Officers for preventing the taking or abetting the taking of dowry, and for collecting evidence regarding offences under this Act."
+        }
+      ],
+      "stridhan": "Woman's absolute property given to her by family (parents/relatives) before/during/after marriage. Not dowry. She has full ownership. IPC Section 405/406 applies if husband/in-laws misappropriate Stridhan."
+    }
+  }
+}
