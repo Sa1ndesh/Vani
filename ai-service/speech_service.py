@@ -152,7 +152,6 @@ class SpeechService:
                 "detected_language": language or "en",
                 "confidence": 0.0,
             }
-            }
 
     # ------------------------------------------------------------------
     # TTS
