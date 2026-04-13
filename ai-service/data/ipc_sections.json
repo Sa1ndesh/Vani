@@ -1,0 +1,1044 @@
+{
+  "sections": [
+    {
+      "section": "302",
+      "title": "Punishment for murder",
+      "description": "Whoever commits murder shall be punished with death, or imprisonment for life, and shall also be liable to fine.",
+      "category": "criminal",
+      "keywords": [
+        "murder",
+        "homicide",
+        "killing",
+        "death penalty"
+      ],
+      "punishment": "Death or imprisonment for life, and fine",
+      "bailable": false,
+      "cognizable": true,
+      "triable_by": "Court of Sessions"
+    },
+    {
+      "section": "304",
+      "title": "Culpable homicide not amounting to murder",
+      "description": "Whoever commits culpable homicide not amounting to murder shall be punished with imprisonment for life, or imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine, if the act by which the death is caused is done with the intention of causing death, or of causing such bodily injury as is likely to cause death; or with imprisonment of either description for a term which may extend to ten years, or with fine, or with both, if the act is done with the knowledge that it is likely to cause death, but without any intention to cause death, or to cause such bodily injury as is likely to cause death.",
+      "category": "criminal",
+      "keywords": [
+        "culpable homicide",
+        "manslaughter",
+        "death",
+        "killing"
+      ],
+      "punishment": "Imprisonment for life or up to 10 years, and fine",
+      "bailable": false,
+      "cognizable": true,
+      "triable_by": "Court of Sessions"
+    },
+    {
+      "section": "304A",
+      "title": "Causing death by negligence",
+      "description": "Whoever causes the death of any person by doing any rash or negligent act not amounting to culpable homicide shall be punished with imprisonment of either description for a term which may extend to two years, or with fine, or with both.",
+      "category": "criminal",
+      "keywords": [
+        "negligence",
+        "rash act",
+        "accidental death",
+        "negligent driving"
+      ],
+      "punishment": "Imprisonment up to 2 years, or fine, or both",
+      "bailable": true,
+      "cognizable": true,
+      "triable_by": "Chief Judicial Magistrate"
+    },
+    {
+      "section": "304B",
+      "title": "Dowry death",
+      "description": "Where the death of a woman is caused by any burns or bodily injury or occurs under suspicious circumstances within seven years of marriage, and it is shown that soon before her death she was subjected to cruelty or harassment by her husband or any relative of her husband for, or in connection with, any demand for dowry, such death shall be called \"dowry death\", and such husband or relative shall be deemed to have caused her death.",
+      "category": "criminal",
+      "keywords": [
+        "dowry death",
+        "bride burning",
+        "dowry harassment",
+        "matrimonial cruelty"
+      ],
+      "punishment": "Imprisonment for not less than 7 years, may extend to imprisonment for life",
+      "bailable": false,
+      "cognizable": true,
+      "triable_by": "Court of Sessions"
+    },
+    {
+      "section": "306",
+      "title": "Abetment of suicide",
+      "description": "If any person commits suicide, whoever abets the commission of such suicide shall be punished with imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine.",
+      "category": "criminal",
+      "keywords": [
+        "abetment",
+        "suicide",
+        "instigation",
+        "aiding suicide"
+      ],
+      "punishment": "Imprisonment up to 10 years, and fine",
+      "bailable": false,
+      "cognizable": true,
+      "triable_by": "Court of Sessions"
+    },
+    {
+      "section": "307",
+      "title": "Attempt to murder",
+      "description": "Whoever does any act with such intention or knowledge, and under such circumstances that, if he by that act caused death, he would be guilty of murder, shall be punished with imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine; and if hurt is caused to any person by such act, the offender shall be liable either to imprisonment for life, or to such punishment as is hereinbefore mentioned.",
+      "category": "criminal",
+      "keywords": [
+        "attempt to murder",
+        "attempted killing",
+        "intent to kill"
+      ],
+      "punishment": "Imprisonment up to 10 years and fine; if hurt caused, imprisonment for life",
+      "bailable": false,
+      "cognizable": true,
+      "triable_by": "Court of Sessions"
+    },
+    {
+      "section": "308",
+      "title": "Attempt to commit culpable homicide",
+      "description": "Whoever does any act with such intention or knowledge and under such circumstances that, if he by that act caused death, he would be guilty of culpable homicide not amounting to murder, shall be punished with imprisonment of either description for a term which may extend to three years, or with fine, or with both; and, if hurt is caused to any person by such act, shall be punished with imprisonment of either description for a term which may extend to seven years, or with fine, or with both.",
+      "category": "criminal",
+      "keywords": [
+        "attempt",
+        "culpable homicide",
+        "assault"
+      ],
+      "punishment": "Imprisonment up to 3 years or fine or both; if hurt caused, up to 7 years or fine or both",
+      "bailable": false,
+      "cognizable": true,
+      "triable_by": "Court of Sessions"
+    },
+    {
+      "section": "309",
+      "title": "Attempt to commit suicide",
+      "description": "Whoever attempts to commit suicide and does any act towards the commission of such offence, shall be punished with simple imprisonment for a term which may extend to one year or with fine, or with both.",
+      "category": "criminal",
+      "keywords": [
+        "suicide attempt",
+        "self-harm",
+        "attempt to suicide"
+      ],
+      "punishment": "Simple imprisonment up to 1 year, or fine, or both",
+      "bailable": true,
+      "cognizable": false,
+      "triable_by": "Any Magistrate"
+    },
+    {
+      "section": "320",
+      "title": "Grievous hurt (definition)",
+      "description": "The following kinds of hurt only are designated as \"grievous\": First \u2014 Emasculation. Secondly \u2014 Permanent privation of the sight of either eye. Thirdly \u2014 Permanent privation of the hearing of either ear. Fourthly \u2014 Privation of any member or joint. Fifthly \u2014 Destruction or permanent impairing of the powers of any member or joint. Sixthly \u2014 Permanent disfiguration of the head or face. Seventhly \u2014 Fracture or dislocation of a bone or tooth. Eighthly \u2014 Any hurt which endangers life or which causes the sufferer to be during the space of twenty days in severe bodily pain, or unable to follow his ordinary pursuits.",
+      "category": "criminal",
+      "keywords": [
+        "grievous hurt",
+        "serious injury",
+        "bodily harm",
+        "fracture"
+      ],
+      "punishment": "N/A (definition section)",
+      "bailable": false,
+      "cognizable": true,
+      "triable_by": "Any Magistrate"
+    },
+    {
+      "section": "323",
+      "title": "Punishment for voluntarily causing hurt",
+      "description": "Whoever, except in the case provided for by section 334, voluntarily causes hurt, shall be punished with imprisonment of either description for a term which may extend to one year, or with fine which may extend to one thousand rupees, or with both.",
+      "category": "criminal",
+      "keywords": [
+        "hurt",
+        "assault",
+        "battery",
+        "voluntarily causing hurt"
+      ],
+      "punishment": "Imprisonment up to 1 year, or fine up to Rs. 1000, or both",
+      "bailable": true,
+      "cognizable": false,
+      "triable_by": "Any Magistrate"
+    },
+    {
+      "section": "324",
+      "title": "Voluntarily causing hurt by dangerous weapons or means",
+      "description": "Whoever, except in the case provided for by section 334, voluntarily causes hurt by means of any instrument for shooting, stabbing or cutting, or any instrument which, used as a weapon of offence, is likely to cause death, or by means of fire or any heated substance, or by means of any poison or any corrosive substance, or by means of any explosive substance, or by means of any substance which it is deleterious to the human body to inhale, to swallow, or to receive into the blood, or by means of any animal, shall be punished with imprisonment of either description for a term which may extend to three years, or with fine, or with both.",
+      "category": "criminal",
+      "keywords": [
+        "dangerous weapon",
+        "assault",
+        "hurt",
+        "stabbing",
+        "shooting"
+      ],
+      "punishment": "Imprisonment up to 3 years, or fine, or both",
+      "bailable": false,
+      "cognizable": true,
+      "triable_by": "Any Magistrate"
+    },
+    {
+      "section": "325",
+      "title": "Punishment for voluntarily causing grievous hurt",
+      "description": "Whoever, except in the case provided for by section 335, voluntarily causes grievous hurt, shall be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine.",
+      "category": "criminal",
+      "keywords": [
+        "grievous hurt",
+        "serious injury",
+        "assault"
+      ],
+      "punishment": "Imprisonment up to 7 years, and fine",
+      "bailable": false,
+      "cognizable": true,
+      "triable_by": "Magistrate of the first class"
+    },
+    {
+      "section": "326",
+      "title": "Voluntarily causing grievous hurt by dangerous weapons or means",
+      "description": "Whoever, except in the case provided for by section 335, voluntarily causes grievous hurt by means of any instrument for shooting, stabbing or cutting, or any instrument which, used as a weapon of offence, is likely to cause death, or by means of fire or any heated substance, or by means of any poison or any corrosive substance, or by means of any explosive substance, or by means of any substance which it is deleterious to the human body to inhale, to swallow, or to receive into the blood, or by means of any animal, shall be punished with imprisonment for life, or with imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine.",
+      "category": "criminal",
+      "keywords": [
+        "grievous hurt",
+        "dangerous weapon",
+        "stabbing",
+        "shooting",
+        "acid attack"
+      ],
+      "punishment": "Imprisonment for life, or up to 10 years, and fine",
+      "bailable": false,
+      "cognizable": true,
+      "triable_by": "Court of Sessions"
+    },
+    {
+      "section": "326A",
+      "title": "Voluntarily causing grievous hurt by use of acid",
+      "description": "Whoever causes permanent or partial damage or deformity to, or burns or maims or disfigures or disables, any part or parts of the body of a person or causes grievous hurt by throwing acid on or by administering acid to that person, or by using any other means with the intention of causing or with the knowledge that he is likely to cause such injury or hurt, shall be punished with imprisonment of either description for a term which shall not be less than ten years but which may extend to imprisonment for life, and with fine.",
+      "category": "criminal",
+      "keywords": [
+        "acid attack",
+        "acid throwing",
+        "disfigurement",
+        "burns"
+      ],
+      "punishment": "Imprisonment not less than 10 years up to life, and fine (fine to be paid to victim)",
+      "bailable": false,
+      "cognizable": true,
+      "triable_by": "Court of Sessions"
+    },
+    {
+      "section": "326B",
+      "title": "Voluntarily throwing or attempting to throw acid",
+      "description": "Whoever throws or attempts to throw acid on any person or attempts to administer acid to any person, or attempts to use any other means, with the intention of causing permanent or partial damage or deformity or burns or maiming or disfigurement or disability or grievous hurt to that person, shall be punished with imprisonment of either description for a term which shall not be less than five years but which may extend to seven years, and shall also be liable to fine.",
+      "category": "criminal",
+      "keywords": [
+        "acid attack attempt",
+        "acid throwing",
+        "attempted acid attack"
+      ],
+      "punishment": "Imprisonment not less than 5 years but up to 7 years, and fine",
+      "bailable": false,
+      "cognizable": true,
+      "triable_by": "Court of Sessions"
+    },
+    {
+      "section": "336",
+      "title": "Act endangering life or personal safety of others",
+      "description": "Whoever does any act so rashly or negligently as to endanger human life or the personal safety of others, shall be punished with imprisonment of either description for a term which may extend to three months, or with fine which may extend to two hundred and fifty rupees, or with both.",
+      "category": "criminal",
+      "keywords": [
+        "rash act",
+        "negligence",
+        "endangering life",
+        "public safety"
+      ],
+      "punishment": "Imprisonment up to 3 months, or fine up to Rs. 250, or both",
+      "bailable": true,
+      "cognizable": false,
+      "triable_by": "Any Magistrate"
+    },
+    {
+      "section": "337",
+      "title": "Causing hurt by act endangering life or personal safety of others",
+      "description": "Whoever causes hurt to any person by doing any act so rashly or negligently as to endanger human life, or the personal safety of others, shall be punished with imprisonment of either description for a term which may extend to six months, or with fine which may extend to five hundred rupees, or with both.",
+      "category": "criminal",
+      "keywords": [
+        "rash act",
+        "negligent act",
+        "hurt",
+        "endangering life"
+      ],
+      "punishment": "Imprisonment up to 6 months, or fine up to Rs. 500, or both",
+      "bailable": true,
+      "cognizable": false,
+      "triable_by": "Any Magistrate"
+    },
+    {
+      "section": "338",
+      "title": "Causing grievous hurt by act endangering life or personal safety of others",
+      "description": "Whoever causes grievous hurt to any person by doing any act so rashly or negligently as to endanger human life, or the personal safety of others, shall be punished with imprisonment of either description for a term which may extend to two years, or with fine which may extend to one thousand rupees, or with both.",
+      "category": "criminal",
+      "keywords": [
+        "grievous hurt",
+        "rash act",
+        "negligent act",
+        "road accident"
+      ],
+      "punishment": "Imprisonment up to 2 years, or fine up to Rs. 1000, or both",
+      "bailable": true,
+      "cognizable": false,
+      "triable_by": "Any Magistrate"
+    },
+    {
+      "section": "354",
+      "title": "Assault or criminal force to woman with intent to outrage her modesty",
+      "description": "Whoever assaults or uses criminal force to any woman, intending to outrage or knowing it to be likely that he will thereby outrage her modesty, shall be punished with imprisonment of either description for a term which shall not be less than one year but which may extend to five years, and shall also be liable to fine.",
+      "category": "criminal",
+      "keywords": [
+        "outrage modesty",
+        "assault on woman",
+        "molestation",
+        "eve teasing"
+      ],
+      "punishment": "Imprisonment not less than 1 year up to 5 years, and fine",
+      "bailable": false,
+      "cognizable": true,
+      "triable_by": "Any Magistrate"
+    },
+    {
+      "section": "354A",
+      "title": "Sexual harassment",
+      "description": "A man committing any of the following acts: (i) physical contact and advances involving unwelcome and explicit sexual overtures; or (ii) a demand or request for sexual favours; or (iii) showing pornography against the will of a woman; or (iv) making sexually coloured remarks, shall be guilty of the offence of sexual harassment.",
+      "category": "criminal",
+      "keywords": [
+        "sexual harassment",
+        "unwanted sexual advances",
+        "workplace harassment"
+      ],
+      "punishment": "For (i)(ii)(iii): up to 3 years or fine or both; for (iv): up to 1 year or fine or both",
+      "bailable": false,
+      "cognizable": true,
+      "triable_by": "Any Magistrate"
+    },
+    {
+      "section": "354B",
+      "title": "Assault or use of criminal force to woman with intent to disrobe",
+      "description": "Any man who assaults or uses criminal force to any woman or abets such act with the intention of disrobing or compelling her to be naked, shall be punished with imprisonment of either description for a term which shall not be less than three years but which may extend to seven years, and shall also be liable to fine.",
+      "category": "criminal",
+      "keywords": [
+        "disrobing",
+        "sexual assault",
+        "criminal force",
+        "modesty"
+      ],
+      "punishment": "Imprisonment not less than 3 years up to 7 years, and fine",
+      "bailable": false,
+      "cognizable": true,
+      "triable_by": "Any Magistrate"
+    },
+    {
+      "section": "354C",
+      "title": "Voyeurism",
+      "description": "Any man who watches, or captures the image of a woman engaging in a private act in circumstances where she would usually have the expectation of not being observed either by the perpetrator or by any other person at the behest of the perpetrator or disseminates such image shall be punished on first conviction with imprisonment of either description for a term which shall not be less than one year, but which may extend to three years, and shall also be liable to fine.",
+      "category": "criminal",
+      "keywords": [
+        "voyeurism",
+        "peeping tom",
+        "hidden camera",
+        "privacy violation"
+      ],
+      "punishment": "First conviction: 1 to 3 years and fine; subsequent conviction: 3 to 7 years and fine",
+      "bailable": false,
+      "cognizable": true,
+      "triable_by": "Any Magistrate"
+    },
+    {
+      "section": "354D",
+      "title": "Stalking",
+      "description": "Any man who follows a woman and contacts, or attempts to contact such woman to foster personal interaction repeatedly despite a clear indication of disinterest by such woman, or monitors the use by a woman of the internet, email or any other form of electronic communication, commits the offence of stalking.",
+      "category": "criminal",
+      "keywords": [
+        "stalking",
+        "harassment",
+        "following",
+        "monitoring"
+      ],
+      "punishment": "First conviction: up to 3 years and fine; subsequent conviction: up to 5 years and fine",
+      "bailable": false,
+      "cognizable": false,
+      "triable_by": "Any Magistrate"
+    },
+    {
+      "section": "363",
+      "title": "Punishment for kidnapping",
+      "description": "Whoever kidnaps any person from India or from lawful guardianship, shall be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine.",
+      "category": "criminal",
+      "keywords": [
+        "kidnapping",
+        "abduction",
+        "child kidnapping",
+        "unlawful taking"
+      ],
+      "punishment": "Imprisonment up to 7 years, and fine",
+      "bailable": false,
+      "cognizable": true,
+      "triable_by": "Magistrate of the first class"
+    },
+    {
+      "section": "364",
+      "title": "Kidnapping or abducting in order to murder",
+      "description": "Whoever kidnaps or abducts any person in order that such person may be murdered or may be so disposed of as to be put in danger of being murdered, shall be punished with imprisonment for life or rigorous imprisonment for a term which may extend to ten years, and shall also be liable to fine.",
+      "category": "criminal",
+      "keywords": [
+        "kidnapping for murder",
+        "abduction",
+        "murder",
+        "serious crime"
+      ],
+      "punishment": "Imprisonment for life, or rigorous imprisonment up to 10 years, and fine",
+      "bailable": false,
+      "cognizable": true,
+      "triable_by": "Court of Sessions"
+    },
+    {
+      "section": "364A",
+      "title": "Kidnapping for ransom",
+      "description": "Whoever kidnaps or abducts any person or keeps a person in detention after such kidnapping or abduction, and threatens to cause death or hurt to such person, or by his conduct gives rise to a reasonable apprehension that such person may be put to death or hurt, or causes hurt or death to such person in order to compel the Government or any foreign State or international intergovernmental organisation or any other person to do or abstain from doing any act or to pay a ransom, shall be punishable with death, or imprisonment for life, and shall also be liable to fine.",
+      "category": "criminal",
+      "keywords": [
+        "kidnapping",
+        "ransom",
+        "abduction",
+        "hostage"
+      ],
+      "punishment": "Death or imprisonment for life, and fine",
+      "bailable": false,
+      "cognizable": true,
+      "triable_by": "Court of Sessions"
+    },
+    {
+      "section": "366",
+      "title": "Kidnapping, abducting or inducing woman to compel her marriage",
+      "description": "Whoever kidnaps or abducts any woman with intent that she may be compelled, or knowing it to be likely that she will be compelled, to marry any person against her will, or in order that she may be forced or seduced to illicit intercourse, or knowing it to be likely that she will be forced or seduced to illicit intercourse, shall be punished with imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine.",
+      "category": "criminal",
+      "keywords": [
+        "kidnapping woman",
+        "forced marriage",
+        "abduction",
+        "compelled marriage"
+      ],
+      "punishment": "Imprisonment up to 10 years, and fine",
+      "bailable": false,
+      "cognizable": true,
+      "triable_by": "Court of Sessions"
+    },
+    {
+      "section": "375",
+      "title": "Rape (definition)",
+      "description": "A man is said to commit rape if he has sexual intercourse with a woman under circumstances falling under any of the following descriptions: First \u2014 Against her will; Secondly \u2014 Without her consent; Thirdly \u2014 With her consent, when her consent has been obtained by putting her or any person in whom she is interested in fear of death or of hurt; Fourthly \u2014 With her consent, when the man knows that he is not her husband, and that her consent is given because she believes that he is another man to whom she is or believes herself to be lawfully married; Fifthly \u2014 With her consent, when, at the time of giving such consent, by reason of unsoundness of mind or intoxication or the administration by him personally or through another of any stupefying or unwholesome substance, she is unable to understand the nature and consequences of that to which she gives consent; Sixthly \u2014 With or without her consent, when she is under sixteen years of age.",
+      "category": "criminal",
+      "keywords": [
+        "rape",
+        "sexual assault",
+        "consent",
+        "sexual intercourse"
+      ],
+      "punishment": "N/A (definition section)",
+      "bailable": false,
+      "cognizable": true,
+      "triable_by": "Court of Sessions"
+    },
+    {
+      "section": "376",
+      "title": "Punishment for rape",
+      "description": "Whoever, except in the cases provided for by sub-section (2), commits rape, shall be punished with rigorous imprisonment of either description for a term which shall not be less than seven years, but which may extend to imprisonment for life, and shall also be liable to fine.",
+      "category": "criminal",
+      "keywords": [
+        "rape",
+        "sexual assault",
+        "punishment for rape"
+      ],
+      "punishment": "Rigorous imprisonment not less than 7 years up to life, and fine",
+      "bailable": false,
+      "cognizable": true,
+      "triable_by": "Court of Sessions"
+    },
+    {
+      "section": "376A",
+      "title": "Punishment for causing death or resulting in persistent vegetative state of victim",
+      "description": "Whoever, commits an offence punishable under sub-section (1) or sub-section (2) of section 376 and in the course of such commission inflicts an injury which causes the death of the woman or causes the woman to be in a persistent vegetative state, shall be punished with rigorous imprisonment for a term which shall not be less than twenty years, but which may extend to imprisonment for life, which shall mean imprisonment for the remainder of that person's natural life, or with death.",
+      "category": "criminal",
+      "keywords": [
+        "rape causing death",
+        "rape victim death",
+        "persistent vegetative state"
+      ],
+      "punishment": "Rigorous imprisonment not less than 20 years up to life or death",
+      "bailable": false,
+      "cognizable": true,
+      "triable_by": "Court of Sessions"
+    },
+    {
+      "section": "376D",
+      "title": "Gang rape",
+      "description": "Where a woman is raped by one or more persons constituting a group or acting in furtherance of a common intention, each of those persons shall be deemed to have committed the offence of rape and shall be punished with rigorous imprisonment for a term which shall not be less than twenty years, but which may extend to life which shall mean imprisonment for the remainder of that person's natural life, and with fine.",
+      "category": "criminal",
+      "keywords": [
+        "gang rape",
+        "group rape",
+        "collective rape"
+      ],
+      "punishment": "Rigorous imprisonment not less than 20 years up to life, and fine",
+      "bailable": false,
+      "cognizable": true,
+      "triable_by": "Court of Sessions"
+    },
+    {
+      "section": "378",
+      "title": "Theft (definition)",
+      "description": "Whoever, intending to take dishonestly any moveable property out of the possession of any person without that person's consent, moves that property in order to such taking, is said to commit theft.",
+      "category": "property",
+      "keywords": [
+        "theft",
+        "stealing",
+        "dishonest taking",
+        "moveable property"
+      ],
+      "punishment": "N/A (definition section)",
+      "bailable": true,
+      "cognizable": true,
+      "triable_by": "Any Magistrate"
+    },
+    {
+      "section": "379",
+      "title": "Punishment for theft",
+      "description": "Whoever commits theft shall be punished with imprisonment of either description for a term which may extend to three years, or with fine, or with both.",
+      "category": "property",
+      "keywords": [
+        "theft",
+        "stealing",
+        "punishment",
+        "larceny"
+      ],
+      "punishment": "Imprisonment up to 3 years, or fine, or both",
+      "bailable": true,
+      "cognizable": true,
+      "triable_by": "Any Magistrate"
+    },
+    {
+      "section": "380",
+      "title": "Theft in dwelling house, etc.",
+      "description": "Whoever commits theft in any building, tent or vessel, which building, tent or vessel is used as a human dwelling, or used for the custody of property, shall be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine.",
+      "category": "property",
+      "keywords": [
+        "theft",
+        "house theft",
+        "burglary",
+        "dwelling house"
+      ],
+      "punishment": "Imprisonment up to 7 years, and fine",
+      "bailable": false,
+      "cognizable": true,
+      "triable_by": "Magistrate of the first class"
+    },
+    {
+      "section": "381",
+      "title": "Theft by clerk or servant of property in possession of master",
+      "description": "Whoever, being a clerk or servant, or being employed in the capacity of a clerk or servant, commits theft in respect of any property in the possession of his master or employer, shall be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine.",
+      "category": "property",
+      "keywords": [
+        "theft by servant",
+        "employee theft",
+        "breach of trust",
+        "embezzlement"
+      ],
+      "punishment": "Imprisonment up to 7 years, and fine",
+      "bailable": false,
+      "cognizable": true,
+      "triable_by": "Magistrate of the first class"
+    },
+    {
+      "section": "382",
+      "title": "Theft after preparation made for causing death, hurt or restraint",
+      "description": "Whoever commits theft, having made preparation for causing death, or hurt, or restraint, or fear of death, or of hurt, or of restraint, to any person, in order to the committing of such theft, or in order to the effecting of his escape after the committing of such theft, or in order to the retaining of property taken by such theft, shall be punished with rigorous imprisonment for a term which may extend to ten years, and shall also be liable to fine.",
+      "category": "property",
+      "keywords": [
+        "armed theft",
+        "theft with preparation",
+        "violent theft"
+      ],
+      "punishment": "Rigorous imprisonment up to 10 years, and fine",
+      "bailable": false,
+      "cognizable": true,
+      "triable_by": "Magistrate of the first class"
+    },
+    {
+      "section": "383",
+      "title": "Extortion (definition)",
+      "description": "Whoever intentionally puts any person in fear of any injury to that person, or to any other, and thereby dishonestly induces the person so put in fear to deliver to any person any property or valuable security, or anything signed or sealed which may be converted into a valuable security, commits extortion.",
+      "category": "property",
+      "keywords": [
+        "extortion",
+        "blackmail",
+        "coercion",
+        "fear of injury"
+      ],
+      "punishment": "N/A (definition section)",
+      "bailable": false,
+      "cognizable": true,
+      "triable_by": "Magistrate of the first class"
+    },
+    {
+      "section": "384",
+      "title": "Punishment for extortion",
+      "description": "Whoever commits extortion shall be punished with imprisonment of either description for a term which may extend to three years, or with fine, or with both.",
+      "category": "property",
+      "keywords": [
+        "extortion",
+        "blackmail",
+        "criminal demand"
+      ],
+      "punishment": "Imprisonment up to 3 years, or fine, or both",
+      "bailable": false,
+      "cognizable": true,
+      "triable_by": "Magistrate of the first class"
+    },
+    {
+      "section": "385",
+      "title": "Putting person in fear of injury in order to commit extortion",
+      "description": "Whoever, in order to the committing of extortion, puts any person in fear, or attempts to put any person in fear, of any injury, shall be punished with imprisonment of either description for a term which may extend to two years, or with fine, or with both.",
+      "category": "property",
+      "keywords": [
+        "extortion attempt",
+        "threat",
+        "fear of injury",
+        "intimidation"
+      ],
+      "punishment": "Imprisonment up to 2 years, or fine, or both",
+      "bailable": false,
+      "cognizable": true,
+      "triable_by": "Any Magistrate"
+    },
+    {
+      "section": "390",
+      "title": "Robbery (definition)",
+      "description": "In all robbery there is either theft or extortion. Theft is robbery if, in order to the committing of the theft, or in committing the theft, or in carrying away or attempting to carry away property obtained by the theft, the offender, for that end, voluntarily causes or attempts to cause to any person death or hurt or wrongful restraint, or fear of instant death or of instant hurt, or of instant wrongful restraint. Extortion is robbery if the offender, at the time of committing the extortion, is in the presence of the person put in fear, and commits the extortion by putting that person in fear of instant death, of instant hurt, or of instant wrongful restraint to that person or to some other person, and, by so putting in fear, induces the person so put in fear then and there to deliver up the thing extorted.",
+      "category": "property",
+      "keywords": [
+        "robbery",
+        "theft with violence",
+        "forcible taking"
+      ],
+      "punishment": "N/A (definition section)",
+      "bailable": false,
+      "cognizable": true,
+      "triable_by": "Court of Sessions"
+    },
+    {
+      "section": "392",
+      "title": "Punishment for robbery",
+      "description": "Whoever commits robbery shall be punished with rigorous imprisonment for a term which may extend to ten years, and shall also be liable to fine; and, if the robbery be committed on the highway between sunset and sunrise, the imprisonment may be extended to fourteen years.",
+      "category": "property",
+      "keywords": [
+        "robbery",
+        "street robbery",
+        "highway robbery",
+        "armed robbery"
+      ],
+      "punishment": "Rigorous imprisonment up to 10 years and fine; on highway at night up to 14 years",
+      "bailable": false,
+      "cognizable": true,
+      "triable_by": "Court of Sessions"
+    },
+    {
+      "section": "393",
+      "title": "Attempt to commit robbery",
+      "description": "Whoever attempts to commit robbery shall be punished with rigorous imprisonment for a term which may extend to seven years, and shall also be liable to fine.",
+      "category": "property",
+      "keywords": [
+        "attempted robbery",
+        "robbery attempt"
+      ],
+      "punishment": "Rigorous imprisonment up to 7 years, and fine",
+      "bailable": false,
+      "cognizable": true,
+      "triable_by": "Court of Sessions"
+    },
+    {
+      "section": "394",
+      "title": "Voluntarily causing hurt in committing robbery",
+      "description": "If any person, in committing or in attempting to commit robbery, voluntarily causes hurt, such person, and any other person jointly concerned in committing or attempting to commit such robbery, shall be punished with imprisonment for life, or with rigorous imprisonment for a term which may extend to ten years, and shall also be liable to fine.",
+      "category": "property",
+      "keywords": [
+        "robbery with hurt",
+        "armed robbery",
+        "violent robbery"
+      ],
+      "punishment": "Imprisonment for life, or rigorous imprisonment up to 10 years, and fine",
+      "bailable": false,
+      "cognizable": true,
+      "triable_by": "Court of Sessions"
+    },
+    {
+      "section": "395",
+      "title": "Punishment for dacoity",
+      "description": "Whoever commits dacoity shall be punished with imprisonment for life, or with rigorous imprisonment for a term which may extend to ten years, and shall also be liable to fine.",
+      "category": "property",
+      "keywords": [
+        "dacoity",
+        "gang robbery",
+        "organized robbery"
+      ],
+      "punishment": "Imprisonment for life, or rigorous imprisonment up to 10 years, and fine",
+      "bailable": false,
+      "cognizable": true,
+      "triable_by": "Court of Sessions"
+    },
+    {
+      "section": "396",
+      "title": "Dacoity with murder",
+      "description": "If any one of five or more persons, who are conjointly committing dacoity, commits murder in so committing dacoity, every one of those persons shall be punished with death, or imprisonment for life, or rigorous imprisonment for a term which may extend to ten years, and shall also be liable to fine.",
+      "category": "property",
+      "keywords": [
+        "dacoity with murder",
+        "gang robbery murder",
+        "armed robbery murder"
+      ],
+      "punishment": "Death, or imprisonment for life, or rigorous imprisonment up to 10 years, and fine",
+      "bailable": false,
+      "cognizable": true,
+      "triable_by": "Court of Sessions"
+    },
+    {
+      "section": "397",
+      "title": "Robbery, or dacoity, with attempt to cause death or grievous hurt",
+      "description": "If, at the time of committing robbery or dacoity, the offender uses any deadly weapon, or causes grievous hurt to any person, or attempts to cause death or grievous hurt to any person, the imprisonment with which such offender shall be punished shall not be less than seven years.",
+      "category": "property",
+      "keywords": [
+        "armed robbery",
+        "dacoity",
+        "deadly weapon",
+        "grievous hurt"
+      ],
+      "punishment": "Rigorous imprisonment not less than 7 years",
+      "bailable": false,
+      "cognizable": true,
+      "triable_by": "Court of Sessions"
+    },
+    {
+      "section": "399",
+      "title": "Making preparation to commit dacoity",
+      "description": "Whoever makes any preparation for committing dacoity, shall be punished with rigorous imprisonment for a term which may extend to ten years, and shall also be liable to fine.",
+      "category": "property",
+      "keywords": [
+        "dacoity preparation",
+        "gang robbery preparation",
+        "conspiracy"
+      ],
+      "punishment": "Rigorous imprisonment up to 10 years, and fine",
+      "bailable": false,
+      "cognizable": true,
+      "triable_by": "Court of Sessions"
+    },
+    {
+      "section": "400",
+      "title": "Punishment of member of gang of dacoits",
+      "description": "Whoever, at any time after the passing of this Act, shall belong to a gang of persons associated for the purpose of habitually committing dacoity, shall be punished with imprisonment for life, or with rigorous imprisonment for a term which may extend to ten years, and shall also be liable to fine.",
+      "category": "property",
+      "keywords": [
+        "gang of dacoits",
+        "organized crime",
+        "habitual dacoity"
+      ],
+      "punishment": "Imprisonment for life, or rigorous imprisonment up to 10 years, and fine",
+      "bailable": false,
+      "cognizable": true,
+      "triable_by": "Court of Sessions"
+    },
+    {
+      "section": "406",
+      "title": "Punishment for criminal breach of trust",
+      "description": "Whoever commits criminal breach of trust shall be punished with imprisonment of either description for a term which may extend to three years, or with fine, or with both.",
+      "category": "property",
+      "keywords": [
+        "criminal breach of trust",
+        "embezzlement",
+        "misappropriation",
+        "trust"
+      ],
+      "punishment": "Imprisonment up to 3 years, or fine, or both",
+      "bailable": false,
+      "cognizable": true,
+      "triable_by": "Magistrate of the first class"
+    },
+    {
+      "section": "415",
+      "title": "Cheating (definition)",
+      "description": "Whoever, by deceiving any person, fraudulently or dishonestly induces the person so deceived to deliver any property to any person, or to consent that any person shall retain any property, or intentionally induces the person so deceived to do or omit to do anything which he would not do or omit if he were not so deceived, and which act or omission causes or is likely to cause damage or harm to that person in body, mind, reputation or property, is said to cheat.",
+      "category": "property",
+      "keywords": [
+        "cheating",
+        "fraud",
+        "deception",
+        "misrepresentation"
+      ],
+      "punishment": "N/A (definition section)",
+      "bailable": true,
+      "cognizable": false,
+      "triable_by": "Any Magistrate"
+    },
+    {
+      "section": "420",
+      "title": "Cheating and dishonestly inducing delivery of property",
+      "description": "Whoever cheats and thereby dishonestly induces the person deceived to deliver any property to any person, or to make, alter or destroy the whole or any part of a valuable security, or anything which is signed or sealed, and which is capable of being converted into a valuable security, shall be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine.",
+      "category": "property",
+      "keywords": [
+        "cheating",
+        "fraud",
+        "dishonest delivery",
+        "financial fraud",
+        "scam"
+      ],
+      "punishment": "Imprisonment up to 7 years, and fine",
+      "bailable": false,
+      "cognizable": true,
+      "triable_by": "Magistrate of the first class"
+    },
+    {
+      "section": "425",
+      "title": "Mischief (definition)",
+      "description": "Whoever with intent to cause, or knowing that he is likely to cause, wrongful loss or damage to the public or to any person, causes the destruction of any property, or any such change in any property or in the situation thereof as destroys or diminishes its value or utility, or affects it injuriously, commits mischief.",
+      "category": "property",
+      "keywords": [
+        "mischief",
+        "property damage",
+        "destruction",
+        "vandalism"
+      ],
+      "punishment": "N/A (definition section)",
+      "bailable": true,
+      "cognizable": false,
+      "triable_by": "Any Magistrate"
+    },
+    {
+      "section": "427",
+      "title": "Mischief causing damage to the amount of fifty rupees",
+      "description": "Whoever commits mischief and thereby causes loss or damage to the amount of fifty rupees or upwards, shall be punished with imprisonment of either description for a term which may extend to two years, or with fine, or with both.",
+      "category": "property",
+      "keywords": [
+        "mischief",
+        "property damage",
+        "vandalism",
+        "damage"
+      ],
+      "punishment": "Imprisonment up to 2 years, or fine, or both",
+      "bailable": true,
+      "cognizable": false,
+      "triable_by": "Any Magistrate"
+    },
+    {
+      "section": "441",
+      "title": "Criminal trespass (definition)",
+      "description": "Whoever enters into or upon property in the possession of another with intent to commit an offence or to intimidate, insult or annoy any person in possession of such property, or having lawfully entered into or upon such property, unlawfully remains there with intent thereby to intimidate, insult or annoy any such person, or with intent to commit an offence, is said to commit criminal trespass.",
+      "category": "property",
+      "keywords": [
+        "trespass",
+        "unlawful entry",
+        "criminal trespass",
+        "property"
+      ],
+      "punishment": "N/A (definition section)",
+      "bailable": true,
+      "cognizable": false,
+      "triable_by": "Any Magistrate"
+    },
+    {
+      "section": "447",
+      "title": "Punishment for criminal trespass",
+      "description": "Whoever commits criminal trespass shall be punished with imprisonment of either description for a term which may extend to three months, or with fine which may extend to five hundred rupees, or with both.",
+      "category": "property",
+      "keywords": [
+        "trespass",
+        "criminal trespass",
+        "unlawful entry"
+      ],
+      "punishment": "Imprisonment up to 3 months, or fine up to Rs. 500, or both",
+      "bailable": true,
+      "cognizable": false,
+      "triable_by": "Any Magistrate"
+    },
+    {
+      "section": "448",
+      "title": "Punishment for house-trespass",
+      "description": "Whoever commits house-trespass shall be punished with imprisonment of either description for a term which may extend to one year, or with fine which may extend to one thousand rupees, or with both.",
+      "category": "property",
+      "keywords": [
+        "house trespass",
+        "breaking and entering",
+        "home invasion"
+      ],
+      "punishment": "Imprisonment up to 1 year, or fine up to Rs. 1000, or both",
+      "bailable": true,
+      "cognizable": false,
+      "triable_by": "Any Magistrate"
+    },
+    {
+      "section": "452",
+      "title": "House-trespass after preparation for hurt, assault or wrongful restraint",
+      "description": "Whoever commits house-trespass, having made preparation for causing hurt to any person or for assaulting any person, or for wrongfully restraining any person, or for putting any person in fear of hurt, or of assault, or of wrongful restraint, shall be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine.",
+      "category": "property",
+      "keywords": [
+        "house trespass",
+        "assault preparation",
+        "home invasion",
+        "wrongful restraint"
+      ],
+      "punishment": "Imprisonment up to 7 years, and fine",
+      "bailable": false,
+      "cognizable": true,
+      "triable_by": "Magistrate of the first class"
+    },
+    {
+      "section": "461",
+      "title": "Dishonestly breaking open receptacle containing property",
+      "description": "Whoever dishonestly, or with intent to commit mischief, breaks open or unfastens any closed receptacle which contains or which he believes to contain property, shall be punished with imprisonment of either description for a term which may extend to two years, or with fine, or with both.",
+      "category": "property",
+      "keywords": [
+        "breaking open",
+        "receptacle",
+        "safe breaking",
+        "lock breaking"
+      ],
+      "punishment": "Imprisonment up to 2 years, or fine, or both",
+      "bailable": true,
+      "cognizable": false,
+      "triable_by": "Any Magistrate"
+    },
+    {
+      "section": "489A",
+      "title": "Counterfeiting currency notes or bank notes",
+      "description": "Whoever counterfeits, or knowingly performs any part of the process of counterfeiting, any currency note or bank note, shall be punished with imprisonment for life, or with imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine.",
+      "category": "financial",
+      "keywords": [
+        "counterfeiting",
+        "fake currency",
+        "currency forgery",
+        "fake notes"
+      ],
+      "punishment": "Imprisonment for life, or imprisonment up to 10 years, and fine",
+      "bailable": false,
+      "cognizable": true,
+      "triable_by": "Court of Sessions"
+    },
+    {
+      "section": "489B",
+      "title": "Using as genuine, forged or counterfeit currency notes or bank notes",
+      "description": "Whoever sells to, or buys or receives from, any other person, or otherwise traffics in or uses as genuine, any forged or counterfeit currency note or bank note, knowing or having reason to believe the same to be forged or counterfeit, shall be punished with imprisonment for life, or with imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine.",
+      "category": "financial",
+      "keywords": [
+        "fake currency",
+        "counterfeit notes",
+        "forged currency",
+        "currency fraud"
+      ],
+      "punishment": "Imprisonment for life, or imprisonment up to 10 years, and fine",
+      "bailable": false,
+      "cognizable": true,
+      "triable_by": "Court of Sessions"
+    },
+    {
+      "section": "498A",
+      "title": "Husband or relative of husband of a woman subjecting her to cruelty",
+      "description": "Whoever, being the husband or the relative of the husband of a woman, subjects such woman to cruelty shall be punished with imprisonment for a term which may extend to three years and shall also be liable to fine. Explanation \u2014 For the purpose of this section, cruelty means \u2014 (a) any wilful conduct which is of such a nature as is likely to drive the woman to commit suicide or to cause grave injury or danger to life, limb or health (whether mental or physical) of the woman; or (b) harassment of the woman where such harassment is with a view to coercing her or any person related to her to meet any unlawful demand for any property or valuable security or is on account of failure by her or any person related to her to meet such demand.",
+      "category": "criminal",
+      "keywords": [
+        "domestic violence",
+        "cruelty by husband",
+        "dowry harassment",
+        "matrimonial cruelty"
+      ],
+      "punishment": "Imprisonment up to 3 years, and fine",
+      "bailable": false,
+      "cognizable": true,
+      "triable_by": "Magistrate of the first class"
+    },
+    {
+      "section": "499",
+      "title": "Defamation (definition)",
+      "description": "Whoever, by words either spoken or intended to be read, or by signs or by visible representations, makes or publishes any imputation concerning any person intending to harm, or knowing or having reason to believe that such imputation will harm, the reputation of such person, is said, except in the cases hereinafter expected, to defame that person.",
+      "category": "speech",
+      "keywords": [
+        "defamation",
+        "reputation",
+        "libel",
+        "slander",
+        "false imputation"
+      ],
+      "punishment": "N/A (definition section)",
+      "bailable": true,
+      "cognizable": false,
+      "triable_by": "Any Magistrate"
+    },
+    {
+      "section": "500",
+      "title": "Punishment for defamation",
+      "description": "Whoever defames another shall be punished with simple imprisonment for a term which may extend to two years, or with fine, or with both.",
+      "category": "speech",
+      "keywords": [
+        "defamation",
+        "reputation",
+        "libel",
+        "slander",
+        "punishment"
+      ],
+      "punishment": "Simple imprisonment up to 2 years, or fine, or both",
+      "bailable": true,
+      "cognizable": false,
+      "triable_by": "Any Magistrate"
+    },
+    {
+      "section": "503",
+      "title": "Criminal intimidation (definition)",
+      "description": "Whoever threatens another with any injury to his person, reputation or property, or to the person or reputation or property of any one in whom that person is interested, with intent to cause alarm to that person, or to cause that person to do any act which he is not legally bound to do, or to omit to do any act which that person is legally entitled to do, as the means of avoiding the execution of such threat, commits criminal intimidation.",
+      "category": "criminal",
+      "keywords": [
+        "criminal intimidation",
+        "threat",
+        "menace",
+        "blackmail"
+      ],
+      "punishment": "N/A (definition section)",
+      "bailable": true,
+      "cognizable": false,
+      "triable_by": "Any Magistrate"
+    },
+    {
+      "section": "506",
+      "title": "Punishment for criminal intimidation",
+      "description": "Whoever commits the offence of criminal intimidation shall be punished with imprisonment of either description for a term which may extend to two years, or with fine, or with both; and if the threat be to cause death or grievous hurt, or to cause the destruction of any property by fire, or to cause an offence punishable with death or imprisonment for life, or with imprisonment for a term which may extend to seven years, or to impute unchastity to a woman, shall be punished with imprisonment of either description for a term which may extend to seven years, or with fine, or with both.",
+      "category": "criminal",
+      "keywords": [
+        "criminal intimidation",
+        "threat",
+        "punishment",
+        "menacing"
+      ],
+      "punishment": "Up to 2 years or fine or both; if threat of death/grievous hurt: up to 7 years or fine or both",
+      "bailable": true,
+      "cognizable": false,
+      "triable_by": "Any Magistrate"
+    },
+    {
+      "section": "509",
+      "title": "Word, gesture or act intended to insult the modesty of a woman",
+      "description": "Whoever, intending to insult the modesty of any woman, utters any word, makes any sound or gesture, or exhibits any object, intending that such word or sound shall be heard, or that such gesture or object shall be seen, by such woman, or intrudes upon the privacy of such woman, shall be punished with simple imprisonment for a term which may extend to three years, and also with fine.",
+      "category": "criminal",
+      "keywords": [
+        "eve teasing",
+        "insult modesty",
+        "obscene gesture",
+        "sexual harassment"
+      ],
+      "punishment": "Simple imprisonment up to 3 years, and fine",
+      "bailable": true,
+      "cognizable": true,
+      "triable_by": "Any Magistrate"
+    }
+  ]
+}

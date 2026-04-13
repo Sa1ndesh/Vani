@@ -69,8 +69,8 @@
       "Power of attorney related to immoveable property",
       "Instruments not otherwise compulsorily registrable"
     ],
-    "time_limit_days": 4,
-    "time_limit_note": "Document must be presented for registration within 4 months of execution, with condonation possible up to an additional 4 months with fine.",
+    "time_limit_months": 4,
+    "time_limit_note": "Document must be presented for registration within 4 months of execution (Section 23), with condonation possible up to an additional 4 months with fine (Section 25).",
     "sections": {
       "section_17": {
         "title": "Documents of which registration is compulsory"
